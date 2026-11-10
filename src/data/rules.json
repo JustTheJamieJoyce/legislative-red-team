@@ -1,0 +1,1725 @@
+{
+ "inq": {
+  "obligation": [
+   "What has the party that holds the discretion actually done with it, under this bill or under the closest earlier law?",
+   "Look for the official's own stated reading, instances where the power went unused or was used against its purpose, and who was affected and how many.",
+   "Agency court filings and guidance; GAO and inspector general reports; oversight letters; news investigations"
+  ],
+  "definitions": [
+   "Which people or things fall just outside each defined or limiting term?",
+   "Look for specific entities, products, record types or people on each side of each term's boundary, and existing statutory definitions that could be borrowed.",
+   "U.S. Code definitions; agency rules; case law on the term; industry filings"
+  ],
+  "actors": [
+   "Who else holds the authority, the records or the capability, and are they bound by the bill?",
+   "Look for agencies and components by name, contractors, levels of government, and what each is documented to hold or do.",
+   "Agency records libraries and FOIA logs; GAO; committee letters; earlier statutes with wider scope"
+  ],
+  "timing": [
+   "What happened at the bill's deadline, or at similar deadlines in other laws?",
+   "Look for dates met and missed, what followed, and who could act when the date passed.",
+   "Court dockets; the Unified Agenda; GAO deadline reviews; contemporaneous reporting"
+  ],
+  "exceptions": [
+   "Who has used the bill's exception, or a similar exception in another law, how often, and for what purpose?",
+   "Look for uses of the exception with counts and dates, and the stated ground compared with the apparent use.",
+   "Transparency reports; inspector general audits; annual FOIA reports; litigation records"
+  ],
+  "enforcement": [
+   "What happened when someone tried to enforce this provision, or a provision built the same way?",
+   "Look for cases, courts, holdings and dates, who had standing (the right to sue), and which remedy was available and which was refused.",
+   "Dockets and opinions; Justice Department filings; enforcement records under parallel statutes"
+  ],
+  "money": [
+   "What was appropriated against what was authorized, and who ended up paying?",
+   "Look for dollar amounts by fiscal year and account, unfunded duties, and who bore the cost.",
+   "Appropriations acts and reports; CBO estimates; USAspending; GAO"
+  ],
+  "delegation": [
+   "What must an agency do before the bill's provision takes effect, and has the agency done it?",
+   "Look for rulemakings by docket, standards bodies and their members, advisory panel rosters, and the time that has elapsed.",
+   "Federal Register; regulations.gov; advisory committee records; ACUS studies"
+  ],
+  "information": [
+   "Who receives the information that the bill requires to be reported, is it public, and can anyone check it?",
+   "Look for reports filed and not filed, recipients, what was blacked out, and who audited.",
+   "Committee sites; agency report pages; GAO; press comparison of promised and delivered disclosures"
+  ],
+  "interaction": [
+   "Which existing laws govern the same conduct, and which one prevails?",
+   "Look for sections by citation with the standard each applies, the volume of use, and which is specific and which is general.",
+   "U.S. Code; CRS reports; case law on implied repeal and preemption"
+  ],
+  "constitutional": [
+   "Which constitutional doctrine has been used against provisions built like this one, and with what result?",
+   "Look for cases with holdings, and the feature of the provision that drew the challenge.",
+   "Constitution Annotated; Supreme Court and appellate opinions; CRS legal sidebars"
+  ],
+  "symbolic": [
+   "What happened to this text procedurally, and which binding bills or laws exist or would be needed?",
+   "Look for introductions, cosponsor counts, votes, and companion bills and their status.",
+   "Congress.gov actions; roll call records; CRS on forms of legislation"
+  ],
+  "evidence": [
+   "Who measures compliance, with what data and baseline, and can the party being measured shape the result?",
+   "Look for datasets, methods and thresholds, who supplies the data, and known disputes about the measure.",
+   "Agency methodology documents; GAO; academic critiques"
+  ],
+  "market": [
+   "Which firms fall on each side of each threshold, and who gains from where it is set?",
+   "Look for firms by name with their size against the threshold, market shares, and who sought the provision.",
+   "Securities filings; FTC and agency studies; lobbying disclosures"
+  ],
+  "process": [
+   "How did the text change between versions, and who sought the change?",
+   "Look for differences from version to version, amendments and sponsors, and registered lobbying on the provision.",
+   "Congress.gov text versions; Congressional Record; Lobbying Disclosure Act filings"
+  ],
+  "mechanics": [
+   "How have courts read a sentence built this way, and which reading helps which party?",
+   "Look for the competing readings in plain words, the canon (interpretive rule) each relies on, and a decided case with the same sentence shape.",
+   "Supreme Court and appellate opinions; the CRS canon list; the House and Senate drafting manuals"
+  ],
+  "response": [
+   "What is the cheapest change in form, structure or timing that takes a regulated party outside the bill's rule?",
+   "Look for the specific restructuring, split, relabeling or substitute, and who has already announced or used it.",
+   "Law firm and accounting firm client alerts; trade press; agency notices closing or confirming a route; tax scholarship"
+  ],
+  "design": [
+   "Has a program built this way worked, and what did auditors find?",
+   "Look for the comparable program, the audit finding, and numbers for participation, error or fraud.",
+   "GAO and inspector general reports; implementation studies; state sunset reviews"
+  ],
+  "conflict": [
+   "Which records, decisions or relationships put the independence of the responsible party in question?",
+   "Each job the measure hands out; who holds it; what ties that holder to the people, records or money the measure is about; and which safeguards are missing",
+   "The text of the measure; official biographies and confirmation records; inspector general and Government Accountability Office reports; court filings; earlier laws that assigned the same job to an independent body"
+  ]
+ },
+ "src": [
+  {
+   "n": "Statutory Opinion Transmission Project",
+   "k": "Courts",
+   "u": "https://www.uscourts.gov/data-news/judiciary-news/2015/09/10/project-statutory-construction-promotes-inter-branch-communications",
+   "y": "Federal appeals courts send Congress opinions that identify drafting problems in statutes. A ready-made set of judge-identified defects.",
+   "fam": [
+    "interaction",
+    "definitions"
+   ],
+   "st": "found"
+  },
+  {
+   "n": "Levy and Narechania, Interbranch Information Sharing (California Law Review)",
+   "k": "Courts",
+   "u": "https://www.californialawreview.org/print/interbranch-information-sharing-examining-the-statutory-opinion-transmission-project",
+   "y": "Study of the opinions transmitted under that project and what kinds of drafting problems they flag.",
+   "fam": [
+    "interaction",
+    "definitions"
+   ],
+   "st": "found"
+  },
+  {
+   "n": "Katzmann, Statutes (NYU Law Review)",
+   "k": "Courts",
+   "u": "https://nyulawreview.org/wp-content/uploads/2018/08/NYULawReview-87-3-Katzmann.pdf",
+   "y": "A judge's account of how courts and Congress misread each other's drafting.",
+   "fam": [
+    "interaction"
+   ],
+   "st": "found"
+  },
+  {
+   "n": "Federal court opinions and dockets (CourtListener)",
+   "k": "Courts",
+   "u": "https://www.courtlistener.com",
+   "y": "What happened when a provision was litigated: standing, remedies, how a word was read.",
+   "fam": [
+    "enforcement",
+    "constitutional",
+    "definitions"
+   ],
+   "st": "used"
+  },
+  {
+   "n": "Constitution Annotated",
+   "k": "Courts",
+   "u": "https://constitution.congress.gov",
+   "y": "Doctrines and cases used to strike or narrow statutes.",
+   "fam": [
+    "constitutional"
+   ],
+   "st": "listed"
+  },
+  {
+   "n": "Government Accountability Office reports and recommendations",
+   "k": "Oversight bodies",
+   "u": "https://www.gao.gov",
+   "y": "Audits of programs that did not work as enacted, including matters for congressional consideration that name the statutory gap.",
+   "fam": [
+    "enforcement",
+    "money",
+    "information",
+    "delegation",
+    "timing"
+   ],
+   "st": "listed"
+  },
+  {
+   "n": "Inspector general reports (Oversight.gov)",
+   "k": "Oversight bodies",
+   "u": "https://www.oversight.gov",
+   "y": "Agency-level findings on unused authority, missed deadlines and exceptions that grew.",
+   "fam": [
+    "exceptions",
+    "obligation",
+    "information"
+   ],
+   "st": "listed"
+  },
+  {
+   "n": "Congressional Research Service reports",
+   "k": "Oversight bodies",
+   "u": "https://crsreports.congress.gov",
+   "y": "Neutral explanations of forms of legislation, canons, preemption and specific statutes.",
+   "fam": [
+    "symbolic",
+    "interaction",
+    "constitutional"
+   ],
+   "st": "used"
+  },
+  {
+   "n": "CRS, GAO and Inspector General Recommendations to Agencies",
+   "k": "Oversight bodies",
+   "u": "https://www.everycrsreport.com/reports/IF11807.html",
+   "y": "How the recommendation systems work and how to search them.",
+   "fam": [
+    "information"
+   ],
+   "st": "found"
+  },
+  {
+   "n": "Congressional Budget Office cost estimates",
+   "k": "Oversight bodies",
+   "u": "https://www.cbo.gov",
+   "y": "Whether a measure has budgetary effect, and how timing was arranged to meet a score.",
+   "fam": [
+    "money",
+    "timing"
+   ],
+   "st": "listed"
+  },
+  {
+   "n": "ACUS Statutory Review Program",
+   "k": "Oversight bodies",
+   "u": "https://acus.gov/node/11100",
+   "y": "The Administrative Conference's work on how agencies and courts flag statutory problems to Congress.",
+   "fam": [
+    "interaction",
+    "delegation"
+   ],
+   "st": "found"
+  },
+  {
+   "n": "ACUS, Technical Assistance by Federal Agencies in the Legislative Process",
+   "k": "Oversight bodies",
+   "u": "https://acus.gov/node/3004",
+   "y": "How agencies help draft the statutes that will bind them.",
+   "fam": [
+    "delegation",
+    "process"
+   ],
+   "st": "found"
+  },
+  {
+   "n": "Privacy and Civil Liberties Oversight Board reports",
+   "k": "Oversight bodies",
+   "u": "https://www.pclob.gov",
+   "y": "Surveillance authorities as used in practice. Feeds the surveillance pack.",
+   "fam": [
+    "exceptions",
+    "interaction"
+   ],
+   "st": "listed"
+  },
+  {
+   "n": "ODNI annual transparency reports",
+   "k": "Oversight bodies",
+   "u": "https://www.dni.gov",
+   "y": "Counts of targets, queries and orders under surveillance statutes.",
+   "fam": [
+    "exceptions"
+   ],
+   "st": "used"
+  },
+  {
+   "n": "Federal Register and the Unified Agenda",
+   "k": "Oversight bodies",
+   "u": "https://www.federalregister.gov",
+   "y": "Whether required rules were issued and when.",
+   "fam": [
+    "delegation",
+    "timing"
+   ],
+   "st": "listed"
+  },
+  {
+   "n": "Hearings, committee reports and the Congressional Record (GovInfo)",
+   "k": "Oversight bodies",
+   "u": "https://www.govinfo.gov",
+   "y": "Official texts in every version, stated intent, and floor debate.",
+   "fam": [
+    "process",
+    "symbolic"
+   ],
+   "st": "used"
+  },
+  {
+   "n": "House Legislative Counsel's Manual on Drafting Style",
+   "k": "Drafting standards",
+   "u": "https://agora-parl.org/sites/default/files/agora-documents/US%20House%20of%20Representatives%20-%20Manual%20on%20drafting%20style%20-%2011.1995%20-%20EN%20-%20IP.pdf",
+   "y": "The federal baseline for how provisions should be written.",
+   "fam": [
+    "obligation",
+    "definitions",
+    "interaction"
+   ],
+   "st": "found"
+  },
+  {
+   "n": "Senate Legislative Drafting Manual, discussed in the Yale Law Journal",
+   "k": "Drafting standards",
+   "u": "https://www.yalelawjournal.org/pdf/909_v5egw6x5.pdf",
+   "y": "Senate conventions, and how courts have used both manuals.",
+   "fam": [
+    "obligation",
+    "definitions"
+   ],
+   "st": "found"
+  },
+  {
+   "n": "The Loophole, journal of the Commonwealth Association of Legislative Counsel",
+   "k": "Drafting standards",
+   "u": "https://calc.ngo/sites/default/files/loophole/Loophole%20-%202026-1.pdf",
+   "y": "Practising legislative drafters writing about drafting failures and techniques across many countries.",
+   "fam": [
+    "definitions",
+    "obligation",
+    "interaction",
+    "timing"
+   ],
+   "st": "found"
+  },
+  {
+   "n": "State bill drafting manuals (NCSL)",
+   "k": "Drafting standards",
+   "u": "https://www.ncsl.org",
+   "y": "Fifty comparable sets of drafting rules. Useful for state-level use of the tool.",
+   "fam": [
+    "obligation",
+    "definitions"
+   ],
+   "st": "listed"
+  },
+  {
+   "n": "Uniform Law Commission drafting rules",
+   "k": "Drafting standards",
+   "u": "https://www.uniformlaws.org",
+   "y": "Drafting rules written for portability across jurisdictions.",
+   "fam": [
+    "definitions",
+    "interaction"
+   ],
+   "st": "listed"
+  },
+  {
+   "n": "Harvard Journal on Legislation",
+   "k": "Journals",
+   "u": "https://journals.law.harvard.edu/jol/about/",
+   "y": "Articles on statutory design and reform proposals, often built around a failed provision.",
+   "fam": [
+    "enforcement",
+    "delegation",
+    "definitions"
+   ],
+   "st": "found"
+  },
+  {
+   "n": "Statute Law Review (Oxford)",
+   "k": "Journals",
+   "u": "https://academic.oup.com/slr",
+   "y": "Peer-reviewed work on drafting quality and interpretation.",
+   "fam": [
+    "definitions",
+    "interaction"
+   ],
+   "st": "listed"
+  },
+  {
+   "n": "Theory and Practice of Legislation",
+   "k": "Journals",
+   "u": "",
+   "y": "Legisprudence: how legislation is made and evaluated.",
+   "fam": [
+    "evidence",
+    "process"
+   ],
+   "st": "listed"
+  },
+  {
+   "n": "Journal of Legislation (Notre Dame)",
+   "k": "Journals",
+   "u": "https://scholarship.law.nd.edu/jleg/",
+   "y": "Case studies of specific enactments.",
+   "fam": [
+    "enforcement",
+    "money"
+   ],
+   "st": "listed"
+  },
+  {
+   "n": "Yale Journal on Regulation, Notice and Comment",
+   "k": "Journals",
+   "u": "https://www.yalejreg.com/nc/my-acus-report-on-federal-agencies-in-the-legislative-process-by-chris-walker/",
+   "y": "Running commentary on how statutes are implemented and litigated.",
+   "fam": [
+    "delegation",
+    "constitutional"
+   ],
+   "st": "found"
+  },
+  {
+   "n": "The Regulatory Review (Penn)",
+   "k": "Journals",
+   "u": "https://www.theregreview.org",
+   "y": "Short analyses of implementation failures.",
+   "fam": [
+    "delegation",
+    "evidence"
+   ],
+   "st": "listed"
+  },
+  {
+   "n": "Tax Notes",
+   "k": "Journals",
+   "u": "https://www.taxnotes.com",
+   "y": "The deepest loophole literature in any field: how taxpayers plan around statutory text.",
+   "fam": [
+    "definitions",
+    "market",
+    "timing"
+   ],
+   "st": "listed"
+  },
+  {
+   "n": "Kamin and others, The Games They Will Play",
+   "k": "Landmark studies",
+   "u": "https://www.law.uchicago.edu/node/74266",
+   "y": "Thirteen tax scholars predicted, before enactment, how the 2017 tax law would be gamed. A model for red-teaming a bill in real time.",
+   "fam": [
+    "definitions",
+    "market",
+    "timing",
+    "interaction"
+   ],
+   "st": "found"
+  },
+  {
+   "n": "Gluck and Bressman, Statutory Interpretation from the Inside (Stanford Law Review)",
+   "k": "Landmark studies",
+   "u": "",
+   "y": "Survey of 137 congressional drafters on what they know and intend.",
+   "fam": [
+    "obligation",
+    "interaction"
+   ],
+   "st": "listed"
+  },
+  {
+   "n": "Gluck, O'Connell and Po, Unorthodox Lawmaking, Unorthodox Rulemaking",
+   "k": "Landmark studies",
+   "u": "https://law.stanford.edu/publications/unorthodox-lawmaking-unorthodox-rulemaking",
+   "y": "How omnibus and emergency vehicles change the text that results.",
+   "fam": [
+    "process"
+   ],
+   "st": "found"
+  },
+  {
+   "n": "Barron and Rakoff, In Defense of Big Waiver (Columbia Law Review)",
+   "k": "Landmark studies",
+   "u": "https://columbialawreview.org/wp-content/uploads/2016/04/barron-rakoff.pdf",
+   "y": "Statutes that let an agency waive the statute's own core requirements.",
+   "fam": [
+    "exceptions",
+    "delegation"
+   ],
+   "st": "found"
+  },
+  {
+   "n": "Fleischer, Regulatory Arbitrage (Texas Law Review)",
+   "k": "Landmark studies",
+   "u": "",
+   "y": "Restructuring a transaction so a lighter legal regime applies.",
+   "fam": [
+    "market",
+    "definitions"
+   ],
+   "st": "listed"
+  },
+  {
+   "n": "Westminster Foundation for Democracy, Manual on Post-Legislative Scrutiny",
+   "k": "Landmark studies",
+   "u": "https://www.wfd.org/sites/default/files/2021-12/WFD_Manual-on-Post-Legislative-Scrutiny.pdf",
+   "y": "A method for checking whether an enacted law achieved its purpose.",
+   "fam": [
+    "evidence",
+    "information"
+   ],
+   "st": "found"
+  },
+  {
+   "n": "OECD Regulatory Policy Outlook",
+   "k": "Landmark studies",
+   "u": "https://www.oecd.org",
+   "y": "Comparative practice on evaluating laws before and after enactment.",
+   "fam": [
+    "evidence"
+   ],
+   "st": "listed"
+  },
+  {
+   "n": "CBS News investigations",
+   "k": "Investigative journalism",
+   "u": "https://www.cbsnews.com/news/epstein-files-whats-missing/",
+   "y": "Document-level comparison of what a law promised and what was delivered.",
+   "fam": [
+    "information",
+    "actors"
+   ],
+   "st": "used"
+  },
+  {
+   "n": "404 Media",
+   "k": "Investigative journalism",
+   "u": "https://www.404media.co",
+   "y": "Public-records reporting on surveillance technology in use.",
+   "fam": [
+    "actors",
+    "exceptions"
+   ],
+   "st": "used"
+  },
+  {
+   "n": "ProPublica",
+   "k": "Investigative journalism",
+   "u": "https://www.propublica.org",
+   "y": "Long-form investigations of statutory and regulatory gaps.",
+   "fam": [
+    "enforcement",
+    "market",
+    "exceptions"
+   ],
+   "st": "listed"
+  },
+  {
+   "n": "KFF Health News",
+   "k": "Investigative journalism",
+   "u": "https://kffhealthnews.org",
+   "y": "Health law in practice.",
+   "fam": [
+    "exceptions",
+    "money"
+   ],
+   "st": "listed"
+  },
+  {
+   "n": "Lawfare and Just Security",
+   "k": "Investigative journalism",
+   "u": "https://www.lawfaremedia.org",
+   "y": "Close legal reading of national security statutes.",
+   "fam": [
+    "interaction",
+    "exceptions"
+   ],
+   "st": "listed"
+  },
+  {
+   "n": "Brennan Center for Justice",
+   "k": "Policy institutes",
+   "u": "https://www.brennancenter.org",
+   "y": "Surveillance, emergency powers and election law.",
+   "fam": [
+    "exceptions",
+    "interaction"
+   ],
+   "st": "found"
+  },
+  {
+   "n": "Electronic Privacy Information Center",
+   "k": "Policy institutes",
+   "u": "https://epic.org",
+   "y": "Surveillance statutes and transparency data.",
+   "fam": [
+    "exceptions"
+   ],
+   "st": "used"
+  },
+  {
+   "n": "Center for Democracy and Technology",
+   "k": "Policy institutes",
+   "u": "https://cdt.org/insights/cdt-issue-brief-the-data-broker-loophole/",
+   "y": "The data broker loophole.",
+   "fam": [
+    "actors",
+    "market"
+   ],
+   "st": "found"
+  },
+  {
+   "n": "Project On Government Oversight",
+   "k": "Policy institutes",
+   "u": "https://www.pogo.org",
+   "y": "Oversight and accountability mechanisms.",
+   "fam": [
+    "information",
+    "enforcement"
+   ],
+   "st": "listed"
+  },
+  {
+   "n": "Campaign Legal Center",
+   "k": "Policy institutes",
+   "u": "https://campaignlegal.org",
+   "y": "Campaign finance and ethics law workarounds.",
+   "fam": [
+    "definitions",
+    "enforcement"
+   ],
+   "st": "listed"
+  },
+  {
+   "n": "Better Markets",
+   "k": "Policy institutes",
+   "u": "https://bettermarkets.org",
+   "y": "Financial regulation as implemented.",
+   "fam": [
+    "delegation",
+    "market"
+   ],
+   "st": "listed"
+  },
+  {
+   "n": "Taxpayers for Common Sense",
+   "k": "Policy institutes",
+   "u": "https://www.taxpayer.net",
+   "y": "Appropriations and earmark practice.",
+   "fam": [
+    "money"
+   ],
+   "st": "listed"
+  },
+  {
+   "n": "Tax Policy Center",
+   "k": "Policy institutes",
+   "u": "https://www.taxpolicycenter.org",
+   "y": "Tax expenditure and budget-window analysis.",
+   "fam": [
+    "money",
+    "timing"
+   ],
+   "st": "listed"
+  },
+  {
+   "n": "Cato Institute",
+   "k": "Policy institutes",
+   "u": "https://www.cato.org",
+   "y": "Critiques of delegation, surveillance and regulatory scope.",
+   "fam": [
+    "delegation",
+    "constitutional"
+   ],
+   "st": "listed"
+  },
+  {
+   "n": "Heritage Foundation",
+   "k": "Policy institutes",
+   "u": "https://www.heritage.org",
+   "y": "Critiques of delegation and spending design.",
+   "fam": [
+    "delegation",
+    "money"
+   ],
+   "st": "listed"
+  },
+  {
+   "n": "R Street Institute",
+   "k": "Policy institutes",
+   "u": "https://www.rstreet.org",
+   "y": "Congressional capacity and regulatory design.",
+   "fam": [
+    "process",
+    "delegation"
+   ],
+   "st": "listed"
+  },
+  {
+   "n": "Mercatus Center",
+   "k": "Policy institutes",
+   "u": "https://www.mercatus.org",
+   "y": "Regulatory accumulation and compliance cost studies.",
+   "fam": [
+    "market",
+    "evidence"
+   ],
+   "st": "found"
+  },
+  {
+   "n": "Niskanen Center",
+   "k": "Policy institutes",
+   "u": "https://www.niskanencenter.org",
+   "y": "State capacity and implementation.",
+   "fam": [
+    "delegation"
+   ],
+   "st": "listed"
+  },
+  {
+   "n": "Bipartisan Policy Center",
+   "k": "Policy institutes",
+   "u": "https://bipartisanpolicy.org",
+   "y": "Process reform and implementation reviews.",
+   "fam": [
+    "process",
+    "evidence"
+   ],
+   "st": "listed"
+  },
+  {
+   "n": "Harvard Environmental and Energy Law Program",
+   "k": "Policy institutes",
+   "u": "https://eelp.law.harvard.edu",
+   "y": "Tracking of environmental rules and their statutory limits.",
+   "fam": [
+    "delegation",
+    "constitutional"
+   ],
+   "st": "found"
+  },
+  {
+   "n": "Congress.gov and its API",
+   "k": "Data",
+   "u": "https://www.congress.gov",
+   "y": "Text versions, actions, cosponsors and related bills.",
+   "fam": [
+    "process",
+    "symbolic"
+   ],
+   "st": "used"
+  },
+  {
+   "n": "Lobbying Disclosure Act filings",
+   "k": "Data",
+   "u": "https://lda.senate.gov",
+   "y": "Who lobbied on which bill.",
+   "fam": [
+    "process",
+    "market"
+   ],
+   "st": "listed"
+  },
+  {
+   "n": "OpenSecrets",
+   "k": "Data",
+   "u": "https://www.opensecrets.org",
+   "y": "Lobbying and contribution data by issue and bill.",
+   "fam": [
+    "process",
+    "market"
+   ],
+   "st": "listed"
+  },
+  {
+   "n": "Regulations.gov",
+   "k": "Data",
+   "u": "https://www.regulations.gov",
+   "y": "Rulemaking dockets and comment records.",
+   "fam": [
+    "delegation"
+   ],
+   "st": "listed"
+  },
+  {
+   "n": "USAspending",
+   "k": "Data",
+   "u": "https://www.usaspending.gov",
+   "y": "What was actually spent.",
+   "fam": [
+    "money"
+   ],
+   "st": "listed"
+  },
+  {
+   "n": "LegiScan",
+   "k": "Data",
+   "u": "https://legiscan.com",
+   "y": "State legislation, for extending the tool below the federal level.",
+   "fam": [
+    "process"
+   ],
+   "st": "listed"
+  },
+  {
+   "n": "HOLC Manual on Drafting Style, 2022",
+   "k": "Drafting standards",
+   "u": "https://legcounsel.house.gov/sites/evo-subsites/legcounsel-evo.house.gov/files/documents/ManualDraftStyle_2022.pdf",
+   "y": "House rules on tense, voice, shall and may, definitions, provisos, cross-references, amendatory form, effective dates, severability, findings",
+   "fam": [],
+   "st": "used"
+  },
+  {
+   "n": "HOLC Guide, Quick Guide, Introduction",
+   "k": "Drafting standards",
+   "u": "https://legcounsel.house.gov/holc-guide-legislative-drafting",
+   "y": "Inside-the-quotes rule, positive law citation, drafter's question checklist",
+   "fam": [],
+   "st": "used"
+  },
+  {
+   "n": "HOLC manual, 1995 edition (HLC 104-1)",
+   "k": "Drafting standards",
+   "u": "",
+   "y": "Earlier House rules",
+   "fam": [],
+   "st": "listed"
+  },
+  {
+   "n": "Senate Legislative Drafting Manual, 1997",
+   "k": "Drafting standards",
+   "u": "https://law.yale.edu/sites/default/files/documents/pdf/Faculty/SenateOfficeoftheLegislativeCounsel_LegislativeDraftingManual%281997%29.pdf",
+   "y": "And/or, deadlines, notwithstanding, nonseverability, sunsets, repeals, appropriations",
+   "fam": [],
+   "st": "used"
+  },
+  {
+   "n": "120 Yale L.J. 185",
+   "k": "Journals",
+   "u": "https://www.yalelawjournal.org/pdf/909_v5egw6x5.pdf",
+   "y": "Status and court use of the manuals",
+   "fam": [],
+   "st": "used"
+  },
+  {
+   "n": "1 U.S.C. 1 and chapter 2",
+   "k": "Drafting standards",
+   "u": "https://www.law.cornell.edu/uscode/text/1/1",
+   "y": "Dictionary Act defaults, single proposition, non-revival, savings of liabilities",
+   "fam": [],
+   "st": "used"
+  },
+  {
+   "n": "OLRC positive law page",
+   "k": "Drafting standards",
+   "u": "https://uscode.house.gov/codification/legislation.shtml",
+   "y": "Positive law titles; defects codification removes",
+   "fam": [],
+   "st": "used"
+  },
+  {
+   "n": "House Rules and Manual, 118th",
+   "k": "Drafting standards",
+   "u": "https://www.govinfo.gov/content/pkg/HMAN-118/html/HMAN-118-pg662.htm",
+   "y": "Ramseyer rule",
+   "fam": [],
+   "st": "used"
+  },
+  {
+   "n": "House Rule XXI via budgetcounsel.com",
+   "k": "Drafting standards",
+   "u": "",
+   "y": "Appropriations, tax, earmark and CUTGO limits",
+   "fam": [],
+   "st": "used"
+  },
+  {
+   "n": "Standing Rules of the Senate, 2022 print",
+   "k": "Drafting standards",
+   "u": "https://www.rules.senate.gov/download/the-rules-of-the-senate-117th",
+   "y": "Cordon rule, cost and impact statements, conference scope",
+   "fam": [],
+   "st": "used"
+  },
+  {
+   "n": "CRS RL30862",
+   "k": "Oversight bodies",
+   "u": "https://www.congress.gov/crs_external_products/RL/PDF/RL30862/RL30862.16.pdf",
+   "y": "Byrd rule tests",
+   "fam": [],
+   "st": "used"
+  },
+  {
+   "n": "OMB Circular A-19",
+   "k": "Drafting standards",
+   "u": "https://www.whitehouse.gov/wp-content/uploads/2017/11/Circular-019.pdf",
+   "y": "Required contents of agency legislative proposals",
+   "fam": [],
+   "st": "used"
+  },
+  {
+   "n": "Plain Writing Act; Document Drafting Handbook page",
+   "k": "Drafting standards",
+   "u": "https://www.govinfo.gov/content/pkg/PLAW-111publ274/html/PLAW-111publ274.htm",
+   "y": "Scope limited to agency documents",
+   "fam": [],
+   "st": "used"
+  },
+  {
+   "n": "GPO Style Manual; Executive Order 12988; OMB M-25-19",
+   "k": "Drafting standards",
+   "u": "",
+   "y": "Style and clearance",
+   "fam": [],
+   "st": "listed"
+  },
+  {
+   "n": "CRS 97-589",
+   "k": "Oversight bodies",
+   "u": "https://www.everycrsreport.com/files/20111219_97-589_ecc097f4f874b4d55b934f53cbb035432bfba150.pdf",
+   "y": "How courts read drafting choices",
+   "fam": [],
+   "st": "used"
+  },
+  {
+   "n": "CRS R45153",
+   "k": "Oversight bodies",
+   "u": "https://www.everycrsreport.com/reports/R45153.html",
+   "y": "Appendix of 33 semantic and 23 substantive canons",
+   "fam": [],
+   "st": "used"
+  },
+  {
+   "n": "CRS legal sidebars LSB10536, LSB10629, LSB11084, LSB11197, LSB11229, LSB11351, LSB11374, LSB11448",
+   "k": "Oversight bodies",
+   "u": "https://www.everycrsreport.com/reports/LSB10536.html",
+   "y": "Drafting options after recent Supreme Court decisions",
+   "fam": [],
+   "st": "used"
+  },
+  {
+   "n": "CRS R45336, R45825, R40785, IF11807",
+   "k": "Oversight bodies",
+   "u": "https://sgp.fas.org/crs/misc/R45336.pdf",
+   "y": "Deadlines and hammers, preemption, qui tam, recommendation tracking",
+   "fam": [],
+   "st": "used"
+  },
+  {
+   "n": "About 50 U.S. Code sections on law.cornell.edu",
+   "k": "Data",
+   "u": "",
+   "y": "Enacted examples of each hardening device",
+   "fam": [],
+   "st": "used"
+  },
+  {
+   "n": "ULC drafting rules via MTC deck",
+   "k": "Drafting standards",
+   "u": "https://www.mtc.gov/wp-content/uploads/2023/02/Drafting-Rules-for-Uniform-Statutes-Regulations.pdf",
+   "y": "Shall, and/or, definitions",
+   "fam": [],
+   "st": "used"
+  },
+  {
+   "n": "UK OPC drafting guidance, 2024",
+   "k": "Drafting standards",
+   "u": "https://assets.publishing.service.gov.uk/media/660407d091a320001a82b06b/2024.03.19.Drafting-guidance.pdf",
+   "y": "Conjunctions, structure, definitions, repeals",
+   "fam": [],
+   "st": "used"
+  },
+  {
+   "n": "EU Joint Practical Guide",
+   "k": "Drafting standards",
+   "u": "https://eur-lex.europa.eu/content/techleg/EN-legislative-drafting-guide.pdf",
+   "y": "References, amending acts, non-normative text",
+   "fam": [],
+   "st": "used"
+  },
+  {
+   "n": "Australian OPC Drafting Directions",
+   "k": "Drafting standards",
+   "u": "https://www.opc.gov.au/drafting-resources/drafting-directions",
+   "y": "Subject-specific directions",
+   "fam": [],
+   "st": "listed"
+  },
+  {
+   "n": "State drafting manuals (Oregon, Montana, Alabama, Massachusetts, Maine); NCSL list; Canadian guides",
+   "k": "Drafting standards",
+   "u": "",
+   "y": "State and Canadian rules",
+   "fam": [],
+   "st": "listed"
+  },
+  {
+   "n": "Filson and Strokoff; Xanthaki; Garner; Martineau; Kimble; Bennion; Sutherland; Reading Law; Eskridge; casebooks",
+   "k": "Books and treatises",
+   "u": "",
+   "y": "Topic lists and canon groupings",
+   "fam": [],
+   "st": "listed"
+  },
+  {
+   "n": "Thornton's, chapter 1 proofs; Allen chapter",
+   "k": "Books and treatises",
+   "u": "https://discovery.ucl.ac.uk/id/eprint/10178134/1/Xanthaki_2022%20Thornton%20Second%20proofs%20%282%29.pdf",
+   "y": "Hierarchy of drafting values; ambiguity tree",
+   "fam": [],
+   "st": "used"
+  },
+  {
+   "n": "Dickerson, Diseases of Legislative Language",
+   "k": "Journals",
+   "u": "https://www.repository.law.indiana.edu/facpub/1507",
+   "y": "Five diseases",
+   "fam": [],
+   "st": "listed"
+  },
+  {
+   "n": "Canon Wars review; Claremont review",
+   "k": "Journals",
+   "u": "https://texaslawreview.org/the-canon-wars/",
+   "y": "Critique of canon lists",
+   "fam": [],
+   "st": "used"
+  },
+  {
+   "n": "Law school syllabi (Vermont, George Mason, Minnesota, Harvard)",
+   "k": "Books and treatises",
+   "u": "https://www.vermontlaw.edu/sites/default/files/2023-05/SYLSU23_LegislationRegulation_Fregosi.pdf",
+   "y": "What courses cover",
+   "fam": [],
+   "st": "used"
+  },
+  {
+   "n": "Kamin et al.; Kysar; Nash; Gluck, O'Connell and Po",
+   "k": "Journals",
+   "u": "https://core.ac.uk/download/269679691.pdf",
+   "y": "Tax games; sunsets and budget rules; null preemption; unorthodox lawmaking",
+   "fam": [],
+   "st": "used"
+  },
+  {
+   "n": "McBarnet; Carpenter and Moss introduction; Unrules",
+   "k": "Journals",
+   "u": "https://openresearch-repository.anu.edu.au/bitstream/1885/154916/1/18.pdf",
+   "y": "Creative compliance; capture standard; carveouts and dispensations",
+   "fam": [],
+   "st": "used"
+  },
+  {
+   "n": "Fleischer; Katz; Wagner; Barron and Rakoff; Price; Gersen and O'Connell; Sunstein; Hacker; Gluck and Bressman; Hooker; Wright et al.",
+   "k": "Journals",
+   "u": "",
+   "y": "Named mechanisms",
+   "fam": [],
+   "st": "listed"
+  },
+  {
+   "n": "McCubbins, Noll and Weingast; Pressman and Wildavsky; Bardach; Stigler; Wachter",
+   "k": "Journals",
+   "u": "",
+   "y": "Named mechanisms",
+   "fam": [],
+   "st": "listed"
+  },
+  {
+   "n": "Burbank, Farhang and Kritzer; Lemos; Adelman and Glicksman; Ezzell",
+   "k": "Journals",
+   "u": "https://core.ac.uk/download/151693781.pdf",
+   "y": "Private and state enforcement design; severability",
+   "fam": [],
+   "st": "used"
+  },
+  {
+   "n": "Liesenfeld and Dingemanse; Ropes and Gray; Freshfields",
+   "k": "Practitioner alerts",
+   "u": "https://facctconference.org/static/papers24/facct24-120.pdf",
+   "y": "Open-source label; state AI preemption; EU deferral",
+   "fam": [],
+   "st": "used"
+  },
+  {
+   "n": "GAO products 26-108896, 22-104915, 16-189, 15-476, 22-105715, 26-107181, 05-458, 24-107471",
+   "k": "Oversight bodies",
+   "u": "https://www.gao.gov/products/gao-26-108896",
+   "y": "Matters for Congress; structural defects",
+   "fam": [],
+   "st": "used"
+  },
+  {
+   "n": "Inspector general reports: State ISP-I-20-19, DHS OIG-18-24, DOL 19-21-001-03-315",
+   "k": "Oversight bodies",
+   "u": "https://www.oversight.gov/sites/default/files/documents/reports/2020-08/ISP-I-20-19.pdf",
+   "y": "Lawful but unintended use of exceptions",
+   "fam": [],
+   "st": "used"
+  },
+  {
+   "n": "U.S. Courts project page; Levy and Narechania",
+   "k": "Courts",
+   "u": "https://www.uscourts.gov/data-news/judiciary-news/2015/09/10/project-statutory-construction-promotes-inter-branch-communications",
+   "y": "Opinion transmission counts and categories",
+   "fam": [],
+   "st": "used"
+  },
+  {
+   "n": "Ten Supreme Court opinions and one First Circuit opinion",
+   "k": "Courts",
+   "u": "",
+   "y": "Single-word and structural defects",
+   "fam": [],
+   "st": "used"
+  },
+  {
+   "n": "ACUS: Statutory Review Program, Rec. 2015-2, Rec. 78-3, Rec. 2014-5",
+   "k": "Oversight bodies",
+   "u": "https://acus.gov/node/3395",
+   "y": "Technical assistance, deadlines, retrospective review",
+   "fam": [],
+   "st": "used"
+  },
+  {
+   "n": "CBO baseline page; Brookings; Peterson Foundation",
+   "k": "Policy institutes",
+   "u": "https://www.cbo.gov/publication/58916",
+   "y": "Scoring conventions",
+   "fam": [],
+   "st": "used"
+  },
+  {
+   "n": "UK Cm 7320; Texas Sunset Commission",
+   "k": "Oversight bodies",
+   "u": "https://assets.publishing.service.gov.uk/media/5a7c82caed915d48c24103d5/7320.pdf",
+   "y": "Post-legislative scrutiny; agency sunset review",
+   "fam": [],
+   "st": "used"
+  },
+  {
+   "n": "ProPublica, KFF Health News, Bloomberg Tax, Bloomberg Government, Roll Call, Lawfare, Just Security, Yale JREG, The Lever, The American Prospect, Reason, The Daily Signal, FactCheck.org, PolitiFact",
+   "k": "Investigative journalism",
+   "u": "",
+   "y": "Text-level case studies by beat",
+   "fam": [],
+   "st": "used"
+  },
+  {
+   "n": "404 Media, Sludge, Washington Examiner",
+   "k": "Investigative journalism",
+   "u": "",
+   "y": "Case studies",
+   "fam": [],
+   "st": "used"
+  },
+  {
+   "n": "National Review, The Dispatch, Heritage Foundation",
+   "k": "Investigative journalism",
+   "u": "",
+   "y": "Titles of relevant pieces",
+   "fam": [],
+   "st": "listed"
+  },
+  {
+   "n": "Tax Notes, Politico, SCOTUSblog, The Regulatory Review, The Markup, GovTrack",
+   "k": "Investigative journalism",
+   "u": "",
+   "y": "Possible case studies",
+   "fam": [],
+   "st": "listed"
+  },
+  {
+   "n": "Brennan, AFR, Better Markets, CBPP, ITEP, EFF, CDT, EPIC, AEI, AAF, NTU Foundation, Cato, CEI, R Street, Tax Foundation, Niskanen, CLC, POGO, CRFB, Taxpayers for Common Sense, BPC",
+   "k": "Policy institutes",
+   "u": "",
+   "y": "Provision-level critiques",
+   "fam": [],
+   "st": "used"
+  },
+  {
+   "n": "Public Citizen, CREW, ACLU, Mercatus Center",
+   "k": "Policy institutes",
+   "u": "",
+   "y": "Possible critiques",
+   "fam": [],
+   "st": "listed"
+  },
+  {
+   "n": "Davis Polk, EY, Cooley, Schneider Downs, Barclay Damon, Sheppard Mullin via National Law Review, Davis Wright Tremaine, Mayer Brown",
+   "k": "Practitioner alerts",
+   "u": "",
+   "y": "Planning routes and agency responses",
+   "fam": [],
+   "st": "used"
+  },
+  {
+   "n": "KPMG, Sullivan and Cromwell, Deloitte, Bracewell",
+   "k": "Practitioner alerts",
+   "u": "",
+   "y": "Planning routes",
+   "fam": [],
+   "st": "listed"
+  }
+ ],
+ "cand": [
+  [
+   "Regulatory arbitrage",
+   "A party can restructure an activity so that a lighter set of rules applies.",
+   "Fleischer; tax literature"
+  ],
+  [
+   "Classification games",
+   "Parties dispute which legal category an actor falls in, such as employee, bank or broker.",
+   "Tax Notes; labor and financial regulation case studies"
+  ],
+  [
+   "Threshold bunching",
+   "Actors stay just under a size trigger, or split themselves to do so.",
+   "Economics literature; agency studies"
+  ],
+  [
+   "Big waiver",
+   "A law lets the agency waive the law's own core requirements.",
+   "Barron and Rakoff"
+  ],
+  [
+   "Non-enforcement as policy",
+   "An agency declines to enforce a law as a way of changing the law in practice.",
+   "Inspector general reports; administrative law journals"
+  ],
+  [
+   "Budget-window timing",
+   "Sunsets and phase-ins are arranged to meet a cost estimate.",
+   "CBO; Tax Policy Center"
+  ],
+  [
+   "Unorthodox vehicles",
+   "Text is enacted through omnibus or emergency measures with no committee process.",
+   "Gluck, O'Connell and Po"
+  ],
+  [
+   "Glitches found before enactment",
+   "Outside experts identify errors while a bill is moving through Congress.",
+   "The Games They Will Play"
+  ],
+  [
+   "Judicial reading after Loper Bright",
+   "Since 2024, courts and not agencies resolve statutory ambiguity, which changes the effect of vague delegations of power to agencies.",
+   "Supreme Court; Notice and Comment"
+  ],
+  [
+   "Technical assistance asymmetry",
+   "The regulated agency helps draft its own constraints",
+   "ACUS report"
+  ],
+  [
+   "Private enforcement design",
+   "This topic covers fee shifting, bounties and citizen suits, and what happens when they are absent.",
+   "Harvard Journal on Legislation"
+  ],
+  [
+   "Hammer provisions",
+   "Some deadlines carry an automatic consequence, and other deadlines do not.",
+   "GAO; ACUS"
+  ],
+  [
+   "Judge-flagged defects",
+   "Courts have formally reported drafting problems to Congress.",
+   "Statutory Opinion Transmission Project"
+  ]
+ ],
+ "mech": {
+  "open_term": [
+   "Open or undefined term",
+   "A broad open term reaches actors, technologies and situations the drafters did not foresee. A list or tight definition can leave something out, and what is left out is presumed excluded.",
+   "Whoever first applies an open term can choose a narrow reading. Disputes then take years, and different courts can read the term differently.",
+   "Who interprets an open term first, and does that person or body share the measure's purpose? Is the risk of leaving a case out larger than the risk of a narrow reading?"
+  ],
+  "discretion": [
+   "Discretion given to an official",
+   "Discretion lets the official fit the rule to the facts, protect third parties case by case, and avoid absurd mandatory results.",
+   "A reluctant official can decline to act, and no one can compel a choice that the law left open.",
+   "Is the official who holds the discretion someone the measure relies on, or someone the measure is aimed at?"
+  ],
+  "feasibility": [
+   "Feasibility qualifier",
+   "A feasibility limit avoids commanding the impossible and makes the provision harder to strike down.",
+   "A feasibility limit sets the standard by evidence about what is feasible, and that evidence usually comes from the regulated party.",
+   "Who must prove what is feasible, and who checks the claim?"
+  ],
+  "exception": [
+   "Exception, waiver or safe harbor",
+   "An exception, waiver or safe harbor protects legitimate cases such as emergencies, victims and small actors, rewards good-faith compliance, and can be a concession needed for the measure to pass.",
+   "Exceptions grow, and the party that the rule constrains is usually the one that invokes them.",
+   "Who invokes the exception, is each use counted and reviewed, and does the exception expire?"
+  ],
+  "threshold": [
+   "Threshold or size trigger",
+   "A threshold spares small actors and concentrates enforcement where the risk is.",
+   "Actors restructure to stay under the threshold, and a fixed threshold becomes outdated as markets and technology change.",
+   "How cheaply can someone split or restructure to get under the threshold, and is the threshold indexed or aggregated?"
+  ],
+  "timing": [
+   "Delay, phase-in, sunset or grandfathering",
+   "A delay, phase-in, sunset or grandfathering gives time to comply, forces Congress to revisit an untested policy, and protects those who relied on the old rule.",
+   "A delay can end up working as a repeal, a sunset creates a sudden end date that others can exploit, and grandfathering gives existing parties a lasting advantage.",
+   "What happens by default when the date in the bill arrives and no one acts?"
+  ],
+  "delegation": [
+   "Delegation to an agency or outside body",
+   "A delegation brings expertise and lets the rule keep pace with change without new legislation.",
+   "The agency can delay or come under the control of the interests it regulates, and since 2024 courts, not agencies, resolve statutory ambiguity.",
+   "Is there a deadline with a default rule if the agency does nothing, and who are the members of the body?"
+  ],
+  "remedy_limit": [
+   "Limit on enforcement or remedies",
+   "A limit on enforcement or remedies prevents opportunistic lawsuits, keeps enforcement consistent and protects public funds.",
+   "A right without a remedy depends on an enforcer who may lack resources, independence or interest.",
+   "Does the body that can enforce have the means and the motive to do it?"
+  ],
+  "narrow_scope": [
+   "Deliberately narrow scope",
+   "A narrow scope is easier to pass, clear about who is responsible, and less exposed to constitutional challenge.",
+   "The activity or the records can move to parties that the measure does not cover.",
+   "How easily can the conduct shift outside the measure's scope?"
+  ],
+  "preempt": [
+   "Preemption or uniform standard",
+   "One national rule lowers compliance cost and prevents conflicting obligations.",
+   "A federal minimum standard can become the maximum allowed and displace stronger state protections.",
+   "Does the measure set a minimum standard or a maximum standard, and what state law does it displace today?"
+  ],
+  "confidentiality": [
+   "Limit on disclosure",
+   "Confidentiality protects victims, security and legitimate commercial secrets.",
+   "The same confidentiality protection can cover the conduct that the measure is meant to expose.",
+   "Who reviews a claim of confidentiality, and can they see the material?"
+  ],
+  "symbolic": [
+   "Non-binding statement, study or report",
+   "A non-binding statement, study or report builds a record and a coalition, signals direction, and gathers evidence before a mandate.",
+   "A non-binding statement, study or report can stand in for action and be presented as if a step had been taken.",
+   "Is there a binding companion measure, or a trigger that turns the study into a duty?"
+  ],
+  "funding_flex": [
+   "Funding left to later decisions",
+   "Leaving funding to later decisions keeps annual control over spending and lets funding track results.",
+   "A duty without money does not get carried out, and funding decisions can become a quiet way to repeal a duty.",
+   "Is the duty conditioned on funding, and what happens in a year with none?"
+  ],
+  "measurement": [
+   "Choice of metric or baseline",
+   "A simple metric can be administered easily and compared across cases.",
+   "The measured party learns to satisfy the metric without achieving the goal.",
+   "Who supplies the data, and can the method be changed without notice?"
+  ],
+  "insider_role": [
+   "A job given to the body the measure is about",
+   "The body already holds the records, staff and knowledge needed, so the work can start at once and one accountable official answers for it.",
+   "The body decides matters that concern its own conduct or the people it answers to, and no one outside is placed to check those decisions.",
+   "Does any decision the measure assigns concern the conduct of the body that makes it, or of a person who can appoint or remove the decision-maker?"
+  ]
+ },
+ "posture": {
+  "shall-may-ambiguity": "discretion",
+  "shall-consider": "discretion",
+  "feasibility-escape": "feasibility",
+  "good-faith-shield": "feasibility",
+  "mandamus-proof-qualifier": "discretion",
+  "model-opacity-shield": "feasibility",
+  "constructive-ambiguity": "open_term",
+  "definitional-bootstrapping": "none",
+  "definition-by-exception": "open_term",
+  "lists-and-canons": "open_term",
+  "unit-selection": "measurement",
+  "baseline-choice": "measurement",
+  "temporal-averaging": "measurement",
+  "geographic-demographic-aggregation": "measurement",
+  "threshold-selection": "threshold",
+  "ai-system-definition": "narrow_scope",
+  "harm-definition": "narrow_scope",
+  "de-minimis-exception": "threshold",
+  "who-conducts-assessment": "delegation",
+  "counterfactual-framing": "measurement",
+  "measurable-vs-matters": "measurement",
+  "latency-attribution": "measurement",
+  "foreseeable-harm": "remedy_limit",
+  "individualizing-systemic-harm": "remedy_limit",
+  "future-benefits": "measurement",
+  "new-jobs-assumption": "measurement",
+  "benchmark-gaming": "measurement",
+  "preemption-of-states": "preempt",
+  "jurisdictional-fragmentation": "none",
+  "federal-entity-exemption": "exception",
+  "choosing-regulator": "narrow_scope",
+  "policy-enforcement-split": "narrow_scope",
+  "deployer-developer-split": "narrow_scope",
+  "platform-model-liability": "narrow_scope",
+  "extraterritorial-scope": "narrow_scope",
+  "regulatory-arbitrage": "none",
+  "mutual-recognition": "exception",
+  "surveillance-laundering": "none",
+  "revolving-door": "none",
+  "delayed-effective-dates": "timing",
+  "sunset-clauses": "timing",
+  "phantom-deadlines": "none",
+  "contingency-triggers": "timing",
+  "grandfathering": "timing",
+  "anti-retroactivity-default": "timing",
+  "pilot-programs": "timing",
+  "pre-post-deployment": "timing",
+  "premature-regulation": "timing",
+  "let-market-correct": "timing",
+  "international-harmonization": "delegation",
+  "no-maintenance-duty": "none",
+  "model-update-loophole": "threshold",
+  "loading-sequence": "timing",
+  "conditional-cascades": "timing",
+  "transition-speed-mismatch": "timing",
+  "rolling-emergency-authorization": "exception",
+  "reciprocity-effectiveness": "timing",
+  "waiver-authority": "exception",
+  "safe-harbor-swallows": "exception",
+  "notwithstanding-clause": "preempt",
+  "otherwise-provided-by-law": "exception",
+  "dual-reading": "none",
+  "national-security-carveout": "exception",
+  "trade-secret-exemption": "confidentiality",
+  "open-source-definition": "exception",
+  "consent-fiction": "exception",
+  "parental-responsibility": "exception",
+  "synthetic-data-escape": "exception",
+  "classified-escape": "confidentiality",
+  "manipulation-definition": "open_term",
+  "content-neutrality-deflection": "narrow_scope",
+  "synthetic-content-definition": "open_term",
+  "deepfake-definition": "open_term",
+  "addictive-design-definition": "open_term",
+  "emotional-ai-gap": "narrow_scope",
+  "vulnerable-populations-definition": "open_term",
+  "incident-definition": "threshold",
+  "risk-framework-definition": "narrow_scope",
+  "algorithmic-vs-ai-label": "open_term",
+  "displacement-vs-augmentation": "narrow_scope",
+  "ai-dependent-workers": "narrow_scope",
+  "export-control-definition": "open_term",
+  "litigation-friendly-drafting": "none",
+  "weak-enforcement": "none",
+  "judicial-review-limits": "remedy_limit",
+  "exhaustion-requirements": "remedy_limit",
+  "standing-ambiguity": "remedy_limit",
+  "private-right-ambiguity": "remedy_limit",
+  "burden-of-proof": "remedy_limit",
+  "damages-vs-injunction": "remedy_limit",
+  "damages-caps": "remedy_limit",
+  "no-structural-remedies": "remedy_limit",
+  "penalties-flat": "remedy_limit",
+  "challenge-notification": "none",
+  "arbitration-class-waivers": "remedy_limit",
+  "limitations-period": "remedy_limit",
+  "board-liability": "narrow_scope",
+  "defunding-without-repealing": "none",
+  "conditional-appropriations": "funding_flex",
+  "scoring-gamesmanship": "none",
+  "unfunded-mandates": "funding_flex",
+  "authorization-vs-appropriation": "funding_flex",
+  "anti-deficiency-triage": "funding_flex",
+  "fee-funded-dependency": "funding_flex",
+  "tax-treatment": "funding_flex",
+  "insurance-omission": "none",
+  "productivity-gains": "none",
+  "vagueness-and-delegation": "delegation",
+  "rulemaking-delay-mechanisms": "delegation",
+  "incorporation-by-reference": "delegation",
+  "informal-guidance": "delegation",
+  "private-standards-delegation": "delegation",
+  "layered-delegation": "delegation",
+  "certification-bottlenecks": "delegation",
+  "future-amendments-incorporated": "delegation",
+  "advisory-capture": "delegation",
+  "record-flooding": "none",
+  "stakeholder-process": "delegation",
+  "comment-period-timing": "none",
+  "technical-capacity-limits": "none",
+  "study-instead-of-action": "symbolic",
+  "study-it-to-death": "symbolic",
+  "transparency-defined-down": "confidentiality",
+  "labeling-reductionism": "symbolic",
+  "access-to-proof": "none",
+  "evidentiary-trail": "none",
+  "researcher-access": "confidentiality",
+  "whistleblower-absence": "none",
+  "nda-enforceability": "confidentiality",
+  "audit-scope": "confidentiality",
+  "training-data-provenance": "none",
+  "retention-deletion-tension": "confidentiality",
+  "reported-vs-published": "confidentiality",
+  "aggregation-proof-reporting": "none",
+  "reporting-frequency-lag": "timing",
+  "severability-strategy": "none",
+  "hollow-savings-clause": "preempt",
+  "common-law-preemption": "preempt",
+  "implied-repeal": "none",
+  "code-placement": "none",
+  "section-230-interaction": "preempt",
+  "ip-laundering": "none",
+  "preempting-anti-discrimination": "preempt",
+  "ip-interactions": "confidentiality",
+  "contract-supremacy": "none",
+  "major-questions-trigger": "delegation",
+  "chevron-vacuum": "open_term",
+  "findings-for-deference": "symbolic",
+  "legislative-veto": "none",
+  "first-amendment-engineering": "narrow_scope",
+  "takings-traps": "none",
+  "due-process-hooks": "none",
+  "dormant-commerce-weaponization": "preempt",
+  "sense-of-congress": "symbolic",
+  "aspirational-preamble": "symbolic",
+  "innovation-defense": "symbolic",
+  "voluntary-commitments": "symbolic",
+  "tool-not-agent": "narrow_scope",
+  "bias-is-a-bug": "none",
+  "humans-in-the-loop": "symbolic",
+  "assistance-without-assistance": "symbolic",
+  "impact-without-teeth": "symbolic",
+  "adversary-argument": "none",
+  "incumbent-compliance-costs": "threshold",
+  "data-moat": "none",
+  "compute-thresholds": "threshold",
+  "api-chokepoint": "narrow_scope",
+  "procurement-standards": "narrow_scope",
+  "data-portability": "none",
+  "interoperability": "none",
+  "vertical-integration": "narrow_scope",
+  "acquisition-thresholds": "threshold",
+  "negative-pregnant": "open_term",
+  "tollgate-provision": "none",
+  "conference-rewrites": "none",
+  "signing-statements": "none",
+  "rider-omnibus-bundling": "none",
+  "retroactive-redefinition": "none",
+  "legislative-history-staging": "none",
+  "enrolled-bill-doctrine": "none",
+  "self-executing-rules": "none",
+  "holman-rule": "none",
+  "technical-corrections": "none",
+  "cra-window": "none",
+  "committee-forum-shopping": "none",
+  "starving-the-regulator": "none",
+  "age-verification-poison-pill": "none",
+  "strategic-complexity": "none"
+ },
+ "standards": [
+  {
+   "n": "House Legislative Counsel Manual on Drafting Style (2022 edition)",
+   "who": "House Office of the Legislative Counsel",
+   "u": "https://legcounsel.house.gov/sites/evo-subsites/legcounsel-evo.house.gov/files/documents/ManualDraftStyle_2022.pdf",
+   "says": "The House manual says to use the present tense, singular and active voice, \"may\" for a power, \"shall\" for a duty and \"may not\" for a prohibition. It says to discourage findings and purposes (sec. 325). It also says a severability clause is unnecessary unless it says in detail which provisions would fall if a court strikes down another (sec. 328).",
+   "public": true
+  },
+  {
+   "n": "House Legislative Counsel Guide to Legislative Drafting (web)",
+   "who": "House Office of the Legislative Counsel",
+   "u": "https://legcounsel.house.gov/holc-guide-legislative-drafting",
+   "says": "This manual states the rule for text inside quotation marks in amendments, and the rule on citing positive law titles.",
+   "public": true
+  },
+  {
+   "n": "House Legislative Counsel Quick Guide (revised 10 June 2026)",
+   "who": "House Office of the Legislative Counsel",
+   "u": "https://legcounsel.house.gov/sites/evo-subsites/legcounsel-evo.house.gov/files/evo-media-document/quick_guide_6_10_26.pdf",
+   "says": "This short guide sets out House drafting conventions and was revised 10 June 2026.",
+   "public": true
+  },
+  {
+   "n": "House Legislative Counsel Introduction to Legislative Drafting (revised 10 June 2026)",
+   "who": "House Office of the Legislative Counsel",
+   "u": "https://legcounsel.house.gov/sites/evo-subsites/legcounsel-evo.house.gov/files/evo-media-document/intro_to_drafting_6_10_26.pdf",
+   "says": "This document lists questions for drafters. They ask to whom the policy applies, what exceptions exist, who carries it out, \"What if the policy is not followed?\", whether penalties are civil or criminal, how much lead time is needed, and whether transitional rules are required.",
+   "public": true
+  },
+  {
+   "n": "Senate Legislative Drafting Manual (February 1997)",
+   "who": "Senate Office of the Legislative Counsel",
+   "u": "https://law.yale.edu/sites/default/files/documents/pdf/Faculty/SenateOfficeoftheLegislativeCounsel_LegislativeDraftingManual%281997%29.pdf",
+   "says": "The Senate manual says \"'And/or' has not gained acceptance in legislative drafting\" (sec. 302), and \"Avoid the use of 'notwithstanding any other provision of law'\" (sec. 314). It also says a severability clause \"is unnecessary\" (sec. 131), and that a sunset of authority does not repeal amendments the Act made (sec. 127).",
+   "public": false
+  },
+  {
+   "n": "Title 1 of the U.S. Code (1 U.S.C. 1 and chapter 2)",
+   "who": "Congress, codified by the Office of the Law Revision Counsel",
+   "u": "https://www.law.cornell.edu/uscode/text/1/1",
+   "says": "Default meanings apply unless the context indicates otherwise: singular includes plural, present tense includes the future, and \"person\" includes corporations. Each section should contain, as nearly as may be, a single proposition of enactment, and a repealed Act is not revived by repeal of the repealer unless expressly provided.",
+   "public": true
+  },
+  {
+   "n": "Office of the Law Revision Counsel positive law codification page",
+   "who": "Office of the Law Revision Counsel",
+   "u": "https://uscode.house.gov/codification/legislation.shtml",
+   "says": "The office explains that a positive law title is amended directly, while a title that is not positive law is amended through the underlying Act.",
+   "public": true
+  },
+  {
+   "n": "House Rules and Manual, 118th Congress (Ramseyer rule)",
+   "who": "U.S. House of Representatives",
+   "u": "https://www.govinfo.gov/content/pkg/HMAN-118/html/HMAN-118-pg662.htm",
+   "says": "House rules require a committee report to print the text of each section to be repealed and \"a comparative print of each amendment\".",
+   "public": true
+  },
+  {
+   "n": "Standing Rules of the Senate (117th Congress print, 2022)",
+   "who": "U.S. Senate",
+   "u": "https://www.rules.senate.gov/download/the-rules-of-the-senate-117th",
+   "says": "These House rules contain the Cordon rule, require a cost estimate and a regulatory impact evaluation in committee reports, bar general legislation on appropriations bills, and confine conference committee members to matter committed to them.",
+   "public": true
+  },
+  {
+   "n": "Byrd rule (CRS Report RL30862, 2016 version)",
+   "who": "U.S. Senate, as described by the Congressional Research Service",
+   "u": "https://www.congress.gov/crs_external_products/RL/PDF/RL30862/RL30862.16.pdf",
+   "says": "Under Senate rules, a reconciliation provision is extraneous on six grounds, including one that it \"does not produce a change in outlays or revenues\".",
+   "public": true
+  },
+  {
+   "n": "OMB Circular A-19 (1979)",
+   "who": "Office of Management and Budget",
+   "u": "https://www.whitehouse.gov/wp-content/uploads/2017/11/Circular-019.pdf",
+   "says": "Agency legislative proposals must include a section-by-section analysis and budget and personnel impacts, and spending authority outside regular appropriations, called backdoor financing, is limited.",
+   "public": true
+  },
+  {
+   "n": "Plain Writing Act of 2010",
+   "who": "Congress",
+   "u": "https://www.govinfo.gov/content/pkg/PLAW-111publ274/html/PLAW-111publ274.htm",
+   "says": "This guidance covers executive agency documents only, excludes regulations and bars judicial review of compliance, so it does not apply to bills.",
+   "public": true
+  },
+  {
+   "n": "Federal Register Document Drafting Handbook",
+   "who": "Office of the Federal Register",
+   "u": "https://www.archives.gov/federal-register/write/handbook",
+   "says": "These rules govern documents published in the Federal Register.",
+   "public": true
+  },
+  {
+   "n": "Executive Order 12988, as described in CRS Report 97-589",
+   "who": "President of the United States",
+   "u": "https://www.everycrsreport.com/files/20111219_97-589_ecc097f4f874b4d55b934f53cbb035432bfba150.pdf",
+   "says": "The President directs executive drafters to state limitations periods, preemptive effect, retroactivity, burdens of proof and key definitions in clear language.",
+   "public": true
+  },
+  {
+   "n": "Uniform Law Commission drafting rules (as quoted in a Multistate Tax Commission deck)",
+   "who": "Uniform Law Commission",
+   "u": "https://www.mtc.gov/wp-content/uploads/2023/02/Drafting-Rules-for-Uniform-Statutes-Regulations.pdf",
+   "says": "The guide says \"Do NOT use 'shall' or 'must' to state a rule of law\" and \"Do not include substantive provisions in a definition.\"",
+   "public": true
+  },
+  {
+   "n": "UK Office of the Parliamentary Counsel drafting guidance (March 2024)",
+   "who": "UK Office of the Parliamentary Counsel",
+   "u": "https://assets.publishing.service.gov.uk/media/660407d091a320001a82b06b/2024.03.19.Drafting-guidance.pdf",
+   "says": "The guide avoids the legislative \"shall\", warns against \"sandwich\" provisions and mixed conjunctions, and says to add \"or both\" where \"or\" is inclusive.",
+   "public": true
+  },
+  {
+   "n": "EU Joint Practical Guide on legislative drafting",
+   "who": "European Parliament, Council and Commission",
+   "u": "https://eur-lex.europa.eu/content/techleg/EN-legislative-drafting-guide.pdf",
+   "says": "The joint guide bars circular and serial references, requires a static reference to say so, and bars autonomous substantive provisions inside amending acts.",
+   "public": true
+  },
+  {
+   "n": "Australian Drafting Directions",
+   "who": "Australian Office of Parliamentary Counsel",
+   "u": "https://www.opc.gov.au/drafting-resources/drafting-directions",
+   "says": "The guide adds subject-specific directions on offences, regulatory powers, evidence and conferral of powers. Only titles and dates were confirmed.",
+   "public": true
+  }
+ ],
+ "conflicts": [
+  {
+   "pattern": "severability-strategy",
+   "topic": "Severability clause",
+   "says": "Include a clear severability clause (also add severability for litigation-friendly drafting).",
+   "but": "Both the Senate and House manuals call a general severability clause unnecessary because courts presume severability. The better practice is a specific nonseverability clause or fallback for provisions that form a package.",
+   "src": "Senate manual sec. 131; HOLC manual sec. 328",
+   "url": "https://law.yale.edu/sites/default/files/documents/pdf/Faculty/SenateOfficeoftheLegislativeCounsel_LegislativeDraftingManual%281997%29.pdf"
+  },
+  {
+   "pattern": "lists-and-canons",
+   "topic": "Illustrative lists",
+   "says": "Add a rule that lists are illustrative, using \"including but not limited to\" as the wording that signals this.",
+   "but": "Both manuals say \"includes\" already signals a partial list and \"but is not limited to\" is redundant. The risk they identify is \"means\" used where an open list was intended.",
+   "src": "HOLC manual; Senate manual sec. 316",
+   "url": "https://legcounsel.house.gov/sites/evo-subsites/legcounsel-evo.house.gov/files/documents/ManualDraftStyle_2022.pdf"
+  },
+  {
+   "pattern": "findings-for-deference",
+   "topic": "Findings and purposes",
+   "says": "Include specific findings, specific findings on scope, and a statement that purposes guide interpretation.",
+   "but": "The House Office of the Legislative Counsel (HOLC) manual sec. 325 says to discourage findings and purposes, though HOLC and the Senate manual accept findings that help establish congressional power or clarity, and the ADA has an enacted rule of construction.",
+   "src": "HOLC manual sec. 325",
+   "url": "https://legcounsel.house.gov/sites/evo-subsites/legcounsel-evo.house.gov/files/documents/ManualDraftStyle_2022.pdf"
+  },
+  {
+   "pattern": "standing-ambiguity",
+   "topic": "Statutory standing",
+   "says": "Allow community and organization standing.",
+   "but": "Under TransUnion v. Ramirez, Congress may not relieve federal courts of deciding whether a plaintiff has a concrete harm, so a statutory grant of standing does not by itself let the plaintiff sue in federal court.",
+   "src": "CRS LSB10629",
+   "url": "https://www.everycrsreport.com/reports/LSB10629.html"
+  },
+  {
+   "pattern": "weak-enforcement",
+   "topic": "Penalties and private rights",
+   "says": "Add meaningful penalties, enforcement funding and a private right of action.",
+   "but": "The Congressional Research Service (CRS) documents three limits. Civil penalties imposed in an agency tribunal face the Jarkesy jury-trial holding, statutory damages without concrete harm face TransUnion, and rights created by spending statutes need rights-creating terms after Medina.",
+   "src": "CRS LSB11229; CRS LSB11351",
+   "url": "https://www.everycrsreport.com/reports/LSB11229.html"
+  },
+  {
+   "pattern": "choosing-regulator",
+   "topic": "Independent enforcers",
+   "says": "Rely on an independent regulator or assessor assumed to be protected from removal.",
+   "but": "The Congressional Research Service (CRS) reports that Trump v. Slaughter (29 June 2026) overruled Humphrey's Executor and held Federal Trade Commission commissioners removable at will, with Federal Reserve governors treated separately.",
+   "src": "CRS LSB11448",
+   "url": "https://www.everycrsreport.com/reports/LSB11448.html"
+  },
+  {
+   "pattern": "defunding-without-repealing",
+   "topic": "Dedicated funding",
+   "says": "Provide a dedicated funding source and pair authorizations with mandatory funding.",
+   "but": "The Consumer Financial Protection Bureau (CFPB) episode shows the limit. The 2025 law cut the funding cap from 12 to 6.5 percent, and the Bureau declined to request funds until a court ruled. The Office of Management and Budget's A-19 and the manuals also disagree on \"such sums as may be necessary\".",
+   "src": "12 U.S.C. 5497; Cooley",
+   "url": "https://www.law.cornell.edu/uscode/text/12/5497"
+  },
+  {
+   "pattern": "phantom-deadlines",
+   "topic": "Rulemaking deadlines",
+   "says": "Add a default rule or a right to sue when a deadline is missed.",
+   "but": "The Congressional Research Service (CRS) describes such automatic consequences as self-enforcing but warns of hastily imposed rules. Administrative Conference of the United States (ACUS) Recommendation 78-3 says Congress ordinarily should not impose statutory time limits on rulemaking.",
+   "src": "CRS R45336; ACUS Recommendation 78-3",
+   "url": "https://sgp.fas.org/crs/misc/R45336.pdf"
+  },
+  {
+   "pattern": "vagueness-and-delegation",
+   "topic": "Open-textured standards",
+   "says": "Treat \"reasonable\" or \"appropriate\" as a weakness and give express discretion to the agency.",
+   "but": "Loper Bright recognizes that a statute may expressly delegate definitional authority or leave agencies flexibility, citing enacted formulas such as \"as such terms are defined and delimited by regulations of the Secretary\".",
+   "src": "Loper Bright; 29 U.S.C. 213",
+   "url": "https://www.law.cornell.edu/supremecourt/text/22-451"
+  }
+ ]
+}

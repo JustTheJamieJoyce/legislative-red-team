@@ -22,7 +22,7 @@ Every line is available in plain language, written for a seventh-grade reading l
 ## What works on this site, and what does not
 
 - The three example measures, the guided tour and the knowledge base work fully.
-- **Analyzing a new measure does not work on this site.** That step needs an AI service and web research, which a static page cannot provide. On this site the upload form only classifies the text and marks phrases that match the pattern library, and labels the result as unreviewed.
+- **Analyzing a new measure does not work on this site.** That step needs an analysis service and web research, which a static page cannot provide. On this site the upload form only classifies the text and marks phrases that match known patterns, and labels the result as unreviewed.
 
 ## Publishing with GitHub Pages
 
@@ -32,8 +32,6 @@ Every line is available in plain language, written for a seventh-grade reading l
 4. Choose the `main` branch and the `/ (root)` folder, then save.
 5. After a minute or two the site is live at `https://<your-username>.github.io/<repository-name>/`.
 
-The file `.nojekyll` tells GitHub to serve the files as they are.
-
 ## Folder layout
 
 | Path | What it is |
@@ -41,24 +39,25 @@ The file `.nojekyll` tells GitHub to serve the files as they are.
 | `index.html` | The whole site in one file. This is what GitHub Pages serves. |
 | `docs/style-guide.md` | The writing rules every line follows. |
 | `docs/conflict-of-interest-review.md` | The conflict of interest method and its types. |
-| `docs/drafting-critique-sources.md` | Research on sources that critique legislation and on official drafting standards. |
 | `src/template.html` | The page's layout, styles and code. |
-| `src/build.py` | Combines the template with the data and writes `index.html`. |
-| `src/analysis/` | The stored analysis of each measure. |
-| `src/texts/` | The text of each measure. |
-| `src/style/` | The style guide, the professional and plain-language wording, and the checker. |
-| `src/kb.json`, `src/rules.json`, `src/coi.json` | The pattern library, the follow-up question rules and the conflict types. |
+| `src/build.py` | Runs the style check, then combines the template with the data and writes `index.html`. |
+| `src/check_style.py` | Checks every stored line against the style guide. |
+| `src/data/measures/` | One file per measure: its text, the professional analysis and the plain-language analysis. |
+| `src/data/knowledge-base.json` | The library of weakness patterns, each with what to check and a standard fix. |
+| `src/data/rules.json` | Follow-up questions for each kind of weakness, the source index and official drafting standards. |
+| `src/data/conflict-types.json` | The conflict of interest method and its types. |
+| `src/data/style-guide.json` | The style guide, in the form the page and the checker read. |
 
 ## Rebuilding the site
 
-Requires Python 3.
+Requires Python 3.9 or later.
 
 ```
 cd src
 python3 build.py
 ```
 
-This checks every stored line against the style guide and rewrites `index.html`. The build prints `STYLE GATE: pass` when every line passes.
+The build first checks every stored line against the style guide. If any line fails, it lists the failures and stops. Otherwise it rewrites `index.html`.
 
 ## Limits to know about
 
@@ -66,3 +65,4 @@ This checks every stored line against the style guide and rewrites `index.html`.
 - Legal readings have not been reviewed by outside counsel.
 - The drafted amendments are starting drafts and have not been checked against House or Senate drafting conventions.
 - Conflicts of interest are reported as the cited sources state them. Nothing here says any person acted wrongly.
+- Some patterns in the knowledge base are marked "proposed". They come from research and have not yet been tied to a documented case.

@@ -1,0 +1,2833 @@
+{
+ "text": {
+  "blocks": [
+   {
+    "id": "b1",
+    "indent": 0,
+    "kind": "text",
+    "text": "An Act To require the Attorney General to release all documents and records in possession of the Department of Justice relating to Jeffrey Epstein, and for other purposes."
+   },
+   {
+    "id": "b2",
+    "indent": 0,
+    "kind": "text",
+    "text": "Be it enacted by the Senate and House of Representatives of the United States of America in Congress assembled,"
+   },
+   {
+    "id": "b3",
+    "indent": 0,
+    "kind": "heading",
+    "text": "SECTION 1. SHORT TITLE."
+   },
+   {
+    "id": "b4",
+    "indent": 1,
+    "kind": "text",
+    "text": "This Act may be cited as the \"Epstein Files Transparency Act\"."
+   },
+   {
+    "id": "b5",
+    "indent": 0,
+    "kind": "heading",
+    "text": "SEC. 2. RELEASE OF DOCUMENTS RELATING TO JEFFREY EPSTEIN."
+   },
+   {
+    "id": "b6",
+    "indent": 1,
+    "kind": "text",
+    "text": "(a) In General.--Not later than 30 days after the date of enactment of this Act, the Attorney General shall, subject to subsection (b), make publicly available in a searchable and downloadable format all unclassified records, documents, communications, and investigative materials in the possession of the Department of Justice, including the Federal Bureau of Investigation and United States Attorneys' Offices, that relate to:"
+   },
+   {
+    "id": "b7",
+    "indent": 2,
+    "kind": "text",
+    "text": "(1) Jeffrey Epstein including all investigations, prosecutions, or custodial matters."
+   },
+   {
+    "id": "b8",
+    "indent": 2,
+    "kind": "text",
+    "text": "(2) Ghislaine Maxwell."
+   },
+   {
+    "id": "b9",
+    "indent": 2,
+    "kind": "text",
+    "text": "(3) Flight logs or travel records, including but not limited to manifests, itineraries, pilot records, and customs or immigration documentation, for any aircraft, vessel, or vehicle owned, operated, or used by Jeffrey Epstein or any related entity."
+   },
+   {
+    "id": "b10",
+    "indent": 2,
+    "kind": "text",
+    "text": "(4) Individuals, including government officials, named or referenced in connection with Epstein's criminal activities, civil settlements, immunity or plea agreements, or investigatory proceedings."
+   },
+   {
+    "id": "b11",
+    "indent": 2,
+    "kind": "text",
+    "text": "(5) Entities (corporate, nonprofit, academic, or governmental) with known or alleged ties to Epstein's trafficking or financial networks."
+   },
+   {
+    "id": "b12",
+    "indent": 2,
+    "kind": "text",
+    "text": "(6) Any immunity deals, non-prosecution agreements, plea bargains, or sealed settlements involving Epstein or his associates."
+   },
+   {
+    "id": "b13",
+    "indent": 2,
+    "kind": "text",
+    "text": "(7) Internal DOJ communications, including emails, memos, meeting notes, concerning decisions to charge, not charge, investigate, or decline to investigate Epstein or his associates."
+   },
+   {
+    "id": "b14",
+    "indent": 2,
+    "kind": "text",
+    "text": "(8) All communications, memoranda, directives, logs, or metadata concerning the destruction, deletion, alteration, misplacement, or concealment of documents, recordings, or electronic data related to Epstein, his associates, his detention and death, or any investigative files."
+   },
+   {
+    "id": "b15",
+    "indent": 2,
+    "kind": "text",
+    "text": "(9) Documentation of Epstein's detention or death, including incident reports, witness interviews, medical examiner files, autopsy reports, and written records detailing the circumstances and cause of death."
+   },
+   {
+    "id": "b16",
+    "indent": 1,
+    "kind": "text",
+    "text": "(b) Prohibited Grounds for Withholding.--"
+   },
+   {
+    "id": "b17",
+    "indent": 2,
+    "kind": "text",
+    "text": "(1) No record shall be withheld, delayed, or redacted on the basis of embarrassment, reputational harm, or political sensitivity, including to any government official, public figure, or foreign dignitary."
+   },
+   {
+    "id": "b18",
+    "indent": 1,
+    "kind": "text",
+    "text": "(c) Permitted Withholdings.--"
+   },
+   {
+    "id": "b19",
+    "indent": 2,
+    "kind": "text",
+    "text": "(1) The Attorney general may withhold or redact the segregable portions of records that--"
+   },
+   {
+    "id": "b20",
+    "indent": 3,
+    "kind": "text",
+    "text": "(A) contain personally identifiable information of victims or victims' personal and medical files and similar files the disclosure of which would constitute a clearly unwarranted invasion of personal privacy;"
+   },
+   {
+    "id": "b21",
+    "indent": 3,
+    "kind": "text",
+    "text": "(B) depict or contain child sexual abuse materials (CSAM) as defined under 18 U.S.C. 2256 and prohibited under 18 U.S.C. 2252-2252A;"
+   },
+   {
+    "id": "b22",
+    "indent": 3,
+    "kind": "text",
+    "text": "(C) would jeopardize an active federal investigation or ongoing prosecution, provided that such withholding is narrowly tailored and temporary;"
+   },
+   {
+    "id": "b23",
+    "indent": 3,
+    "kind": "text",
+    "text": "(D) depict or contain images of death, physical abuse, or injury of any person; or"
+   },
+   {
+    "id": "b24",
+    "indent": 3,
+    "kind": "text",
+    "text": "(E) contain information specifically authorized under criteria established by an Executive order to be kept secret in the interest of national defense or foreign policy and are in fact properly classified pursuant to such Executive order."
+   },
+   {
+    "id": "b25",
+    "indent": 2,
+    "kind": "text",
+    "text": "(2) All redactions must be accompanied by a written justification published in the Federal Register and submitted to Congress."
+   },
+   {
+    "id": "b26",
+    "indent": 2,
+    "kind": "text",
+    "text": "(3) To the extent that any covered information would otherwise be redacted or withheld as classified information under this section, the Attorney General shall declassify that classified information to the maximum extent possible."
+   },
+   {
+    "id": "b27",
+    "indent": 3,
+    "kind": "text",
+    "text": "(A) If the Attorney General makes a determination that covered information may not be declassified and made available in a manner that protects the national security of the United States, including methods or sources related to national security, the Attorney General shall release an unclassified summary for each of the redacted or withheld classified information."
+   },
+   {
+    "id": "b28",
+    "indent": 2,
+    "kind": "text",
+    "text": "(4) All decisions to classify any covered information after July 1, 2025 shall be published in the Federal Register and submitted to Congress, including the date of classification, the identity of the classifying authority, and an unclassified summary of the justification."
+   },
+   {
+    "id": "b29",
+    "indent": 0,
+    "kind": "heading",
+    "text": "SEC. 3. REPORT TO CONGRESS."
+   },
+   {
+    "id": "b30",
+    "indent": 1,
+    "kind": "text",
+    "text": "Within 15 days of completion of the release required under Section 2, the Attorney General shall submit to the House and Senate Committees on the Judiciary a report listing:"
+   },
+   {
+    "id": "b31",
+    "indent": 2,
+    "kind": "text",
+    "text": "(1) All categories of records released and withheld."
+   },
+   {
+    "id": "b32",
+    "indent": 2,
+    "kind": "text",
+    "text": "(2) A summary of redactions made, including legal basis."
+   },
+   {
+    "id": "b33",
+    "indent": 2,
+    "kind": "text",
+    "text": "(3) A list of all government officials and politically exposed persons named or referenced in the released materials, with no redactions permitted under subsection (b)(1)."
+   }
+  ]
+ },
+ "professional": {
+  "id": "efta",
+  "short": "Epstein Files Transparency Act",
+  "cite": "H.R. 4405, Public Law 119-38",
+  "sponsor": "Rep. Ro Khanna, with Rep. Thomas Massie",
+  "status": "Enacted November 19, 2025",
+  "sourceUrl": "https://www.congress.gov/119/plaws/publ38/PLAW-119publ38.htm",
+  "cls": {
+   "vehicle": "Bill (H.R.)",
+   "function": "A freestanding mandate on one official, the Attorney General",
+   "stage": "Enacted public law",
+   "force": "binding",
+   "banner": "The Epstein Files Transparency Act is binding law. It orders the Attorney General to publish Justice Department records about Jeffrey Epstein within 30 days.",
+   "checks": "This analysis ran every family of checks on the Epstein Files Transparency Act. For a freestanding mandate on one official, the checks on definitions, enforcement and the scope of who is bound come first."
+  },
+  "purpose": {
+   "stated": [
+    {
+     "t": "To require the Attorney General to release all documents and records in possession of the Department of Justice relating to Jeffrey Epstein, and for other purposes.",
+     "w": "Long title"
+    }
+   ],
+   "marketed": [
+    {
+     "t": "Records cannot be held back on the basis of embarrassment, reputational harm, or political sensitivity.",
+     "l": "CP24 summary of the bill text",
+     "u": "https://www.cp24.com/news/world/2025/11/19/how-one-major-exception-could-allow-the-us-to-withhold-parts-of-the-epstein-files"
+    },
+    {
+     "t": "The Attorney General told reporters the Department would follow the law with maximum transparency while protecting victims.",
+     "l": "CP24",
+     "u": "https://www.cp24.com/news/world/2025/11/19/how-one-major-exception-could-allow-the-us-to-withhold-parts-of-the-epstein-files"
+    }
+   ],
+   "ladder": {
+    "mechanism": "The Epstein Files Transparency Act orders one official, the Attorney General, to publish one department's unclassified records about Jeffrey Epstein within 30 days.",
+    "outcome": "The intended outcome is that the public can read the government's records on Jeffrey Epstein and the people connected to him.",
+    "aim": "The broader aim is accountability for those involved with Epstein and for the government's own handling of the case, without further harm to survivors."
+   }
+  },
+  "promises": [
+   {
+    "p": "The Act's long title states that it requires the Attorney General to release all documents and records in possession of the Department of Justice relating to Jeffrey Epstein.",
+    "src": "Long title",
+    "v": "partly",
+    "prov": "Sec. 2(a)",
+    "why": "The operative text in section 2(a) reaches only unclassified Epstein records in the possession of the Department of Justice. Epstein records held by other agencies, and classified records, are outside the mandate.",
+    "f": [
+     "E2",
+     "E3"
+    ]
+   },
+   {
+    "p": "Section 2(a) of the Epstein Files Transparency Act promises that the Justice Department's Epstein records will be released within 30 days.",
+    "src": "Sec. 2(a)",
+    "v": "paper",
+    "prov": "Sec. 2(a)",
+    "why": "Section 2(a) of the Epstein Files Transparency Act states the 30-day deadline, but the Act attaches no consequence to missing it and contains no enforcement clause of its own. The deadline passed with about half the pages of Epstein records unreleased.",
+    "f": [
+     "E4",
+     "E11"
+    ]
+   },
+   {
+    "p": "Section 2(b)(1) of the Epstein Files Transparency Act promises that no Epstein record will be withheld, delayed or redacted on the basis of embarrassment, reputational harm or political sensitivity.",
+    "src": "Sec. 2(b)(1)",
+    "v": "paper",
+    "prov": "Sec. 2(b)(1)",
+    "why": "The prohibition in section 2(b)(1) is clear, but the five permitted grounds for withholding in subsection (c) are judged by the same official, the Attorney General, and the Act builds in no outside review. A court began reviewing withheld Epstein documents only in July 2026, in a suit brought under a different statute.",
+    "f": [
+     "E8",
+     "E11",
+     "E13"
+    ]
+   },
+   {
+    "p": "The Attorney General said the Department of Justice would protect victims while releasing the Epstein records.",
+    "src": "Statement by the Attorney General",
+    "v": "paper",
+    "prov": "Sec. 2(c)(1)(A)",
+    "why": "Section 2(c)(1)(A) of the Epstein Files Transparency Act permits, but does not require, redaction of victims' identifying information from the Epstein records.",
+    "f": [
+     "E1"
+    ]
+   },
+   {
+    "p": "Section 3(3) of the Epstein Files Transparency Act promises a list of the government officials and politically exposed persons named in the Epstein files.",
+    "src": "Sec. 3(3)",
+    "v": "partly",
+    "prov": "Sec. 3(3)",
+    "why": "The list under section 3(3) is due only after the release is complete, goes to two congressional committees and not to the public, and uses a term, \"politically exposed persons\", that the Epstein Files Transparency Act does not define.",
+    "f": [
+     "E6",
+     "E7",
+     "E10"
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "ty": "Language",
+    "q": "Section 2(a) of the Epstein Files Transparency Act says the Attorney General \"shall\" publish the Epstein records. Where does the Act switch to \"may\", and what does each \"may\" leave to the Attorney General's choice?",
+    "a": "Most of that discretion appears in one place: section 2(c)(1), under which the Attorney General \"may withhold or redact\" five categories of material in the Epstein records. The first category is victims' identifying information. Release of the records is commanded, and protection of victims is optional.",
+    "f": [
+     "E1"
+    ]
+   },
+   {
+    "ty": "Language",
+    "q": "Which words in section 2(a) narrow the promise of \"all documents and records\" about Jeffrey Epstein, and which Epstein records does each word leave out?",
+    "a": "Two limiting phrases in section 2(a) do the narrowing. \"Unclassified\" excludes any Epstein record the executive branch has classified, and the executive branch controls classification. \"In the possession of the Department of Justice\" excludes Epstein records held anywhere else.",
+    "f": [
+     "E2",
+     "E3"
+    ]
+   },
+   {
+    "ty": "Actors",
+    "q": "Which parts of the federal government other than the Justice Department would hold records about Jeffrey Epstein?",
+    "a": "A financier with international travel, a federal prosecution and a death in federal custody leaves records well beyond one department. Those holders include the Treasury Department and its financial crimes bureau, the IRS, customs and immigration agencies, the State Department, intelligence agencies, the Bureau of Prisons (a component of the Justice Department) and the National Archives. The Act names only the Justice Department.",
+    "f": [
+     "E2"
+    ],
+    "s": [
+     {
+      "l": "Draft Title VII, listing additional sources",
+      "u": "https://www.jamiejoyce.com/in-the-news/2026/6/29/jamie-speaks-in-dc-endorsed-by-epstein-survivors"
+     }
+    ]
+   },
+   {
+    "ty": "Enforcement",
+    "q": "If the Attorney General publishes no Epstein records by the 30-day deadline in section 2(a), what happens next, and who can make it happen?",
+    "a": "The Epstein Files Transparency Act provides no remedy. Its sponsors asked one court to appoint a monitor and were told the Act gives that court no such authority. A journalist later obtained an injunction under the Administrative Procedure Act, more than six months after the deadline.",
+    "f": [
+     "E4",
+     "E11"
+    ],
+    "s": [
+     {
+      "l": "United States v. Maxwell, opinion of January 21, 2026",
+      "u": "https://www.nysd.uscourts.gov/sites/default/files/2026-01/Maxwell%2020cr330%20-%20Opinion%20&%20Order%201.21.26.pdf"
+     },
+     {
+      "l": "Account of the June 2026 injunction",
+      "u": "https://joycevance.substack.com/p/finally-a-judge-orders-the-government"
+     }
+    ]
+   },
+   {
+    "ty": "Affected people",
+    "q": "Who is affected if the Epstein Files Transparency Act works exactly as written, including the people it is meant to protect?",
+    "a": "The survivors are the people affected. A statute that mandates publication of the Epstein records at speed and makes redaction of survivors' information optional exposes them to the errors of a rushed review. Survivors and their lawyers reported names appearing in released files and asked the Justice Department's inspector general to step in.",
+    "f": [
+     "E1",
+     "E12"
+    ],
+    "s": [
+     {
+      "l": "Survivors on failure to redact victim identities",
+      "u": "https://www.mediaite.com/media/news/read-jeffrey-epstein-survivors-slam-doj-for-failing-to-redact-victim-ids-in-files-release"
+     },
+     {
+      "l": "Survivors urge DOJ watchdog review",
+      "u": "https://www.scrippsnews.com/us-news/crime/epstein-files/epstein-survivors-urge-doj-watchdog-to-review-and-oversee-future-file-releases"
+     }
+    ]
+   },
+   {
+    "ty": "Route-around",
+    "q": "For an Attorney General who preferred to release fewer Epstein records, what is the least costly lawful path under the Act?",
+    "a": "The text of the Act leaves three such paths open. The Attorney General can classify records or keep them classified, can open or point to an active investigation, since the Act lets that official decide what would \"jeopardize\" one, or can use the broad category for images of death, abuse or injury \"of any person\".",
+    "f": [
+     "E3",
+     "E8",
+     "E9"
+    ],
+    "s": [
+     {
+      "l": "How one major exception could allow withholding",
+      "u": "https://www.cp24.com/news/world/2025/11/19/how-one-major-exception-could-allow-the-us-to-withhold-parts-of-the-epstein-files"
+     }
+    ]
+   },
+   {
+    "ty": "History",
+    "q": "How did the closest earlier federal records law handle the same problems that the Epstein Files Transparency Act faces?",
+    "a": "The 1992 law on Kennedy assassination records reached records across the federal government and created an independent review board to decide postponements of release. The Epstein Files Transparency Act has neither feature.",
+    "f": [
+     "E2",
+     "E13"
+    ],
+    "s": [
+     {
+      "l": "National Archives: JFK Assassination Records background",
+      "u": "https://www.archives.gov/research/jfk/background"
+     }
+    ]
+   },
+   {
+    "ty": "Promise to provision",
+    "q": "Do the internal cross-references in the Epstein Files Transparency Act point to the parts of the Act they need to?",
+    "a": "Two cross-references in the Epstein Files Transparency Act do not. Section 2(a) is made \"subject to subsection (b)\", which lists the prohibited grounds for withholding, and never mentions subsection (c), which lists the permitted withholdings. Section 3(3) cites \"subsection (b)(1)\" although section 3 has no subsections.",
+    "f": [
+     "E5",
+     "E6"
+    ]
+   },
+   {
+    "ty": "Time",
+    "q": "What event starts the 15-day period for the Attorney General's report to Congress under section 3?",
+    "a": "Section 3 of the Epstein Files Transparency Act runs the period from \"completion of the release\". If the Justice Department never declares the release complete, the report never comes due.",
+    "f": [
+     "E10"
+    ]
+   },
+   {
+    "ty": "Best design",
+    "q": "What is the smallest set of amendments to the Epstein Files Transparency Act that would deliver its stated purpose?",
+    "a": "Four changes would do so: make redaction of victims' information mandatory in its own paragraph, extend the mandate to every agency holding responsive Epstein records, have someone other than the official making withholding decisions review them, and attach a consequence to the deadline.",
+    "f": [
+     "E1",
+     "E2",
+     "E11",
+     "E13"
+    ]
+   }
+  ],
+  "findings": [
+   {
+    "id": "E1",
+    "kind": "risk",
+    "sev": "critical",
+    "conf": "high",
+    "fam": "obligation",
+    "pat": "Shall versus may",
+    "det": "word",
+    "a": {
+     "q": "may",
+     "ctx": "The Attorney general may withhold or redact"
+    },
+    "title": "Section 2(c)(1)(A) of the Epstein Files Transparency Act permits, but does not require, the Attorney General to redact victims' identifying information from released Epstein records.",
+    "plain": "The Epstein Files Transparency Act orders the Epstein records released but only permits, and does not require, the Attorney General to redact victims' names and personal details. A single word, \"may\", makes the difference between a duty and a discretion.",
+    "tech": "Section 2(a) of the Epstein Files Transparency Act uses \"shall\" for publication of the Epstein records. Section 2(c)(1) uses \"may\" for all five withholding categories, including subparagraph (A), victims' personally identifiable information. The Justice Department read the Act the same way, telling a federal court the Act \"does not require withholding or redacting of victim information\".",
+    "use": "Under a 30-day mandate, the Attorney General can publish the Epstein records first and redact victims' information imperfectly, and a survivor whose information is released has no statutory duty to point to.",
+    "s": [
+     {
+      "l": "Department of Justice letter, S.D.N.Y.",
+      "u": "https://storage.courtlistener.com/recap/gov.uscourts.nysd.539612/gov.uscourts.nysd.539612.813.0.pdf"
+     },
+     {
+      "l": "Survivors on failure to redact",
+      "u": "https://www.mediaite.com/media/news/read-jeffrey-epstein-survivors-slam-doj-for-failing-to-redact-victim-ids-in-files-release"
+     }
+    ],
+    "am": [
+     {
+      "id": "E1a",
+      "label": "Minimal fix: change \"may\" to \"shall\"",
+      "instr": "Section 2(c)(1) of the Epstein Files Transparency Act (Public Law 119-38) is amended by striking \"may\" and inserting \"shall\".",
+      "ops": [
+       {
+        "t": "replace",
+        "q": "may",
+        "ctx": "The Attorney general may withhold or redact",
+        "w": "shall"
+       }
+      ],
+      "cost": "Testing this amendment against the Epstein Files Transparency Act shows a side effect. The same \"may\" in section 2(c)(1) governs all five categories, so changing that one word would also require withholding of everything relating to an active investigation, images of injury and classified material. The amendment would protect victims and mandate more secrecy at the same time."
+     },
+     {
+      "id": "E1b",
+      "label": "Targeted fix: a separate, mandatory protection for victims",
+      "instr": "Section 2(c) is amended (1) in paragraph (1), by striking subparagraph (A) and redesignating subparagraphs (B) through (E) as subparagraphs (A) through (D); and (2) by inserting before paragraph (1) a new paragraph requiring redaction of victim information.",
+      "ops": [
+       {
+        "t": "insert",
+        "before": "The Attorney general may withhold or redact",
+        "w": "(1) REQUIRED REDACTION.--The Attorney General shall redact from any record made publicly available under subsection (a) the personally identifiable information of any victim, and shall withhold victims' personal and medical files and similar files the disclosure of which would constitute a clearly unwarranted invasion of personal privacy, unless the victim consents in writing to disclosure."
+       },
+       {
+        "t": "replace",
+        "q": "(A) contain personally identifiable information of victims or victims' personal and medical files and similar files the disclosure of which would constitute a clearly unwarranted invasion of personal privacy;",
+        "w": ""
+       }
+      ],
+      "cost": "Mandatory redaction would slow the release of Epstein records and require staff. It would also require a definition of \"victim\", which the Act lacks. The amendment's consent clause would allow survivors who want to be named to be named."
+     }
+    ],
+    "inq": {
+     "q": "What happened to survivors' personal information when the Justice Department released Epstein records under the discretionary redaction wording of section 2(c)(1)?",
+     "items": [
+      {
+       "h": "The Justice Department took down several thousand released documents that may have identified Epstein's victims.",
+       "d": "On February 2, 2026 the Justice Department told a court it had removed several thousand documents and media that may have included victim-identifying information because of technical or human error.",
+       "s": [
+        {
+         "l": "ABC News, February 2, 2026",
+         "u": "https://abcnews.com/US/epstein-files-doj-thousand-documents-mistakenly-identified-victims/story?id=129787942"
+        }
+       ]
+      },
+      {
+       "h": "Lawyers for victims counted nearly 100 survivors affected by the release of their information in the Epstein records.",
+       "d": "Attorneys for victims told the court that nearly 100 individual survivors were affected. The Justice Department did not give a number.",
+       "s": [
+        {
+         "l": "ABC News, February 2, 2026",
+         "u": "https://abcnews.com/US/epstein-files-doj-thousand-documents-mistakenly-identified-victims/story?id=129787942"
+        }
+       ]
+      },
+      {
+       "h": "The Deputy Attorney General said about 3 million of roughly 6 million pages of Epstein records were being released.",
+       "d": "The Deputy Attorney General said about 3 million pages were being released out of roughly 6 million, with nearly 3 million withheld. Review of that volume against a 30-day deadline is the situation in which a redaction duty that is only optional fails to protect victims.",
+       "s": [
+        {
+         "l": "ABC News, February 2, 2026",
+         "u": "https://abcnews.com/US/epstein-files-doj-thousand-documents-mistakenly-identified-victims/story?id=129787942"
+        }
+       ]
+      },
+      {
+       "h": "Names of prominent people in the Epstein records were redacted while victims' names were left visible.",
+       "d": "CBS News found names of prominent individuals redacted while victims' names were not, with no specific justification given. Because the same sentence in section 2(c)(1) makes all redaction discretionary, the Epstein Files Transparency Act constrains neither failure.",
+       "s": [
+        {
+         "l": "CBS News: what is missing from the Epstein files",
+         "u": "https://www.cbsnews.com/news/epstein-files-whats-missing/"
+        }
+       ]
+      },
+      {
+       "h": "Survivors sued the Justice Department and Google in March 2026, and the Epstein Files Transparency Act itself gave them no claim.",
+       "d": "Survivors sued the Justice Department and Google in March 2026 over the release of private information. The Epstein Files Transparency Act itself provided them no claim.",
+       "s": [
+        {
+         "l": "CNN, March 27, 2026",
+         "u": "https://www.cnn.com/2026/03/27/us/epstein-survivors-sue-doj-google-hnk"
+        }
+       ]
+      }
+     ],
+     "open": "The legal claims in the survivors' suit against the Justice Department and Google were not reviewed for this analysis."
+    },
+    "two": {
+     "m": "discretion",
+     "keep": [],
+     "close": [],
+     "dec": "Should discretion over redacting victims' information in the Epstein records rest with the Attorney General, who is also subject to the 30-day release deadline?",
+     "views": [
+      {
+       "r": "surv",
+       "pos": "close",
+       "why": "Survivors and their lawyers want redaction of survivors' information from the Epstein records made mandatory, and their lawyers counted nearly 100 survivors affected.",
+       "s": [
+        {
+         "l": "ABC News, February 2, 2026",
+         "u": "https://abcnews.com/US/epstein-files-doj-thousand-documents-mistakenly-identified-victims/story?id=129787942"
+        }
+       ]
+      },
+      {
+       "r": "doj",
+       "pos": "keep",
+       "why": "The Justice Department treats its discretion as sufficient and has said it intends to redact victim information to the fullest extent permitted.",
+       "s": [
+        {
+         "l": "Justice Department letter to the court",
+         "u": "https://storage.courtlistener.com/recap/gov.uscourts.nysd.539612/gov.uscourts.nysd.539612.813.0.pdf"
+        }
+       ]
+      },
+      {
+       "r": "trans",
+       "pos": "depends",
+       "why": "Journalists and transparency advocates want victims protected, and they object that the victim label has been used to justify redacting other names in the Epstein records.",
+       "s": [
+        {
+         "l": "Forbes, July 27, 2026",
+         "u": "https://www.forbes.com/sites/alisondurkee/2026/07/27/could-more-epstein-files-be-released-soon-redacted-docs-will-be-reviewed-by-judge-this-week/"
+        }
+       ]
+      }
+     ]
+    }
+   },
+   {
+    "id": "E2",
+    "kind": "risk",
+    "sev": "critical",
+    "conf": "high",
+    "fam": "actors",
+    "pat": "Mandate aimed at one holder",
+    "det": "external",
+    "a": {
+     "q": "in the possession of the Department of Justice, including the Federal Bureau of Investigation and United States Attorneys' Offices"
+    },
+    "title": "Section 2(a) of the Epstein Files Transparency Act covers only Epstein records in the possession of the Department of Justice, not records held by other federal agencies.",
+    "plain": "The Epstein Files Transparency Act reaches Epstein records held by the Department of Justice, and the only offices it names, the FBI and the United States Attorneys' Offices, are components of that Department. Records about the same people held elsewhere in the federal government are not covered.",
+    "tech": "Section 2(a) of the Epstein Files Transparency Act limits the mandate to records \"in the possession of the Department of Justice, including the Federal Bureau of Investigation and United States Attorneys' Offices\". The \"including\" clause lists components of the Justice Department and does not extend the mandate to other agencies. An Epstein record transferred out of the Department, or never held by it, is outside the Act.",
+    "use": "Under section 2(a), the location of an Epstein record determines whether it is published. Material at the Treasury Department, the Department of Homeland Security, the State Department or an intelligence agency is not reached, and material the Justice Department passes to another agency leaves the Act's reach.",
+    "s": [
+     {
+      "l": "National Archives: the 1992 JFK records law reached records government-wide",
+      "u": "https://www.archives.gov/research/jfk/background"
+     }
+    ],
+    "am": [
+     {
+      "id": "E2a",
+      "label": "Extend the mandate to every federal agency",
+      "instr": "Section 2(a) is amended by striking \"in the possession of the Department of Justice, including the Federal Bureau of Investigation and United States Attorneys' Offices,\" and inserting \"in the possession, custody, or control of any Federal agency (as defined in section 551 of title 5, United States Code), including the Department of Justice, the Department of the Treasury, the Department of State, the Department of Homeland Security, each element of the intelligence community, and the National Archives and Records Administration,\".",
+      "ops": [
+       {
+        "t": "replace",
+        "q": "in the possession of the Department of Justice, including the Federal Bureau of Investigation and United States Attorneys' Offices,",
+        "w": "in the possession, custody, or control of any Federal agency (as defined in section 551 of title 5, United States Code), including the Department of Justice, the Department of the Treasury, the Department of State, the Department of Homeland Security, each element of the intelligence community, and the National Archives and Records Administration,"
+       }
+      ],
+      "cost": "The Attorney General cannot compel other agency heads, so each agency head would need to be made responsible for that agency's Epstein records. Some record types, such as tax returns and suspicious activity reports, are protected by other statutes that the amendment would need to address by name."
+     }
+    ],
+    "inq": {
+     "q": "Where else in the federal government are records about Jeffrey Epstein documented or likely to exist, and does the Epstein Files Transparency Act reach them?",
+     "items": [
+      {
+       "h": "The Treasury Department holds bank records about Epstein's wire transfers, and the Epstein Files Transparency Act does not reach them.",
+       "d": "Senator Wyden has described Treasury records showing 4,725 wire transfers totaling nearly $1.1 billion through one Epstein account, and introduced a separate bill to force their release. CBS News reports that suspicious activity reports in the Justice Department release were posted, pulled and re-posted fully redacted.",
+       "s": [
+        {
+         "l": "Mediaite on the Produce Epstein Treasury Records Act",
+         "u": "https://www.mediaite.com/media/news/top-senate-dem-announces-bill-to-force-treasury-dept-to-disclose-epstein-wire-transfers/"
+        },
+        {
+         "l": "CBS News: what is missing from the Epstein files",
+         "u": "https://www.cbsnews.com/news/epstein-files-whats-missing/"
+        }
+       ]
+      },
+      {
+       "h": "The CIA has neither confirmed nor denied whether it holds records about Epstein.",
+       "d": "When Epstein's own lawyers asked the CIA in 2011 for records of any affiliation, the agency answered that the existence or nonexistence of such records was classified. In February 2026 Representative Mace asked the CIA director to search classified and unclassified holdings on Epstein and Maxwell. Whether the agency holds anything is not public.",
+       "s": [
+        {
+         "l": "Rep. Mace letter to the CIA, February 17, 2026",
+         "u": "https://mace.house.gov/media/press-releases/rep-nancy-mace-demands-cia-disclosure-jeffrey-epstein-ghislaine-maxwell"
+        }
+       ]
+      },
+      {
+       "h": "Immigration and customs agencies within the Department of Homeland Security have Epstein investigations and records that the Epstein Files Transparency Act does not reach.",
+       "d": "A 2015 Drug Enforcement Administration report in the release cites three investigations by Immigration and Customs Enforcement, two closed and one pending. That agency is part of the Department of Homeland Security and is outside the Act. Customs and Border Protection separately lists Epstein records in its own public records library.",
+       "s": [
+        {
+         "l": "CBS News: what is missing from the Epstein files",
+         "u": "https://www.cbsnews.com/news/epstein-files-whats-missing/"
+        },
+        {
+         "l": "CBP records library: Jeffrey Epstein Records",
+         "u": "https://www.cbp.gov/document/foia-record/jeffrey-epstein-records"
+        }
+       ]
+      },
+      {
+       "h": "The Epstein Files Transparency Act asks for customs and immigration records about Epstein, which Homeland Security agencies create rather than the Justice Department.",
+       "d": "Section 2(a)(3) of the Epstein Files Transparency Act lists \"customs or immigration documentation\" among the records to be released. Those records are created by components of the Department of Homeland Security, and the Act reaches only the copies the Justice Department happens to possess.",
+       "s": []
+      },
+      {
+       "h": "The State Department and the National Security Agency may hold Epstein material that the Epstein Files Transparency Act does not reach.",
+       "d": "CBS News identifies the State Department, the Treasury Department, the CIA and the NSA as agencies outside the Epstein Files Transparency Act that may hold related material. That identification is a statement of the Act's scope, not a finding that those agencies hold such material.",
+       "s": [
+        {
+         "l": "CBS News: what is missing from the Epstein files",
+         "u": "https://www.cbsnews.com/news/epstein-files-whats-missing/"
+        }
+       ]
+      }
+     ],
+     "open": "No public source confirms what intelligence agencies hold about Epstein. The Drug Enforcement Administration is part of the Justice Department, so the absence of its underlying Epstein case files from the release is a question of compliance with the Act, not of its scope."
+    },
+    "two": {
+     "m": "narrow_scope",
+     "keep": [],
+     "close": [],
+     "dec": "What share of the relevant Epstein records is held by federal agencies outside the Department of Justice and therefore beyond the Epstein Files Transparency Act?",
+     "views": [
+      {
+       "r": "trans",
+       "pos": "close",
+       "why": "Journalists and transparency advocates favor a wider mandate, pointing to reporting that identifies the State Department, Treasury, the CIA and the NSA as outside the Epstein Files Transparency Act.",
+       "s": [
+        {
+         "l": "CBS News",
+         "u": "https://www.cbsnews.com/news/epstein-files-whats-missing/"
+        }
+       ]
+      },
+      {
+       "r": "oth",
+       "pos": "close",
+       "why": "Members of Congress seeking records the Epstein Files Transparency Act did not reach have offered a separate bill that would force release of Treasury Department records.",
+       "s": [
+        {
+         "l": "Coverage of the Treasury records bill",
+         "u": "https://www.mediaite.com/media/news/top-senate-dem-announces-bill-to-force-treasury-dept-to-disclose-epstein-wire-transfers/"
+        }
+       ]
+      }
+     ]
+    }
+   },
+   {
+    "id": "E3",
+    "kind": "risk",
+    "sev": "significant",
+    "conf": "high",
+    "fam": "definitions",
+    "pat": "Limiter word controlled by the regulated party",
+    "det": "word",
+    "a": {
+     "q": "unclassified",
+     "ctx": "all unclassified records"
+    },
+    "title": "Section 2(a) of the Epstein Files Transparency Act requires release only of unclassified Epstein records, and the executive branch, including the Justice Department, decides what is classified.",
+    "plain": "Section 2(a) of the Epstein Files Transparency Act requires release only of unclassified Epstein records. The executive branch decides what is classified, so the Attorney General, who is ordered to release the records, also has a say over what counts as releasable.",
+    "tech": "Section 2(a) of the Epstein Files Transparency Act covers \"all unclassified records\". Section 2(c)(3) softens this limit by directing declassification \"to the maximum extent possible\" and unclassified summaries otherwise, and section 2(c)(4) requires notice of classification decisions made after July 1, 2025. However, \"maximum extent possible\" is a feasibility qualifier judged by the same official, the Attorney General, and notice of a new classification does not undo it.",
+    "use": "The executive branch can classify Epstein material, or leave it classified, and replace it with a summary written by the agency withholding it.",
+    "s": [
+     {
+      "l": "Draft Title VII on congressional declassification",
+      "u": "https://www.themadact.com/about-epstein"
+     }
+    ],
+    "am": [
+     {
+      "id": "E3a",
+      "label": "Classified annex to Congress and independent review",
+      "instr": "Section 2(c)(3) is amended by adding at the end the following: \"(B) Not later than 30 days after making a determination under subparagraph (A), the Attorney General shall transmit the unredacted covered information to the Select Committee on Intelligence of the Senate and the Permanent Select Committee on Intelligence of the House of Representatives, and shall refer the determination to the Public Interest Declassification Board for review.\"",
+      "ops": [
+       {
+        "t": "insert",
+        "after": "the Attorney General shall release an unclassified summary",
+        "w": "(B) Not later than 30 days after making a determination under subparagraph (A), the Attorney General shall transmit the unredacted covered information to the Select Committee on Intelligence of the Senate and the Permanent Select Committee on Intelligence of the House of Representatives, and shall refer the determination to the Public Interest Declassification Board for review."
+       }
+      ],
+      "cost": "The amendment adds oversight of classified Epstein records but not public release. A stronger version, in which Congress itself orders declassification, would raise a separation of powers dispute and would be litigated."
+     }
+    ],
+    "two": {
+     "m": "confidentiality",
+     "keep": [],
+     "close": [],
+     "dec": "Should executive branch decisions to classify Epstein records be subject to review by a court or an independent body?",
+     "views": [
+      {
+       "r": "oth",
+       "pos": "close",
+       "why": "Intelligence agencies regard classification, including of any Epstein records they hold, as the way sources and methods are protected.",
+       "s": [
+        {
+         "l": "Rep. Mace letter to the CIA",
+         "u": "https://mace.house.gov/media/press-releases/rep-nancy-mace-demands-cia-disclosure-jeffrey-epstein-ghislaine-maxwell"
+        }
+       ]
+      }
+     ]
+    }
+   },
+   {
+    "id": "E4",
+    "kind": "risk",
+    "sev": "significant",
+    "conf": "high",
+    "fam": "timing",
+    "pat": "Deadline with no consequence",
+    "det": "structure",
+    "a": {
+     "q": "Not later than 30 days after the date of enactment of this Act"
+    },
+    "title": "Section 2(a) of the Epstein Files Transparency Act gives the Attorney General 30 days to release the Epstein records and specifies no consequence for missing that deadline.",
+    "plain": "Section 2(a) of the Epstein Files Transparency Act sets a 30-day deadline for release of the Epstein records but says nothing about what follows if the Attorney General misses it. The Act gives no one the power to enforce the deadline.",
+    "tech": "The 30-day deadline in section 2(a) is not paired with a penalty, a default rule, a reporting trigger or a cause of action anywhere in the Epstein Files Transparency Act. Courts are generally reluctant to compel agency action on a statutory timetable without a clear enforcement provision.",
+    "use": "The Justice Department can release the Epstein records in batches on its own schedule.",
+    "s": [
+     {
+      "l": "DOJ missing deadline to publish all files",
+      "u": "https://weartv.com/news/nation-world/justice-department-faces-deadline-to-release-the-jeffrey-epstein-files-birthday-book-epstein-files-transparency-act"
+     }
+    ],
+    "am": []
+   },
+   {
+    "id": "E5",
+    "kind": "defect",
+    "sev": "significant",
+    "conf": "medium",
+    "fam": "interaction",
+    "pat": "Cross-reference points to the wrong provision",
+    "det": "structure",
+    "a": {
+     "q": "subject to subsection (b)"
+    },
+    "title": "Section 2(a) of the Epstein Files Transparency Act makes release of Epstein records subject to the prohibited grounds in subsection (b), not the permitted withholdings in subsection (c).",
+    "plain": "The release requirement in section 2(a) is stated to be \"subject to subsection (b)\". Subsection (b) lists reasons that cannot be used to withhold Epstein records. The reasons that can be used are in subsection (c), which section 2(a) never mentions.",
+    "tech": "As enacted, section 2(a) of the Epstein Files Transparency Act is \"subject to subsection (b)\", the prohibited grounds. The permitted withholdings are in section 2(c). A Senate companion text made the release duty subject to its permitted-withholdings subsection, which suggests the reference was not updated when the subsections were reordered. Read literally, the relationship between the \"shall\" in subsection (a) and the \"may\" in subsection (c) is left to inference.",
+    "use": "Either side in a dispute over withheld Epstein records can argue from the mismatched reference: that subsection (c) does not qualify subsection (a) at all, or that subsection (c) is a free-standing discretion not bounded by subsection (a).",
+    "s": [
+     {
+      "l": "Senate companion text, S. 2557",
+      "u": "https://www.govinfo.gov/content/pkg/BILLS-119s2557is/xhtml/BILLS-119s2557is.html"
+     }
+    ],
+    "am": [
+     {
+      "id": "E5a",
+      "label": "Correct the cross-reference in section 2(a)",
+      "instr": "Section 2(a) is amended by striking \"subject to subsection (b)\" and inserting \"subject to subsections (b) and (c)\".",
+      "ops": [
+       {
+        "t": "replace",
+        "q": "subject to subsection (b)",
+        "w": "subject to subsections (b) and (c)"
+       }
+      ],
+      "cost": "The amendment, which makes the release of Epstein records subject to both subsections (b) and (c), carries no cost beyond confirming the intended reading."
+     }
+    ],
+    "aud": "pro"
+   },
+   {
+    "id": "E6",
+    "kind": "defect",
+    "sev": "minor",
+    "conf": "high",
+    "fam": "interaction",
+    "pat": "Dangling cross-reference",
+    "det": "structure",
+    "a": {
+     "q": "subsection (b)(1)",
+     "ctx": "no redactions permitted under subsection (b)(1)"
+    },
+    "title": "Section 3(3) of the Epstein Files Transparency Act, on the Attorney General's report to Congress, cites \"subsection (b)(1)\", but section 3 has no subsections.",
+    "plain": "Section 3 of the Epstein Files Transparency Act, on the Attorney General's report to Congress about the Epstein records, points to \"subsection (b)(1)\", but section 3 has no subsections. The reference almost certainly means section 2(b)(1).",
+    "tech": "Under ordinary drafting convention, an unqualified \"subsection (b)(1)\" refers to the section in which it appears, and section 3 of the Epstein Files Transparency Act has paragraphs (1) through (3) only. The phrase \"no redactions permitted under subsection (b)(1)\" is also ambiguous, because section 2(b)(1) prohibits grounds for withholding and does not permit redactions.",
+    "use": "It is unclear whether the Attorney General may redact names in the section 3(3) list delivered to Congress on the grounds in section 2(c).",
+    "s": [],
+    "am": [
+     {
+      "id": "E6a",
+      "label": "Correct the reference and clarify its meaning",
+      "instr": "Section 3(3) is amended by striking \"with no redactions permitted under subsection (b)(1)\" and inserting \"with no name withheld or redacted on any ground described in section 2(b)(1)\".",
+      "ops": [
+       {
+        "t": "replace",
+        "q": "with no redactions permitted under subsection (b)(1)",
+        "w": "with no name withheld or redacted on any ground described in section 2(b)(1)"
+       }
+      ],
+      "cost": "This amendment to section 3(3) of the Epstein Files Transparency Act has no identified cost."
+     }
+    ],
+    "aud": "pro"
+   },
+   {
+    "id": "E7",
+    "kind": "risk",
+    "sev": "minor",
+    "conf": "medium",
+    "fam": "definitions",
+    "pat": "Undefined key term",
+    "det": "word",
+    "a": {
+     "q": "politically exposed persons"
+    },
+    "title": "Section 3(3) of the Epstein Files Transparency Act requires a list of \"politically exposed persons\" named in the Epstein records and does not define that phrase.",
+    "plain": "The report to Congress under section 3 must list \"politically exposed persons\" named in the Epstein files. The Act does not say who qualifies.",
+    "tech": "The phrase \"politically exposed persons\" comes from anti-money-laundering practice, where it generally refers to senior foreign officials and their close associates. Without a definition or a cross-reference in the Epstein Files Transparency Act, the official who compiles the list, the Attorney General, chooses its breadth.",
+    "use": "A narrow reading of \"politically exposed persons\" by the Attorney General shortens the list of names from the Epstein records delivered to Congress.",
+    "s": [],
+    "am": [],
+    "aud": "pro"
+   },
+   {
+    "id": "E8",
+    "kind": "risk",
+    "sev": "significant",
+    "conf": "medium",
+    "fam": "exceptions",
+    "pat": "Exception controlled by the regulated party",
+    "det": "word",
+    "a": {
+     "q": "narrowly tailored and temporary"
+    },
+    "title": "Section 2(c)(1)(C) of the Epstein Files Transparency Act lets the Attorney General withhold Epstein records for an active investigation with no stated standard, time limit or external review.",
+    "plain": "Section 2(c)(1)(C) of the Epstein Files Transparency Act permits withholding of Epstein records whose release would jeopardize an active investigation, provided the withholding is \"narrowly tailored and temporary\". The Act does not say how narrow, how long, or who reviews the decision.",
+    "tech": "Section 2(c)(1)(C) of the Epstein Files Transparency Act conditions the exception for active investigations on tailoring and temporariness but supplies no time limit, no periodic re-justification and no reviewer. The Justice Department, which decides whether an investigation is active, is the same department applying the exception.",
+    "use": "An open investigation can support withholding of Epstein records for as long as the investigation stays open.",
+    "s": [
+     {
+      "l": "How one major exception could allow withholding",
+      "u": "https://www.cp24.com/news/world/2025/11/19/how-one-major-exception-could-allow-the-us-to-withhold-parts-of-the-epstein-files"
+     }
+    ],
+    "am": [
+     {
+      "id": "E8a",
+      "label": "Add a 180-day limit and a renewal requirement",
+      "instr": "Section 2(c)(1)(C) is amended by striking \"narrowly tailored and temporary\" and inserting \"narrowly tailored, expires not later than 180 days after it begins unless the Attorney General certifies in writing to the Committees on the Judiciary of the House of Representatives and the Senate the specific investigation or prosecution that continued withholding would jeopardize, and is renewed only by a new certification every 180 days\".",
+      "ops": [
+       {
+        "t": "replace",
+        "q": "narrowly tailored and temporary",
+        "w": "narrowly tailored, expires not later than 180 days after it begins unless the Attorney General certifies in writing to the Committees on the Judiciary of the House of Representatives and the Senate the specific investigation or prosecution that continued withholding would jeopardize, and is renewed only by a new certification every 180 days"
+       }
+      ],
+      "cost": "The Attorney General's certifications to Congress for continued withholding of Epstein records can become routine. The 180-day figure is a policy choice."
+     }
+    ]
+   },
+   {
+    "id": "E9",
+    "kind": "tradeoff",
+    "sev": "minor",
+    "conf": "medium",
+    "fam": "exceptions",
+    "pat": "Exception broader than its reason",
+    "det": "word",
+    "a": {
+     "q": "depict or contain images of death, physical abuse, or injury of any person"
+    },
+    "title": "Section 2(c)(1)(D) of the Epstein Files Transparency Act lets the Attorney General withhold any Epstein record that contains an image of death, abuse or injury of any person.",
+    "plain": "Section 2(c)(1)(D) of the Epstein Files Transparency Act permits withholding or redaction of any Epstein record that depicts or contains images of death, abuse or injury \"of any person\". The category protects dignity, and it also reaches a large amount of evidence.",
+    "tech": "Section 2(c)(1)(D) of the Epstein Files Transparency Act is not limited to victims or to images whose release would be an invasion of privacy. Because section 2(c)(1) speaks of \"segregable portions\", the better reading confines withholding to the images themselves, but the word \"contain\" invites withholding of the surrounding record.",
+    "use": "The Justice Department can treat reports in the Epstein records that include a photograph as records it may withhold in full.",
+    "s": [],
+    "am": []
+   },
+   {
+    "id": "E10",
+    "kind": "risk",
+    "sev": "significant",
+    "conf": "medium",
+    "fam": "timing",
+    "pat": "Trigger that may never occur",
+    "det": "structure",
+    "a": {
+     "q": "Within 15 days of completion of the release"
+    },
+    "title": "Section 3 of the Epstein Files Transparency Act makes the Attorney General's report to Congress due 15 days after the release is complete, and no one must certify completion.",
+    "plain": "Section 3 of the Epstein Files Transparency Act requires the Attorney General to report to Congress within 15 days of completing the release of Epstein records. If the release is never declared complete, the report never comes due.",
+    "tech": "Section 3 of the Epstein Files Transparency Act ties the reporting duty to \"completion of the release required under Section 2\" and not to the 30-day deadline. A rolling release has no completion date unless the Justice Department announces one. The report also goes to two committees, with no requirement that it be public.",
+    "use": "The list of withheld categories of Epstein records, the legal basis for redactions and the list of named officials can be deferred indefinitely.",
+    "s": [],
+    "am": [
+     {
+      "id": "E10a",
+      "label": "Tie the report to fixed dates",
+      "instr": "Section 3 is amended by striking \"Within 15 days of completion of the release required under Section 2\" and inserting \"Not later than 45 days after the date of enactment of this Act, and every 30 days thereafter until the release required under section 2 is complete\", and by adding at the end: \"Each report under this section shall be made publicly available.\"",
+      "ops": [
+       {
+        "t": "replace",
+        "q": "Within 15 days of completion of the release required under Section 2",
+        "w": "Not later than 45 days after the date of enactment of this Act, and every 30 days thereafter until the release required under section 2 is complete"
+       }
+      ],
+      "cost": "Recurring reports would add workload for the Justice Department. Publication of the named-persons list would raise reputational questions for people named in the Epstein records but not accused."
+     }
+    ]
+   },
+   {
+    "id": "E14",
+    "kind": "risk",
+    "sev": "minor",
+    "conf": "medium",
+    "fam": "information",
+    "pat": "Justification duty narrower than the discretion",
+    "det": "word",
+    "a": {
+     "q": "All redactions must be accompanied by a written justification"
+    },
+    "title": "Section 2(c)(2) of the Epstein Files Transparency Act requires a published justification for redactions of Epstein records but not for records withheld in full.",
+    "plain": "Section 2(c)(2) of the Epstein Files Transparency Act requires that redactions be accompanied by a written justification published in the Federal Register. Section 2(c)(1) lets the Attorney General withhold or redact Epstein records, but the justification requirement mentions only redactions and sets no deadline.",
+    "tech": "Section 2(c)(1) of the Epstein Files Transparency Act permits the Attorney General to \"withhold or redact\". Section 2(c)(2) requires justification for \"redactions\" only, uses \"must\" where the rest of the Act uses \"shall\", and gives no timing or level of detail.",
+    "use": "An Epstein record withheld in its entirety arguably needs no published justification.",
+    "s": [],
+    "am": [
+     {
+      "id": "E14a",
+      "label": "Extend justifications to withholdings and set timing",
+      "instr": "Section 2(c)(2) is amended by striking \"All redactions must be accompanied by a written justification\" and inserting \"Each withholding and each redaction shall be accompanied, at the time of release, by a written justification identifying the specific subparagraph of paragraph (1) relied upon, and such justification shall be\".",
+      "ops": [
+       {
+        "t": "replace",
+        "q": "All redactions must be accompanied by a written justification",
+        "w": "Each withholding and each redaction shall be accompanied, at the time of release, by a written justification identifying the specific subparagraph of paragraph (1) relied upon, and such justification shall be"
+       }
+      ],
+      "cost": "Item-by-item justifications for millions of pages of Epstein records are costly, and justifications by category may be the workable form."
+     }
+    ]
+   },
+   {
+    "id": "E15",
+    "kind": "defect",
+    "sev": "minor",
+    "conf": "high",
+    "fam": "interaction",
+    "pat": "Drafting inconsistency",
+    "det": "word",
+    "a": {
+     "q": "general",
+     "ctx": "The Attorney general may"
+    },
+    "title": "Section 2(c)(1) of the Epstein Files Transparency Act spells the Attorney General's title \"Attorney general\", with a lowercase g, unlike the rest of the Act.",
+    "plain": "The title \"Attorney general\" appears once in section 2(c)(1) of the Epstein Files Transparency Act with a lowercase g. The error does not change the meaning, but it indicates the text was not proofread against itself before passage.",
+    "tech": "The officer is styled \"Attorney General\" everywhere else in the Act. The error is harmless, and it is the kind of error the enrolled text carries forward permanently.",
+    "use": "",
+    "s": [],
+    "am": [
+     {
+      "id": "E15a",
+      "label": "Correct the capitalization in section 2(c)(1)",
+      "instr": "Section 2(c)(1) is amended by striking \"Attorney general\" and inserting \"Attorney General\".",
+      "ops": [
+       {
+        "t": "replace",
+        "q": "general",
+        "ctx": "The Attorney general may",
+        "w": "General"
+       }
+      ],
+      "cost": "This amendment to section 2(c)(1) of the Epstein Files Transparency Act has no identified cost."
+     }
+    ],
+    "note": true,
+    "aud": "pro"
+   },
+   {
+    "id": "E11",
+    "kind": "risk",
+    "sev": "critical",
+    "conf": "high",
+    "fam": "enforcement",
+    "pat": "No enforcement mechanism in the statute",
+    "det": "absence",
+    "where": "After section 3",
+    "title": "The Epstein Files Transparency Act contains no penalty, no judicial review provision and no private right of action to enforce its release requirements.",
+    "plain": "The Epstein Files Transparency Act contains no penalty, no provision for judicial review and no express right of action. When the deadline passed, one court turned away the Act's own sponsors. A different court later allowed a journalist's suit under a general statute, more than six months after the deadline.",
+    "tech": "The Epstein Files Transparency Act contains no cause of action, no grant of jurisdiction, no role for an inspector general and no consequence for noncompliance. Enforcement has depended on finding a general statute that fits and a plaintiff with standing. A bill introduced later, H.R. 9694, would add enforcement by state attorneys general and by victims.",
+    "use": "Each attempt to enforce the Act begins with a dispute over whether any court can hear the claim, and that dispute consumed the months in which the release of Epstein records was supposed to happen.",
+    "s": [
+     {
+      "l": "H.R. 9694, Epstein Files Transparency Act II",
+      "u": "https://www.govinfo.gov/content/pkg/BILLS-119hr9694ih/html/BILLS-119hr9694ih.htm"
+     }
+    ],
+    "am": [
+     {
+      "id": "E11a",
+      "label": "Add judicial enforcement",
+      "instr": "The Act is amended by adding at the end the following: \"SEC. 4. ENFORCEMENT. (a) Any person may bring a civil action in the United States District Court for the District of Columbia to compel compliance with section 2 or 3. (b) The court shall examine withheld or redacted material in camera and shall determine de novo whether each withholding is authorized by section 2(c). (c) The court may award reasonable attorney fees and costs to a plaintiff who substantially prevails.\"",
+      "ops": [
+       {
+        "t": "append",
+        "w": "SEC. 4. ENFORCEMENT.\n(a) Any person may bring a civil action in the United States District Court for the District of Columbia to compel compliance with section 2 or 3.\n(b) The court shall examine withheld or redacted material in camera and shall determine de novo whether each withholding is authorized by section 2(c).\n(c) The court may award reasonable attorney fees and costs to a plaintiff who substantially prevails."
+       }
+      ],
+      "cost": "Standing for \"any person\" invites a constitutional standing challenge, and H.R. 9694 takes a narrower route through state attorneys general and victims. Litigation also takes time that the Epstein Files Transparency Act's 30-day design did not contemplate."
+     }
+    ],
+    "inq": {
+     "q": "What happened when people tried to enforce the Epstein Files Transparency Act in court?",
+     "items": [
+      {
+       "h": "A federal judge turned away the Epstein Files Transparency Act's sponsors when they asked the court to appoint an overseer of the Justice Department's compliance.",
+       "d": "Representatives Massie and Khanna asked the judge in the Maxwell criminal case to appoint a special master to oversee compliance, citing the missed December 19, 2025 deadline, a report that was never filed and excessive redactions. On January 21, 2026 Judge Engelmayer denied the request, writing that the Epstein Files Transparency Act is a civil records statute and no provision of it gives the court that authority.",
+       "s": [
+        {
+         "l": "United States v. Maxwell, opinion of January 21, 2026",
+         "u": "https://www.nysd.uscourts.gov/sites/default/files/2026-01/Maxwell%2020cr330%20-%20Opinion%20&%20Order%201.21.26.pdf"
+        }
+       ]
+      },
+      {
+       "h": "A journalist got a court order lifting some redactions in the Epstein records by suing under the Administrative Procedure Act, a general statute.",
+       "d": "Katie Phang sued the government over the Epstein records under the Administrative Procedure Act in the federal court in Washington. The government argued the Freedom of Information Act was the only remedy. Judge Sullivan rejected that argument, found she had standing because she was denied information, and in late June 2026 ordered specific redactions lifted and redaction logs published.",
+       "s": [
+        {
+         "l": "Account of the June 2026 injunction",
+         "u": "https://joycevance.substack.com/p/finally-a-judge-orders-the-government"
+        }
+       ]
+      },
+      {
+       "h": "A federal judge began reviewing withheld Epstein documents in July 2026.",
+       "d": "On July 25, 2026 the judge, in a suit brought under a statute other than the Act, ordered the Justice Department to hand over disputed documents for private review. The plaintiff asked for a fine of $1,000 a day. An appeal was expected.",
+       "s": [
+        {
+         "l": "Forbes, July 27, 2026",
+         "u": "https://www.forbes.com/sites/alisondurkee/2026/07/27/could-more-epstein-files-be-released-soon-redacted-docs-will-be-reviewed-by-judge-this-week/"
+        }
+       ]
+      },
+      {
+       "h": "The Government Accountability Office is auditing the redactions in the released Epstein records after the fact.",
+       "d": "The Government Accountability Office is reviewing the redactions at the request of members of Congress. The Epstein Files Transparency Act did not require that review.",
+       "s": [
+        {
+         "l": "CBS News: what is missing from the Epstein files",
+         "u": "https://www.cbsnews.com/news/epstein-files-whats-missing/"
+        }
+       ]
+      }
+     ],
+     "open": "Whether the Administrative Procedure Act claim will be upheld on appeal is not settled. If it is not upheld, the Epstein Files Transparency Act will again have no judicial enforcement."
+    }
+   },
+   {
+    "id": "E17",
+    "kind": "risk",
+    "sev": "critical",
+    "conf": "high",
+    "fam": "conflict",
+    "pat": "The current holder has a tie to an affected person",
+    "det": "structure",
+    "a": {
+     "q": "the Attorney General shall"
+    },
+    "where": "Section 2",
+    "title": "The Epstein Files Transparency Act assigns release and withholding decisions to the Attorney General, and both Attorneys General since enactment previously served as lawyers for President Trump.",
+    "plain": "Sections 2 and 3 of the Epstein Files Transparency Act give the Attorney General the duty to release the Epstein records, the discretion to withhold them and the duty to report on what was withheld. Both people who have held that office since enactment previously served as lawyers for President Trump: Pam Bondi until April 2026, and Todd Blanche since then. News reports state that Pam Bondi told the President in May 2025 that his name appeared in the Epstein files, at a briefing that Todd Blanche attended. The Act has no recusal rule and names no other decision-maker.",
+    "tech": "The President appoints the Attorney General and may remove that official, and he removed Pam Bondi in April 2026. The reports of the May 2025 briefing say the significance of the references to the President is not clear, and the Department of Justice said that nothing in the files warranted further investigation. A separate, structural conflict exists whoever holds the office, because section 2(a) of the Act covers the Department's own internal communications about decisions to charge or not charge Epstein. Congress has addressed comparable conflicts before, through the independent counsel provisions of the Ethics in Government Act of 1978, which lapsed in 1999, and through the independent review board in the 1992 Kennedy records law.",
+    "use": "An Attorney General who previously represented the President can apply the withholding categories in section 2(c) of the Act to Epstein records that concern the President, and no independent body is positioned to test those decisions.",
+    "s": [
+     {
+      "l": "Star Tribune (New York Times report), July 2025",
+      "u": "https://www.startribune.com/attorney-general-told-trump-his-name-appeared-in-epstein-files/601441885"
+     },
+     {
+      "l": "Fortune, November 22, 2024",
+      "u": "https://fortune.com/2024/11/22/who-is-pam-bondi-trumps-new-ag-pick-and-former-impeachment-trial-lawyer"
+     },
+     {
+      "l": "The Week, August 10, 2026",
+      "u": "https://theweek.com/politics/todd-blanche-attorney-general-doj-trump"
+     },
+     {
+      "l": "Congressional Research Service, Special Counsel Investigations (R44857)",
+      "u": "https://www.everycrsreport.com/reports/R44857.html"
+     },
+     {
+      "l": "National Archives: JFK Assassination Records background",
+      "u": "https://www.archives.gov/research/jfk/background"
+     }
+    ],
+    "inq": {
+     "q": "Which relationships and records put the independence of the Attorney General in question under the Epstein Files Transparency Act?",
+     "items": [
+      {
+       "h": "Both Attorneys General since the Act took effect previously served as lawyers for President Trump.",
+       "d": "Pam Bondi joined the President's legal team during his first impeachment trial in 2020 and served as Attorney General until April 2026. Todd Blanche, described in news reports as the President's former personal lawyer, has been acting or confirmed Attorney General since then.",
+       "s": [
+        {
+         "l": "Fortune, November 22, 2024",
+         "u": "https://fortune.com/2024/11/22/who-is-pam-bondi-trumps-new-ag-pick-and-former-impeachment-trial-lawyer"
+        },
+        {
+         "l": "The Week, August 10, 2026",
+         "u": "https://theweek.com/politics/todd-blanche-attorney-general-doj-trump"
+        },
+        {
+         "l": "Star Tribune (New York Times report), July 2025",
+         "u": "https://www.startribune.com/attorney-general-told-trump-his-name-appeared-in-epstein-files/601441885"
+        }
+       ]
+      },
+      {
+       "h": "News reports state that the Attorney General told the President that his name appeared in the Epstein files.",
+       "d": "The New York Times and the Wall Street Journal reported that the briefing took place in May 2025 and that Deputy Attorney General Todd Blanche attended. The reports say it is not clear how significant the references to the President are. Pam Bondi and Todd Blanche said that nothing in the files warranted further investigation or prosecution.",
+       "s": [
+        {
+         "l": "Star Tribune (New York Times report), July 2025",
+         "u": "https://www.startribune.com/attorney-general-told-trump-his-name-appeared-in-epstein-files/601441885"
+        }
+       ]
+      },
+      {
+       "h": "The Epstein records to be released include the Department of Justice's own internal communications about charging decisions.",
+       "d": "Section 2(a)(7) of the Act lists internal Department communications about decisions to charge, not charge, investigate or decline to investigate Epstein or his associates. Section 2(a)(6) lists non-prosecution agreements, and section 2(a)(9) lists records of Epstein's detention and death.",
+       "s": [
+        {
+         "l": "Text of Public Law 119-38",
+         "u": "https://www.congress.gov/119/plaws/publ38/PLAW-119publ38.htm"
+        }
+       ]
+      },
+      {
+       "h": "From 1978 to 1999, Congress provided for prosecutors independent of the Department of Justice to investigate senior executive branch officials.",
+       "d": "The Ethics in Government Act of 1978 created the independent counsel because conflicts of interest can arise when the executive branch investigates its own officials. Congress let those provisions lapse in 1999 after debate over their scope and cost.",
+       "s": [
+        {
+         "l": "Congressional Research Service, Special Counsel Investigations (R44857)",
+         "u": "https://www.everycrsreport.com/reports/R44857.html"
+        }
+       ]
+      },
+      {
+       "h": "The 1992 law on Kennedy assassination records gave decisions about postponing release to an independent review board.",
+       "d": "Congress did not leave those decisions to the agencies that held the Kennedy assassination records. The Epstein Files Transparency Act has no comparable board.",
+       "s": [
+        {
+         "l": "National Archives: JFK Assassination Records background",
+         "u": "https://www.archives.gov/research/jfk/background"
+        }
+       ]
+      }
+     ],
+     "open": "It is not publicly known which Epstein records the Department of Justice withheld because they concern the President or the Department's own conduct."
+    },
+    "am": [
+     {
+      "id": "E17a",
+      "label": "Outside decision-maker for records about the Department or the President",
+      "instr": "Section 2 of the Epstein Files Transparency Act (Public Law 119-38) is amended by adding at the end the following: \"(d) Independent Determination.--Any determination under subsection (c) to withhold or redact a record that refers to the President, the Vice President, the Attorney General, or the conduct of an officer or employee of the Department of Justice shall be made by the Inspector General of the Department of Justice, who shall provide any written justification that this section requires.\".",
+      "ops": [
+       {
+        "t": "append",
+        "w": "(d) Independent Determination.--Any determination under subsection (c) to withhold or redact a record that refers to the President, the Vice President, the Attorney General, or the conduct of an officer or employee of the Department of Justice shall be made by the Inspector General of the Department of Justice, who shall provide any written justification that this section requires."
+       }
+      ],
+      "cost": "Moving these determinations to the Inspector General of the Department of Justice adds a reviewer outside the chain of command for the release, at a cost in speed. The President appoints the Inspector General and may remove that official after 30 days' notice to Congress, so this option reduces the conflict without removing it. A review board modeled on the 1992 Kennedy records law would be more independent and would take longer to establish."
+     }
+    ]
+   },
+   {
+    "id": "E12",
+    "kind": "risk",
+    "sev": "significant",
+    "conf": "high",
+    "fam": "definitions",
+    "pat": "No definitions section",
+    "det": "absence",
+    "where": "After section 1",
+    "title": "The Epstein Files Transparency Act does not define \"victim\", \"associate\" or \"related entity\", although those words decide whose information is protected and which records are released.",
+    "plain": "The Epstein Files Transparency Act contains no definitions. It does not specify who is a \"victim\", who counts as one of Epstein's \"associates\", or what a \"related entity\" is.",
+    "tech": "The word \"victims\" controls the reach of the privacy protection in section 2(c)(1)(A) of the Epstein Files Transparency Act. The word \"associates\" controls the scope of categories (6), (7) and (8) in section 2(a). Neither is defined or cross-referenced to an existing statutory definition.",
+    "use": "A narrow reading of \"victim\" exposes people who were never formally identified as victims in a charging document. A narrow reading of \"associates\" shrinks the release of Epstein records.",
+    "s": [],
+    "am": [
+     {
+      "id": "E12a",
+      "label": "Add a definition of \"victim\"",
+      "instr": "The Act is amended by inserting after section 1 the following: \"SEC. 1A. DEFINITIONS. In this Act, the term 'victim' means any individual who was, or who is described in a covered record as having been, subjected to sexual abuse, trafficking, or exploitation by Jeffrey Epstein or any associate of Jeffrey Epstein, whether or not the individual was identified in any charging document, and includes any individual who was a minor at the time of the events described.\"",
+      "ops": [
+       {
+        "t": "insert",
+        "before": "SEC. 2. RELEASE OF DOCUMENTS RELATING TO JEFFREY EPSTEIN.",
+        "w": "SEC. 1A. DEFINITIONS.\nIn this Act, the term \"victim\" means any individual who was, or who is described in a covered record as having been, subjected to sexual abuse, trafficking, or exploitation by Jeffrey Epstein or any associate of Jeffrey Epstein, whether or not the individual was identified in any charging document, and includes any individual who was a minor at the time of the events described."
+       }
+      ],
+      "cost": "A broad definition of \"victim\" increases the Justice Department's redaction work and could be used to shield the names of adults who were participants, so the drafting has to separate the two groups."
+     }
+    ],
+    "two": {
+     "m": "open_term",
+     "keep": [],
+     "close": [],
+     "dec": "Which official applies the undefined words \"victim\" and \"associate\" in the Epstein Files Transparency Act, and does that official have an incentive to construe them narrowly?",
+     "views": [
+      {
+       "r": "doj",
+       "pos": "keep",
+       "why": "Survivors want a definition of \"victim\" in the Epstein Files Transparency Act broad enough to cover people never named in a charging document.",
+       "s": [
+        {
+         "l": "Forbes, July 27, 2026",
+         "u": "https://www.forbes.com/sites/alisondurkee/2026/07/27/could-more-epstein-files-be-released-soon-redacted-docs-will-be-reviewed-by-judge-this-week/"
+        }
+       ]
+      }
+     ]
+    }
+   },
+   {
+    "id": "E13",
+    "kind": "risk",
+    "sev": "significant",
+    "conf": "medium",
+    "fam": "delegation",
+    "pat": "The regulated official is the only decision-maker",
+    "det": "absence",
+    "where": "Section 2(c)",
+    "title": "Under the Epstein Files Transparency Act, the Attorney General makes and reports decisions to withhold Epstein records without review by anyone outside the Justice Department.",
+    "plain": "The Attorney General decides what Epstein material to withhold, writes the justification and reports on it. No one outside the Justice Department reviews those decisions.",
+    "tech": "By comparison, the 1992 Kennedy records law placed postponement decisions with an independent review board. Here, the prohibited-grounds rule in section 2(b)(1) of the Epstein Files Transparency Act depends on the good faith of the official who might be embarrassed.",
+    "use": "An Epstein record withheld for a prohibited reason can be labeled with a permitted one.",
+    "s": [
+     {
+      "l": "National Archives: JFK Assassination Records background",
+      "u": "https://www.archives.gov/research/jfk/background"
+     }
+    ],
+    "am": []
+   }
+  ],
+  "bigger": {
+   "issue": "Government transparency and accountability in the Epstein case",
+   "lead": "Even if the Epstein Files Transparency Act worked exactly as written, it would deliver the Justice Department's unclassified files. The questions the public has asked about the Epstein case reach further than those files.",
+   "map": [
+    {
+     "part": "Justice Department investigative and prosecution files on Epstein",
+     "reach": "reached",
+     "note": "These Justice Department files are the core of the mandate in section 2(a)."
+    },
+    {
+     "part": "Records at other agencies: financial, tax, immigration, intelligence and archives",
+     "reach": "untouched",
+     "note": "These records fall outside the phrase \"in the possession of the Department of Justice\" in section 2(a)."
+    },
+    {
+     "part": "Classified Epstein material",
+     "reach": "partly",
+     "note": "Section 2(c)(3) of the Epstein Files Transparency Act directs the Attorney General to declassify \"to the maximum extent possible\" and to release unclassified summaries otherwise."
+    },
+    {
+     "part": "Protection of survivors during the release",
+     "reach": "partly",
+     "note": "Section 2(c)(1)(A) of the Epstein Files Transparency Act permits, but does not require, the Attorney General to redact victims' identifying information."
+    },
+    {
+     "part": "Court-sealed records and grand jury material",
+     "reach": "untouched",
+     "note": "The Epstein Files Transparency Act does not address sealing orders or grand jury secrecy rules, and the Justice Department sought court permission separately.",
+     "s": [
+      {
+       "l": "DOJ letter, S.D.N.Y.",
+       "u": "https://storage.courtlistener.com/recap/gov.uscourts.nysd.539612/gov.uscourts.nysd.539612.813.0.pdf"
+      }
+     ]
+    },
+    {
+     "part": "Independent review of withheld Epstein records",
+     "reach": "untouched",
+     "note": "The Epstein Files Transparency Act provides for no independent review. A court began reviewing withheld documents in July 2026 in a suit under a different statute, and the Government Accountability Office is auditing redactions."
+    },
+    {
+     "part": "Consequences for anyone the Epstein records implicate",
+     "reach": "untouched",
+     "note": "The Epstein Files Transparency Act is a disclosure law and creates no duty to investigate, refer or prosecute."
+    },
+    {
+     "part": "Records held by the Epstein estate, financial institutions and other private parties",
+     "reach": "untouched",
+     "note": "The Epstein Files Transparency Act covers only government records, so these private records are outside it."
+    }
+   ],
+   "others": [
+    {
+     "l": "H.R. 9694, Epstein Files Transparency Act II",
+     "u": "https://www.govinfo.gov/content/pkg/BILLS-119hr9694ih/html/BILLS-119hr9694ih.htm",
+     "n": "Would add enforcement by state attorneys general and by victims, and victim access to unredacted records."
+    },
+    {
+     "l": "President John F. Kennedy Assassination Records Collection Act of 1992",
+     "u": "https://www.archives.gov/research/jfk/background",
+     "n": "Government-wide scope with an independent review board."
+    },
+    {
+     "l": "Draft Title VII of the MAD Act",
+     "u": "https://www.themadact.com/about-epstein",
+     "n": "A published draft that makes redaction of survivor information mandatory, widens the request beyond one department and invokes congressional authority over classification."
+    }
+   ]
+  },
+  "stake": [
+   {
+    "id": "surv",
+    "role": "Survivors and their lawyers",
+    "g": "Subject",
+    "want": "Survivors and their lawyers want the Epstein records released without exposure of survivors' identities. The Justice Department removed several thousand released documents that may have included victim-identifying information.",
+    "s": [
+     {
+      "l": "ABC News, February 2, 2026",
+      "u": "https://abcnews.com/US/epstein-files-doj-thousand-documents-mistakenly-identified-victims/story?id=129787942"
+     }
+    ]
+   },
+   {
+    "id": "trans",
+    "role": "Journalists and transparency advocates",
+    "g": "Subject",
+    "want": "Journalists and transparency advocates want the fullest release of Epstein records, with powerful people's names unredacted and every withholding justified.",
+    "s": [
+     {
+      "l": "CBS News",
+      "u": "https://www.cbsnews.com/news/epstein-files-whats-missing/"
+     }
+    ]
+   },
+   {
+    "id": "doj",
+    "role": "The Justice Department",
+    "g": "Subject",
+    "want": "The Justice Department has said it will redact victim information to the fullest extent the Act permits.",
+    "s": [
+     {
+      "l": "Justice Department letter to the court",
+      "u": "https://storage.courtlistener.com/recap/gov.uscourts.nysd.539612/gov.uscourts.nysd.539612.813.0.pdf"
+     }
+    ]
+   },
+   {
+    "id": "named",
+    "role": "People named in the Epstein files but not accused",
+    "g": "Subject",
+    "want": "People named in the Epstein files but not accused want to avoid public association with crimes they were not charged with.",
+    "s": []
+   },
+   {
+    "id": "pros",
+    "role": "Prosecutors with open cases",
+    "g": "Subject",
+    "want": "Prosecutors with open cases want no disclosure of Epstein records that could damage a live investigation.",
+    "s": []
+   },
+   {
+    "id": "ic",
+    "role": "Intelligence agencies",
+    "g": "Subject",
+    "want": "Intelligence agencies want no precedent for release of their holdings by statute. The CIA has declined to confirm or deny whether it holds Epstein records.",
+    "s": [
+     {
+      "l": "Rep. Mace letter to the CIA",
+      "u": "https://mace.house.gov/media/press-releases/rep-nancy-mace-demands-cia-disclosure-jeffrey-epstein-ghislaine-maxwell"
+     }
+    ]
+   },
+   {
+    "id": "spon",
+    "role": "The Act's sponsors",
+    "g": "Politics",
+    "want": "The Act's sponsors asked a court to appoint a monitor when the 30-day deadline for releasing the Epstein records was missed.",
+    "s": [
+     {
+      "l": "Court opinion of January 21, 2026",
+      "u": "https://www.nysd.uscourts.gov/sites/default/files/2026-01/Maxwell%2020cr330%20-%20Opinion%20&%20Order%201.21.26.pdf"
+     }
+    ]
+   },
+   {
+    "id": "oth",
+    "role": "Members of Congress seeking Epstein records the Act did not reach",
+    "g": "Politics",
+    "want": "Members of Congress seeking records the Epstein Files Transparency Act did not reach have pursued separate bills and letters aimed at the Treasury Department and the CIA.",
+    "s": [
+     {
+      "l": "Coverage of the Treasury records bill",
+      "u": "https://www.mediaite.com/media/news/top-senate-dem-announces-bill-to-force-treasury-dept-to-disclose-epstein-wire-transfers/"
+     }
+    ]
+   },
+   {
+    "id": "ct",
+    "role": "Courts that have ruled so far",
+    "g": "Law",
+    "want": "One court has held that the Epstein Files Transparency Act gives a criminal court no power to supervise compliance. Another court has allowed a suit under a general statute.",
+    "s": [
+     {
+      "l": "Court opinion of January 21, 2026",
+      "u": "https://www.nysd.uscourts.gov/sites/default/files/2026-01/Maxwell%2020cr330%20-%20Opinion%20&%20Order%201.21.26.pdf"
+     }
+    ]
+   },
+   {
+    "id": "tex",
+    "role": "A judge who reads statutes by their text",
+    "g": "Law",
+    "want": "A judge who reads statutes by their text applies the words of the Epstein Files Transparency Act as written and will not supply what Congress left out.",
+    "s": []
+   },
+   {
+    "id": "pur",
+    "role": "A judge who reads statutes by their purpose",
+    "g": "Law",
+    "want": "A judge who reads statutes by their purpose resolves doubt in favor of what the Epstein Files Transparency Act was trying to do.",
+    "s": []
+   },
+   {
+    "id": "olc",
+    "role": "A legislative drafter",
+    "g": "Law",
+    "want": "A legislative drafter wants every key term in the Epstein Files Transparency Act defined, every cross-reference checked and every relationship to existing law stated.",
+    "s": []
+   }
+  ],
+  "conflicts": [
+   {
+    "who": "Todd Blanche, Attorney General since April 2026",
+    "level": "person",
+    "claim": "Attorney General Todd Blanche, who now holds the authority to withhold Epstein records, is President Trump's former personal lawyer.",
+    "detail": "Todd Blanche was Deputy Attorney General when the Epstein Files Transparency Act took effect. He became acting Attorney General in April 2026 and was confirmed by the Senate, 50 to 49, in August 2026. News reports describe him as the President's former personal lawyer and close ally. News reports also state that he attended the May 2025 briefing at which the President was told that his name appeared in the Epstein files. Those reports say the significance of the references is not clear. The Act contains no recusal rule for an official with such a tie.",
+    "s": [
+     {
+      "l": "The Week, August 10, 2026",
+      "u": "https://theweek.com/politics/todd-blanche-attorney-general-doj-trump"
+     },
+     {
+      "l": "Star Tribune (New York Times report), July 2025",
+      "u": "https://www.startribune.com/attorney-general-told-trump-his-name-appeared-in-epstein-files/601441885"
+     }
+    ],
+    "f": [
+     "E17"
+    ]
+   },
+   {
+    "who": "Pam Bondi, Attorney General until April 2026",
+    "level": "person",
+    "claim": "Pam Bondi, who was Attorney General when the Act took effect and during the first releases of Epstein records, had previously served as a lawyer for President Trump.",
+    "detail": "Pam Bondi joined President Trump's legal team during his first impeachment trial in 2020. News reports state that she told the President in May 2025 that his name appeared in the Epstein files, and that she and her deputy said nothing in the files warranted further investigation or prosecution. The President removed her as Attorney General in April 2026.",
+    "s": [
+     {
+      "l": "Fortune, November 22, 2024",
+      "u": "https://fortune.com/2024/11/22/who-is-pam-bondi-trumps-new-ag-pick-and-former-impeachment-trial-lawyer"
+     },
+     {
+      "l": "Star Tribune (New York Times report), July 2025",
+      "u": "https://www.startribune.com/attorney-general-told-trump-his-name-appeared-in-epstein-files/601441885"
+     },
+     {
+      "l": "The Week, August 10, 2026",
+      "u": "https://theweek.com/politics/todd-blanche-attorney-general-doj-trump"
+     }
+    ],
+    "f": [
+     "E17"
+    ]
+   },
+   {
+    "who": "The President",
+    "level": "office",
+    "claim": "President Trump, whose name news reports say appears in the Epstein files, appoints the Attorney General and may remove the Attorney General at any time.",
+    "detail": "The Epstein Files Transparency Act gives the Attorney General sole authority over the release and withholding of Epstein records. The President removed one Attorney General in April 2026 and nominated her successor. The Act has no separate procedure for Epstein records that concern the President.",
+    "s": [
+     {
+      "l": "Star Tribune (New York Times report), July 2025",
+      "u": "https://www.startribune.com/attorney-general-told-trump-his-name-appeared-in-epstein-files/601441885"
+     },
+     {
+      "l": "The Week, August 10, 2026",
+      "u": "https://theweek.com/politics/todd-blanche-attorney-general-doj-trump"
+     }
+    ],
+    "f": [
+     "E17"
+    ]
+   },
+   {
+    "who": "The Department of Justice",
+    "level": "body",
+    "claim": "The Department of Justice decides what to release from records that document its own decisions in the Epstein case.",
+    "detail": "Section 2(a) of the Epstein Files Transparency Act covers internal Department communications about decisions to charge or not charge Epstein, non-prosecution agreements and records of his death in federal custody. The Act names no decision-maker outside the Department and requires no outside review of what is withheld.",
+    "s": [
+     {
+      "l": "Text of Public Law 119-38",
+      "u": "https://www.congress.gov/119/plaws/publ38/PLAW-119publ38.htm"
+     }
+    ],
+    "f": [
+     "E13",
+     "E17"
+    ]
+   }
+  ],
+  "conf_note": "The Act places the Epstein records under one official, and both holders of that office since enactment previously served as lawyers for the President."
+ },
+ "plain": {
+  "id": "efta",
+  "short": "Epstein Files Transparency Act",
+  "cite": "H.R. 4405, Public Law 119-38",
+  "sponsor": "Rep. Ro Khanna, with Rep. Thomas Massie",
+  "status": "Enacted November 19, 2025",
+  "sourceUrl": "https://www.congress.gov/119/plaws/publ38/PLAW-119publ38.htm",
+  "cls": {
+   "vehicle": "Bill (H.R.)",
+   "function": "A direct order to one official, the Attorney General",
+   "stage": "Enacted public law",
+   "force": "binding",
+   "banner": "The Epstein Files Transparency Act is a law, and it must be obeyed. It tells the Attorney General to publish Justice Department records on Jeffrey Epstein. The deadline is 30 days.",
+   "checks": "This review used every kind of check on the Epstein Files Transparency Act. The law gives one official a direct order. So the review looked first at what its words mean, how it is enforced, and who must obey it."
+  },
+  "purpose": {
+   "stated": [
+    {
+     "t": "To require the Attorney General to release all documents and records in possession of the Department of Justice relating to Jeffrey Epstein, and for other purposes.",
+     "w": "Long title"
+    }
+   ],
+   "marketed": [
+    {
+     "t": "Records cannot be held back on the basis of embarrassment, reputational harm, or political sensitivity.",
+     "l": "CP24 summary of the bill text",
+     "u": "https://www.cp24.com/news/world/2025/11/19/how-one-major-exception-could-allow-the-us-to-withhold-parts-of-the-epstein-files"
+    },
+    {
+     "t": "The Attorney General told reporters the Department would follow the law with maximum transparency while protecting victims.",
+     "l": "CP24",
+     "u": "https://www.cp24.com/news/world/2025/11/19/how-one-major-exception-could-allow-the-us-to-withhold-parts-of-the-epstein-files"
+    }
+   ],
+   "ladder": {
+    "mechanism": "The Epstein files law gives an order to one official, the Attorney General. That official must publish records about Jeffrey Epstein within 30 days. The law covers only one department's records that are not marked secret.",
+    "outcome": "The goal is that the public can read what the government has on Jeffrey Epstein. That includes records on the people tied to him.",
+    "aim": "The larger aim is that the people involved with Epstein must answer for what they did. So must the government that handled his case. The law aims to do this without more harm to survivors."
+   }
+  },
+  "promises": [
+   {
+    "p": "The Epstein files law has a long title. It says the Attorney General must release all of the Justice Department's documents and records on Jeffrey Epstein.",
+    "src": "Long title",
+    "v": "partly",
+    "prov": "Sec. 2(a)",
+    "why": "But the main order in the Epstein files law covers less. It covers only Epstein records that the Justice Department holds and that are not marked secret. Records at other agencies, and records marked secret, are left out.",
+    "f": [
+     "E2",
+     "E3"
+    ]
+   },
+   {
+    "p": "The Epstein files law promised that the Justice Department's Epstein records would all be out in 30 days.",
+    "src": "Sec. 2(a)",
+    "v": "paper",
+    "prov": "Sec. 2(a)",
+    "why": "The Epstein files law sets a 30-day deadline. But it says nothing about what happens if the deadline is missed. It gives no one the power to enforce it. The deadline passed with about half the pages of Epstein records still not out.",
+    "f": [
+     "E4",
+     "E11"
+    ]
+   },
+   {
+    "p": "The Epstein files law made a promise. No Epstein record would be held back, delayed or blacked out because it is embarrassing. The same goes for harm to someone's reputation, or because a record is politically touchy.",
+    "src": "Sec. 2(b)(1)",
+    "v": "paper",
+    "prov": "Sec. 2(b)(1)",
+    "why": "The ban on those reasons is clear. But the Epstein files law also lists five reasons that can be used to hold records back. The Attorney General judges those reasons, and no one outside checks. A court began to look at held-back Epstein papers only in July 2026. That case was brought under a different law.",
+    "f": [
+     "E8",
+     "E11",
+     "E13"
+    ]
+   },
+   {
+    "p": "The Attorney General made a promise about the Epstein files. The Justice Department would keep victims safe as it put them out.",
+    "src": "Statement by the Attorney General",
+    "v": "paper",
+    "prov": "Sec. 2(c)(1)(A)",
+    "why": "The Epstein files law lets the Attorney General hide the names and details of victims in the Epstein records. It does not make the Attorney General do it.",
+    "f": [
+     "E1"
+    ]
+   },
+   {
+    "p": "The Epstein files law made a promise. It said there would be a list of names in the files. The list would include government officials and \"politically exposed persons\".",
+    "src": "Sec. 3(3)",
+    "v": "partly",
+    "prov": "Sec. 3(3)",
+    "why": "The list is due only after the Justice Department finishes putting out the Epstein records. It goes to two committees of Congress, not to the public. And the law never says who counts as one of the \"politically exposed persons\".",
+    "f": [
+     "E6",
+     "E7",
+     "E10"
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "ty": "Language",
+    "q": "The Epstein files law says the Attorney General \"shall\" publish the records, which means must. Where does the law switch to \"may\", and what does each \"may\" let the Attorney General choose?",
+    "a": "Most of the choice is in one part of the Epstein files law. It says the Attorney General \"may\" hold back or black out five kinds of material. The first kind is facts that show who the victims are. So the records must come out, but protecting victims is up to the Attorney General.",
+    "f": [
+     "E1"
+    ]
+   },
+   {
+    "ty": "Language",
+    "q": "Which words in the Epstein files law shrink its promise of \"all documents and records\", and what do they leave out?",
+    "a": "Two limits do the shrinking. The Epstein files law covers only records that are not marked secret. Officials who work under the President decide what is marked secret. The law also covers only records the Justice Department holds. Records kept anywhere else are left out.",
+    "f": [
+     "E2",
+     "E3"
+    ]
+   },
+   {
+    "ty": "Actors",
+    "q": "Epstein records may be kept outside the Justice Department. Which other parts of the federal government would have them?",
+    "a": "Epstein was a financier, a man who dealt in large sums of money. He traveled to other countries. Federal prosecutors charged him, and he died in federal custody. A man like that leaves records in many places. They include the Treasury Department and its office for money crimes, the IRS, and the customs and immigration agencies. They also include the State Department, spy agencies and the National Archives. So does the Bureau of Prisons, which is part of the Justice Department. The Epstein files law names only the Justice Department.",
+    "f": [
+     "E2"
+    ],
+    "s": [
+     {
+      "l": "Draft Title VII, listing additional sources",
+      "u": "https://www.jamiejoyce.com/in-the-news/2026/6/29/jamie-speaks-in-dc-endorsed-by-epstein-survivors"
+     }
+    ]
+   },
+   {
+    "ty": "Enforcement",
+    "q": "Say the Attorney General has put out no Epstein records after 30 days. What happens next, and who can make it happen?",
+    "a": "The Epstein files law itself gives no way to fix that. Its sponsors asked one court to name a monitor. The court said the law gives it no such power. More than six months after the deadline, a journalist won a court order. The journalist used the Administrative Procedure Act, a general law on how agencies act.",
+    "f": [
+     "E4",
+     "E11"
+    ],
+    "s": [
+     {
+      "l": "United States v. Maxwell, opinion of January 21, 2026",
+      "u": "https://www.nysd.uscourts.gov/sites/default/files/2026-01/Maxwell%2020cr330%20-%20Opinion%20&%20Order%201.21.26.pdf"
+     },
+     {
+      "l": "Account of the June 2026 injunction",
+      "u": "https://joycevance.substack.com/p/finally-a-judge-orders-the-government"
+     }
+    ]
+   },
+   {
+    "ty": "Affected people",
+    "q": "Who is affected if the Epstein files law works just as written, including the people it is meant to protect?",
+    "a": "The survivors are the ones affected. The Epstein files law demands a fast release of the records. But it makes hiding survivors' details optional. So mistakes in a rushed review can expose them. Survivors and their lawyers said names showed up in released files. They asked the Justice Department's inspector general, the official who checks the Department's own work, to step in.",
+    "f": [
+     "E1",
+     "E12"
+    ],
+    "s": [
+     {
+      "l": "Survivors on failure to redact victim identities",
+      "u": "https://www.mediaite.com/media/news/read-jeffrey-epstein-survivors-slam-doj-for-failing-to-redact-victim-ids-in-files-release"
+     },
+     {
+      "l": "Survivors urge DOJ watchdog review",
+      "u": "https://www.scrippsnews.com/us-news/crime/epstein-files/epstein-survivors-urge-doj-watchdog-to-review-and-oversee-future-file-releases"
+     }
+    ]
+   },
+   {
+    "ty": "Route-around",
+    "q": "Say an Attorney General wanted to put out fewer Epstein records. What is the easiest legal way to do it under this law?",
+    "a": "The wording of the Epstein files law leaves three ways open. The Attorney General can mark records secret or keep them secret. Or the Attorney General can start an investigation or point to one. The law lets that same official decide what would \"jeopardize\" one, meaning put it at risk. Or the Attorney General can use the broad rule for images of death, abuse or injury \"of any person\".",
+    "f": [
+     "E3",
+     "E8",
+     "E9"
+    ],
+    "s": [
+     {
+      "l": "How one major exception could allow withholding",
+      "u": "https://www.cp24.com/news/world/2025/11/19/how-one-major-exception-could-allow-the-us-to-withhold-parts-of-the-epstein-files"
+     }
+    ]
+   },
+   {
+    "ty": "History",
+    "q": "How did the closest earlier federal records law deal with the same problems the Epstein files law faces?",
+    "a": "The 1992 law on Kennedy assassination records covered records across the whole federal government. It also set up an independent review board to decide when a release could be put off. The Epstein files law has neither of these.",
+    "f": [
+     "E2",
+     "E13"
+    ],
+    "s": [
+     {
+      "l": "National Archives: JFK Assassination Records background",
+      "u": "https://www.archives.gov/research/jfk/background"
+     }
+    ]
+   },
+   {
+    "ty": "Promise to provision",
+    "q": "When the Epstein files law points to its own parts, does it point to the right ones?",
+    "a": "Two pointers in the Epstein files law go to the wrong place. The order to release says it is limited by the part that bans some reasons for holding records back. It never names the part that lists the reasons that are allowed. And the part on the report to Congress points to a smaller part of itself that does not exist.",
+    "f": [
+     "E5",
+     "E6"
+    ]
+   },
+   {
+    "ty": "Time",
+    "q": "What starts the 15-day deadline for the Attorney General's report to Congress on the Epstein records?",
+    "a": "The 15 days start at the \"completion of the release\", meaning when all the Epstein records are out. If the Justice Department never says the release is done, the report is never due.",
+    "f": [
+     "E10"
+    ]
+   },
+   {
+    "ty": "Best design",
+    "q": "What is the smallest set of changes to the Epstein files law that would do what it set out to do?",
+    "a": "Four changes to the Epstein files law would do it. First, a separate rule would require hiding victims' details. Second, the order would cover every agency that holds Epstein records. Third, someone other than the Attorney General would check choices to hold records back. Fourth, missing the deadline would have a consequence.",
+    "f": [
+     "E1",
+     "E2",
+     "E11",
+     "E13"
+    ]
+   }
+  ],
+  "findings": [
+   {
+    "id": "E1",
+    "kind": "risk",
+    "sev": "critical",
+    "conf": "high",
+    "fam": "obligation",
+    "pat": "Shall versus may",
+    "det": "word",
+    "a": {
+     "q": "may",
+     "ctx": "The Attorney general may withhold or redact"
+    },
+    "title": "The law lets the government hide victims' names in the Epstein files. It does not make the government do it.",
+    "plain": "The law tells the Attorney General, the country's top law enforcement official, to publish the Epstein files. It says the Attorney General \"may\" hide victims' names and personal details. \"May\" means allowed, not required. So hiding the names is a choice.",
+    "tech": "The Epstein files law uses \"shall\", meaning must, for putting out the records. It uses \"may\" for all five kinds of material the Attorney General can hold back. Facts that show who the victims are make up one of the five. The Justice Department reads the law the same way. It told a federal court the law \"does not require withholding or redacting of victim information\", meaning hiding it is a choice.",
+    "use": "With only 30 days, the Attorney General can publish the Epstein records first and do a poor job hiding victims' details. The law did not require the hiding. So a survivor whose details get out cannot say the law was broken.",
+    "s": [
+     {
+      "l": "Department of Justice letter, S.D.N.Y.",
+      "u": "https://storage.courtlistener.com/recap/gov.uscourts.nysd.539612/gov.uscourts.nysd.539612.813.0.pdf"
+     },
+     {
+      "l": "Survivors on failure to redact",
+      "u": "https://www.mediaite.com/media/news/read-jeffrey-epstein-survivors-slam-doj-for-failing-to-redact-victim-ids-in-files-release"
+     }
+    ],
+    "am": [
+     {
+      "id": "E1a",
+      "label": "Smallest fix: change one word",
+      "instr": "Section 2(c)(1) of the Epstein Files Transparency Act (Public Law 119-38) is amended by striking \"may\" and inserting \"shall\".",
+      "ops": [
+       {
+        "t": "replace",
+        "q": "may",
+        "ctx": "The Attorney general may withhold or redact",
+        "w": "shall"
+       }
+      ],
+      "cost": "This change would turn \"may\" into \"shall\", so the Attorney General would have to hide victims' details in the Epstein records. But that one word covers all five kinds of material. So the change would also require hiding everything about active investigations, images of injury and records marked secret. It would protect victims and require more secrecy at the same time."
+     },
+     {
+      "id": "E1b",
+      "label": "A separate rule that requires protecting victims",
+      "instr": "Section 2(c) is amended (1) in paragraph (1), by striking subparagraph (A) and redesignating subparagraphs (B) through (E) as subparagraphs (A) through (D); and (2) by inserting before paragraph (1) a new paragraph requiring redaction of victim information.",
+      "ops": [
+       {
+        "t": "insert",
+        "before": "The Attorney general may withhold or redact",
+        "w": "(1) REQUIRED REDACTION.--The Attorney General shall redact from any record made publicly available under subsection (a) the personally identifiable information of any victim, and shall withhold victims' personal and medical files and similar files the disclosure of which would constitute a clearly unwarranted invasion of personal privacy, unless the victim consents in writing to disclosure."
+       },
+       {
+        "t": "replace",
+        "q": "(A) contain personally identifiable information of victims or victims' personal and medical files and similar files the disclosure of which would constitute a clearly unwarranted invasion of personal privacy;",
+        "w": ""
+       }
+      ],
+      "cost": "This change would make the Attorney General hide victims' details unless a victim agrees in writing to be named. Required hiding would slow the release of the Epstein records and need more staff. It would also need a meaning for \"victim\", which the law does not give. The written consent rule lets survivors who want to be named be named."
+     }
+    ],
+    "inq": {
+     "q": "The Epstein files law lets the Justice Department hide survivors' private details but does not require it. What happened to those details when the files came out?",
+     "items": [
+      {
+       "h": "The Justice Department took down several thousand files it had put out. They may have shown who Epstein's victims were.",
+       "d": "On February 2, 2026, the Justice Department told a court it had taken down several thousand documents and media files. They may have held details that show who victims are. It said those details got in through technical or human error.",
+       "s": [
+        {
+         "l": "ABC News, February 2, 2026",
+         "u": "https://abcnews.com/US/epstein-files-doj-thousand-documents-mistakenly-identified-victims/story?id=129787942"
+        }
+       ]
+      },
+      {
+       "h": "Lawyers for victims counted nearly 100 survivors whose details in the Epstein files got out.",
+       "d": "Lawyers for victims told the court that nearly 100 survivors were affected. The Justice Department did not give a number.",
+       "s": [
+        {
+         "l": "ABC News, February 2, 2026",
+         "u": "https://abcnews.com/US/epstein-files-doj-thousand-documents-mistakenly-identified-victims/story?id=129787942"
+        }
+       ]
+      },
+      {
+       "h": "The Deputy Attorney General spoke about the Epstein records. He said about 3 million of roughly 6 million pages were coming out.",
+       "d": "The Deputy Attorney General, the second-highest Justice Department official, spoke about the Epstein records. He said about 3 million of roughly 6 million pages were being released. Nearly 3 million were held back. Checking that many pages in 30 days is when an optional rule to hide victims' details fails to protect them.",
+       "s": [
+        {
+         "l": "ABC News, February 2, 2026",
+         "u": "https://abcnews.com/US/epstein-files-doj-thousand-documents-mistakenly-identified-victims/story?id=129787942"
+        }
+       ]
+      },
+      {
+       "h": "In the Epstein files, names of well-known people were hidden. But the names of victims were left showing.",
+       "d": "CBS News found that names of well-known people in the Epstein records were hidden while victims' names were not. No specific reason was given. One sentence of the law makes all hiding optional. So the law does not stop either mistake.",
+       "s": [
+        {
+         "l": "CBS News: what is missing from the Epstein files",
+         "u": "https://www.cbsnews.com/news/epstein-files-whats-missing/"
+        }
+       ]
+      },
+      {
+       "h": "Survivors sued the Justice Department and Google in March 2026. The Epstein files law itself gave them no right to sue.",
+       "d": "In March 2026 survivors sued the Justice Department and Google over the release of their private details. The Epstein files law itself gave them no right to sue.",
+       "s": [
+        {
+         "l": "CNN, March 27, 2026",
+         "u": "https://www.cnn.com/2026/03/27/us/epstein-survivors-sue-doj-google-hnk"
+        }
+       ]
+      }
+     ],
+     "open": "This review did not look at the legal claims in the survivors' suit against the Justice Department and Google."
+    },
+    "two": {
+     "m": "discretion",
+     "keep": [],
+     "close": [],
+     "dec": "The Attorney General must put out the Epstein records within 30 days. Should that same official also decide whether to hide victims' names?",
+     "views": [
+      {
+       "r": "surv",
+       "pos": "close",
+       "why": "Survivors and their lawyers want the law to make hiding survivors' details a must. Their lawyers counted nearly 100 survivors affected by the Epstein files.",
+       "s": [
+        {
+         "l": "ABC News, February 2, 2026",
+         "u": "https://abcnews.com/US/epstein-files-doj-thousand-documents-mistakenly-identified-victims/story?id=129787942"
+        }
+       ]
+      },
+      {
+       "r": "doj",
+       "pos": "keep",
+       "why": "The Justice Department treats its power to choose as enough. It has said it plans to hide victim details as fully as the Epstein files law allows.",
+       "s": [
+        {
+         "l": "Justice Department letter to the court",
+         "u": "https://storage.courtlistener.com/recap/gov.uscourts.nysd.539612/gov.uscourts.nysd.539612.813.0.pdf"
+        }
+       ]
+      },
+      {
+       "r": "trans",
+       "pos": "depends",
+       "why": "Journalists and open-government groups want victims kept safe. But they say the word \"victim\" has been used as a reason to hide other names in the Epstein files.",
+       "s": [
+        {
+         "l": "Forbes, July 27, 2026",
+         "u": "https://www.forbes.com/sites/alisondurkee/2026/07/27/could-more-epstein-files-be-released-soon-redacted-docs-will-be-reviewed-by-judge-this-week/"
+        }
+       ]
+      }
+     ]
+    }
+   },
+   {
+    "id": "E2",
+    "kind": "risk",
+    "sev": "critical",
+    "conf": "high",
+    "fam": "actors",
+    "pat": "Mandate aimed at one holder",
+    "det": "external",
+    "a": {
+     "q": "in the possession of the Department of Justice, including the Federal Bureau of Investigation and United States Attorneys' Offices"
+    },
+    "title": "The Epstein files law covers only records the Justice Department holds. Epstein records at other federal agencies are left out.",
+    "plain": "The Epstein files law covers Epstein records that the Justice Department holds. The only offices it names, the FBI and the U.S. Attorneys' Offices, are part of that Department. Records about the same people held anywhere else in the government are not covered.",
+    "tech": "The Epstein files law covers only records the Justice Department holds. It names the FBI and the offices of the U.S. Attorneys, the federal prosecutors. Both are part of the Justice Department, so naming them does not reach any other agency. An Epstein record moved out of the Department, or never held by it, is outside the law.",
+    "use": "Where an Epstein record is kept decides if the public sees it. The law does not cover records at the Treasury or Homeland Security. It also leaves out the State Department and spy agencies. And it leaves out records the Justice Department hands to another agency.",
+    "s": [
+     {
+      "l": "National Archives: the 1992 JFK records law reached records government-wide",
+      "u": "https://www.archives.gov/research/jfk/background"
+     }
+    ],
+    "am": [
+     {
+      "id": "E2a",
+      "label": "Cover every federal agency",
+      "instr": "Section 2(a) is amended by striking \"in the possession of the Department of Justice, including the Federal Bureau of Investigation and United States Attorneys' Offices,\" and inserting \"in the possession, custody, or control of any Federal agency (as defined in section 551 of title 5, United States Code), including the Department of Justice, the Department of the Treasury, the Department of State, the Department of Homeland Security, each element of the intelligence community, and the National Archives and Records Administration,\".",
+      "ops": [
+       {
+        "t": "replace",
+        "q": "in the possession of the Department of Justice, including the Federal Bureau of Investigation and United States Attorneys' Offices,",
+        "w": "in the possession, custody, or control of any Federal agency (as defined in section 551 of title 5, United States Code), including the Department of Justice, the Department of the Treasury, the Department of State, the Department of Homeland Security, each element of the intelligence community, and the National Archives and Records Administration,"
+       }
+      ],
+      "cost": "This change would cover Epstein records at every federal agency, not just the Justice Department. The Attorney General cannot give orders to the heads of other agencies. So each agency head would be made responsible for that agency's records. Some records, like tax returns and bank reports of suspicious activity, are protected by other laws. The change would need to name those laws."
+     }
+    ],
+    "inq": {
+     "q": "The Epstein files law covers only the Justice Department. Where else in the federal government are Epstein records known or likely to be?",
+     "items": [
+      {
+       "h": "The Treasury Department holds bank records on Epstein's wire transfers. The Epstein files law does not reach them.",
+       "d": "Senator Wyden has described Treasury records that show 4,725 wire transfers through one Epstein account. They totaled nearly $1.1 billion. He introduced a separate bill to force their release. CBS News reports that bank reports of suspicious activity were in the Justice Department release. They were posted, taken down, and posted again with everything hidden.",
+       "s": [
+        {
+         "l": "Mediaite on the Produce Epstein Treasury Records Act",
+         "u": "https://www.mediaite.com/media/news/top-senate-dem-announces-bill-to-force-treasury-dept-to-disclose-epstein-wire-transfers/"
+        },
+        {
+         "l": "CBS News: what is missing from the Epstein files",
+         "u": "https://www.cbsnews.com/news/epstein-files-whats-missing/"
+        }
+       ]
+      },
+      {
+       "h": "The CIA will not say whether or not it holds records about Epstein.",
+       "d": "In 2011 Epstein's own lawyers asked the CIA for records of any tie between him and the agency. The CIA said that even whether such records exist was secret. In February 2026 Representative Mace asked the CIA director to search all its files on Epstein and Maxwell, secret or not. Whether the CIA holds anything is not public.",
+       "s": [
+        {
+         "l": "Rep. Mace letter to the CIA, February 17, 2026",
+         "u": "https://mace.house.gov/media/press-releases/rep-nancy-mace-demands-cia-disclosure-jeffrey-epstein-ghislaine-maxwell"
+        }
+       ]
+      },
+      {
+       "h": "Homeland Security runs the customs and immigration agencies. They have Epstein cases and records that the Epstein files law does not reach.",
+       "d": "A 2015 report by the Drug Enforcement Administration was in the Epstein release. It cites three cases by Immigration and Customs Enforcement. Two were closed and one was still open. That agency is part of Homeland Security, so the Epstein files law does not cover it. Customs and Border Protection also lists Epstein records in its own public records library.",
+       "s": [
+        {
+         "l": "CBS News: what is missing from the Epstein files",
+         "u": "https://www.cbsnews.com/news/epstein-files-whats-missing/"
+        },
+        {
+         "l": "CBP records library: Jeffrey Epstein Records",
+         "u": "https://www.cbp.gov/document/foia-record/jeffrey-epstein-records"
+        }
+       ]
+      },
+      {
+       "h": "The Epstein files law asks for customs and immigration papers on Epstein. But Homeland Security makes those papers. The Justice Department does not.",
+       "d": "The Epstein files law asks for one more kind of record. It lists \"customs or immigration documentation\". That means border and immigration papers. Homeland Security makes those papers. The law reaches only the copies at the Justice Department.",
+       "s": []
+      },
+      {
+       "h": "The State Department and the National Security Agency may hold Epstein material. The Epstein files law does not reach them.",
+       "d": "CBS News names the State Department, the Treasury Department, the CIA and the NSA as agencies that may hold Epstein material. It says the Epstein files law does not cover them. This describes what the law covers. It does not show that those agencies hold anything.",
+       "s": [
+        {
+         "l": "CBS News: what is missing from the Epstein files",
+         "u": "https://www.cbsnews.com/news/epstein-files-whats-missing/"
+        }
+       ]
+      }
+     ],
+     "open": "No public source confirms what spy agencies hold about Epstein. The Drug Enforcement Administration is part of the Justice Department. So if its Epstein case files are missing from the release, the question is whether the Department obeyed the Epstein files law. It is not a question of what the law covers."
+    },
+    "two": {
+     "m": "narrow_scope",
+     "keep": [],
+     "close": [],
+     "dec": "Some Epstein records are held by agencies other than the Justice Department. How many of the records are out of reach of the Epstein files law?",
+     "views": [
+      {
+       "r": "trans",
+       "pos": "close",
+       "why": "Journalists and open-government groups want the Epstein files law to cover more agencies. They point to reports that the law does not reach the State Department, the Treasury, the CIA or the NSA.",
+       "s": [
+        {
+         "l": "CBS News",
+         "u": "https://www.cbsnews.com/news/epstein-files-whats-missing/"
+        }
+       ]
+      },
+      {
+       "r": "oth",
+       "pos": "close",
+       "why": "Members of Congress who want Epstein records this law missed have offered a separate bill. It would force the release of Treasury Department records.",
+       "s": [
+        {
+         "l": "Coverage of the Treasury records bill",
+         "u": "https://www.mediaite.com/media/news/top-senate-dem-announces-bill-to-force-treasury-dept-to-disclose-epstein-wire-transfers/"
+        }
+       ]
+      }
+     ]
+    }
+   },
+   {
+    "id": "E3",
+    "kind": "risk",
+    "sev": "significant",
+    "conf": "high",
+    "fam": "definitions",
+    "pat": "Limiter word controlled by the regulated party",
+    "det": "word",
+    "a": {
+     "q": "unclassified",
+     "ctx": "all unclassified records"
+    },
+    "title": "The government decides which Epstein records to mark secret. The Justice Department does not have to put those records out.",
+    "plain": "Only Epstein records that are not marked secret must be released. Officials who work under the President decide what is marked secret. So the Attorney General, who must release the records, also has a say in what can be released.",
+    "tech": "The Epstein files law covers only records that are not marked secret. It tells the Attorney General to lift secret markings \"to the maximum extent possible\", meaning as far as can be done. Where that cannot be done, the Attorney General must release summaries. Any choice made after July 1, 2025 to mark a record secret must be made public. But the same official judges what can be done. And a public notice does not undo the secret marking.",
+    "use": "The government can mark Epstein records secret, or keep them secret, and put out only a summary. The agency holding the records back writes that summary.",
+    "s": [
+     {
+      "l": "Draft Title VII on congressional declassification",
+      "u": "https://www.themadact.com/about-epstein"
+     }
+    ],
+    "am": [
+     {
+      "id": "E3a",
+      "label": "Send secret records to Congress and an outside board",
+      "instr": "Section 2(c)(3) is amended by adding at the end the following: \"(B) Not later than 30 days after making a determination under subparagraph (A), the Attorney General shall transmit the unredacted covered information to the Select Committee on Intelligence of the Senate and the Permanent Select Committee on Intelligence of the House of Representatives, and shall refer the determination to the Public Interest Declassification Board for review.\"",
+      "ops": [
+       {
+        "t": "insert",
+        "after": "the Attorney General shall release an unclassified summary",
+        "w": "(B) Not later than 30 days after making a determination under subparagraph (A), the Attorney General shall transmit the unredacted covered information to the Select Committee on Intelligence of the Senate and the Permanent Select Committee on Intelligence of the House of Representatives, and shall refer the determination to the Public Interest Declassification Board for review."
+       }
+      ],
+      "cost": "This change would make the Attorney General send the full secret Epstein records to the intelligence committees of Congress. It would also send each choice to an independent board for review. That adds oversight, but it gives nothing to the public. A stronger version would have Congress itself lift the secret markings. That would start a fight over the split of power between Congress and the President, and it would end up in court."
+     }
+    ],
+    "two": {
+     "m": "confidentiality",
+     "keep": [],
+     "close": [],
+     "dec": "When the government marks an Epstein record secret, should a court or an independent board check that choice?",
+     "views": [
+      {
+       "r": "oth",
+       "pos": "close",
+       "why": "Spy agencies say that marking their records secret is how they protect their sources and methods. That goes for any Epstein records they hold too.",
+       "s": [
+        {
+         "l": "Rep. Mace letter to the CIA",
+         "u": "https://mace.house.gov/media/press-releases/rep-nancy-mace-demands-cia-disclosure-jeffrey-epstein-ghislaine-maxwell"
+        }
+       ]
+      }
+     ]
+    }
+   },
+   {
+    "id": "E4",
+    "kind": "risk",
+    "sev": "significant",
+    "conf": "high",
+    "fam": "timing",
+    "pat": "Deadline with no consequence",
+    "det": "structure",
+    "a": {
+     "q": "Not later than 30 days after the date of enactment of this Act"
+    },
+    "title": "The Attorney General has 30 days to put out the Epstein files. The law says nothing about missing that deadline.",
+    "plain": "The Epstein files law gives the Attorney General 30 days to release the Epstein records. It says nothing about what happens if that deadline is missed. It gives no one the power to enforce it.",
+    "tech": "The Epstein files law does not tie the 30-day deadline to a penalty or an automatic result. It does not tie it to a required report or a right to sue. Courts are usually slow to force an agency to meet a deadline when the law gives no clear way to enforce it.",
+    "use": "The Justice Department can put out the Epstein records in batches, on any schedule it picks.",
+    "s": [
+     {
+      "l": "DOJ missing deadline to publish all files",
+      "u": "https://weartv.com/news/nation-world/justice-department-faces-deadline-to-release-the-jeffrey-epstein-files-birthday-book-epstein-files-transparency-act"
+     }
+    ],
+    "am": []
+   },
+   {
+    "id": "E8",
+    "kind": "risk",
+    "sev": "significant",
+    "conf": "medium",
+    "fam": "exceptions",
+    "pat": "Exception controlled by the regulated party",
+    "det": "word",
+    "a": {
+     "q": "narrowly tailored and temporary"
+    },
+    "title": "The Attorney General may hold back Epstein files for an open case. No time limit, rule or outside check applies.",
+    "plain": "The Attorney General may hold back Epstein records if their release would put an active investigation at risk. The hold must be \"narrowly tailored and temporary\", meaning limited in reach and time. The law does not say how narrow, how long, or who checks.",
+    "tech": "The Epstein files law says the hold must be limited and short-lived, but it sets no time limit. It does not require the reason to be given again from time to time. It names no one to review the hold. The Justice Department decides whether an investigation is active. The same Department decides whether to hold the records back.",
+    "use": "As long as a case stays open, the Justice Department can use it to keep Epstein records from the public.",
+    "s": [
+     {
+      "l": "How one major exception could allow withholding",
+      "u": "https://www.cp24.com/news/world/2025/11/19/how-one-major-exception-could-allow-the-us-to-withhold-parts-of-the-epstein-files"
+     }
+    ],
+    "am": [
+     {
+      "id": "E8a",
+      "label": "Add a 180-day limit with written renewals",
+      "instr": "Section 2(c)(1)(C) is amended by striking \"narrowly tailored and temporary\" and inserting \"narrowly tailored, expires not later than 180 days after it begins unless the Attorney General certifies in writing to the Committees on the Judiciary of the House of Representatives and the Senate the specific investigation or prosecution that continued withholding would jeopardize, and is renewed only by a new certification every 180 days\".",
+      "ops": [
+       {
+        "t": "replace",
+        "q": "narrowly tailored and temporary",
+        "w": "narrowly tailored, expires not later than 180 days after it begins unless the Attorney General certifies in writing to the Committees on the Judiciary of the House of Representatives and the Senate the specific investigation or prosecution that continued withholding would jeopardize, and is renewed only by a new certification every 180 days"
+       }
+      ],
+      "cost": "This change would end any hold on Epstein records for an investigation after 180 days. The Attorney General could renew the hold in writing to Congress. Those written renewals could become routine. The 180-day figure is a policy choice."
+     }
+    ]
+   },
+   {
+    "id": "E9",
+    "kind": "tradeoff",
+    "sev": "minor",
+    "conf": "medium",
+    "fam": "exceptions",
+    "pat": "Exception broader than its reason",
+    "det": "word",
+    "a": {
+     "q": "depict or contain images of death, physical abuse, or injury of any person"
+    },
+    "title": "Some Epstein files show a person dead, hurt or abused. The Attorney General may hold all of them back.",
+    "plain": "The Attorney General may hold back or black out any Epstein record with images of death, abuse or injury \"of any person\". That protects people's dignity. It also covers a large amount of evidence.",
+    "tech": "The Epstein files law does not limit this to victims, or to images that would invade someone's privacy. It speaks of \"segregable portions\", meaning parts that can be split off. So the better reading is that only the images can be held back. But the word \"contain\" invites holding back the whole record around an image.",
+    "use": "The Justice Department could hold back a whole Epstein report just because it has a photo in it.",
+    "s": [],
+    "am": []
+   },
+   {
+    "id": "E10",
+    "kind": "risk",
+    "sev": "significant",
+    "conf": "medium",
+    "fam": "timing",
+    "pat": "Trigger that may never occur",
+    "det": "structure",
+    "a": {
+     "q": "Within 15 days of completion of the release"
+    },
+    "title": "The Epstein files report is due to Congress 15 days after the release ends. No one has to say when.",
+    "plain": "The Attorney General must report to Congress within 15 days of finishing the release of Epstein records. If the release is never said to be finished, the report is never due.",
+    "tech": "The report on the Epstein records is due 15 days after the \"completion of the release\", meaning when the release is done. It is not tied to the 30-day deadline. A release that comes out in batches has no end date unless the Justice Department names one. The report also goes only to two committees of Congress. Nothing requires it to be made public.",
+    "use": "The Attorney General can put off the report on the Epstein records with no end date. That delays three lists: the kinds of records held back, the legal reasons for hiding, and the named officials.",
+    "s": [],
+    "am": [
+     {
+      "id": "E10a",
+      "label": "Set fixed dates for the report",
+      "instr": "Section 3 is amended by striking \"Within 15 days of completion of the release required under Section 2\" and inserting \"Not later than 45 days after the date of enactment of this Act, and every 30 days thereafter until the release required under section 2 is complete\", and by adding at the end: \"Each report under this section shall be made publicly available.\"",
+      "ops": [
+       {
+        "t": "replace",
+        "q": "Within 15 days of completion of the release required under Section 2",
+        "w": "Not later than 45 days after the date of enactment of this Act, and every 30 days thereafter until the release required under section 2 is complete"
+       }
+      ],
+      "cost": "This change would require a public report on the Epstein records 45 days after the law was signed. Another would follow every 30 days until the release ends. Repeat reports add work for the Justice Department. Making the list of named people public raises questions about the good names of people named but not accused."
+     }
+    ]
+   },
+   {
+    "id": "E14",
+    "kind": "risk",
+    "sev": "minor",
+    "conf": "medium",
+    "fam": "information",
+    "pat": "Justification duty narrower than the discretion",
+    "det": "word",
+    "a": {
+     "q": "All redactions must be accompanied by a written justification"
+    },
+    "title": "The Attorney General must publish a reason for hiding part of an Epstein record. A whole record needs no reason.",
+    "plain": "When the Attorney General blacks out part of an Epstein record, a written reason must be published. It goes in the Federal Register, the government's daily public journal. The law lets records be held back whole or blacked out in part. But the rule on written reasons only mentions blacking out. It also sets no deadline.",
+    "tech": "The Epstein files law lets the Attorney General hold back whole records or black out parts of them. The rule on written reasons covers only the blacked-out parts. It says \"must\" where the rest of the law says \"shall\". It sets no timing and no level of detail.",
+    "use": "The Attorney General could, it seems, hold back a whole Epstein record and give no public reason.",
+    "s": [],
+    "am": [
+     {
+      "id": "E14a",
+      "label": "Require reasons for every hold and set timing",
+      "instr": "Section 2(c)(2) is amended by striking \"All redactions must be accompanied by a written justification\" and inserting \"Each withholding and each redaction shall be accompanied, at the time of release, by a written justification identifying the specific subparagraph of paragraph (1) relied upon, and such justification shall be\".",
+      "ops": [
+       {
+        "t": "replace",
+        "q": "All redactions must be accompanied by a written justification",
+        "w": "Each withholding and each redaction shall be accompanied, at the time of release, by a written justification identifying the specific subparagraph of paragraph (1) relied upon, and such justification shall be"
+       }
+      ],
+      "cost": "This change would require a written reason for every Epstein record held back or blacked out. The reason would be given at release and would name the allowed ground. Giving a reason for each item across millions of pages costs a lot. Reasons given for whole groups of records may be the way that works."
+     }
+    ]
+   },
+   {
+    "id": "E11",
+    "kind": "risk",
+    "sev": "critical",
+    "conf": "high",
+    "fam": "enforcement",
+    "pat": "No enforcement mechanism in the statute",
+    "det": "absence",
+    "where": "After section 3",
+    "title": "The Epstein files law has no penalty, no court review and no right to sue if the files stay hidden.",
+    "plain": "The Epstein files law has no penalty, no court review and no stated right to sue. When the deadline passed, one court turned away the law's own sponsors. More than six months after the deadline, a different court let a journalist sue under a general law.",
+    "tech": "The Epstein files law gives no one a right to sue. It gives no court the power to hear a case under it. It gives no role to an inspector general, an official who checks an agency's own work. It sets no result for not obeying. So enforcement has relied on finding a general law that fits, and a person with the legal right to bring the case. A bill was introduced later, H.R. 9694, that would let state attorneys general and victims enforce the law.",
+    "use": "Each try to enforce the Epstein files law starts with a fight over whether any court can hear the case. That fight used up the months when the records were supposed to come out.",
+    "s": [
+     {
+      "l": "H.R. 9694, Epstein Files Transparency Act II",
+      "u": "https://www.govinfo.gov/content/pkg/BILLS-119hr9694ih/html/BILLS-119hr9694ih.htm"
+     }
+    ],
+    "am": [
+     {
+      "id": "E11a",
+      "label": "Let courts enforce the law",
+      "instr": "The Act is amended by adding at the end the following: \"SEC. 4. ENFORCEMENT. (a) Any person may bring a civil action in the United States District Court for the District of Columbia to compel compliance with section 2 or 3. (b) The court shall examine withheld or redacted material in camera and shall determine de novo whether each withholding is authorized by section 2(c). (c) The court may award reasonable attorney fees and costs to a plaintiff who substantially prevails.\"",
+      "ops": [
+       {
+        "t": "append",
+        "w": "SEC. 4. ENFORCEMENT.\n(a) Any person may bring a civil action in the United States District Court for the District of Columbia to compel compliance with section 2 or 3.\n(b) The court shall examine withheld or redacted material in camera and shall determine de novo whether each withholding is authorized by section 2(c).\n(c) The court may award reasonable attorney fees and costs to a plaintiff who substantially prevails."
+       }
+      ],
+      "cost": "This change would let any person sue in federal court in Washington to enforce the Epstein files law. A judge would look at held-back records in private. Letting any person sue invites a challenge under the Constitution over who has the right to sue. A bill was introduced later, H.R. 9694, that takes a narrower path through state attorneys general and victims. Lawsuits also take time that a 30-day deadline did not plan for."
+     }
+    ],
+    "inq": {
+     "q": "What happened when people went to court to make the Justice Department follow the Epstein files law?",
+     "items": [
+      {
+       "h": "The sponsors of the Epstein files law asked a federal judge to name someone to oversee the Justice Department. The judge turned them down.",
+       "d": "Representatives Massie and Khanna asked the judge in Ghislaine Maxwell's criminal case to name an outside overseer. They pointed to the missed December 19, 2025 deadline, a report that was never filed, and too much blacking out. On January 21, 2026, Judge Engelmayer turned them down. The judge wrote that the Epstein files law is a civil law about records and gives the court no such power.",
+       "s": [
+        {
+         "l": "United States v. Maxwell, opinion of January 21, 2026",
+         "u": "https://www.nysd.uscourts.gov/sites/default/files/2026-01/Maxwell%2020cr330%20-%20Opinion%20&%20Order%201.21.26.pdf"
+        }
+       ]
+      },
+      {
+       "h": "A journalist sued under the Administrative Procedure Act, a general law on how agencies act. She won an order to show some hidden parts of the Epstein files.",
+       "d": "Katie Phang sued over the Epstein records in federal court in Washington under the Administrative Procedure Act. The government said the Freedom of Information Act was her only option. Judge Sullivan did not agree. The judge found she had the right to sue because she was denied information. In late June 2026 the judge ordered some hidden parts uncovered and lists of the hidden parts published.",
+       "s": [
+        {
+         "l": "Account of the June 2026 injunction",
+         "u": "https://joycevance.substack.com/p/finally-a-judge-orders-the-government"
+        }
+       ]
+      },
+      {
+       "h": "A federal judge began to look at held-back Epstein documents in July 2026.",
+       "d": "On July 25, 2026, a federal judge ordered the Justice Department to hand over disputed Epstein documents for a private review. The case was brought under a different law, not the Epstein files law. The person suing asked for a fine of $1,000 a day. An appeal was expected.",
+       "s": [
+        {
+         "l": "Forbes, July 27, 2026",
+         "u": "https://www.forbes.com/sites/alisondurkee/2026/07/27/could-more-epstein-files-be-released-soon-redacted-docs-will-be-reviewed-by-judge-this-week/"
+        }
+       ]
+      },
+      {
+       "h": "The Government Accountability Office is now checking the hidden parts of the Epstein files. The files were already out.",
+       "d": "The Government Accountability Office, which checks government work for Congress, is looking at the hidden parts of the Epstein records. Members of Congress asked it to. The Epstein files law did not require that review.",
+       "s": [
+        {
+         "l": "CBS News: what is missing from the Epstein files",
+         "u": "https://www.cbsnews.com/news/epstein-files-whats-missing/"
+        }
+       ]
+      }
+     ],
+     "open": "It is not yet settled whether the journalist's lawsuit under the general law will be upheld on appeal. If it is not, the Epstein files law will again have no court to enforce it."
+    }
+   },
+   {
+    "id": "E17",
+    "kind": "risk",
+    "sev": "critical",
+    "conf": "high",
+    "fam": "conflict",
+    "pat": "The current holder has a tie to an affected person",
+    "det": "structure",
+    "a": {
+     "q": "the Attorney General shall"
+    },
+    "where": "Section 2",
+    "title": "Both Attorneys General since the Epstein files law passed had once been President Trump's lawyers. They decide what is released.",
+    "plain": "The Epstein files law gives one official, the Attorney General, three jobs. That official must release the Epstein records, decide which ones to hold back, and report on what was held back. Two people have held the job since the law passed. Pam Bondi held it until April 2026, and Todd Blanche has held it since then. Both had earlier worked as lawyers for President Trump. News reports say Bondi told the President in May 2025 that his name appeared in the Epstein files. The reports say Blanche was at that briefing. The law has no rule telling them to step aside, and it names no one else to decide.",
+    "tech": "The President chooses the Attorney General and can remove that official. He removed Pam Bondi in April 2026. The news reports about the May 2025 briefing say it is not clear how significant the references to the President are. The Justice Department said that nothing in the files called for further investigation. A separate conflict exists no matter who holds the job. The Epstein records include the Justice Department's own messages about whether to charge Epstein. Congress has dealt with conflicts like these before. A 1978 law, the Ethics in Government Act, set up outside prosecutors called independent counsels. That part of the law ended in 1999. A 1992 law on Kennedy assassination records used an independent review board.",
+    "use": "An Attorney General who used to be the President's lawyer can hold back Epstein records about the President. The law gives that official the reasons to do so. No outside body is set up to test those choices.",
+    "s": [
+     {
+      "l": "Star Tribune (New York Times report), July 2025",
+      "u": "https://www.startribune.com/attorney-general-told-trump-his-name-appeared-in-epstein-files/601441885"
+     },
+     {
+      "l": "Fortune, November 22, 2024",
+      "u": "https://fortune.com/2024/11/22/who-is-pam-bondi-trumps-new-ag-pick-and-former-impeachment-trial-lawyer"
+     },
+     {
+      "l": "The Week, August 10, 2026",
+      "u": "https://theweek.com/politics/todd-blanche-attorney-general-doj-trump"
+     },
+     {
+      "l": "Congressional Research Service, Special Counsel Investigations (R44857)",
+      "u": "https://www.everycrsreport.com/reports/R44857.html"
+     },
+     {
+      "l": "National Archives: JFK Assassination Records background",
+      "u": "https://www.archives.gov/research/jfk/background"
+     }
+    ],
+    "inq": {
+     "q": "Can the Attorney General act independently on the Epstein files? Which ties and records raise doubts about that?",
+     "items": [
+      {
+       "h": "Two people have been Attorney General since the Epstein files law took effect. Both had once worked as lawyers for President Trump.",
+       "d": "Pam Bondi joined the President's legal team during his first impeachment trial in 2020. She was Attorney General until April 2026. News reports describe Todd Blanche as the President's former personal lawyer. He has held the job since then, as acting or as confirmed Attorney General.",
+       "s": [
+        {
+         "l": "Fortune, November 22, 2024",
+         "u": "https://fortune.com/2024/11/22/who-is-pam-bondi-trumps-new-ag-pick-and-former-impeachment-trial-lawyer"
+        },
+        {
+         "l": "The Week, August 10, 2026",
+         "u": "https://theweek.com/politics/todd-blanche-attorney-general-doj-trump"
+        },
+        {
+         "l": "Star Tribune (New York Times report), July 2025",
+         "u": "https://www.startribune.com/attorney-general-told-trump-his-name-appeared-in-epstein-files/601441885"
+        }
+       ]
+      },
+      {
+       "h": "News reports say the Attorney General told the President his name was in the Epstein files.",
+       "d": "The New York Times and the Wall Street Journal reported that the briefing took place in May 2025. They reported that Todd Blanche, then the Deputy Attorney General, was there. The reports say it is not clear how significant the references to the President are. Pam Bondi and Todd Blanche said that nothing in the files called for further investigation or prosecution.",
+       "s": [
+        {
+         "l": "Star Tribune (New York Times report), July 2025",
+         "u": "https://www.startribune.com/attorney-general-told-trump-his-name-appeared-in-epstein-files/601441885"
+        }
+       ]
+      },
+      {
+       "h": "The Epstein records to be put out include the Justice Department's own messages. Some are about whether to charge Epstein.",
+       "d": "The Epstein files law lists the Justice Department's own messages about Epstein or his associates. These are messages about choices to charge or not charge them, and to investigate or not. The law also lists deals not to prosecute, and records of Epstein's time in custody and his death.",
+       "s": [
+        {
+         "l": "Text of Public Law 119-38",
+         "u": "https://www.congress.gov/119/plaws/publ38/PLAW-119publ38.htm"
+        }
+       ]
+      },
+      {
+       "h": "From 1978 to 1999, Congress let outside prosecutors look into top officials who work under the President. These prosecutors were not part of the Justice Department.",
+       "d": "The Ethics in Government Act of 1978 created these outside prosecutors, called independent counsels. Conflicts of interest can arise when the President's officials investigate their own side, and that is why the law made them. Congress let that part of the law end in 1999 after debate over its reach and cost.",
+       "s": [
+        {
+         "l": "Congressional Research Service, Special Counsel Investigations (R44857)",
+         "u": "https://www.everycrsreport.com/reports/R44857.html"
+        }
+       ]
+      },
+      {
+       "h": "A 1992 law on Kennedy assassination records set up an independent review board. That board decided when a release could be put off.",
+       "d": "Congress did not leave those choices to the agencies that held the Kennedy assassination records. The Epstein files law has no board like that.",
+       "s": [
+        {
+         "l": "National Archives: JFK Assassination Records background",
+         "u": "https://www.archives.gov/research/jfk/background"
+        }
+       ]
+      }
+     ],
+     "open": "The public does not know which Epstein records the Justice Department held back because they concern the President. The same goes for records about the Department's own conduct."
+    },
+    "am": [
+     {
+      "id": "E17a",
+      "label": "Outside decision-maker for records about the Justice Department or the President",
+      "instr": "Section 2 of the Epstein Files Transparency Act (Public Law 119-38) is amended by adding at the end the following: \"(d) Independent Determination.--Any determination under subsection (c) to withhold or redact a record that refers to the President, the Vice President, the Attorney General, or the conduct of an officer or employee of the Department of Justice shall be made by the Inspector General of the Department of Justice, who shall provide any written justification that this section requires.\".",
+      "ops": [
+       {
+        "t": "append",
+        "w": "(d) Independent Determination.--Any determination under subsection (c) to withhold or redact a record that refers to the President, the Vice President, the Attorney General, or the conduct of an officer or employee of the Department of Justice shall be made by the Inspector General of the Department of Justice, who shall provide any written justification that this section requires."
+       }
+      ],
+      "cost": "This change would give some choices to the Justice Department's Inspector General, an official who checks the Department's own work. That official would decide whether to hold back Epstein records about the President or the Justice Department. This adds a reviewer who does not run the release, but it would slow the release. The President also chooses the Inspector General and can remove that official after giving Congress 30 days' notice. So the conflict would shrink but not go away. A review board like the one in the 1992 Kennedy assassination records law would be more independent. It would also take longer to set up."
+     }
+    ]
+   },
+   {
+    "id": "E12",
+    "kind": "risk",
+    "sev": "significant",
+    "conf": "high",
+    "fam": "definitions",
+    "pat": "No definitions section",
+    "det": "absence",
+    "where": "After section 1",
+    "title": "The Epstein files law never says who is a \"victim\" or \"associate\". Nor does it define a \"related entity\".",
+    "plain": "The Epstein files law has no list of definitions. It does not say who is a \"victim\", who counts as one of Epstein's \"associates\", or what a \"related entity\" is.",
+    "tech": "The word \"victims\" decides whose private details the Epstein files law allows to be hidden. The word \"associates\" decides how far three of the kinds of records in the law reach. Neither word is defined. The law does not borrow a meaning from any other law either.",
+    "use": "A narrow reading of \"victim\" puts at risk people who were never formally named as victims in court charges. A narrow reading of \"associates\" means fewer Epstein records come out.",
+    "s": [],
+    "am": [
+     {
+      "id": "E12a",
+      "label": "Define who is a victim",
+      "instr": "The Act is amended by inserting after section 1 the following: \"SEC. 1A. DEFINITIONS. In this Act, the term 'victim' means any individual who was, or who is described in a covered record as having been, subjected to sexual abuse, trafficking, or exploitation by Jeffrey Epstein or any associate of Jeffrey Epstein, whether or not the individual was identified in any charging document, and includes any individual who was a minor at the time of the events described.\"",
+      "ops": [
+       {
+        "t": "insert",
+        "before": "SEC. 2. RELEASE OF DOCUMENTS RELATING TO JEFFREY EPSTEIN.",
+        "w": "SEC. 1A. DEFINITIONS.\nIn this Act, the term \"victim\" means any individual who was, or who is described in a covered record as having been, subjected to sexual abuse, trafficking, or exploitation by Jeffrey Epstein or any associate of Jeffrey Epstein, whether or not the individual was identified in any charging document, and includes any individual who was a minor at the time of the events described."
+       }
+      ],
+      "cost": "This change would define an Epstein victim to include people never named in court charges. It would also include anyone who was a child at the time. A broad meaning of \"victim\" means more hiding work for the Justice Department. It could also be used to hide the names of adults who took part. So the wording must keep the two groups apart."
+     }
+    ],
+    "two": {
+     "m": "open_term",
+     "keep": [],
+     "close": [],
+     "dec": "The Epstein files law does not say what \"victim\" and \"associate\" mean. Who decides, and does that official have a reason to read them narrowly?",
+     "views": [
+      {
+       "r": "doj",
+       "pos": "keep",
+       "why": "Survivors want the Epstein files law to give a broad meaning to \"victim\". It should cover people who were never named in court charges.",
+       "s": [
+        {
+         "l": "Forbes, July 27, 2026",
+         "u": "https://www.forbes.com/sites/alisondurkee/2026/07/27/could-more-epstein-files-be-released-soon-redacted-docs-will-be-reviewed-by-judge-this-week/"
+        }
+       ]
+      }
+     ]
+    }
+   },
+   {
+    "id": "E13",
+    "kind": "risk",
+    "sev": "significant",
+    "conf": "medium",
+    "fam": "delegation",
+    "pat": "The regulated official is the only decision-maker",
+    "det": "absence",
+    "where": "Section 2(c)",
+    "title": "The Attorney General decides which Epstein records to hold back. No one outside the Justice Department checks those choices.",
+    "plain": "The Attorney General decides which Epstein records to hold back, writes the reasons and reports on them. No one outside the Justice Department checks those choices.",
+    "tech": "A 1992 law on Kennedy assassination records set up an independent review board. It decided when a release could be put off. The Epstein files law has no such board. Its ban on holding records back to avoid embarrassment depends on the good faith of the official who might be embarrassed.",
+    "use": "An Epstein record held back for a banned reason, like shame, could be given an allowed reason instead.",
+    "s": [
+     {
+      "l": "National Archives: JFK Assassination Records background",
+      "u": "https://www.archives.gov/research/jfk/background"
+     }
+    ],
+    "am": []
+   }
+  ],
+  "bigger": {
+   "issue": "Government openness and accountability in the Jeffrey Epstein case",
+   "lead": "Say the Epstein files law worked just as written. It would only deliver the Justice Department's records that are not marked secret. The public's questions about the Epstein case go further than that.",
+   "map": [
+    {
+     "part": "Justice Department investigation and prosecution files on Epstein",
+     "reach": "reached",
+     "note": "The Epstein files law covers these files. They are the main thing it orders released."
+    },
+    {
+     "part": "Financial, tax, immigration, spy agency and archive records held by other agencies",
+     "reach": "untouched",
+     "note": "The Epstein files law reaches only records the Justice Department holds. So it does not cover these records."
+    },
+    {
+     "part": "Epstein records marked secret",
+     "reach": "partly",
+     "note": "The Epstein files law tells the Attorney General to lift secret markings \"to the maximum extent possible\". That means as far as can be done. If not, the Attorney General must put out summaries."
+    },
+    {
+     "part": "Protecting survivors during the release",
+     "reach": "partly",
+     "note": "The Epstein files law lets the Attorney General hide victims' names and details. But it does not make the Attorney General do it."
+    },
+    {
+     "part": "Records sealed by courts and grand jury material",
+     "reach": "untouched",
+     "note": "The Epstein files law says nothing about court orders that seal records or the secrecy rules for grand juries. The Justice Department asked courts for permission on its own.",
+     "s": [
+      {
+       "l": "DOJ letter, S.D.N.Y.",
+       "u": "https://storage.courtlistener.com/recap/gov.uscourts.nysd.539612/gov.uscourts.nysd.539612.813.0.pdf"
+      }
+     ]
+    },
+    {
+     "part": "Outside review of held-back Epstein records",
+     "reach": "untouched",
+     "note": "The Epstein files law sets up no outside review. A court began to look at held-back documents in July 2026, in a lawsuit under a different law. The Government Accountability Office, which checks government work for Congress, is looking at the hidden parts."
+    },
+    {
+     "part": "Consequences for anyone the Epstein records point to",
+     "reach": "untouched",
+     "note": "The Epstein files law only requires records to be released. It does not require anyone to investigate, refer cases or bring charges."
+    },
+    {
+     "part": "Records held by Epstein's estate, banks and other private parties",
+     "reach": "untouched",
+     "note": "The Epstein files law covers only government records, so private records like these are left out."
+    }
+   ],
+   "others": [
+    {
+     "l": "H.R. 9694, Epstein Files Transparency Act II",
+     "u": "https://www.govinfo.gov/content/pkg/BILLS-119hr9694ih/html/BILLS-119hr9694ih.htm",
+     "n": "Would add enforcement by state attorneys general and by victims, and victim access to unredacted records."
+    },
+    {
+     "l": "President John F. Kennedy Assassination Records Collection Act of 1992",
+     "u": "https://www.archives.gov/research/jfk/background",
+     "n": "Government-wide scope with an independent review board."
+    },
+    {
+     "l": "Draft Title VII of the MAD Act",
+     "u": "https://www.themadact.com/about-epstein",
+     "n": "A published draft that makes redaction of survivor information mandatory, widens the request beyond one department and invokes congressional authority over classification."
+    }
+   ]
+  },
+  "stake": [
+   {
+    "id": "surv",
+    "role": "Survivors and their lawyers",
+    "g": "Subject",
+    "want": "Survivors and their lawyers want the Epstein records out without showing who the survivors are. The Justice Department took down several thousand files it had put out. They may have shown who victims were.",
+    "s": [
+     {
+      "l": "ABC News, February 2, 2026",
+      "u": "https://abcnews.com/US/epstein-files-doj-thousand-documents-mistakenly-identified-victims/story?id=129787942"
+     }
+    ]
+   },
+   {
+    "id": "trans",
+    "role": "Journalists and advocates for open government",
+    "g": "Subject",
+    "want": "Journalists and open-government groups want as many Epstein records out as possible. They want the names of powerful people left showing. They want a reason given for all that is held back.",
+    "s": [
+     {
+      "l": "CBS News",
+      "u": "https://www.cbsnews.com/news/epstein-files-whats-missing/"
+     }
+    ]
+   },
+   {
+    "id": "doj",
+    "role": "The Justice Department",
+    "g": "Subject",
+    "want": "The Justice Department has said it will hide victim details as fully as the Epstein files law allows.",
+    "s": [
+     {
+      "l": "Justice Department letter to the court",
+      "u": "https://storage.courtlistener.com/recap/gov.uscourts.nysd.539612/gov.uscourts.nysd.539612.813.0.pdf"
+     }
+    ]
+   },
+   {
+    "id": "named",
+    "role": "People named in the Epstein files but not accused of crimes",
+    "g": "Subject",
+    "want": "Some people are named in the Epstein files but not accused. They do not want to be tied in public to crimes they were not charged with.",
+    "s": []
+   },
+   {
+    "id": "pros",
+    "role": "Prosecutors with open cases",
+    "g": "Subject",
+    "want": "Prosecutors with open cases do not want any Epstein records to come out that could harm a case still going on.",
+    "s": []
+   },
+   {
+    "id": "ic",
+    "role": "Intelligence agencies such as the CIA",
+    "g": "Subject",
+    "want": "Spy agencies do not want a law that forces out their files. Such a law could be used as an example later. The CIA will not say whether or not it holds Epstein records.",
+    "s": [
+     {
+      "l": "Rep. Mace letter to the CIA",
+      "u": "https://mace.house.gov/media/press-releases/rep-nancy-mace-demands-cia-disclosure-jeffrey-epstein-ghislaine-maxwell"
+     }
+    ]
+   },
+   {
+    "id": "spon",
+    "role": "The law's sponsors in Congress",
+    "g": "Politics",
+    "want": "The sponsors of the Epstein files law asked a court to name a monitor. They did so when the 30-day deadline for the files was missed.",
+    "s": [
+     {
+      "l": "Court opinion of January 21, 2026",
+      "u": "https://www.nysd.uscourts.gov/sites/default/files/2026-01/Maxwell%2020cr330%20-%20Opinion%20&%20Order%201.21.26.pdf"
+     }
+    ]
+   },
+   {
+    "id": "oth",
+    "role": "Members of Congress seeking Epstein records this law missed",
+    "g": "Politics",
+    "want": "Some members of Congress want Epstein records this law missed. They have offered other bills and sent letters aimed at the Treasury Department and the CIA.",
+    "s": [
+     {
+      "l": "Coverage of the Treasury records bill",
+      "u": "https://www.mediaite.com/media/news/top-senate-dem-announces-bill-to-force-treasury-dept-to-disclose-epstein-wire-transfers/"
+     }
+    ]
+   },
+   {
+    "id": "ct",
+    "role": "Courts that have ruled so far",
+    "g": "Law",
+    "want": "One court ruled that the Epstein files law gives a judge in a criminal case no power to oversee it. Another court allowed a lawsuit under a general law.",
+    "s": [
+     {
+      "l": "Court opinion of January 21, 2026",
+      "u": "https://www.nysd.uscourts.gov/sites/default/files/2026-01/Maxwell%2020cr330%20-%20Opinion%20&%20Order%201.21.26.pdf"
+     }
+    ]
+   },
+   {
+    "id": "tex",
+    "role": "A judge who reads laws by their exact words",
+    "g": "Law",
+    "want": "A judge who reads laws by their exact words applies the Epstein files law as written. That judge will not fill in what Congress left out.",
+    "s": []
+   },
+   {
+    "id": "pur",
+    "role": "A judge who reads laws by their purpose",
+    "g": "Law",
+    "want": "A judge who reads laws by their purpose settles doubts in favor of what the Epstein files law was trying to do.",
+    "s": []
+   },
+   {
+    "id": "olc",
+    "role": "A legislative drafter",
+    "g": "Law",
+    "want": "A person who writes bills wants every key word in the Epstein files law defined. That person also wants every pointer checked and every link to other laws spelled out.",
+    "s": []
+   }
+  ],
+  "conflicts": [
+   {
+    "who": "Todd Blanche, Attorney General since April 2026",
+    "level": "person",
+    "claim": "Attorney General Todd Blanche now decides which Epstein records stay held back. He used to be President Trump's personal lawyer.",
+    "detail": "Todd Blanche was Deputy Attorney General, the second-highest Justice Department official, when the Epstein files law took effect. He stepped in as acting Attorney General in April 2026. The Senate confirmed him by a vote of 50 to 49 in August 2026. News reports describe him as the President's former personal lawyer and close ally. News reports also say he was at a briefing in May 2025. At that briefing, the President was told his name appeared in the Epstein files. Those reports say it is not clear how significant the references are. The law has no rule telling an official with a tie like this to step aside.",
+    "s": [
+     {
+      "l": "The Week, August 10, 2026",
+      "u": "https://theweek.com/politics/todd-blanche-attorney-general-doj-trump"
+     },
+     {
+      "l": "Star Tribune (New York Times report), July 2025",
+      "u": "https://www.startribune.com/attorney-general-told-trump-his-name-appeared-in-epstein-files/601441885"
+     }
+    ],
+    "f": [
+     "E17"
+    ]
+   },
+   {
+    "who": "Pam Bondi, Attorney General until April 2026",
+    "level": "person",
+    "claim": "Pam Bondi was Attorney General when the first Epstein files came out. She had been a lawyer for President Trump.",
+    "detail": "Pam Bondi joined President Trump's legal team during his first impeachment trial in 2020. News reports say she told the President in May 2025 that his name was in the Epstein files. The reports also say she and her deputy said nothing in the files called for further investigation or prosecution. The President removed her as Attorney General in April 2026.",
+    "s": [
+     {
+      "l": "Fortune, November 22, 2024",
+      "u": "https://fortune.com/2024/11/22/who-is-pam-bondi-trumps-new-ag-pick-and-former-impeachment-trial-lawyer"
+     },
+     {
+      "l": "Star Tribune (New York Times report), July 2025",
+      "u": "https://www.startribune.com/attorney-general-told-trump-his-name-appeared-in-epstein-files/601441885"
+     },
+     {
+      "l": "The Week, August 10, 2026",
+      "u": "https://theweek.com/politics/todd-blanche-attorney-general-doj-trump"
+     }
+    ],
+    "f": [
+     "E17"
+    ]
+   },
+   {
+    "who": "The President",
+    "level": "office",
+    "claim": "News reports say the Epstein files name President Trump. He can pick or remove the Attorney General at any time.",
+    "detail": "The Epstein files law lets the Attorney General alone decide what to put out and what to hold back. The President removed one Attorney General in April 2026. He picked her replacement. The law has no separate process for Epstein records about the President.",
+    "s": [
+     {
+      "l": "Star Tribune (New York Times report), July 2025",
+      "u": "https://www.startribune.com/attorney-general-told-trump-his-name-appeared-in-epstein-files/601441885"
+     },
+     {
+      "l": "The Week, August 10, 2026",
+      "u": "https://theweek.com/politics/todd-blanche-attorney-general-doj-trump"
+     }
+    ],
+    "f": [
+     "E17"
+    ]
+   },
+   {
+    "who": "The Justice Department",
+    "level": "body",
+    "claim": "The Justice Department decides what to release from records of its own choices in the Epstein case.",
+    "detail": "The Epstein records include the Justice Department's internal messages about whether to charge Epstein. They also include its deals not to prosecute him and records of his death in federal custody. The law names no one outside the Justice Department to decide what is released. It requires no outside check on what is held back.",
+    "s": [
+     {
+      "l": "Text of Public Law 119-38",
+      "u": "https://www.congress.gov/119/plaws/publ38/PLAW-119publ38.htm"
+     }
+    ],
+    "f": [
+     "E13",
+     "E17"
+    ]
+   }
+  ],
+  "conf_note": "The Epstein files law puts one official in charge of the records. Both people who have held that job since the law passed were once the President's lawyers."
+ }
+}

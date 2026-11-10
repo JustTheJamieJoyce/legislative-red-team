@@ -1,0 +1,2109 @@
+{
+ "text": {
+  "blocks": [
+   {
+    "id": "b1",
+    "indent": 0,
+    "kind": "text",
+    "text": "RESOLUTION Recognizing the duty of the Federal Government to create a Green New Deal."
+   },
+   {
+    "id": "b2",
+    "indent": 0,
+    "kind": "heading",
+    "text": "Preamble"
+   },
+   {
+    "id": "b3",
+    "indent": 1,
+    "kind": "text",
+    "text": "Whereas the October 2018 report entitled \"Special Report on Global Warming of 1.5 °C\" by the Intergovernmental Panel on Climate Change and the November 2018 Fourth National Climate Assessment report found that--"
+   },
+   {
+    "id": "b4",
+    "indent": 2,
+    "kind": "text",
+    "text": "(1) human activity is the dominant cause of observed climate change over the past century;"
+   },
+   {
+    "id": "b5",
+    "indent": 2,
+    "kind": "text",
+    "text": "(2) a changing climate is causing sea levels to rise and an increase in wildfires, severe storms, droughts, and other extreme weather events that threaten human life, healthy communities, and critical infrastructure;"
+   },
+   {
+    "id": "b6",
+    "indent": 2,
+    "kind": "text",
+    "text": "(3) global warming at or above 2 degrees Celsius beyond preindustrialized levels will cause--"
+   },
+   {
+    "id": "b7",
+    "indent": 3,
+    "kind": "text",
+    "text": "(A) mass migration from the regions most affected by climate change;"
+   },
+   {
+    "id": "b8",
+    "indent": 3,
+    "kind": "text",
+    "text": "(B) more than $500,000,000,000 in lost annual economic output in the United States by the year 2100;"
+   },
+   {
+    "id": "b9",
+    "indent": 3,
+    "kind": "text",
+    "text": "(C) wildfires that, by 2050, will annually burn at least twice as much forest area in the western United States than was typically burned by wildfires in the years preceding 2019;"
+   },
+   {
+    "id": "b10",
+    "indent": 3,
+    "kind": "text",
+    "text": "(D) a loss of more than 99 percent of all coral reefs on Earth;"
+   },
+   {
+    "id": "b11",
+    "indent": 3,
+    "kind": "text",
+    "text": "(E) more than 350,000,000 more people to be exposed globally to deadly heat stress by 2050; and"
+   },
+   {
+    "id": "b12",
+    "indent": 3,
+    "kind": "text",
+    "text": "(F) a risk of damage to $1,000,000,000,000 of public infrastructure and coastal real estate in the United States; and"
+   },
+   {
+    "id": "b13",
+    "indent": 2,
+    "kind": "text",
+    "text": "(4) global temperatures must be kept below 1.5 degrees Celsius above preindustrialized levels to avoid the most severe impacts of a changing climate, which will require--"
+   },
+   {
+    "id": "b14",
+    "indent": 3,
+    "kind": "text",
+    "text": "(A) global reductions in greenhouse gas emissions from human sources of 40 to 60 percent from 2010 levels by 2030; and"
+   },
+   {
+    "id": "b15",
+    "indent": 3,
+    "kind": "text",
+    "text": "(B) net-zero global emissions by 2050;"
+   },
+   {
+    "id": "b16",
+    "indent": 1,
+    "kind": "text",
+    "text": "Whereas, because the United States has historically been responsible for a disproportionate amount of greenhouse gas emissions, having emitted 20 percent of global greenhouse gas emissions through 2014, and has a high technological capacity, the United States must take a leading role in reducing emissions through economic transformation;"
+   },
+   {
+    "id": "b17",
+    "indent": 1,
+    "kind": "text",
+    "text": "Whereas the United States is currently experiencing several related crises, with--"
+   },
+   {
+    "id": "b18",
+    "indent": 2,
+    "kind": "text",
+    "text": "(1) life expectancy declining while basic needs, such as clean air, clean water, healthy food, and adequate health care, housing, transportation, and education, are inaccessible to a significant portion of the United States population;"
+   },
+   {
+    "id": "b19",
+    "indent": 2,
+    "kind": "text",
+    "text": "(2) a 4-decade trend of wage stagnation, deindustrialization, and antilabor policies that has led to--"
+   },
+   {
+    "id": "b20",
+    "indent": 3,
+    "kind": "text",
+    "text": "(A) hourly wages overall stagnating since the 1970s despite increased worker productivity;"
+   },
+   {
+    "id": "b21",
+    "indent": 3,
+    "kind": "text",
+    "text": "(B) the third-worst level of socioeconomic mobility in the developed world before the Great Recession;"
+   },
+   {
+    "id": "b22",
+    "indent": 3,
+    "kind": "text",
+    "text": "(C) the erosion of the earning and bargaining power of workers in the United States; and"
+   },
+   {
+    "id": "b23",
+    "indent": 3,
+    "kind": "text",
+    "text": "(D) inadequate resources for public sector workers to confront the challenges of climate change at local, State, and Federal levels; and"
+   },
+   {
+    "id": "b24",
+    "indent": 2,
+    "kind": "text",
+    "text": "(3) the greatest income inequality since the 1920s, with--"
+   },
+   {
+    "id": "b25",
+    "indent": 3,
+    "kind": "text",
+    "text": "(A) the top 1 percent of earners accruing 91 percent of gains in the first few years of economic recovery after the Great Recession;"
+   },
+   {
+    "id": "b26",
+    "indent": 3,
+    "kind": "text",
+    "text": "(B) a large racial wealth divide amounting to a difference of 20 times more wealth between the average white family and the average black family; and"
+   },
+   {
+    "id": "b27",
+    "indent": 3,
+    "kind": "text",
+    "text": "(C) a gender earnings gap that results in women earning approximately 80 percent as much as men, at the median;"
+   },
+   {
+    "id": "b28",
+    "indent": 1,
+    "kind": "text",
+    "text": "Whereas climate change, pollution, and environmental destruction have exacerbated systemic racial, regional, social, environmental, and economic injustices (referred to in this preamble as \"systemic injustices\") by disproportionately affecting indigenous peoples, communities of color, migrant communities, deindustrialized communities, depopulated rural communities, the poor, low-income workers, women, the elderly, the unhoused, people with disabilities, and youth (referred to in this preamble as \"frontline and vulnerable communities\");"
+   },
+   {
+    "id": "b29",
+    "indent": 1,
+    "kind": "text",
+    "text": "Whereas, climate change constitutes a direct threat to the national security of the United States--"
+   },
+   {
+    "id": "b30",
+    "indent": 2,
+    "kind": "text",
+    "text": "(1) by impacting the economic, environmental, and social stability of countries and communities around the world; and"
+   },
+   {
+    "id": "b31",
+    "indent": 2,
+    "kind": "text",
+    "text": "(2) by acting as a threat multiplier;"
+   },
+   {
+    "id": "b32",
+    "indent": 1,
+    "kind": "text",
+    "text": "Whereas the Federal Government-led mobilizations during World War II and the New Deal created the greatest middle class that the United States has ever seen, but many members of frontline and vulnerable communities were excluded from many of the economic and societal benefits of those mobilizations; and"
+   },
+   {
+    "id": "b33",
+    "indent": 1,
+    "kind": "text",
+    "text": "Whereas the House of Representatives recognizes that a new national, social, industrial, and economic mobilization on a scale not seen since World War II and the New Deal era is a historic opportunity--"
+   },
+   {
+    "id": "b34",
+    "indent": 2,
+    "kind": "text",
+    "text": "(1) to create millions of good, high-wage jobs in the United States;"
+   },
+   {
+    "id": "b35",
+    "indent": 2,
+    "kind": "text",
+    "text": "(2) to provide unprecedented levels of prosperity and economic security for all people of the United States; and"
+   },
+   {
+    "id": "b36",
+    "indent": 2,
+    "kind": "text",
+    "text": "(3) to counteract systemic injustices: Now, therefore, be it"
+   },
+   {
+    "id": "b37",
+    "indent": 0,
+    "kind": "heading",
+    "text": "Resolving clause"
+   },
+   {
+    "id": "b38",
+    "indent": 1,
+    "kind": "text",
+    "text": "Resolved, That it is the sense of the House of Representatives that--"
+   },
+   {
+    "id": "b39",
+    "indent": 2,
+    "kind": "text",
+    "text": "(1) it is the duty of the Federal Government to create a Green New Deal--"
+   },
+   {
+    "id": "b40",
+    "indent": 3,
+    "kind": "text",
+    "text": "(A) to achieve net-zero greenhouse gas emissions through a fair and just transition for all communities and workers;"
+   },
+   {
+    "id": "b41",
+    "indent": 3,
+    "kind": "text",
+    "text": "(B) to create millions of good, high-wage jobs and ensure prosperity and economic security for all people of the United States;"
+   },
+   {
+    "id": "b42",
+    "indent": 3,
+    "kind": "text",
+    "text": "(C) to invest in the infrastructure and industry of the United States to sustainably meet the challenges of the 21st century;"
+   },
+   {
+    "id": "b43",
+    "indent": 3,
+    "kind": "text",
+    "text": "(D) to secure for all people of the United States for generations to come--"
+   },
+   {
+    "id": "b44",
+    "indent": 4,
+    "kind": "text",
+    "text": "(i) clean air and water;"
+   },
+   {
+    "id": "b45",
+    "indent": 4,
+    "kind": "text",
+    "text": "(ii) climate and community resiliency;"
+   },
+   {
+    "id": "b46",
+    "indent": 4,
+    "kind": "text",
+    "text": "(iii) healthy food;"
+   },
+   {
+    "id": "b47",
+    "indent": 4,
+    "kind": "text",
+    "text": "(iv) access to nature; and"
+   },
+   {
+    "id": "b48",
+    "indent": 4,
+    "kind": "text",
+    "text": "(v) a sustainable environment; and"
+   },
+   {
+    "id": "b49",
+    "indent": 3,
+    "kind": "text",
+    "text": "(E) to promote justice and equity by stopping current, preventing future, and repairing historic oppression of indigenous peoples, communities of color, migrant communities, deindustrialized communities, depopulated rural communities, the poor, low-income workers, women, the elderly, the unhoused, people with disabilities, and youth (referred to in this resolution as \"frontline and vulnerable communities\");"
+   },
+   {
+    "id": "b50",
+    "indent": 2,
+    "kind": "text",
+    "text": "(2) the goals described in subparagraphs (A) through (E) of paragraph (1) (referred to in this resolution as the \"Green New Deal goals\") should be accomplished through a 10-year national mobilization (referred to in this resolution as the \"Green New Deal mobilization\") that will require the following goals and projects--"
+   },
+   {
+    "id": "b51",
+    "indent": 3,
+    "kind": "text",
+    "text": "(A) building resiliency against climate change-related disasters, such as extreme weather, including by leveraging funding and providing investments for community-defined projects and strategies;"
+   },
+   {
+    "id": "b52",
+    "indent": 3,
+    "kind": "text",
+    "text": "(B) repairing and upgrading the infrastructure in the United States, including--"
+   },
+   {
+    "id": "b53",
+    "indent": 4,
+    "kind": "text",
+    "text": "(i) by eliminating pollution and greenhouse gas emissions as much as technologically feasible;"
+   },
+   {
+    "id": "b54",
+    "indent": 4,
+    "kind": "text",
+    "text": "(ii) by guaranteeing universal access to clean water;"
+   },
+   {
+    "id": "b55",
+    "indent": 4,
+    "kind": "text",
+    "text": "(iii) by reducing the risks posed by climate impacts; and"
+   },
+   {
+    "id": "b56",
+    "indent": 4,
+    "kind": "text",
+    "text": "(iv) by ensuring that any infrastructure bill considered by Congress addresses climate change;"
+   },
+   {
+    "id": "b57",
+    "indent": 3,
+    "kind": "text",
+    "text": "(C) meeting 100 percent of the power demand in the United States through clean, renewable, and zero-emission energy sources, including--"
+   },
+   {
+    "id": "b58",
+    "indent": 4,
+    "kind": "text",
+    "text": "(i) by dramatically expanding and upgrading renewable power sources; and"
+   },
+   {
+    "id": "b59",
+    "indent": 4,
+    "kind": "text",
+    "text": "(ii) by deploying new capacity;"
+   },
+   {
+    "id": "b60",
+    "indent": 3,
+    "kind": "text",
+    "text": "(D) building or upgrading to energy-efficient, distributed, and \"smart\" power grids, and ensuring affordable access to electricity;"
+   },
+   {
+    "id": "b61",
+    "indent": 3,
+    "kind": "text",
+    "text": "(E) upgrading all existing buildings in the United States and building new buildings to achieve maximum energy efficiency, water efficiency, safety, affordability, comfort, and durability, including through electrification;"
+   },
+   {
+    "id": "b62",
+    "indent": 3,
+    "kind": "text",
+    "text": "(F) spurring massive growth in clean manufacturing in the United States and removing pollution and greenhouse gas emissions from manufacturing and industry as much as is technologically feasible, including by expanding renewable energy manufacturing and investing in existing manufacturing and industry;"
+   },
+   {
+    "id": "b63",
+    "indent": 3,
+    "kind": "text",
+    "text": "(G) working collaboratively with farmers and ranchers in the United States to remove pollution and greenhouse gas emissions from the agricultural sector as much as is technologically feasible, including--"
+   },
+   {
+    "id": "b64",
+    "indent": 4,
+    "kind": "text",
+    "text": "(i) by supporting family farming;"
+   },
+   {
+    "id": "b65",
+    "indent": 4,
+    "kind": "text",
+    "text": "(ii) by investing in sustainable farming and land use practices that increase soil health; and"
+   },
+   {
+    "id": "b66",
+    "indent": 4,
+    "kind": "text",
+    "text": "(iii) by building a more sustainable food system that ensures universal access to healthy food;"
+   },
+   {
+    "id": "b67",
+    "indent": 3,
+    "kind": "text",
+    "text": "(H) overhauling transportation systems in the United States to remove pollution and greenhouse gas emissions from the transportation sector as much as is technologically feasible, including through investment in--"
+   },
+   {
+    "id": "b68",
+    "indent": 4,
+    "kind": "text",
+    "text": "(i) zero-emission vehicle infrastructure and manufacturing;"
+   },
+   {
+    "id": "b69",
+    "indent": 4,
+    "kind": "text",
+    "text": "(ii) clean, affordable, and accessible public transit; and"
+   },
+   {
+    "id": "b70",
+    "indent": 4,
+    "kind": "text",
+    "text": "(iii) high-speed rail;"
+   },
+   {
+    "id": "b71",
+    "indent": 3,
+    "kind": "text",
+    "text": "(I) mitigating and managing the long-term adverse health, economic, and other effects of pollution and climate change, including by providing funding for community-defined projects and strategies;"
+   },
+   {
+    "id": "b72",
+    "indent": 3,
+    "kind": "text",
+    "text": "(J) removing greenhouse gases from the atmosphere and reducing pollution by restoring natural ecosystems through proven low-tech solutions that increase soil carbon storage, such as land preservation and afforestation;"
+   },
+   {
+    "id": "b73",
+    "indent": 3,
+    "kind": "text",
+    "text": "(K) restoring and protecting threatened, endangered, and fragile ecosystems through locally appropriate and science-based projects that enhance biodiversity and support climate resiliency;"
+   },
+   {
+    "id": "b74",
+    "indent": 3,
+    "kind": "text",
+    "text": "(L) cleaning up existing hazardous waste and abandoned sites, ensuring economic development and sustainability on those sites;"
+   },
+   {
+    "id": "b75",
+    "indent": 3,
+    "kind": "text",
+    "text": "(M) identifying other emission and pollution sources and creating solutions to remove them; and"
+   },
+   {
+    "id": "b76",
+    "indent": 3,
+    "kind": "text",
+    "text": "(N) promoting the international exchange of technology, expertise, products, funding, and services, with the aim of making the United States the international leader on climate action, and to help other countries achieve a Green New Deal;"
+   },
+   {
+    "id": "b77",
+    "indent": 2,
+    "kind": "text",
+    "text": "(3) a Green New Deal must be developed through transparent and inclusive consultation, collaboration, and partnership with frontline and vulnerable communities, labor unions, worker cooperatives, civil society groups, academia, and businesses; and"
+   },
+   {
+    "id": "b78",
+    "indent": 2,
+    "kind": "text",
+    "text": "(4) to achieve the Green New Deal goals and mobilization, a Green New Deal will require the following goals and projects--"
+   },
+   {
+    "id": "b79",
+    "indent": 3,
+    "kind": "text",
+    "text": "(A) providing and leveraging, in a way that ensures that the public receives appropriate ownership stakes and returns on investment, adequate capital (including through community grants, public banks, and other public financing), technical expertise, supporting policies, and other forms of assistance to communities, organizations, Federal, State, and local government agencies, and businesses working on the Green New Deal mobilization;"
+   },
+   {
+    "id": "b80",
+    "indent": 3,
+    "kind": "text",
+    "text": "(B) ensuring that the Federal Government takes into account the complete environmental and social costs and impacts of emissions through--"
+   },
+   {
+    "id": "b81",
+    "indent": 4,
+    "kind": "text",
+    "text": "(i) existing laws;"
+   },
+   {
+    "id": "b82",
+    "indent": 4,
+    "kind": "text",
+    "text": "(ii) new policies and programs; and"
+   },
+   {
+    "id": "b83",
+    "indent": 4,
+    "kind": "text",
+    "text": "(iii) ensuring that frontline and vulnerable communities shall not be adversely affected;"
+   },
+   {
+    "id": "b84",
+    "indent": 3,
+    "kind": "text",
+    "text": "(C) providing resources, training, and high-quality education, including higher education, to all people of the United States, with a focus on frontline and vulnerable communities, so that all people of the United States may be full and equal participants in the Green New Deal mobilization;"
+   },
+   {
+    "id": "b85",
+    "indent": 3,
+    "kind": "text",
+    "text": "(D) making public investments in the research and development of new clean and renewable energy technologies and industries;"
+   },
+   {
+    "id": "b86",
+    "indent": 3,
+    "kind": "text",
+    "text": "(E) directing investments to spur economic development, deepen and diversify industry and business in local and regional economies, and build wealth and community ownership, while prioritizing high-quality job creation and economic, social, and environmental benefits in frontline and vulnerable communities, and deindustrialized communities, that may otherwise struggle with the transition away from greenhouse gas intensive industries;"
+   },
+   {
+    "id": "b87",
+    "indent": 3,
+    "kind": "text",
+    "text": "(F) ensuring the use of democratic and participatory processes that are inclusive of and led by frontline and vulnerable communities and workers to plan, implement, and administer the Green New Deal mobilization at the local level;"
+   },
+   {
+    "id": "b88",
+    "indent": 3,
+    "kind": "text",
+    "text": "(G) ensuring that the Green New Deal mobilization creates high-quality union jobs that pay prevailing wages, hires local workers, offers training and advancement opportunities, and guarantees wage and benefit parity for workers affected by the transition;"
+   },
+   {
+    "id": "b89",
+    "indent": 3,
+    "kind": "text",
+    "text": "(H) guaranteeing a job with a family-sustaining wage, adequate family and medical leave, paid vacations, and retirement security to all people of the United States;"
+   },
+   {
+    "id": "b90",
+    "indent": 3,
+    "kind": "text",
+    "text": "(I) strengthening and protecting the right of all workers to organize, unionize, and collectively bargain free of coercion, intimidation, and harassment;"
+   },
+   {
+    "id": "b91",
+    "indent": 3,
+    "kind": "text",
+    "text": "(J) strengthening and enforcing labor, workplace health and safety, antidiscrimination, and wage and hour standards across all employers, industries, and sectors;"
+   },
+   {
+    "id": "b92",
+    "indent": 3,
+    "kind": "text",
+    "text": "(K) enacting and enforcing trade rules, procurement standards, and border adjustments with strong labor and environmental protections--"
+   },
+   {
+    "id": "b93",
+    "indent": 4,
+    "kind": "text",
+    "text": "(i) to stop the transfer of jobs and pollution overseas; and"
+   },
+   {
+    "id": "b94",
+    "indent": 4,
+    "kind": "text",
+    "text": "(ii) to grow domestic manufacturing in the United States;"
+   },
+   {
+    "id": "b95",
+    "indent": 3,
+    "kind": "text",
+    "text": "(L) ensuring that public lands, waters, and oceans are protected and that eminent domain is not abused;"
+   },
+   {
+    "id": "b96",
+    "indent": 3,
+    "kind": "text",
+    "text": "(M) obtaining the free, prior, and informed consent of indigenous peoples for all decisions that affect indigenous peoples and their traditional territories, honoring all treaties and agreements with indigenous peoples, and protecting and enforcing the sovereignty and land rights of indigenous peoples;"
+   },
+   {
+    "id": "b97",
+    "indent": 3,
+    "kind": "text",
+    "text": "(N) ensuring a commercial environment where every businessperson is free from unfair competition and domination by domestic or international monopolies; and"
+   },
+   {
+    "id": "b98",
+    "indent": 3,
+    "kind": "text",
+    "text": "(O) providing all people of the United States with--"
+   },
+   {
+    "id": "b99",
+    "indent": 4,
+    "kind": "text",
+    "text": "(i) high-quality health care;"
+   },
+   {
+    "id": "b100",
+    "indent": 4,
+    "kind": "text",
+    "text": "(ii) affordable, safe, and adequate housing;"
+   },
+   {
+    "id": "b101",
+    "indent": 4,
+    "kind": "text",
+    "text": "(iii) economic security; and"
+   },
+   {
+    "id": "b102",
+    "indent": 4,
+    "kind": "text",
+    "text": "(iv) clean water, clean air, healthy and affordable food, and access to nature."
+   }
+  ]
+ },
+ "professional": {
+  "id": "gnd",
+  "short": "Green New Deal resolution",
+  "cite": "H. Res. 109, 116th Congress",
+  "sponsor": "Rep. Alexandria Ocasio-Cortez and 67 original cosponsors",
+  "status": "Introduced February 7, 2019. Referred to eleven committees. Not voted on in the House",
+  "sourceUrl": "https://www.govinfo.gov/content/pkg/BILLS-116hres109ih/html/BILLS-116hres109ih.htm",
+  "cls": {
+   "vehicle": "Simple resolution (H. Res.)",
+   "function": "Sense of the House resolution",
+   "stage": "Introduced in House",
+   "force": "none",
+   "banner": "The Green New Deal resolution states an opinion of the House of Representatives. Even if adopted, it would not change federal law, direct any agency or spend any money, and it would not be sent to the Senate or the President.",
+   "checks": "This analysis does not run its loophole, enforcement and funding checks on the Green New Deal resolution, because the resolution imposes no obligation that could be enforced. The analysis instead compares the resolution's stated goals to its legal effect and sets out what a binding version would have to contain."
+  },
+  "purpose": {
+   "stated": [
+    {
+     "t": "Recognizing the duty of the Federal Government to create a Green New Deal.",
+     "w": "Title"
+    },
+    {
+     "t": "A new national, social, industrial, and economic mobilization on a scale not seen since World War II and the New Deal era is a historic opportunity to create millions of good, high-wage jobs, provide unprecedented levels of prosperity and economic security, and counteract systemic injustices.",
+     "w": "Preamble, final clause"
+    }
+   ],
+   "marketed": [
+    {
+     "t": "The nonbinding resolution seeks to eliminate U.S. greenhouse gas emissions within a decade and transition the economy away from fossil fuels.",
+     "l": "Reuters, via The Japan Times",
+     "u": "https://www.japantimes.co.jp/news/2021/04/21/world/politics-diplomacy-world/us-green-new-deal"
+    },
+    {
+     "t": "A release on the 2023 Senate reintroduction says the resolution \"directs Congress to act urgently to protect the planet\".",
+     "l": "Sen. Wyden press release",
+     "u": "https://www.wyden.senate.gov/news/press-releases/wyden-merkley-colleagues-reintroduce-green-new-deal-resolution"
+    },
+    {
+     "t": "The resolution is \"not a law but a nonbinding symbol of congressional sentiment\".",
+     "l": "National Review",
+     "u": "https://www.nationalreview.com/news/markey-aoc-reintroduce-green-new-deal/amp/"
+    }
+   ],
+   "ladder": {
+    "mechanism": "The resolution would put the House on record that the federal government has a duty to create a Green New Deal.",
+    "outcome": "The resolution would establish a shared framework of climate and economic goals against which later bills can be measured.",
+    "aim": "The resolution's stated aim is net-zero greenhouse gas emissions, millions of jobs and greater economic security, achieved through a ten-year national mobilization."
+   }
+  },
+  "promises": [
+   {
+    "p": "The title of the Green New Deal resolution states that it recognizes a duty of the federal government to create a Green New Deal.",
+    "src": "Title",
+    "v": "paper",
+    "prov": "Resolved clause, paragraph (1)",
+    "why": "Adoption would record the House's opinion that a federal duty to create a Green New Deal exists. A simple resolution has no power to create a legal duty.",
+    "f": [
+     "G1",
+     "G3"
+    ]
+   },
+   {
+    "p": "Paragraph (1)(A) of the Green New Deal resolution states net-zero greenhouse gas emissions as the resolution's first goal.",
+    "src": "Paragraph (1)(A)",
+    "v": "absent",
+    "prov": "None",
+    "why": "Net-zero emissions is stated only as a goal. No provision of the resolution caps, prices or regulates greenhouse gas emissions, and the resolving clause gives no date for reaching net-zero.",
+    "f": [
+     "G1",
+     "G6"
+    ]
+   },
+   {
+    "p": "News coverage described the Green New Deal resolution as seeking to eliminate U.S. greenhouse gas emissions within a decade.",
+    "src": "News coverage",
+    "v": "partly",
+    "prov": "Paragraph (2)",
+    "why": "Paragraph (2) of the resolving clause states that the goals \"should be accomplished through a 10-year national mobilization\". The resolution does not say when the ten years begin or that net-zero emissions must be reached by their end.",
+    "f": [
+     "G4",
+     "G6"
+    ]
+   },
+   {
+    "p": "A 2023 Senate press release described the Green New Deal resolution as directing Congress to act.",
+    "src": "2023 Senate press release",
+    "v": "absent",
+    "prov": "None",
+    "why": "A resolution expressing the sense of a chamber states an opinion. It cannot direct Congress, a committee or an agency to do anything.",
+    "f": [
+     "G1",
+     "G10"
+    ]
+   },
+   {
+    "p": "Paragraphs (1)(B) and (4)(H) of the Green New Deal resolution call for millions of good, high-wage jobs and for guaranteeing a job to all people of the United States.",
+    "src": "Paragraphs (1)(B) and (4)(H)",
+    "v": "absent",
+    "prov": "None",
+    "why": "The resolution creates no program, agency, eligibility rule or funding for the jobs it describes or for the job guarantee.",
+    "f": [
+     "G8",
+     "G9"
+    ]
+   },
+   {
+    "p": "Paragraph (2)(C) of the Green New Deal resolution calls for meeting 100 percent of U.S. power demand through clean, renewable and zero-emission energy sources.",
+    "src": "Paragraph (2)(C)",
+    "v": "absent",
+    "prov": "None",
+    "why": "The 100 percent clean power goal has no standard, no deadline and no definition of which energy sources qualify.",
+    "f": [
+     "G7"
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "ty": "Purpose",
+    "q": "What would be legally different the day after the House adopted the Green New Deal resolution?",
+    "a": "Nothing would be legally different. A simple resolution speaks for one chamber, is not sent to the Senate or the President, and has no force of law. The Congressional Research Service notes that agencies may still watch such measures as a signal of what Congress might do later.",
+    "f": [
+     "G1"
+    ],
+    "s": [
+     {
+      "l": "CRS, \"Sense of\" Resolutions and Provisions",
+      "u": "https://www.everycrsreport.com/reports/98-825.html"
+     }
+    ]
+   },
+   {
+    "ty": "Promise to provision",
+    "q": "For each goal in the Green New Deal resolution, which words in the resolution would deliver it?",
+    "a": "None of the Green New Deal resolution's goals is paired with an operative provision. The resolution's governing verbs are \"it is the duty\", \"should be accomplished\" and \"will require\". The resolution names no agency, makes no appropriation and amends no statute.",
+    "f": [
+     "G3",
+     "G4",
+     "G9"
+    ]
+   },
+   {
+    "ty": "Language",
+    "q": "Even read only as a statement of goals, where does the wording of the Green New Deal resolution leave room for differing interpretations?",
+    "a": "Four of the resolution's emissions goals are qualified by as far as is \"technologically feasible\". The net-zero goal has no date in the resolving clause. The phrase \"clean, renewable, and zero-emission\" energy is not defined, so the resolution does not settle whether nuclear power or fossil generation with carbon capture counts.",
+    "f": [
+     "G5",
+     "G6",
+     "G7"
+    ]
+   },
+   {
+    "ty": "Actors",
+    "q": "Which agency or official does the Green New Deal resolution assign to carry out its goals?",
+    "a": "The resolution assigns its duty only to \"the Federal Government\" as a whole. It names no department, agency, official or committee.",
+    "f": [
+     "G3"
+    ]
+   },
+   {
+    "ty": "Capacity",
+    "q": "What would the Green New Deal resolution cost, and where would the money come from?",
+    "a": "The Green New Deal resolution contains no cost figure and provides no funding. Because it has no budgetary effect, no official cost estimate would be prepared for it.",
+    "f": [
+     "G9"
+    ]
+   },
+   {
+    "ty": "History",
+    "q": "Has the text of the Green New Deal resolution ever been voted on in Congress?",
+    "a": "The House has not voted on the resolution. The Senate majority leader introduced the same text as a joint resolution, and on March 26, 2019 a motion to take it up failed with 0 votes in favor, 57 against and 43 senators voting present.",
+    "f": [
+     "G14"
+    ],
+    "s": [
+     {
+      "l": "Senate roll call vote 52, 116th Congress",
+      "u": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1161/vote_116_1_00052.htm"
+     }
+    ]
+   },
+   {
+    "ty": "Legal setting",
+    "q": "Do binding bills exist that would carry out parts of the Green New Deal resolution's framework?",
+    "a": "Binding bills of that kind exist. Sponsors have introduced separate bills, including a Green New Deal for Public Housing Act and Civilian Climate Corps legislation, and a bill to establish a Green New Deal for public schools was introduced in July 2026. Those bills, not the resolution, are the vehicles to which loophole analysis applies.",
+    "f": [
+     "G13"
+    ],
+    "s": [
+     {
+      "l": "Reintroduction of the Green New Deal for Public Housing Act",
+      "u": "https://ocasio-cortez.house.gov/media/press-releases/ocasio-cortez-sanders-ramirez-reintroduce-green-new-deal-public-housing-act"
+     },
+     {
+      "l": "H.R. 9959, 119th Congress",
+      "u": "https://policysoup.com/bills/hr9959-119/analysis/lenses"
+     }
+    ]
+   },
+   {
+    "ty": "Best design",
+    "q": "What would a binding version of the Green New Deal resolution's first goal, net-zero greenhouse gas emissions, need to contain?",
+    "a": "A binding net-zero measure would need a statutory emissions target with dates, a named agency with authority to set and enforce limits, a funding source, and a way to enforce the target against the government itself. The \"binding version\" table in the bigger picture panel sets out these requirements goal by goal.",
+    "f": [
+     "G6"
+    ]
+   }
+  ],
+  "findings": [
+   {
+    "id": "G1",
+    "kind": "notice",
+    "sev": "critical",
+    "conf": "high",
+    "fam": "symbolic",
+    "pat": "Sense-of resolution",
+    "det": "word",
+    "a": {
+     "q": "it is the sense of the House of Representatives"
+    },
+    "title": "The Green New Deal resolution expresses the sense of the House of Representatives and, if adopted, would have no force of law.",
+    "plain": "The resolving clause of the Green New Deal resolution begins with the words \"it is the sense of the House of Representatives\", which mean the House is stating a view. Nothing that follows those words can require any person or agency to act, whatever the language says.",
+    "tech": "The Green New Deal resolution is a simple resolution, which is adopted by one chamber and is not presented to the President. The Congressional Research Service describes sense-of measures as not legally binding. Every paragraph of the resolving clause depends grammatically on the sense-of-the-House clause.",
+    "use": "A member of Congress can cite a vote for, or cosponsorship of, the Green New Deal resolution as action on climate even though no law has changed.",
+    "s": [
+     {
+      "l": "CRS, \"Sense of\" Resolutions and Provisions",
+      "u": "https://www.everycrsreport.com/reports/98-825.html"
+     }
+    ],
+    "am": [],
+    "inq": {
+     "q": "What happened to the Green New Deal resolution in Congress, and what does that history show about the resolution's function?",
+     "items": [
+      {
+       "h": "The Green New Deal resolution was introduced in the House three times and never received a House vote.",
+       "d": "The resolution was introduced as House Resolution 109 in 2019 with 101 cosponsors, as House Resolution 332 in 2021 with 104, and as House Resolution 319 in 2023 with 96. Each version was referred to committee and went no further.",
+       "s": [
+        {
+         "l": "Legislative history table",
+         "u": "https://en.wikipedia.org/wiki/Recognizing_the_duty_of_the_Federal_Government_to_create_a_Green_New_Deal"
+        }
+       ]
+      },
+      {
+       "h": "The only vote on the Green New Deal text was arranged by the resolution's opponents in the Senate.",
+       "d": "The Senate majority leader introduced the same text as S.J.Res. 8, and the motion to take it up failed 0 to 57, with 43 senators voting present.",
+       "s": [
+        {
+         "l": "Senate roll call vote 52, 116th Congress",
+         "u": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1161/vote_116_1_00052.htm"
+        }
+       ]
+      },
+      {
+       "h": "The Congressional Research Service describes sense-of resolutions such as the Green New Deal resolution as not legally binding.",
+       "d": "The Congressional Research Service describes sense-of measures as not legally binding because they are never presented to the President. The Service also notes that agencies may watch such measures as a signal of what Congress might do.",
+       "s": [
+        {
+         "l": "CRS, \"Sense of\" Resolutions and Provisions",
+         "u": "https://www.everycrsreport.com/reports/98-825.html"
+        }
+       ]
+      }
+     ],
+     "open": "The cosponsor counts for the three versions of the resolution come from a secondary table and should be confirmed against Congress.gov."
+    },
+    "two": {
+     "m": "symbolic",
+     "keep": [],
+     "close": [],
+     "dec": "Will members of Congress introduce binding legislation to carry out the Green New Deal resolution's climate and economic goals?",
+     "views": [
+      {
+       "r": "clim",
+       "pos": "keep",
+       "why": "Climate movement organizations treat the Green New Deal resolution as an organizing framework and a commitment to which later legislation can return.",
+       "s": [
+        {
+         "l": "Common Dreams on the 2023 reintroduction",
+         "u": "https://www.commondreams.org/news/green-new-deal-markey-ocasio-cortez-khanna"
+        }
+       ]
+      },
+      {
+       "r": "opp",
+       "pos": "keep",
+       "why": "The resolution's sponsors can use a resolution to gather cosponsors without a cost estimate or a filibuster.",
+       "s": [
+        {
+         "l": "Senate roll call vote 52",
+         "u": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1161/vote_116_1_00052.htm"
+        }
+       ]
+      },
+      {
+       "r": "crs",
+       "pos": "depends",
+       "why": "Opponents in Congress can bring a non-binding text such as the Green New Deal resolution up for a vote to put members on record.",
+       "s": [
+        {
+         "l": "CRS on sense-of resolutions",
+         "u": "https://www.everycrsreport.com/reports/98-825.html"
+        }
+       ]
+      }
+     ]
+    }
+   },
+   {
+    "id": "G3",
+    "kind": "notice",
+    "sev": "significant",
+    "conf": "high",
+    "fam": "actors",
+    "pat": "Duty with no assigned actor",
+    "det": "word",
+    "a": {
+     "q": "it is the duty of the Federal Government to create a Green New Deal"
+    },
+    "title": "Paragraph (1) of the Green New Deal resolution declares a federal duty to create a Green New Deal but assigns that duty to no agency or official.",
+    "plain": "The resolution states that the federal government has a duty to create a Green New Deal. It names no department, official or deadline, so no particular entity would be responsible for carrying out the duty.",
+    "tech": "Binding mandates name an officer, as in \"the Administrator shall\". The phrase \"the Federal Government\" in paragraph (1) does not identify an entity that can be ordered, sued or funded as such.",
+    "use": "",
+    "s": [],
+    "am": []
+   },
+   {
+    "id": "G4",
+    "kind": "notice",
+    "sev": "significant",
+    "conf": "high",
+    "fam": "obligation",
+    "pat": "Aspirational verb",
+    "det": "word",
+    "a": {
+     "q": "should be accomplished through a 10-year national mobilization"
+    },
+    "title": "Paragraph (2) frames the Green New Deal resolution's ten-year national mobilization with \"should\" and states no start date for the ten years.",
+    "plain": "Paragraph (2) states that the resolution's goals \"should be accomplished\" through a ten-year national mobilization. \"Should\" expresses a recommendation, and the resolution does not say when the ten years begin.",
+    "tech": "In drafting practice, \"should\" is hortatory. The phrase \"10-year national mobilization\" in paragraph (2) has no start date, and the 2021 and 2023 reintroductions carried the same ten-year language forward.",
+    "use": "Because the resolution sets no start date, a speaker can describe the ten-year timeline as beginning at any point the speaker chooses.",
+    "s": [],
+    "am": []
+   },
+   {
+    "id": "G5",
+    "kind": "notice",
+    "sev": "minor",
+    "conf": "high",
+    "fam": "obligation",
+    "pat": "Feasibility qualifier",
+    "det": "word",
+    "a": [
+     {
+      "q": "as much as technologically feasible",
+      "all": true
+     },
+     {
+      "q": "as much as is technologically feasible",
+      "all": true
+     }
+    ],
+    "title": "Four emissions goals in paragraph (2) of the Green New Deal resolution are qualified by the words \"technologically feasible\", with no designated decision-maker.",
+    "plain": "For infrastructure, manufacturing, agriculture and transportation, the resolution sets a goal of removing greenhouse gas emissions \"as much as technologically feasible\". The resolution does not say who decides what is technologically feasible.",
+    "tech": "In a binding statute, this qualifier hands the standard to whoever judges feasibility, and that judgment usually rests on the regulated industry's own evidence. The qualifier appears four times in the resolution, in subparagraphs (B)(i), (F), (G) and (H) of paragraph (2).",
+    "use": "If the qualifier were carried unchanged into a binding bill, each sector's emissions goal would be only as strong as the finding of what is technologically feasible.",
+    "s": [],
+    "am": []
+   },
+   {
+    "id": "G6",
+    "kind": "notice",
+    "sev": "significant",
+    "conf": "medium",
+    "fam": "definitions",
+    "pat": "Undefined target",
+    "det": "word",
+    "a": {
+     "q": "net-zero greenhouse gas emissions",
+     "ctx": "(A) to achieve net-zero"
+    },
+    "title": "Paragraph (1)(A) of the Green New Deal resolution sets a net-zero greenhouse gas emissions goal with no date, baseline or accounting method in the resolving clause.",
+    "plain": "The first goal in the resolution is net-zero greenhouse gas emissions. The resolution does not say by when the goal is to be reached, how emissions are measured, or what counts as an offset.",
+    "tech": "The preamble cites a need for net-zero global emissions by 2050. The resolving clause links the goals to a ten-year mobilization in paragraph (2) but sets no net-zero date. The word \"net\" implies removals or offsets, which the resolution does not define.",
+    "use": "Supporters and critics can each describe the net-zero target differently, and both can point to the resolution's text.",
+    "s": [
+     {
+      "l": "Coverage describing the goal as elimination within a decade",
+      "u": "https://www.japantimes.co.jp/news/2021/04/21/world/politics-diplomacy-world/us-green-new-deal"
+     }
+    ],
+    "am": [],
+    "two": {
+     "m": "open_term",
+     "keep": [],
+     "close": [],
+     "dec": "Would binding legislation carrying out the Green New Deal resolution set a date for reaching net-zero greenhouse gas emissions?",
+     "views": [
+      {
+       "r": "opp",
+       "pos": "keep",
+       "why": "Climate movement organizations would want a date for reaching net-zero emissions.",
+       "s": [
+        {
+         "l": "National Review",
+         "u": "https://www.nationalreview.com/news/markey-aoc-reintroduce-green-new-deal/amp/"
+        }
+       ]
+      }
+     ]
+    }
+   },
+   {
+    "id": "G7",
+    "kind": "tradeoff",
+    "sev": "minor",
+    "conf": "medium",
+    "fam": "definitions",
+    "pat": "Undefined category",
+    "det": "word",
+    "a": {
+     "q": "clean, renewable, and zero-emission energy sources"
+    },
+    "title": "Paragraph (2)(C) of the Green New Deal resolution does not specify which energy sources qualify as \"clean, renewable, and zero-emission\".",
+    "plain": "Paragraph (2)(C) calls for meeting 100 percent of the power demand in the United States from \"clean, renewable, and zero-emission\" energy sources. The resolution does not say whether a source must meet all three criteria or any one of them, which determines whether nuclear power qualifies.",
+    "tech": "Nuclear generation is zero-emission but not renewable, and fossil generation with carbon capture is arguably neither. Leaving the list of qualifying sources open can keep supporters with differing views in one coalition, which is why this finding is classified as a trade-off.",
+    "use": "The undefined category moves the decision about which energy sources qualify to whatever binding bill comes later.",
+    "s": [],
+    "am": []
+   },
+   {
+    "id": "G8",
+    "kind": "notice",
+    "sev": "significant",
+    "conf": "high",
+    "fam": "symbolic",
+    "pat": "Guarantee without a mechanism",
+    "det": "word",
+    "a": {
+     "q": "guaranteeing a job with a family-sustaining wage"
+    },
+    "title": "Paragraph (4)(H) of the Green New Deal resolution refers to guaranteeing employment but establishes no program, eligibility rule or funding.",
+    "plain": "Paragraph (4)(H) of the resolution speaks of \"guaranteeing a job\" to all people of the United States. A guarantee of employment requires a program, an employer of last resort, eligibility rules and funding, and the resolution contains none of these.",
+    "tech": "The same is true of \"guaranteeing universal access to clean water\" in paragraph (2)(B)(ii) and of \"providing all people of the United States with\" \"high-quality health care\" in paragraph (4)(O). In a non-binding text, these phrases are statements of aim.",
+    "use": "A speaker can quote the word \"guaranteeing\" from the resolution as if a job guarantee had been enacted.",
+    "s": [],
+    "am": []
+   },
+   {
+    "id": "G10",
+    "kind": "notice",
+    "sev": "minor",
+    "conf": "high",
+    "fam": "symbolic",
+    "pat": "One chamber cannot bind future legislation",
+    "det": "word",
+    "a": {
+     "q": "ensuring that any infrastructure bill considered by Congress addresses climate change"
+    },
+    "title": "Paragraph (2)(B)(iv) of the Green New Deal resolution calls for conditions on future infrastructure legislation that a simple resolution cannot impose.",
+    "plain": "Paragraph (2)(B)(iv) calls for ensuring that any infrastructure bill considered by Congress addresses climate change. A statement of opinion by one chamber cannot control the content of later bills.",
+    "tech": "A chamber can bind its own proceedings through its rules, for example by creating a point of order. A sense-of-the-House resolution is not a rule of the House.",
+    "use": "",
+    "s": [],
+    "am": []
+   },
+   {
+    "id": "G12",
+    "kind": "notice",
+    "sev": "minor",
+    "conf": "high",
+    "fam": "symbolic",
+    "pat": "Preamble carries the detail",
+    "det": "structure",
+    "a": {
+     "q": "Whereas the October 2018 report"
+    },
+    "title": "The Green New Deal resolution's quantitative climate targets, such as the 1.5 degree Celsius warming limit, appear in the preamble, which has no operative effect.",
+    "plain": "The resolution's specific numerical targets, such as the 1.5 degree limit and the 2050 date, appear in the \"Whereas\" clauses. Those clauses explain why the House is speaking and are not part of what the House resolves.",
+    "tech": "Preambles and findings can inform interpretation but create no rights or duties. In the Green New Deal resolution, the most concrete targets appear outside the resolving clause.",
+    "use": "Figures from the Green New Deal resolution's preamble are often quoted as if they were commitments.",
+    "s": [],
+    "am": [],
+    "aud": "pro"
+   },
+   {
+    "id": "G9",
+    "kind": "notice",
+    "sev": "significant",
+    "conf": "high",
+    "fam": "money",
+    "pat": "No funding",
+    "det": "absence",
+    "where": "Whole resolution",
+    "title": "The Green New Deal resolution contains no cost estimate and no authorization or appropriation of funds for its goals.",
+    "plain": "The resolution names goals that would require very large public investment. It contains no cost figure and provides no funding, and a resolution could not provide funding.",
+    "tech": "Only a bill or joint resolution that becomes law can authorize or appropriate funds. Paragraph (4)(A) refers to \"adequate capital\" through community grants, public banks and other public financing, without stating amounts.",
+    "use": "Cost estimates for the Green New Deal from supporters and opponents cannot be checked against the resolution, because the resolution contains none.",
+    "s": [],
+    "am": []
+   },
+   {
+    "id": "G14",
+    "kind": "notice",
+    "sev": "minor",
+    "conf": "high",
+    "fam": "process",
+    "pat": "Vote taken on a different vehicle",
+    "det": "external",
+    "where": "Outside the text",
+    "title": "The House did not vote on the Green New Deal resolution, and the Senate vote on a companion joint resolution failed 0 to 57.",
+    "plain": "The House never voted on the Green New Deal resolution. The Senate held a procedural vote on the same text, introduced by the majority leader, and it failed 0 to 57, with 43 senators voting present.",
+    "tech": "Senate Joint Resolution 8 carried the same text as a joint resolution. Supporters of the House resolution called the vote a tactic and voted present. The episode shows how a non-binding text can be used to put members on record.",
+    "use": "Either side can cite the Senate vote on the Green New Deal text, one as proof of no support and the other as proof of a sham process.",
+    "s": [
+     {
+      "l": "Senate roll call vote 52, 116th Congress",
+      "u": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1161/vote_116_1_00052.htm"
+     },
+     {
+      "l": "Coverage of the Senate vote",
+      "u": "https://www.yahoo.com/huffpost/aoc-markey-reintroduce-deal-173700430.html"
+     }
+    ],
+    "am": []
+   },
+   {
+    "id": "G13",
+    "kind": "notice",
+    "sev": "minor",
+    "conf": "medium",
+    "fam": "symbolic",
+    "pat": "Binding companions exist",
+    "det": "external",
+    "where": "Outside the text",
+    "title": "Separate bills introduced under the Green New Deal name, unlike House Resolution 109 itself, would carry binding provisions if enacted.",
+    "plain": "Readers looking for measures that would change federal law should look to the separate bills introduced under the Green New Deal name, such as those on public housing and a Civilian Climate Corps.",
+    "tech": "Those companion measures are bills (H.R. and S.), which would be binding if enacted and can be red-teamed for loopholes in the ordinary way.",
+    "use": "",
+    "s": [
+     {
+      "l": "Green New Deal for Public Housing Act reintroduction",
+      "u": "https://ocasio-cortez.house.gov/media/press-releases/ocasio-cortez-sanders-ramirez-reintroduce-green-new-deal-public-housing-act"
+     },
+     {
+      "l": "2023 reintroduction with companion legislation",
+      "u": "https://ocasio-cortez.house.gov/media/press-releases/markey-and-ocasio-cortez-reintroduce-green-new-deal-resolution"
+     }
+    ],
+    "am": []
+   }
+  ],
+  "bigger": {
+   "issue": "Federal climate and economic policy",
+   "lead": "The Green New Deal resolution names nearly every part of the federal climate and economic agenda. Because the resolution has no legal effect, it changes none of them. The first table shows what the resolution names, and the second table shows what a binding measure would need for each goal.",
+   "map": [
+    {
+     "part": "Greenhouse gas emissions limits",
+     "reach": "named",
+     "note": "The resolution states net-zero emissions as a goal and sets no cap, price or standard for greenhouse gas emissions."
+    },
+    {
+     "part": "Electric power",
+     "reach": "named",
+     "note": "The resolution calls for 100 percent clean, renewable and zero-emission power and does not define which sources qualify."
+    },
+    {
+     "part": "Infrastructure, manufacturing, agriculture and transportation",
+     "reach": "named",
+     "note": "The resolution qualifies the emissions goal for each of these sectors by technological feasibility."
+    },
+    {
+     "part": "Public investment and financing",
+     "reach": "named",
+     "note": "The resolution states no amounts or sources for public investment and financing."
+    },
+    {
+     "part": "Jobs, wages and labor rights",
+     "reach": "named",
+     "note": "The resolution states guarantees for jobs, wages and labor rights without creating programs to deliver them."
+    },
+    {
+     "part": "Health care, housing and economic security",
+     "reach": "named",
+     "note": "The resolution lists health care, housing and economic security as things a Green New Deal will require."
+    },
+    {
+     "part": "Enacted climate law",
+     "reach": "untouched",
+     "note": "Later spending and tax law on clean energy was enacted through separate bills, which sponsors of the 2023 reintroduction of the resolution cited.",
+     "s": [
+      {
+       "l": "Sen. Wyden release on the 2023 reintroduction",
+       "u": "https://www.wyden.senate.gov/news/press-releases/wyden-merkley-colleagues-reintroduce-green-new-deal-resolution"
+      }
+     ]
+    }
+   ],
+   "binding": [
+    {
+     "goal": "Net-zero emissions",
+     "need": "A statutory target with dates and interim milestones; an agency with authority to set and enforce limits; a rule for what counts as an offset; a consequence if a milestone is missed."
+    },
+    {
+     "goal": "100 percent clean power",
+     "need": "A definition of qualifying sources; a standard that applies to utilities; a compliance schedule; penalties or alternative compliance payments."
+    },
+    {
+     "goal": "Job guarantee",
+     "need": "A program and administering agency; eligibility and wage rules; an appropriation or mandatory funding stream."
+    },
+    {
+     "goal": "Building and infrastructure upgrades",
+     "need": "Authorized programs with appropriations; standards; a delivery mechanism through States, localities or direct federal work."
+    },
+    {
+     "goal": "Protection of frontline communities",
+     "need": "Enforceable criteria for which communities qualify; a required share of investment; reporting and a right to challenge allocations."
+    }
+   ],
+   "others": [
+    {
+     "l": "Green New Deal for Public Housing Act",
+     "u": "https://ocasio-cortez.house.gov/media/press-releases/ocasio-cortez-sanders-ramirez-reintroduce-green-new-deal-public-housing-act",
+     "n": "A binding bill carrying one piece of the framework."
+    },
+    {
+     "l": "H.R. 9959, a Green New Deal for public schools (introduced July 2026)",
+     "u": "https://policysoup.com/bills/hr9959-119/analysis/lenses",
+     "n": "Another binding companion, currently in committee."
+    },
+    {
+     "l": "Later versions of this resolution: H. Res. 332 (2021) and H. Res. 319 (2023)",
+     "u": "https://en.wikipedia.org/wiki/Recognizing_the_duty_of_the_Federal_Government_to_create_a_Green_New_Deal",
+     "n": "Reintroduced with similar text; neither was voted on."
+    }
+   ]
+  },
+  "stake": [
+   {
+    "id": "clim",
+    "role": "Climate movement organizations",
+    "g": "Subject",
+    "want": "Climate movement organizations want a shared framework and a public commitment to build on. Movement groups endorsed the resolution.",
+    "s": [
+     {
+      "l": "Common Dreams on the 2023 reintroduction",
+      "u": "https://www.commondreams.org/news/green-new-deal-markey-ocasio-cortez-khanna"
+     }
+    ]
+   },
+   {
+    "id": "labor",
+    "role": "Labor unions",
+    "g": "Subject",
+    "want": "Labor unions want job and wage guarantees and protection for workers in industries that would shrink. Some unions endorsed the resolution.",
+    "s": [
+     {
+      "l": "Release listing endorsing organizations",
+      "u": "https://raskin.house.gov/2021/4/rep-raskin-joins-ocasio-cortez-markey-in-introducing-green-new-deal-resolution"
+     }
+    ]
+   },
+   {
+    "id": "foss",
+    "role": "Fossil fuel companies and their workers",
+    "g": "Subject",
+    "want": "Fossil fuel companies and their workers want no binding phase-out of fossil fuels or, failing that, the longest possible timeline.",
+    "s": []
+   },
+   {
+    "id": "util",
+    "role": "Electric utilities",
+    "g": "Subject",
+    "want": "Electric utilities want clear rules on which power sources will count, and time to build.",
+    "s": []
+   },
+   {
+    "id": "nuc",
+    "role": "Nuclear energy advocates",
+    "g": "Subject",
+    "want": "Nuclear energy advocates want nuclear power explicitly included as clean energy.",
+    "s": []
+   },
+   {
+    "id": "fisc",
+    "role": "Members of Congress focused on spending",
+    "g": "Politics",
+    "want": "Members of Congress focused on spending want a cost figure and a funding source before any commitment is made.",
+    "s": []
+   },
+   {
+    "id": "front",
+    "role": "Communities named in the resolution as frontline and vulnerable",
+    "g": "Subject",
+    "want": "Communities named in the resolution as frontline and vulnerable want an enforceable priority in investment, not only a mention in the text.",
+    "s": []
+   },
+   {
+    "id": "spon",
+    "role": "The resolution's sponsors",
+    "g": "Politics",
+    "want": "The resolution's sponsors want a statement of direction that later bills can carry out.",
+    "s": []
+   },
+   {
+    "id": "opp",
+    "role": "Opponents in Congress",
+    "g": "Politics",
+    "want": "Opponents in Congress want a recorded vote that puts supporters of the resolution on record. The Senate vote on the Green New Deal text was arranged by the measure's opponents.",
+    "s": [
+     {
+      "l": "Senate roll call vote 52",
+      "u": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1161/vote_116_1_00052.htm"
+     }
+    ]
+   },
+   {
+    "id": "crs",
+    "role": "Nonpartisan congressional analysts",
+    "g": "Law",
+    "want": "Nonpartisan congressional analysts describe sense-of resolutions as having no force of law.",
+    "s": [
+     {
+      "l": "CRS on sense-of resolutions",
+      "u": "https://www.everycrsreport.com/reports/98-825.html"
+     }
+    ]
+   },
+   {
+    "id": "tex",
+    "role": "A judge who reads statutes by their text",
+    "g": "Law",
+    "want": "A judge who reads statutes by their text applies the words as written and will not supply what Congress left out.",
+    "s": []
+   },
+   {
+    "id": "pur",
+    "role": "A judge who reads statutes by their purpose",
+    "g": "Law",
+    "want": "A judge who reads statutes by their purpose resolves doubt in favor of what the law was trying to do.",
+    "s": []
+   },
+   {
+    "id": "olc",
+    "role": "A legislative drafter",
+    "g": "Law",
+    "want": "A legislative drafter wants every key term defined, every reference checked and every relationship to existing law stated.",
+    "s": []
+   }
+  ],
+  "conflicts": [],
+  "conf_note": "The Green New Deal resolution assigns no duties to any agency or official, so there is no responsible party whose independence can be assessed. A later law that carried out its goals would need this review."
+ },
+ "plain": {
+  "id": "gnd",
+  "short": "Green New Deal resolution",
+  "cite": "H. Res. 109, 116th Congress",
+  "sponsor": "Rep. Alexandria Ocasio-Cortez and 67 original cosponsors",
+  "status": "Introduced February 7, 2019. Referred to eleven committees. Not voted on in the House",
+  "sourceUrl": "https://www.govinfo.gov/content/pkg/BILLS-116hres109ih/html/BILLS-116hres109ih.htm",
+  "cls": {
+   "vehicle": "Simple resolution (H. Res.)",
+   "function": "Statement of opinion by the House",
+   "stage": "Introduced in House",
+   "force": "none",
+   "banner": "The Green New Deal resolution states an opinion of the House of Representatives. It is not a law. Even if the House approved it, no law would change. It would not order any agency to act or spend any money. It would also not go to the Senate or the President.",
+   "checks": "This analysis does not check the Green New Deal resolution for loopholes, enforcement or funding. The reason is that the resolution does not make anyone do anything. Instead, the analysis compares the resolution's goals with what it would really do. It also shows what a version with the force of law would need."
+  },
+  "purpose": {
+   "stated": [
+    {
+     "t": "Recognizing the duty of the Federal Government to create a Green New Deal.",
+     "w": "Title"
+    },
+    {
+     "t": "A new national, social, industrial, and economic mobilization on a scale not seen since World War II and the New Deal era is a historic opportunity to create millions of good, high-wage jobs, provide unprecedented levels of prosperity and economic security, and counteract systemic injustices.",
+     "w": "Preamble, final clause"
+    }
+   ],
+   "marketed": [
+    {
+     "t": "The nonbinding resolution seeks to eliminate U.S. greenhouse gas emissions within a decade and transition the economy away from fossil fuels.",
+     "l": "Reuters, via The Japan Times",
+     "u": "https://www.japantimes.co.jp/news/2021/04/21/world/politics-diplomacy-world/us-green-new-deal"
+    },
+    {
+     "t": "A release on the 2023 Senate reintroduction says the resolution \"directs Congress to act urgently to protect the planet\".",
+     "l": "Sen. Wyden press release",
+     "u": "https://www.wyden.senate.gov/news/press-releases/wyden-merkley-colleagues-reintroduce-green-new-deal-resolution"
+    },
+    {
+     "t": "The resolution is \"not a law but a nonbinding symbol of congressional sentiment\".",
+     "l": "National Review",
+     "u": "https://www.nationalreview.com/news/markey-aoc-reintroduce-green-new-deal/amp/"
+    }
+   ],
+   "ladder": {
+    "mechanism": "The Green New Deal resolution would put the House on record. The House would be saying that the federal government has a duty to create a Green New Deal.",
+    "outcome": "The Green New Deal resolution would give later bills a shared set of climate and economic goals. Those bills could then be measured against the goals.",
+    "aim": "The Green New Deal resolution aims for net-zero greenhouse gas emissions. It also aims for millions of jobs and more economic security. It would reach these goals through a ten-year national effort."
+   }
+  },
+  "promises": [
+   {
+    "p": "The title of the Green New Deal resolution says the federal government has a duty to create a Green New Deal.",
+    "src": "Title",
+    "v": "paper",
+    "prov": "Resolved clause, paragraph (1)",
+    "why": "If the House approved the Green New Deal resolution, it would record the House's opinion that this duty exists. But a statement of opinion by the House has no power to create a legal duty.",
+    "f": [
+     "G1",
+     "G3"
+    ]
+   },
+   {
+    "p": "The first goal of the Green New Deal resolution is net-zero greenhouse gas emissions.",
+    "src": "Paragraph (1)(A)",
+    "v": "absent",
+    "prov": "None",
+    "why": "In the Green New Deal resolution, net-zero emissions is only a goal. Nothing in the resolution limits, prices or controls emissions. The part that says what the House resolves gives no date for net-zero.",
+    "f": [
+     "G1",
+     "G6"
+    ]
+   },
+   {
+    "p": "News reports said the Green New Deal resolution was meant to end the country's greenhouse gas emissions in ten years.",
+    "src": "News coverage",
+    "v": "partly",
+    "prov": "Paragraph (2)",
+    "why": "The Green New Deal resolution says its goals \"should be accomplished through a 10-year national mobilization\". That means a ten-year effort across the country. But the resolution does not say when the ten years start. It also does not say net-zero must be reached by the end of them.",
+    "f": [
+     "G4",
+     "G6"
+    ]
+   },
+   {
+    "p": "A 2023 Senate press release said the Green New Deal resolution would direct Congress to act.",
+    "src": "2023 Senate press release",
+    "v": "absent",
+    "prov": "None",
+    "why": "The Green New Deal resolution is an opinion of one chamber of Congress, the House. A statement like that cannot order Congress, a committee or a government agency to do anything.",
+    "f": [
+     "G1",
+     "G10"
+    ]
+   },
+   {
+    "p": "The Green New Deal resolution calls for millions of good jobs with high wages. It also calls for guaranteeing a job to everyone in the United States.",
+    "src": "Paragraphs (1)(B) and (4)(H)",
+    "v": "absent",
+    "prov": "None",
+    "why": "The Green New Deal resolution sets up no program or agency for these jobs. It has no rules for who qualifies. It sets aside no money for the jobs or for the job guarantee.",
+    "f": [
+     "G8",
+     "G9"
+    ]
+   },
+   {
+    "p": "The Green New Deal resolution calls for meeting 100 percent of the country's power needs. That power would come from clean, renewable and zero-emission energy sources.",
+    "src": "Paragraph (2)(C)",
+    "v": "absent",
+    "prov": "None",
+    "why": "The Green New Deal goal of 100 percent clean power has no standard and no deadline. The resolution also does not list which power sources count.",
+    "f": [
+     "G7"
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "ty": "Purpose",
+    "q": "What would legally change the day after the House approved the Green New Deal resolution?",
+    "a": "Nothing would legally change. The Green New Deal resolution speaks only for the House. It is not sent to the Senate or the President, and it is not a law. The Congressional Research Service is a research office that works for Congress. It notes that agencies may still watch such statements as a hint of what Congress might do later.",
+    "f": [
+     "G1"
+    ],
+    "s": [
+     {
+      "l": "CRS, \"Sense of\" Resolutions and Provisions",
+      "u": "https://www.everycrsreport.com/reports/98-825.html"
+     }
+    ]
+   },
+   {
+    "ty": "Promise to provision",
+    "q": "Which words in the Green New Deal resolution would actually make each of its goals happen?",
+    "a": "None of the Green New Deal resolution's goals comes with words that would make it happen. The resolution uses the phrases \"it is the duty\", \"should be accomplished\" and \"will require\". These words state hopes, not orders. The resolution names no agency, sets aside no money and changes no existing law.",
+    "f": [
+     "G3",
+     "G4",
+     "G9"
+    ]
+   },
+   {
+    "ty": "Language",
+    "q": "Where does the wording of the Green New Deal resolution leave room for different readings of its goals?",
+    "a": "Four of the Green New Deal resolution's emissions goals apply only as far as is \"technologically feasible\". That means as far as technology makes possible. The net-zero goal has no date in the part that says what the House resolves. The resolution does not define \"clean, renewable, and zero-emission\" energy. So it does not settle whether nuclear power counts. It also does not settle whether fossil fuel power plants that capture their carbon count.",
+    "f": [
+     "G5",
+     "G6",
+     "G7"
+    ]
+   },
+   {
+    "ty": "Actors",
+    "q": "Who does the Green New Deal resolution put in charge of reaching its goals?",
+    "a": "The Green New Deal resolution gives its duty only to \"the Federal Government\" as a whole. It does not name a department, an agency, an official or a committee to do the work.",
+    "f": [
+     "G3"
+    ]
+   },
+   {
+    "ty": "Capacity",
+    "q": "What would the Green New Deal resolution cost, and where would the money come from?",
+    "a": "The Green New Deal resolution gives no cost figure and provides no money. It would not spend anything. So no official cost estimate would be made for it.",
+    "f": [
+     "G9"
+    ]
+   },
+   {
+    "ty": "History",
+    "q": "Has the text of the Green New Deal resolution ever been voted on in Congress?",
+    "a": "The House never voted on the Green New Deal resolution. The Senate majority leader, who leads the larger party in the Senate, brought the same text there. On March 26, 2019, a vote to take it up failed. The count was 0 in favor and 57 against, and 43 senators voted present.",
+    "f": [
+     "G14"
+    ],
+    "s": [
+     {
+      "l": "Senate roll call vote 52, 116th Congress",
+      "u": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1161/vote_116_1_00052.htm"
+     }
+    ]
+   },
+   {
+    "ty": "Legal setting",
+    "q": "Have bills been introduced that would turn parts of the Green New Deal into law if they passed?",
+    "a": "Yes, separate bills like that have been introduced under the Green New Deal name. They include a Green New Deal for Public Housing Act and bills for a Civilian Climate Corps. A bill for a Green New Deal for public schools was introduced in July 2026. A search for loopholes applies to those bills, not to the resolution.",
+    "f": [
+     "G13"
+    ],
+    "s": [
+     {
+      "l": "Reintroduction of the Green New Deal for Public Housing Act",
+      "u": "https://ocasio-cortez.house.gov/media/press-releases/ocasio-cortez-sanders-ramirez-reintroduce-green-new-deal-public-housing-act"
+     },
+     {
+      "l": "H.R. 9959, 119th Congress",
+      "u": "https://policysoup.com/bills/hr9959-119/analysis/lenses"
+     }
+    ]
+   },
+   {
+    "ty": "Best design",
+    "q": "What would a law need to actually reach the Green New Deal resolution's first goal of net-zero emissions?",
+    "a": "A law to reach the Green New Deal goal of net-zero emissions would need several things. It would need an emissions target with dates, written into law. It would need a named agency with power to set and enforce limits. It would need a source of money. It would also need a way to hold the government itself to the target. A table in the bigger picture panel lists these needs for each goal.",
+    "f": [
+     "G6"
+    ]
+   }
+  ],
+  "findings": [
+   {
+    "id": "G1",
+    "kind": "notice",
+    "sev": "critical",
+    "conf": "high",
+    "fam": "symbolic",
+    "pat": "Sense-of resolution",
+    "det": "word",
+    "a": {
+     "q": "it is the sense of the House of Representatives"
+    },
+    "title": "The Green New Deal resolution is a statement of opinion. It would not change any law.",
+    "plain": "The Green New Deal resolution says \"it is the sense of the House of Representatives\". Those words mean the House is giving its opinion. Nothing that comes after them can make anyone do anything. That is true no matter what the rest of the wording says.",
+    "tech": "The Green New Deal resolution is a type of measure that only the House votes on. It never goes to the President. The Congressional Research Service, a research office of Congress, says opinion statements like this are not legally binding. That means no one has to follow them. Every goal in the resolution falls under its opening words, which state the House's opinion.",
+    "use": "A member of Congress can say that voting for or cosponsoring the Green New Deal resolution is action on climate. Yet no law has changed.",
+    "s": [
+     {
+      "l": "CRS, \"Sense of\" Resolutions and Provisions",
+      "u": "https://www.everycrsreport.com/reports/98-825.html"
+     }
+    ],
+    "am": [],
+    "inq": {
+     "q": "What does the history of the Green New Deal resolution in Congress show about what kind of measure it is?",
+     "items": [
+      {
+       "h": "The Green New Deal resolution was introduced in the House three times and never got a House vote.",
+       "d": "The Green New Deal resolution was first introduced as House Resolution 109 in 2019, with 101 cosponsors. It came back as House Resolution 332 in 2021 with 104. Then it came back as House Resolution 319 in 2023 with 96. Each time it was sent to a committee and went no further.",
+       "s": [
+        {
+         "l": "Legislative history table",
+         "u": "https://en.wikipedia.org/wiki/Recognizing_the_duty_of_the_Federal_Government_to_create_a_Green_New_Deal"
+        }
+       ]
+      },
+      {
+       "h": "The only vote on the Green New Deal text was set up by its opponents in the Senate.",
+       "d": "The Senate majority leader is the head of the larger party in the Senate. That leader introduced the same Green New Deal text there. A vote to take up the text failed 0 to 57, and 43 senators voted present.",
+       "s": [
+        {
+         "l": "Senate roll call vote 52, 116th Congress",
+         "u": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1161/vote_116_1_00052.htm"
+        }
+       ]
+      },
+      {
+       "h": "The Congressional Research Service is a research office for Congress. It says opinion statements like the Green New Deal resolution do not bind anyone by law.",
+       "d": "The Congressional Research Service does research for Congress. It says statements of opinion like the Green New Deal resolution are not legally binding. The reason is that they never go to the President. It also notes that agencies may watch them as a hint of what Congress might do.",
+       "s": [
+        {
+         "l": "CRS, \"Sense of\" Resolutions and Provisions",
+         "u": "https://www.everycrsreport.com/reports/98-825.html"
+        }
+       ]
+      }
+     ],
+     "open": "The cosponsor counts for the three versions of the Green New Deal resolution come from a secondhand table. They should be checked against the official records on Congress.gov."
+    },
+    "two": {
+     "m": "symbolic",
+     "keep": [],
+     "close": [],
+     "dec": "Will members of Congress write bills that put the Green New Deal resolution's climate and jobs goals into law?",
+     "views": [
+      {
+       "r": "clim",
+       "pos": "keep",
+       "why": "Climate movement groups treat the Green New Deal resolution as a shared plan to organize around. They also see it as a promise to come back to.",
+       "s": [
+        {
+         "l": "Common Dreams on the 2023 reintroduction",
+         "u": "https://www.commondreams.org/news/green-new-deal-markey-ocasio-cortez-khanna"
+        }
+       ]
+      },
+      {
+       "r": "opp",
+       "pos": "keep",
+       "why": "The sponsors of the Green New Deal resolution can use it to gather cosponsors. They can do this without a cost estimate. They also do not have to face a filibuster, which is a long Senate speech used to block a vote.",
+       "s": [
+        {
+         "l": "Senate roll call vote 52",
+         "u": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1161/vote_116_1_00052.htm"
+        }
+       ]
+      },
+      {
+       "r": "crs",
+       "pos": "depends",
+       "why": "Opponents in Congress can call a vote on a measure that binds no one, like the Green New Deal resolution. The vote puts members on record.",
+       "s": [
+        {
+         "l": "CRS on sense-of resolutions",
+         "u": "https://www.everycrsreport.com/reports/98-825.html"
+        }
+       ]
+      }
+     ]
+    }
+   },
+   {
+    "id": "G3",
+    "kind": "notice",
+    "sev": "significant",
+    "conf": "high",
+    "fam": "actors",
+    "pat": "Duty with no assigned actor",
+    "det": "word",
+    "a": {
+     "q": "it is the duty of the Federal Government to create a Green New Deal"
+    },
+    "title": "The Green New Deal resolution says the federal government has a duty to act. It puts no one in charge.",
+    "plain": "The Green New Deal resolution says the federal government has a duty to create a Green New Deal. It does not name a department, an official or a deadline. So no one in particular would be in charge of that duty.",
+    "tech": "Laws that require action always name a specific official. For example, a law may say \"the Administrator shall\" act, which means that official must act. The Green New Deal resolution names only \"the Federal Government\" as a whole. The whole government cannot be ordered, sued or given money as one body.",
+    "use": "",
+    "s": [],
+    "am": []
+   },
+   {
+    "id": "G4",
+    "kind": "notice",
+    "sev": "significant",
+    "conf": "high",
+    "fam": "obligation",
+    "pat": "Aspirational verb",
+    "det": "word",
+    "a": {
+     "q": "should be accomplished through a 10-year national mobilization"
+    },
+    "title": "The Green New Deal resolution only says its goals \"should\" be met in ten years. It sets no start date.",
+    "plain": "The Green New Deal resolution says its goals \"should be accomplished\" through a ten-year national effort. \"Should\" is a suggestion, not an order. The resolution also does not say when the ten years begin.",
+    "tech": "When laws are written, \"should\" suggests an action but does not require it. The phrase \"10-year national mobilization\" in the Green New Deal resolution has no start date. A mobilization is a large effort across the country. The 2021 and 2023 versions of the resolution used the same ten-year wording.",
+    "use": "The Green New Deal resolution sets no start date for its ten years. So anyone talking about it can say the ten years begin whenever they like.",
+    "s": [],
+    "am": []
+   },
+   {
+    "id": "G5",
+    "kind": "notice",
+    "sev": "minor",
+    "conf": "high",
+    "fam": "obligation",
+    "pat": "Feasibility qualifier",
+    "det": "word",
+    "a": [
+     {
+      "q": "as much as technologically feasible",
+      "all": true
+     },
+     {
+      "q": "as much as is technologically feasible",
+      "all": true
+     }
+    ],
+    "title": "The Green New Deal resolution limits four emissions goals to what technology makes possible. No one is named to decide.",
+    "plain": "The Green New Deal resolution has goals for infrastructure, factories, farming and transportation. For each one, the goal is to remove emissions \"as much as technologically feasible\". That means as much as technology makes possible. The resolution does not say who gets to decide what is possible.",
+    "tech": "In a real law, a limit like \"technologically feasible\" gives power to whoever judges what is possible. That person decides how much must be done. The choice is usually based on facts from the industry that is being regulated. In the Green New Deal resolution, the phrase appears four times. It covers infrastructure, manufacturing, farming and transportation.",
+    "use": "Suppose a later law copied the Green New Deal phrase \"technologically feasible\". Then each industry's emissions goal would be only as strong as the choice about what is possible.",
+    "s": [],
+    "am": []
+   },
+   {
+    "id": "G6",
+    "kind": "notice",
+    "sev": "significant",
+    "conf": "medium",
+    "fam": "definitions",
+    "pat": "Undefined target",
+    "det": "word",
+    "a": {
+     "q": "net-zero greenhouse gas emissions",
+     "ctx": "(A) to achieve net-zero"
+    },
+    "title": "The Green New Deal resolution calls for net-zero emissions with no deadline, starting point or way to count them.",
+    "plain": "The first goal of the Green New Deal resolution is net-zero greenhouse gas emissions. The resolution does not say by when. It does not say how emissions would be measured. It also does not say what counts as an offset, which is a step that makes up for emissions.",
+    "tech": "The Green New Deal resolution opens with \"Whereas\" paragraphs that give its reasons. They mention a need for net-zero emissions worldwide by 2050. The part that says what the House resolves ties the goals to a ten-year effort. But it sets no date for net-zero. The word \"net\" suggests that some emissions can be removed or made up for. The resolution does not say what counts.",
+    "use": "Supporters and critics can each describe the Green New Deal net-zero goal in their own way. Both can point to the resolution's words.",
+    "s": [
+     {
+      "l": "Coverage describing the goal as elimination within a decade",
+      "u": "https://www.japantimes.co.jp/news/2021/04/21/world/politics-diplomacy-world/us-green-new-deal"
+     }
+    ],
+    "am": [],
+    "two": {
+     "m": "open_term",
+     "keep": [],
+     "close": [],
+     "dec": "Would a later law based on the Green New Deal resolution set a date to reach net-zero emissions?",
+     "views": [
+      {
+       "r": "opp",
+       "pos": "keep",
+       "why": "Climate movement groups would want a deadline for the Green New Deal goal of net-zero emissions.",
+       "s": [
+        {
+         "l": "National Review",
+         "u": "https://www.nationalreview.com/news/markey-aoc-reintroduce-green-new-deal/amp/"
+        }
+       ]
+      }
+     ]
+    }
+   },
+   {
+    "id": "G7",
+    "kind": "tradeoff",
+    "sev": "minor",
+    "conf": "medium",
+    "fam": "definitions",
+    "pat": "Undefined category",
+    "det": "word",
+    "a": {
+     "q": "clean, renewable, and zero-emission energy sources"
+    },
+    "title": "The Green New Deal resolution does not say which energy counts as clean, or if nuclear power does.",
+    "plain": "The Green New Deal resolution calls for all of the country's power to come from \"clean, renewable, and zero-emission\" sources. It does not say if a source must be all three or just one. That choice decides whether nuclear power counts.",
+    "tech": "Nuclear power plants give off no emissions, but they are not renewable. Renewable means the source does not run out. Fossil fuel plants that capture their carbon may be neither. Leaving the list open in the Green New Deal resolution may keep supporters with different views together. That is why this finding is treated as a trade-off.",
+    "use": "The Green New Deal resolution leaves the list of clean energy sources open. So a later bill that would actually become law would have to decide which sources count.",
+    "s": [],
+    "am": []
+   },
+   {
+    "id": "G8",
+    "kind": "notice",
+    "sev": "significant",
+    "conf": "high",
+    "fam": "symbolic",
+    "pat": "Guarantee without a mechanism",
+    "det": "word",
+    "a": {
+     "q": "guaranteeing a job with a family-sustaining wage"
+    },
+    "title": "The Green New Deal resolution talks about guaranteeing everyone a job. It creates no program, rules or money for it.",
+    "plain": "The Green New Deal resolution speaks of \"guaranteeing a job\" to all people in the United States. A real job guarantee needs a program, rules and money. It also needs an employer of last resort. That means an employer that hires people who cannot find other work. The resolution has none of these.",
+    "tech": "The same is true of other goals in the Green New Deal resolution. It calls for \"guaranteeing universal access to clean water\", which means clean water for all. It also calls for giving everyone \"high-quality health care\". In a measure that binds no one, these phrases only state goals.",
+    "use": "Someone can quote the word \"guaranteeing\" from the Green New Deal resolution. They can make it sound as if a job guarantee were already law.",
+    "s": [],
+    "am": []
+   },
+   {
+    "id": "G10",
+    "kind": "notice",
+    "sev": "minor",
+    "conf": "high",
+    "fam": "symbolic",
+    "pat": "One chamber cannot bind future legislation",
+    "det": "word",
+    "a": {
+     "q": "ensuring that any infrastructure bill considered by Congress addresses climate change"
+    },
+    "title": "The Green New Deal resolution says future infrastructure bills should deal with climate change. Its opinion does not bind them.",
+    "plain": "The Green New Deal resolution calls for any infrastructure bill in Congress to deal with climate change. Infrastructure means things like roads and bridges. But a statement of opinion by one chamber of Congress cannot control what later bills say.",
+    "tech": "The House and the Senate can each set official rules for their own work, and those rules do bind them. For example, a rule can let a member object to a bill that breaks it. A statement of opinion like the Green New Deal resolution is not one of those rules.",
+    "use": "",
+    "s": [],
+    "am": []
+   },
+   {
+    "id": "G9",
+    "kind": "notice",
+    "sev": "significant",
+    "conf": "high",
+    "fam": "money",
+    "pat": "No funding",
+    "det": "absence",
+    "where": "Whole resolution",
+    "title": "The Green New Deal resolution gives no cost estimate. It provides no money for any of its goals.",
+    "plain": "The Green New Deal resolution sets goals that would take very large public spending. It gives no cost figure and sets aside no money. A statement of opinion could not set aside money anyway.",
+    "tech": "Only a bill or other measure that becomes law can approve or set aside federal money. The Green New Deal resolution mentions \"adequate capital\", meaning enough money. It says this could come through community grants, public banks and other public funding. But it gives no amounts.",
+    "use": "Supporters and opponents make claims about what the Green New Deal would cost. No one can check those claims against the resolution. It has no cost figures.",
+    "s": [],
+    "am": []
+   },
+   {
+    "id": "G14",
+    "kind": "notice",
+    "sev": "minor",
+    "conf": "high",
+    "fam": "process",
+    "pat": "Vote taken on a different vehicle",
+    "det": "external",
+    "where": "Outside the text",
+    "title": "The House never voted on the Green New Deal resolution. A Senate vote on its text failed 0 to 57.",
+    "plain": "The House never voted on the Green New Deal resolution. The Senate majority leader, who leads the larger party there, brought the same text to the Senate. The Senate then voted on whether to take it up. That vote failed 0 to 57, and 43 senators voted present.",
+    "tech": "In the Senate, the same Green New Deal text was a joint resolution. That is a type of measure that can become law. Supporters of the House resolution called the vote a tactic and voted present. This shows how a measure that binds no one can be used to put members on record.",
+    "use": "Either side can use the Senate vote on the Green New Deal text. One side can call it proof of no support. The other side can call it proof of a sham process.",
+    "s": [
+     {
+      "l": "Senate roll call vote 52, 116th Congress",
+      "u": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1161/vote_116_1_00052.htm"
+     },
+     {
+      "l": "Coverage of the Senate vote",
+      "u": "https://www.yahoo.com/huffpost/aoc-markey-reintroduce-deal-173700430.html"
+     }
+    ],
+    "am": []
+   },
+   {
+    "id": "G13",
+    "kind": "notice",
+    "sev": "minor",
+    "conf": "medium",
+    "fam": "symbolic",
+    "pat": "Binding companions exist",
+    "det": "external",
+    "where": "Outside the text",
+    "title": "Separate bills using the Green New Deal name would change the law if passed. The resolution itself would not.",
+    "plain": "Some people look for measures that would actually change the law. They should look at separate bills that use the Green New Deal name. Examples include bills on public housing and a Civilian Climate Corps.",
+    "tech": "Those Green New Deal bills are regular bills in the House and Senate. People would have to follow them if they became law. They can be checked for loopholes in the usual way.",
+    "use": "",
+    "s": [
+     {
+      "l": "Green New Deal for Public Housing Act reintroduction",
+      "u": "https://ocasio-cortez.house.gov/media/press-releases/ocasio-cortez-sanders-ramirez-reintroduce-green-new-deal-public-housing-act"
+     },
+     {
+      "l": "2023 reintroduction with companion legislation",
+      "u": "https://ocasio-cortez.house.gov/media/press-releases/markey-and-ocasio-cortez-reintroduce-green-new-deal-resolution"
+     }
+    ],
+    "am": []
+   }
+  ],
+  "bigger": {
+   "issue": "Federal climate and economic policy",
+   "lead": "The Green New Deal resolution names almost every part of the federal climate and economic agenda. But it is only a statement of opinion, so it changes none of them. The first table shows what the resolution names. The second table shows what a measure with the force of law would need for each goal.",
+   "map": [
+    {
+     "part": "Limits on greenhouse gas emissions",
+     "reach": "named",
+     "note": "The Green New Deal resolution makes net-zero emissions a goal. But it sets no limit, price or standard for emissions."
+    },
+    {
+     "part": "Electric power",
+     "reach": "named",
+     "note": "The Green New Deal resolution calls for power that is 100 percent clean, renewable and zero-emission. It does not say which sources count."
+    },
+    {
+     "part": "Infrastructure, manufacturing, farming and transportation",
+     "reach": "named",
+     "note": "In each of these areas, the Green New Deal resolution limits its emissions goal. It asks only for what technology makes possible."
+    },
+    {
+     "part": "Public investment and financing",
+     "reach": "named",
+     "note": "The Green New Deal resolution does not say how much public money it would take or where that money would come from."
+    },
+    {
+     "part": "Jobs, wages and workers' rights",
+     "reach": "named",
+     "note": "The Green New Deal resolution speaks of guarantees for jobs, wages and workers' rights. But it sets up no programs to deliver them."
+    },
+    {
+     "part": "Health care, housing and economic security",
+     "reach": "named",
+     "note": "The Green New Deal resolution lists health care, housing and economic security. It says a Green New Deal will require them."
+    },
+    {
+     "part": "Climate laws already passed",
+     "reach": "untouched",
+     "note": "Later laws on clean energy spending and taxes were passed as separate bills. Sponsors of the 2023 version of the Green New Deal resolution pointed to those laws.",
+     "s": [
+      {
+       "l": "Sen. Wyden release on the 2023 reintroduction",
+       "u": "https://www.wyden.senate.gov/news/press-releases/wyden-merkley-colleagues-reintroduce-green-new-deal-resolution"
+      }
+     ]
+    }
+   ],
+   "binding": [
+    {
+     "goal": "Net-zero emissions",
+     "need": "A statutory target with dates and interim milestones; an agency with authority to set and enforce limits; a rule for what counts as an offset; a consequence if a milestone is missed."
+    },
+    {
+     "goal": "100 percent clean power",
+     "need": "A definition of qualifying sources; a standard that applies to utilities; a compliance schedule; penalties or alternative compliance payments."
+    },
+    {
+     "goal": "Job guarantee",
+     "need": "A program and administering agency; eligibility and wage rules; an appropriation or mandatory funding stream."
+    },
+    {
+     "goal": "Building and infrastructure upgrades",
+     "need": "Authorized programs with appropriations; standards; a delivery mechanism through States, localities or direct federal work."
+    },
+    {
+     "goal": "Protection of frontline communities",
+     "need": "Enforceable criteria for which communities qualify; a required share of investment; reporting and a right to challenge allocations."
+    }
+   ],
+   "others": [
+    {
+     "l": "Green New Deal for Public Housing Act",
+     "u": "https://ocasio-cortez.house.gov/media/press-releases/ocasio-cortez-sanders-ramirez-reintroduce-green-new-deal-public-housing-act",
+     "n": "A binding bill carrying one piece of the framework."
+    },
+    {
+     "l": "H.R. 9959, a Green New Deal for public schools (introduced July 2026)",
+     "u": "https://policysoup.com/bills/hr9959-119/analysis/lenses",
+     "n": "Another binding companion, currently in committee."
+    },
+    {
+     "l": "Later versions of this resolution: H. Res. 332 (2021) and H. Res. 319 (2023)",
+     "u": "https://en.wikipedia.org/wiki/Recognizing_the_duty_of_the_Federal_Government_to_create_a_Green_New_Deal",
+     "n": "Reintroduced with similar text; neither was voted on."
+    }
+   ]
+  },
+  "stake": [
+   {
+    "id": "clim",
+    "role": "Climate movement groups",
+    "g": "Subject",
+    "want": "Climate movement groups want a shared plan and a public promise to build on. Movement groups backed the Green New Deal resolution.",
+    "s": [
+     {
+      "l": "Common Dreams on the 2023 reintroduction",
+      "u": "https://www.commondreams.org/news/green-new-deal-markey-ocasio-cortez-khanna"
+     }
+    ]
+   },
+   {
+    "id": "labor",
+    "role": "Labor unions",
+    "g": "Subject",
+    "want": "Labor unions want guaranteed jobs and wages. They also want protection for workers in industries that would shrink. Some unions backed the Green New Deal resolution.",
+    "s": [
+     {
+      "l": "Release listing endorsing organizations",
+      "u": "https://raskin.house.gov/2021/4/rep-raskin-joins-ocasio-cortez-markey-in-introducing-green-new-deal-resolution"
+     }
+    ]
+   },
+   {
+    "id": "foss",
+    "role": "Fossil fuel companies and their workers",
+    "g": "Subject",
+    "want": "Fossil fuel companies and their workers do not want a required end to fossil fuels. If one comes, they want it to take as long as possible.",
+    "s": []
+   },
+   {
+    "id": "util",
+    "role": "Electric utilities",
+    "g": "Subject",
+    "want": "Electric utilities want clear rules on which power sources will count, and time to build.",
+    "s": []
+   },
+   {
+    "id": "nuc",
+    "role": "Supporters of nuclear energy",
+    "g": "Subject",
+    "want": "Supporters of nuclear energy want it to be clear that nuclear power counts as clean.",
+    "s": []
+   },
+   {
+    "id": "fisc",
+    "role": "Members of Congress focused on spending",
+    "g": "Politics",
+    "want": "Members of Congress focused on spending want a cost figure first. They also want a source of money before any promise is made.",
+    "s": []
+   },
+   {
+    "id": "front",
+    "role": "Communities the resolution calls frontline and vulnerable",
+    "g": "Subject",
+    "want": "Communities the Green New Deal resolution calls frontline and vulnerable want to come first when money is spent. They want a rule that can be enforced, not only a mention.",
+    "s": []
+   },
+   {
+    "id": "spon",
+    "role": "The resolution's sponsors",
+    "g": "Politics",
+    "want": "The sponsors of the Green New Deal resolution want it to set a direction. They want later bills to carry it out.",
+    "s": []
+   },
+   {
+    "id": "opp",
+    "role": "Opponents in Congress",
+    "g": "Politics",
+    "want": "Opponents in Congress want a recorded vote that puts supporters on record. Opponents were the ones who set up the Senate vote on the Green New Deal text.",
+    "s": [
+     {
+      "l": "Senate roll call vote 52",
+      "u": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1161/vote_116_1_00052.htm"
+     }
+    ]
+   },
+   {
+    "id": "crs",
+    "role": "Nonpartisan analysts who work for Congress",
+    "g": "Law",
+    "want": "Nonpartisan analysts who work for Congress take no side. They say opinion statements like the Green New Deal resolution have no force of law.",
+    "s": [
+     {
+      "l": "CRS on sense-of resolutions",
+      "u": "https://www.everycrsreport.com/reports/98-825.html"
+     }
+    ]
+   },
+   {
+    "id": "tex",
+    "role": "A judge who reads laws by their exact words",
+    "g": "Law",
+    "want": "A judge who reads laws by their exact words applies those words as written. That judge will not fill in what Congress left out.",
+    "s": []
+   },
+   {
+    "id": "pur",
+    "role": "A judge who reads laws by their purpose",
+    "g": "Law",
+    "want": "A judge who reads laws by their purpose settles doubts in favor of what the law was trying to do.",
+    "s": []
+   },
+   {
+    "id": "olc",
+    "role": "A person who drafts laws",
+    "g": "Law",
+    "want": "A person who drafts laws wants every key term defined. They want every reference checked. They also want every link to existing law clearly stated.",
+    "s": []
+   }
+  ],
+  "conflicts": [],
+  "conf_note": "The Green New Deal resolution gives no job to any agency or official. So no one is in charge whose independence could be checked. A later law that carried out its goals would need this check."
+ }
+}
