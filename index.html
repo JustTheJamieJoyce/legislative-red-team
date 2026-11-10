@@ -736,7 +736,7 @@ function waitTick(){var w=el("wait");if(!w){clearInterval(WAIT.iv);WAIT.iv=0;ret
 function waitStart(nblocks){WAIT.i=0;WAIT.t0=Date.now();WAIT.est=Math.max(300,Math.min(1200,300+nblocks*4));clearInterval(WAIT.iv);WAIT.iv=setInterval(waitTick,1000);setTimeout(waitTick,30)}
 
 /* ---------- alternative views: step by step, and one-page summary ---------- */
-S.mode=ls("mode")||"dash";S.wstep={};S.word=ls("word")||"sev";
+S.mode=ls("mode")||"walk";S.wstep={};S.word=ls("word")||"sev";
 var MODES=[["walk","Step by step"],["brief","One-page summary"],["dash","Full analysis"]];
 function modeSwitch(){return'<div class="modes" role="group" aria-label="How to read it"><span class="ml2">How to read it</span>'+MODES.map(function(x){return'<button type="button" data-act="mode" data-md="'+x[0]+'" aria-pressed="'+(S.mode===x[0])+'">'+x[1]+"</button>"}).join("")+"</div>"}
 function bannerHTML(m){var A=m.analysis,pl=PL(m);
@@ -768,7 +768,7 @@ function walkCard(m,st,i,n){var A=m.analysis,pl=S.level==="plain",h="";
     h+='<h2 class="wt">'+esc(A.short)+"</h2>";
     h+='<p class="wl">'+gloss(esc(PL(m)&&PL(m).banner||A.cls.banner))+"</p>";
     h+='<p class="wwhy">'+(pl?"We found ":"")+tot+" "+(pl?"issues":"findings")+": "+[cnt.critical+" "+(pl?"serious":"critical"),cnt.significant+" "+(pl?"important":"significant"),cnt.minor+" minor"].join(", ")+". "+(pl?"Go through them one at a time. Each step shows the words in the bill that the issue is about.":"Each step shows the passage at issue. The arrow keys also work.")+"</p>";
-    h+='<div class="wrow"><button type="button" class="wbtn" data-act="wnext" aria-label="'+(pl?"Show the first issue":"First finding")+'">'+CHV("M9 4l8 8-8 8")+'</button><div class="seg" role="group" aria-label="Order"><button type="button" data-act="word" data-o="sev" aria-pressed="'+(S.word==="sev")+'">Most serious first</button><button type="button" data-act="word" data-o="text" aria-pressed="'+(S.word==="text")+'">In the order of the bill</button></div></div>';
+    h+='<div class="wrow"><div class="seg" role="group" aria-label="Order"><button type="button" data-act="word" data-o="sev" aria-pressed="'+(S.word==="sev")+'">Most serious first</button><button type="button" data-act="word" data-o="text" aria-pressed="'+(S.word==="text")+'">In the order of the bill</button></div><button type="button" class="wbtn" data-act="wnext" aria-label="'+(pl?"Show the first issue":"First finding")+'">'+CHV("M9 4l8 8-8 8")+'</button></div>';
     return h}
   if(st.t==="end"){var vc={};A.promises.forEach(function(p){vc[p.v]=(vc[p.v]||0)+1});
     h+='<h2 class="wt">'+(pl?"That is every issue we found":"End of findings")+"</h2>";
@@ -871,7 +871,7 @@ document.addEventListener("click",function(ev){
   var a=b.dataset.act,m=cur();
   if(a==="examples"){S.view="home";render();var ex=el("examples");if(ex)ex.scrollIntoView({behavior:RM?"auto":"smooth",block:"start"});return}
   if(a==="tour"){tourStart();return}
-  if(a==="view"){S.view=b.dataset.v;S.sel=null;S.tab="overview";S.hard=false;S.mob="text";S.fKind="";S.fFam="";try{location.hash=S.view}catch(e){}render()}
+  if(a==="view"){if(M[b.dataset.v]||b.dataset.v==="live"){S.mode="walk";S.wstep[b.dataset.v]=0}S.view=b.dataset.v;S.sel=null;S.tab="overview";S.hard=false;S.mob="text";S.fKind="";S.fFam="";try{location.hash=S.view}catch(e){}render()}
   else if(a==="tab"){S.tab=b.dataset.t;render();var p=document.querySelector(".col.panel");if(p)p.scrollTop=0}
   else if(a==="mob"){S.mob=b.dataset.m;render()}
   else if(a==="sel"){select(b.dataset.f,"card")}
@@ -1002,7 +1002,7 @@ function analyze(){
     if(R1.bigger&&R1.bigger.map)A.bigger={issue:R1.bigger.issue||"",lead:R1.bigger.lead||"",map:R1.bigger.map.filter(function(x){return x&&x.part}).map(function(x){return{part:x.part,reach:{reached:1,partly:1,untouched:1,named:1}[x.reach]?x.reach:"untouched",note:x.note||""}}),others:[]};
     A.conflicts=arr(R1.conflicts).filter(function(r){return r&&r.claim}).map(function(r){return{who:String(r.who||""),level:{person:1,office:1,body:1}[r.level]?r.level:"body",claim:String(r.claim),detail:String(r.detail||""),unverified:r.level!=="body"||!!r.unverified,s:[],f:[]}}).sort(function(a,b){var o={person:0,office:1,body:2};return o[a.level]-o[b.level]});A.conf_note=String(R1.conf_note||"");A.stake=arr(R1.stake).filter(function(r){return r&&r.id&&r.role}).map(function(r){return{id:String(r.id),role:String(r.role),g:{Subject:1,Politics:1,Law:1}[r.g]?r.g:"Subject",want:String(r.want||""),s:[]}});
     A.findings=kept;setBusy("Style pass: rewriting every line to the writing guide and checking it...");
-    return stylePass(A,numbered,sig,tick).then(function(sp){var sn=sp.ran===2?(sp.left?" "+sp.left+" lines still failed the writing check after one correction.":" Every line passed the writing check."):" The writing check did not complete.";A.runNote+=sn;if(sp.pla)sp.pla.runNote=A.runNote;S.live=mk({blocks:blocks},A,sp.pla||null);S.busy=null;S.view="live";S.tab="overview";S.sel=null;render()})
+    return stylePass(A,numbered,sig,tick).then(function(sp){var sn=sp.ran===2?(sp.left?" "+sp.left+" lines still failed the writing check after one correction.":" Every line passed the writing check."):" The writing check did not complete.";A.runNote+=sn;if(sp.pla)sp.pla.runNote=A.runNote;S.live=mk({blocks:blocks},A,sp.pla||null);S.busy=null;S.view="live";S.mode="walk";S.wstep.live=0;S.tab="overview";S.sel=null;render()})
   }).catch(function(e){S.busy=null;S.newErr=errMsg(e);render()})}
 
 
@@ -1060,7 +1060,7 @@ var TOUR=[
  {prep:function(){S.mode="dash";S.view="home"},sel:'[data-tour="analyze"]',t:"Your turn",x:"Upload a bill of your own here, or open one of the examples below."}];
 var TI=-1;
 function tourStart(){if(!el("tour")){var d=document.createElement("div");d.id="tour";d.innerHTML='<div class="tblock"></div><div class="thole" id="thole"></div><div class="tcard" id="tcard" role="dialog" aria-live="polite" aria-label="Guided tour"></div>';document.body.appendChild(d)}TI=-1;tourGo(0)}
-function tourEnd(){var t=el("tour");if(t)t.remove();TI=-1;ls("toured",true);S.level=ls("level")||"plain";S.mode="dash";S.view="home";S.tab="overview";render()}
+function tourEnd(){var t=el("tour");if(t)t.remove();TI=-1;ls("toured",true);S.level=ls("level")||"plain";S.mode="walk";S.view="home";S.tab="overview";render()}
 function tourPlace(){if(TI<0)return;var st=TOUR[TI],hole=el("thole"),card=el("tcard");if(!hole||!card)return;var t=st.sel?document.querySelector(st.sel):null,W=window.innerWidth,H=window.innerHeight;
   if(t&&!t.getBoundingClientRect().width)t=null;
   if(!t){hole.style.cssText="top:"+(H/2)+"px;left:"+(W/2)+"px;width:0;height:0;opacity:0";card.style.top=Math.max(16,H/2-110)+"px";card.style.left=Math.max(12,W/2-170)+"px";return}
