@@ -1,0 +1,102 @@
+0|t|RESOLUTION Recognizing the duty of the Federal Government to create a Green New Deal.
+0|h|Preamble
+1|t|Whereas the October 2018 report entitled "Special Report on Global Warming of 1.5 °C" by the Intergovernmental Panel on Climate Change and the November 2018 Fourth National Climate Assessment report found that--
+2|t|(1) human activity is the dominant cause of observed climate change over the past century;
+2|t|(2) a changing climate is causing sea levels to rise and an increase in wildfires, severe storms, droughts, and other extreme weather events that threaten human life, healthy communities, and critical infrastructure;
+2|t|(3) global warming at or above 2 degrees Celsius beyond preindustrialized levels will cause--
+3|t|(A) mass migration from the regions most affected by climate change;
+3|t|(B) more than $500,000,000,000 in lost annual economic output in the United States by the year 2100;
+3|t|(C) wildfires that, by 2050, will annually burn at least twice as much forest area in the western United States than was typically burned by wildfires in the years preceding 2019;
+3|t|(D) a loss of more than 99 percent of all coral reefs on Earth;
+3|t|(E) more than 350,000,000 more people to be exposed globally to deadly heat stress by 2050; and
+3|t|(F) a risk of damage to $1,000,000,000,000 of public infrastructure and coastal real estate in the United States; and
+2|t|(4) global temperatures must be kept below 1.5 degrees Celsius above preindustrialized levels to avoid the most severe impacts of a changing climate, which will require--
+3|t|(A) global reductions in greenhouse gas emissions from human sources of 40 to 60 percent from 2010 levels by 2030; and
+3|t|(B) net-zero global emissions by 2050;
+1|t|Whereas, because the United States has historically been responsible for a disproportionate amount of greenhouse gas emissions, having emitted 20 percent of global greenhouse gas emissions through 2014, and has a high technological capacity, the United States must take a leading role in reducing emissions through economic transformation;
+1|t|Whereas the United States is currently experiencing several related crises, with--
+2|t|(1) life expectancy declining while basic needs, such as clean air, clean water, healthy food, and adequate health care, housing, transportation, and education, are inaccessible to a significant portion of the United States population;
+2|t|(2) a 4-decade trend of wage stagnation, deindustrialization, and antilabor policies that has led to--
+3|t|(A) hourly wages overall stagnating since the 1970s despite increased worker productivity;
+3|t|(B) the third-worst level of socioeconomic mobility in the developed world before the Great Recession;
+3|t|(C) the erosion of the earning and bargaining power of workers in the United States; and
+3|t|(D) inadequate resources for public sector workers to confront the challenges of climate change at local, State, and Federal levels; and
+2|t|(3) the greatest income inequality since the 1920s, with--
+3|t|(A) the top 1 percent of earners accruing 91 percent of gains in the first few years of economic recovery after the Great Recession;
+3|t|(B) a large racial wealth divide amounting to a difference of 20 times more wealth between the average white family and the average black family; and
+3|t|(C) a gender earnings gap that results in women earning approximately 80 percent as much as men, at the median;
+1|t|Whereas climate change, pollution, and environmental destruction have exacerbated systemic racial, regional, social, environmental, and economic injustices (referred to in this preamble as "systemic injustices") by disproportionately affecting indigenous peoples, communities of color, migrant communities, deindustrialized communities, depopulated rural communities, the poor, low-income workers, women, the elderly, the unhoused, people with disabilities, and youth (referred to in this preamble as "frontline and vulnerable communities");
+1|t|Whereas, climate change constitutes a direct threat to the national security of the United States--
+2|t|(1) by impacting the economic, environmental, and social stability of countries and communities around the world; and
+2|t|(2) by acting as a threat multiplier;
+1|t|Whereas the Federal Government-led mobilizations during World War II and the New Deal created the greatest middle class that the United States has ever seen, but many members of frontline and vulnerable communities were excluded from many of the economic and societal benefits of those mobilizations; and
+1|t|Whereas the House of Representatives recognizes that a new national, social, industrial, and economic mobilization on a scale not seen since World War II and the New Deal era is a historic opportunity--
+2|t|(1) to create millions of good, high-wage jobs in the United States;
+2|t|(2) to provide unprecedented levels of prosperity and economic security for all people of the United States; and
+2|t|(3) to counteract systemic injustices: Now, therefore, be it
+0|h|Resolving clause
+1|t|Resolved, That it is the sense of the House of Representatives that--
+2|t|(1) it is the duty of the Federal Government to create a Green New Deal--
+3|t|(A) to achieve net-zero greenhouse gas emissions through a fair and just transition for all communities and workers;
+3|t|(B) to create millions of good, high-wage jobs and ensure prosperity and economic security for all people of the United States;
+3|t|(C) to invest in the infrastructure and industry of the United States to sustainably meet the challenges of the 21st century;
+3|t|(D) to secure for all people of the United States for generations to come--
+4|t|(i) clean air and water;
+4|t|(ii) climate and community resiliency;
+4|t|(iii) healthy food;
+4|t|(iv) access to nature; and
+4|t|(v) a sustainable environment; and
+3|t|(E) to promote justice and equity by stopping current, preventing future, and repairing historic oppression of indigenous peoples, communities of color, migrant communities, deindustrialized communities, depopulated rural communities, the poor, low-income workers, women, the elderly, the unhoused, people with disabilities, and youth (referred to in this resolution as "frontline and vulnerable communities");
+2|t|(2) the goals described in subparagraphs (A) through (E) of paragraph (1) (referred to in this resolution as the "Green New Deal goals") should be accomplished through a 10-year national mobilization (referred to in this resolution as the "Green New Deal mobilization") that will require the following goals and projects--
+3|t|(A) building resiliency against climate change-related disasters, such as extreme weather, including by leveraging funding and providing investments for community-defined projects and strategies;
+3|t|(B) repairing and upgrading the infrastructure in the United States, including--
+4|t|(i) by eliminating pollution and greenhouse gas emissions as much as technologically feasible;
+4|t|(ii) by guaranteeing universal access to clean water;
+4|t|(iii) by reducing the risks posed by climate impacts; and
+4|t|(iv) by ensuring that any infrastructure bill considered by Congress addresses climate change;
+3|t|(C) meeting 100 percent of the power demand in the United States through clean, renewable, and zero-emission energy sources, including--
+4|t|(i) by dramatically expanding and upgrading renewable power sources; and
+4|t|(ii) by deploying new capacity;
+3|t|(D) building or upgrading to energy-efficient, distributed, and "smart" power grids, and ensuring affordable access to electricity;
+3|t|(E) upgrading all existing buildings in the United States and building new buildings to achieve maximum energy efficiency, water efficiency, safety, affordability, comfort, and durability, including through electrification;
+3|t|(F) spurring massive growth in clean manufacturing in the United States and removing pollution and greenhouse gas emissions from manufacturing and industry as much as is technologically feasible, including by expanding renewable energy manufacturing and investing in existing manufacturing and industry;
+3|t|(G) working collaboratively with farmers and ranchers in the United States to remove pollution and greenhouse gas emissions from the agricultural sector as much as is technologically feasible, including--
+4|t|(i) by supporting family farming;
+4|t|(ii) by investing in sustainable farming and land use practices that increase soil health; and
+4|t|(iii) by building a more sustainable food system that ensures universal access to healthy food;
+3|t|(H) overhauling transportation systems in the United States to remove pollution and greenhouse gas emissions from the transportation sector as much as is technologically feasible, including through investment in--
+4|t|(i) zero-emission vehicle infrastructure and manufacturing;
+4|t|(ii) clean, affordable, and accessible public transit; and
+4|t|(iii) high-speed rail;
+3|t|(I) mitigating and managing the long-term adverse health, economic, and other effects of pollution and climate change, including by providing funding for community-defined projects and strategies;
+3|t|(J) removing greenhouse gases from the atmosphere and reducing pollution by restoring natural ecosystems through proven low-tech solutions that increase soil carbon storage, such as land preservation and afforestation;
+3|t|(K) restoring and protecting threatened, endangered, and fragile ecosystems through locally appropriate and science-based projects that enhance biodiversity and support climate resiliency;
+3|t|(L) cleaning up existing hazardous waste and abandoned sites, ensuring economic development and sustainability on those sites;
+3|t|(M) identifying other emission and pollution sources and creating solutions to remove them; and
+3|t|(N) promoting the international exchange of technology, expertise, products, funding, and services, with the aim of making the United States the international leader on climate action, and to help other countries achieve a Green New Deal;
+2|t|(3) a Green New Deal must be developed through transparent and inclusive consultation, collaboration, and partnership with frontline and vulnerable communities, labor unions, worker cooperatives, civil society groups, academia, and businesses; and
+2|t|(4) to achieve the Green New Deal goals and mobilization, a Green New Deal will require the following goals and projects--
+3|t|(A) providing and leveraging, in a way that ensures that the public receives appropriate ownership stakes and returns on investment, adequate capital (including through community grants, public banks, and other public financing), technical expertise, supporting policies, and other forms of assistance to communities, organizations, Federal, State, and local government agencies, and businesses working on the Green New Deal mobilization;
+3|t|(B) ensuring that the Federal Government takes into account the complete environmental and social costs and impacts of emissions through--
+4|t|(i) existing laws;
+4|t|(ii) new policies and programs; and
+4|t|(iii) ensuring that frontline and vulnerable communities shall not be adversely affected;
+3|t|(C) providing resources, training, and high-quality education, including higher education, to all people of the United States, with a focus on frontline and vulnerable communities, so that all people of the United States may be full and equal participants in the Green New Deal mobilization;
+3|t|(D) making public investments in the research and development of new clean and renewable energy technologies and industries;
+3|t|(E) directing investments to spur economic development, deepen and diversify industry and business in local and regional economies, and build wealth and community ownership, while prioritizing high-quality job creation and economic, social, and environmental benefits in frontline and vulnerable communities, and deindustrialized communities, that may otherwise struggle with the transition away from greenhouse gas intensive industries;
+3|t|(F) ensuring the use of democratic and participatory processes that are inclusive of and led by frontline and vulnerable communities and workers to plan, implement, and administer the Green New Deal mobilization at the local level;
+3|t|(G) ensuring that the Green New Deal mobilization creates high-quality union jobs that pay prevailing wages, hires local workers, offers training and advancement opportunities, and guarantees wage and benefit parity for workers affected by the transition;
+3|t|(H) guaranteeing a job with a family-sustaining wage, adequate family and medical leave, paid vacations, and retirement security to all people of the United States;
+3|t|(I) strengthening and protecting the right of all workers to organize, unionize, and collectively bargain free of coercion, intimidation, and harassment;
+3|t|(J) strengthening and enforcing labor, workplace health and safety, antidiscrimination, and wage and hour standards across all employers, industries, and sectors;
+3|t|(K) enacting and enforcing trade rules, procurement standards, and border adjustments with strong labor and environmental protections--
+4|t|(i) to stop the transfer of jobs and pollution overseas; and
+4|t|(ii) to grow domestic manufacturing in the United States;
+3|t|(L) ensuring that public lands, waters, and oceans are protected and that eminent domain is not abused;
+3|t|(M) obtaining the free, prior, and informed consent of indigenous peoples for all decisions that affect indigenous peoples and their traditional territories, honoring all treaties and agreements with indigenous peoples, and protecting and enforcing the sovereignty and land rights of indigenous peoples;
+3|t|(N) ensuring a commercial environment where every businessperson is free from unfair competition and domination by domestic or international monopolies; and
+3|t|(O) providing all people of the United States with--
+4|t|(i) high-quality health care;
+4|t|(ii) affordable, safe, and adequate housing;
+4|t|(iii) economic security; and
+4|t|(iv) clean water, clean air, healthy and affordable food, and access to nature.

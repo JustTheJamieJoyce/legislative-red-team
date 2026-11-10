@@ -1,0 +1,1442 @@
+{
+ "kb": {
+  "advisory-capture": {
+   "name": "Stacked advisory bodies",
+   "plain": "Seats set aside for industry or members chosen for industry experience can give regulated parties a leading role in drafting the rules.",
+   "check": "Read who sits on each advisory body and who picks them. Ask whether seats are reserved for the parties being regulated, whether public interest seats exist, and whether recommendations must be published or can bind the agency.",
+   "cues": [
+    "advisory committee",
+    "advisory board",
+    "representatives of industry",
+    "demonstrated expertise",
+    "stakeholders"
+   ],
+   "fix": "Set balanced membership with public interest seats, conflict rules and published recommendations.",
+   "ex_ai": "AI bills can reserve advisory seats for developers or members chosen for technical expertise, which can give them the leading role in drafting the rules."
+  },
+  "anti-deficiency-triage": {
+   "name": "Underfunded duties force triage",
+   "plain": "A mandate funded below the cost of full compliance leaves staff to choose which parts to enforce, since spending beyond appropriations risks personal liability.",
+   "check": "Compare each mandated duty with the funding language beside it. Ask whether the stated money plausibly covers full compliance, and which duties staff would drop first if it does not.",
+   "cues": [
+    "subject to the availability of appropriations",
+    "to the extent funds are available"
+   ],
+   "fix": "Match funding to duties or specify which duties take priority.",
+   "ex_ai": ""
+  },
+  "anti-retroactivity-default": {
+   "name": "Silence on retroactivity",
+   "plain": "A law silent on retroactivity is presumed not to reach past conduct, which can leave existing violations untouched.",
+   "check": "Look for any statement of whether the rule reaches conduct, contracts or conditions that began before enactment. Ask what happens to continuing violations and pending cases if the text is silent.",
+   "cues": [],
+   "fix": "State whether the rule applies to conduct before enactment and how continuing violations are treated.",
+   "ex_ai": ""
+  },
+  "aspirational-preamble": {
+   "name": "Preamble goals without operative force",
+   "plain": "A preamble declares bold goals while operative provisions contain qualifications that keep the goals from being achieved.",
+   "check": "Set each goal in the purposes or findings beside the operative sections. Ask whether any qualifier, exemption or discretion in the operative text can keep that goal from being met, and whether purposes guide interpretation.",
+   "cues": [
+    "purpose of this act",
+    "findings and purposes",
+    "it is the policy of the united states"
+   ],
+   "fix": "Align operative text with each stated goal and state that purposes guide interpretation.",
+   "ex_ai": ""
+  },
+  "authorization-vs-appropriation": {
+   "name": "Authorized but not funded",
+   "plain": "A large authorization number can make a program look funded while actual appropriations are far smaller.",
+   "check": "Find every authorization of funds and note whether it is a fixed amount, open ended or a ceiling. Ask whether any money is actually provided, and whether anyone must report the gap between authorized and provided.",
+   "cues": [
+    "there are authorized to be appropriated",
+    "such sums as may be necessary",
+    "authorization of appropriations"
+   ],
+   "fix": "Pair authorizations with mandatory funding or require reporting of the gap.",
+   "ex_ai": ""
+  },
+  "burden-of-proof": {
+   "name": "Burden placed on the enforcer",
+   "plain": "Requiring the enforcer to prove harm without requiring the regulated party to show compliance can make enforcement slow and costly.",
+   "check": "Find who must prove each key fact in an enforcement action and to what standard. Ask whether the enforcer must show harm, and whether the regulated party must show compliance after a threshold showing.",
+   "cues": [
+    "burden of proof",
+    "clear and convincing",
+    "preponderance",
+    "the secretary shall demonstrate"
+   ],
+   "fix": "Require the regulated party to show compliance for high-risk activities and shift the burden once a threshold showing is made.",
+   "ex_ai": "AI bills can require regulators to prove harm from a system without requiring developers to show it is safe, which can make enforcement slow and costly."
+  },
+  "certification-bottlenecks": {
+   "name": "Certification gatekeepers",
+   "plain": "Compliance through certified processes or accredited bodies can stall if the capacity does not exist, or can depend on certifiers paid by those they certify.",
+   "check": "Find every duty met through certified products, accredited bodies or approved methods. Ask whether those certifiers exist at enactment, who pays them, and what a covered party does if none is available.",
+   "cues": [
+    "certified",
+    "accredited",
+    "certification",
+    "third-party auditor",
+    "approved methodology"
+   ],
+   "fix": "Set up certification capacity before the duty applies, limit certifier conflicts and allow alternatives.",
+   "ex_ai": "AI bills can tie compliance to certified audits or accredited evaluators that may not exist yet, or that are paid by the developers they assess."
+  },
+  "chevron-vacuum": {
+   "name": "Ambiguity after Chevron",
+   "plain": "With deference to agency readings gone, vague language is resolved by courts, which can delay or reverse agency interpretation.",
+   "check": "Identify provisions that rely on the agency's reading of an unclear term. Ask whether a court, deciding the term for itself, could reach a different meaning, and whether the text states the agency's discretion expressly.",
+   "cues": [
+    "interpret",
+    "as the agency determines",
+    "in the agency's discretion"
+   ],
+   "fix": "Draft specifically or give express discretion to the agency.",
+   "ex_ai": ""
+  },
+  "code-placement": {
+   "name": "Placement within the code",
+   "plain": "Where a provision is codified affects which agency runs it, which committees oversee it and which precedents apply.",
+   "check": "Check where each provision is to be codified. Ask which agency, committee and body of precedent that location brings, and whether the placement matches the regime the bill describes.",
+   "cues": [
+    "title",
+    "chapter",
+    "amended by inserting"
+   ],
+   "fix": "Choose placement with the intended regime and agency in mind and state it.",
+   "ex_ai": ""
+  },
+  "common-law-preemption": {
+   "name": "Preemption of tort and common law",
+   "plain": "Silence on state common law claims, or a freeze on new state rules, can leave doubt over whether courts may develop liability theories.",
+   "check": "Search for language on state common law, tort claims or a bar on new state rules. Ask whether existing claims are preserved, and whether loose words such as 'requirements' could sweep them away.",
+   "cues": [
+    "common law",
+    "tort",
+    "state law claims",
+    "preempt"
+   ],
+   "fix": "State whether state tort and common law claims are preserved.",
+   "ex_ai": "AI bills can leave doubt over whether state tort claims survive, or can freeze state legal frameworks for AI."
+  },
+  "conditional-appropriations": {
+   "name": "Conditional appropriations",
+   "plain": "Funding made conditional on certifications or reports means money does not flow if the condition is never met.",
+   "check": "Find each grant of money that depends on a certification, report, finding or other condition. Ask who controls that condition, and what happens to the money if it is never met.",
+   "cues": [
+    "subject to",
+    "conditioned upon",
+    "only after",
+    "provided that",
+    "upon certification"
+   ],
+   "fix": "Fund the work without conditions or give a default release of funds.",
+   "ex_ai": ""
+  },
+  "conference-rewrites": {
+   "name": "Conference committee rewrites",
+   "plain": "Final text is reconciled by a small committee, so changes can occur with limited transparency after both chambers have debated.",
+   "check": "Compare the final text with the versions each chamber passed. Ask which provisions are new or changed, when the text was posted, and how long members had to read it before voting.",
+   "cues": [],
+   "fix": "Require a waiting period and public posting of conference text before votes.",
+   "ex_ai": ""
+  },
+  "constructive-ambiguity": {
+   "name": "Open ended key terms",
+   "plain": "Key terms left undefined, or defined loosely, let different groups read the law differently, which shifts the real meaning to later disputes.",
+   "check": "List the operative terms that are undefined or defined loosely, such as 'reasonable' or 'appropriate'. For each, ask who decides the meaning and whether two groups could read it differently.",
+   "cues": [
+    "as defined by the secretary",
+    "reasonable",
+    "appropriate",
+    "in the public interest"
+   ],
+   "fix": "Define each operative term in the bill with examples, and state that the definition applies throughout.",
+   "ex_ai": ""
+  },
+  "contingency-triggers": {
+   "name": "Activation depends on a finding",
+   "plain": "A mandate that begins only after an official finding or determination may never operate if no one makes the finding.",
+   "check": "Find duties that begin only after a finding, determination or similar act. Ask who must make it, by when, whether a missed decision is reviewable, and what applies if it is never made.",
+   "cues": [
+    "upon a finding",
+    "upon a determination",
+    "when conditions warrant",
+    "if the secretary determines",
+    "determination"
+   ],
+   "fix": "Set a default effective date and require a published decision by a deadline with reasons.",
+   "ex_ai": ""
+  },
+  "cra-window": {
+   "name": "Congressional Review Act timing",
+   "plain": "Rules finalized late in an administration can be repealed by the next Congress, and drafting affects how quickly rules can be finished.",
+   "check": "Check the dates by which rules must be issued. Ask whether finalizing them near the end of an administration leaves them open to disapproval by the next legislature.",
+   "cues": [],
+   "fix": "Set deadlines that allow rules to be finalized outside the review window.",
+   "ex_ai": ""
+  },
+  "definition-by-exception": {
+   "name": "Definition by exclusion list",
+   "plain": "Defining a term by what it does not include leaves unclear boundaries and invites disputes over excluded categories.",
+   "check": "Read each definition built with 'does not include' or 'excludes'. Ask what the covered category is in positive terms, and whether the excluded categories are closed, justified and unlikely to grow through interpretation.",
+   "cues": [
+    "does not include",
+    "shall not include",
+    "excludes"
+   ],
+   "fix": "State affirmatively what is covered, and keep any exclusion list short, closed and justified.",
+   "ex_ai": ""
+  },
+  "definitional-bootstrapping": {
+   "name": "Near-identical defined terms",
+   "plain": "A term defined in one section appears in a slightly different form elsewhere, leaving doubt whether the definition applies.",
+   "check": "Compare each defined term with every later use. Ask whether a slightly different form appears elsewhere, and whether the text says the definition governs all uses.",
+   "cues": [],
+   "fix": "Use each defined term in exactly one form and add a clause that the definition governs every use in the Act.",
+   "ex_ai": ""
+  },
+  "defunding-without-repealing": {
+   "name": "Defunding instead of repeal",
+   "plain": "A spending rider barring enforcement leaves the law on the books but inactive, avoiding a visible repeal vote.",
+   "check": "Look for language barring the use of funds for a law's enforcement or implementation. Ask whether the duty remains while the money is withheld, and how long the restriction lasts.",
+   "cues": [
+    "none of the funds",
+    "no funds appropriated",
+    "may be used to enforce",
+    "shall be used to implement"
+   ],
+   "fix": "Provide a dedicated funding source and a standing authority not dependent on annual riders.",
+   "ex_ai": ""
+  },
+  "delayed-effective-dates": {
+   "name": "Delayed effective dates",
+   "plain": "A law may take effect years after passage with extensions built in, leaving time for conditions to change or for it to be amended or defunded.",
+   "check": "Find each effective date, phase in and extension. Ask how long the gap is, who may extend it, on what conditions, and whether anyone must report during the delay.",
+   "cues": [
+    "effective date",
+    "shall take effect",
+    "takes effect",
+    "not later than",
+    "phase-in",
+    "phased"
+   ],
+   "fix": "Use a short fixed effective date, and limit any extension to one with stated conditions and reporting.",
+   "ex_ai": ""
+  },
+  "dual-reading": {
+   "name": "Provisions readable two ways",
+   "plain": "A sentence prohibiting conduct except in compliance with a standard can read as both a ban and a permission, depending on where the standard is set.",
+   "check": "Find sentences saying conduct is prohibited except in compliance with a standard. Ask whether the sentence reads as a ban, a permission, or both, and who sets the standard.",
+   "cues": [
+    "except in compliance with",
+    "except as provided in",
+    "unless in accordance with"
+   ],
+   "fix": "Separate the prohibition from the permitted conduct and define permissions by named conditions.",
+   "ex_ai": ""
+  },
+  "enrolled-bill-doctrine": {
+   "name": "Enrolled bill doctrine",
+   "plain": "Once signed, the enrolled text is treated as conclusive even where it differs from what chambers voted on.",
+   "check": "Compare the signed text with the text each chamber passed. Ask whether any word differs, and who is responsible for confirming they match before signature.",
+   "cues": [],
+   "fix": "Check enrolled text against passed text before signature.",
+   "ex_ai": ""
+  },
+  "exhaustion-requirements": {
+   "name": "Exhaustion of remedies",
+   "plain": "Requiring every administrative step before court can take years, by which time the issue may be moot.",
+   "check": "Count the administrative steps a person must finish before going to court. Ask how long each can take, whether deadlines bind the agency, and whether the issue could be moot by the end.",
+   "cues": [
+    "exhaust",
+    "administrative remedies",
+    "reconsideration",
+    "administrative appeal"
+   ],
+   "fix": "Set time limits for each step and allow court access if deadlines pass.",
+   "ex_ai": ""
+  },
+  "extraterritorial-scope": {
+   "name": "Extraterritorial reach unclear",
+   "plain": "Silence or vague wording on whether the law reaches foreign conduct can invite arguments that it does not, so foreign parties may escape duties domestic ones bear.",
+   "check": "Look for wording on conduct or parties outside the country. Ask whether the text says the law reaches them, what connection is required, and how a foreign party is served and held to the duty.",
+   "cues": [
+    "outside the united states",
+    "foreign",
+    "extraterritorial",
+    "extraterritorially"
+   ],
+   "fix": "State the reach of the law, the jurisdictional hooks, and the agent for service of process for foreign firms.",
+   "ex_ai": "AI bills can leave unclear whether foreign developers of systems used domestically owe the same duties as domestic ones."
+  },
+  "feasibility-escape": {
+   "name": "Feasibility and practicability qualifiers",
+   "plain": "Phrases like to the extent practicable make a requirement depend on cost or feasibility, so regulated parties can argue that compliance is not required in their case.",
+   "check": "Find phrases such as 'to the extent practicable' or 'where feasible'. Ask who decides feasibility, by what test, and whether the covered party carries the burden of showing a requirement cannot be met.",
+   "cues": [
+    "to the extent practicable",
+    "to the maximum extent feasible",
+    "economically achievable",
+    "best available technology",
+    "where feasible",
+    "to the extent technically feasible"
+   ],
+   "fix": "Replace the qualifier with a fixed standard, or define feasibility objectively and put the burden of showing infeasibility on the regulated party.",
+   "ex_ai": ""
+  },
+  "federal-entity-exemption": {
+   "name": "Exemption of federal entities",
+   "plain": "Requirements that apply to others but exclude federal agencies leave the largest public users outside the rule.",
+   "check": "Check whether government bodies are excluded from duties placed on others. Ask why, whether a comparable standard applies to them, and how large a share of covered activity they account for.",
+   "cues": [
+    "federal agency",
+    "sovereign immunity",
+    "does not include any department",
+    "except the federal government"
+   ],
+   "fix": "Apply the requirements to federal agencies or explain each exclusion and set an equal standard.",
+   "ex_ai": ""
+  },
+  "findings-for-deference": {
+   "name": "Findings sections and constitutionality",
+   "plain": "Congressional findings shape how courts judge a law's constitutionality, and well-drafted or weakened findings change its vulnerability.",
+   "check": "Read the findings against the powers the bill uses. Ask whether they state specific facts tied to each power, and whether a court could use them or their absence to judge validity.",
+   "cues": [
+    "congress finds",
+    "findings",
+    "finds that",
+    "affects interstate commerce"
+   ],
+   "fix": "Include specific findings supported by record evidence.",
+   "ex_ai": ""
+  },
+  "future-amendments-incorporated": {
+   "name": "Incorporation as amended",
+   "plain": "Referencing standards as amended from time to time changes the law's content without a new vote, handing control to whoever maintains the document.",
+   "check": "Find each reference to a standard or document 'as amended'. Ask who can change that document, whether the legislature reviews changes, and whether the version is fixed by date.",
+   "cues": [
+    "as amended from time to time",
+    "as may be amended",
+    "as in effect on",
+    "as updated"
+   ],
+   "fix": "Fix the referenced version by date and require review before adopting changes.",
+   "ex_ai": ""
+  },
+  "good-faith-shield": {
+   "name": "Good faith compliance shield",
+   "plain": "Protecting those who made a good faith or reasonable effort turns a duty to comply into a duty to try, which is hard to disprove.",
+   "check": "Find defenses based on good faith, reasonable efforts or reasonable steps. Ask what the party must actually do to qualify, who bears the burden, and whether the defense can excuse non-compliance.",
+   "cues": [
+    "good faith",
+    "reasonable efforts",
+    "reasonable steps",
+    "made a good faith effort"
+   ],
+   "fix": "Define required practices objectively and limit any good faith defense to named, verifiable steps with the burden on the defendant.",
+   "ex_ai": "AI bills can protect developers who made reasonable efforts, which can turn a safety duty into a duty to try."
+  },
+  "grandfathering": {
+   "name": "Grandfathering and prospective-only rules",
+   "plain": "Applying rules only to new conduct or new entrants can exempt existing actors, so the impact is felt gradually if at all.",
+   "check": "Look for exemptions for existing actors, products or arrangements, or rules that apply only going forward. Ask when each exemption ends and what share of covered activity it leaves outside the rule.",
+   "cues": [
+    "grandfather",
+    "existing",
+    "in effect on the date of enactment",
+    "prior to the date of enactment",
+    "prospective"
+   ],
+   "fix": "Apply rules to existing actors on a defined schedule and set an end date for any exemption.",
+   "ex_ai": "AI bills can apply only to new systems, which can exempt models already deployed."
+  },
+  "hollow-savings-clause": {
+   "name": "Savings clause without substance",
+   "plain": "A clause preserving existing rights can be empty if the new framework makes those rights hard to use in practice.",
+   "check": "Read each clause saying the Act does not affect existing rights. Ask whether other provisions make those rights harder to use in practice, such as through procedure, forum or proof rules.",
+   "cues": [
+    "nothing in this act shall be construed",
+    "shall not be construed to diminish",
+    "savings clause",
+    "does not affect"
+   ],
+   "fix": "Back the savings clause with operative rules that keep the rights usable.",
+   "ex_ai": ""
+  },
+  "holman-rule": {
+   "name": "Holman rule and targeted defunding",
+   "plain": "Amendments to spending bills can cut named employees' pay to one dollar, neutralizing enforcement without touching the statute.",
+   "check": "Check appropriations text for limits on pay or positions of named people or offices. Ask whether the limit could stop a duty from being carried out while the statute stays unchanged.",
+   "cues": [],
+   "fix": "Protect enforcement positions through statute and track appropriations amendments.",
+   "ex_ai": ""
+  },
+  "implied-repeal": {
+   "name": "Repeal by conflicting later law",
+   "plain": "A later statute that is hard to reconcile with an earlier one leaves both on the books, creating uncertainty settled only by litigation.",
+   "check": "Compare the new provisions with earlier laws on the same subject. Ask whether any conflict exists, and whether the text repeals or amends the earlier provision expressly instead of leaving courts to reconcile them.",
+   "cues": [
+    "repeal",
+    "supersede",
+    "inconsistent"
+   ],
+   "fix": "Repeal or amend the earlier provisions expressly.",
+   "ex_ai": ""
+  },
+  "incorporation-by-reference": {
+   "name": "Cross-references and incorporation",
+   "plain": "Defining terms by reference to other laws or private documents makes the law hard to read and shifts meaning if the source changes.",
+   "check": "List each definition or duty that depends on another law or private document. Ask whether the reader can find the meaning in the bill, and whether the referenced version is fixed.",
+   "cues": [
+    "as defined in",
+    "incorporated by reference",
+    "in accordance with section",
+    "pursuant to"
+   ],
+   "fix": "Restate key definitions in the text and fix the version of any referenced document.",
+   "ex_ai": ""
+  },
+  "informal-guidance": {
+   "name": "Guidance functioning as law",
+   "plain": "Guidance documents and letters are not binding but are treated as law by regulated parties, can change without notice and comment and operate out of public view.",
+   "check": "Look for duties or meanings left to guidance, letters or FAQs. Ask whether these carry practical weight, whether notice and comment applies, and where the public can find them.",
+   "cues": [
+    "guidance",
+    "guidelines",
+    "frequently asked questions",
+    "dear colleague"
+   ],
+   "fix": "Require notice and comment for guidance with significant effect and publish it centrally.",
+   "ex_ai": ""
+  },
+  "judicial-review-limits": {
+   "name": "Judicial review limits",
+   "plain": "Limits on which courts may hear challenges, short filing periods or deferential review standards can restrict or delay legal review.",
+   "check": "Find limits on who may seek review, where, how soon and under what standard. Ask whether a person harmed by a decision could realistically obtain court review within the time allowed.",
+   "cues": [
+    "judicial review",
+    "arbitrary and capricious",
+    "not subject to judicial review",
+    "within 60 days",
+    "exclusive jurisdiction"
+   ],
+   "fix": "Set clear venue, reasonable filing times and the standard of review.",
+   "ex_ai": ""
+  },
+  "jurisdictional-fragmentation": {
+   "name": "Split agency responsibility",
+   "plain": "Authority divided or overlapping among agencies or committees leaves no single accountable body and gives regulated parties several venues.",
+   "check": "Count the agencies or committees given authority over one duty. Ask which one is accountable, who resolves overlaps or conflicts, and whether a regulated party could choose among venues.",
+   "cues": [
+    "in consultation with",
+    "jointly",
+    "concurrent jurisdiction",
+    "in coordination with"
+   ],
+   "fix": "Name one lead agency with clear authority and a duty to resolve overlaps.",
+   "ex_ai": ""
+  },
+  "layered-delegation": {
+   "name": "Delegation through several layers",
+   "plain": "Authority passed from agency to sub-agency to regional or local bodies compounds discretion until the original mandate is hard to recognize.",
+   "check": "Trace each delegation from the statute to the body that finally applies it. Ask how many levels there are, what limits each level, and who reports on how the mandate is applied.",
+   "cues": [
+    "may delegate",
+    "delegate to",
+    "local authorities",
+    "regional offices"
+   ],
+   "fix": "Limit delegation depth and require reporting on how each level applies the mandate.",
+   "ex_ai": ""
+  },
+  "legislative-history-staging": {
+   "name": "Staged legislative history",
+   "plain": "Floor statements and reports can be prepared to narrow or contradict plain text, and courts sometimes consult them.",
+   "check": "Compare the text with reports and floor statements about it. Ask whether any statement narrows or contradicts the words, and whether the intended meaning is written into the bill itself.",
+   "cues": [],
+   "fix": "Write the intended meaning into the text itself.",
+   "ex_ai": ""
+  },
+  "legislative-veto": {
+   "name": "Legislative veto provisions",
+   "plain": "Legislative veto provisions are unenforceable but agencies often comply, creating congressional control through political norms.",
+   "check": "Find provisions letting one chamber or a committee block or approve an agency action. Ask whether the action must pass through the ordinary lawmaking process, and what happens if the agency ignores the veto.",
+   "cues": [
+    "disapproval",
+    "resolution of disapproval",
+    "either house",
+    "one house",
+    "committee approval"
+   ],
+   "fix": "Use joint resolutions subject to presentment instead of one-house vetoes.",
+   "ex_ai": ""
+  },
+  "lists-and-canons": {
+   "name": "Lists and interpretive canons",
+   "plain": "Enumerated lists of covered items can be read as excluding everything unlisted, and a short list before a general term can narrow it.",
+   "check": "Read each list of covered items and any 'including' phrase. Ask whether the list is illustrative or exhaustive, and whether a short list before a general term could narrow it.",
+   "cues": [
+    "including",
+    "including but not limited to",
+    "such as",
+    "and other"
+   ],
+   "fix": "Add a rule that lists are illustrative, state intended breadth, and avoid short example lists before catch-all terms.",
+   "ex_ai": "AI bills can list covered system types or uses, which can be read as excluding anything unlisted."
+  },
+  "litigation-friendly-drafting": {
+   "name": "Ambiguity that invites litigation",
+   "plain": "Ambiguous terms and unclear standing invite legal challenges that can delay implementation for years.",
+   "check": "Identify unclear terms and unclear rules on who may sue. Ask which words a challenger could use to delay implementation, and whether severability and expedited review are provided.",
+   "cues": [],
+   "fix": "Define terms and standing clearly and add severability and expedited review.",
+   "ex_ai": ""
+  },
+  "major-questions-trigger": {
+   "name": "Authority open to major questions challenge",
+   "plain": "Grants of authority just ambiguous enough to be challenged under the major questions doctrine can face years of litigation.",
+   "check": "Find grants of authority over matters of large economic or social reach. Ask whether the text states the power and its limits plainly, or relies on general words a court could find too thin.",
+   "cues": [
+    "significant economic",
+    "vast economic",
+    "major rule"
+   ],
+   "fix": "State the authority and its limits clearly, with specific findings on scope.",
+   "ex_ai": ""
+  },
+  "mandamus-proof-qualifier": {
+   "name": "Qualified shall that resists court orders",
+   "plain": "A duty qualified by the agency's judgment or available resources reads as mandatory but leaves room for discretion that courts will not override.",
+   "check": "Find mandatory duties qualified by 'in the judgment of' or 'consistent with available resources'. Ask whether a court could order the act, and what remedy exists if the agency does not act.",
+   "cues": [
+    "in the administrator's judgment",
+    "consistent with available resources",
+    "subject to the availability of appropriations",
+    "as the secretary determines"
+   ],
+   "fix": "State the duty without judgment or resource qualifiers, or give a deadline and a defined remedy if the agency does not act.",
+   "ex_ai": ""
+  },
+  "negative-pregnant": {
+   "name": "Narrow ban implying permission",
+   "plain": "Prohibiting one specific act can be read as allowing closely related conduct that the text does not mention.",
+   "check": "Find prohibitions that name one specific act. Ask whether closely related conduct is left outside, and whether a general prohibition or a statement that unlisted conduct is not authorized is present.",
+   "cues": [
+    "it shall be unlawful to",
+    "no person shall"
+   ],
+   "fix": "Add a general prohibition and state that unlisted related conduct is not authorized.",
+   "ex_ai": ""
+  },
+  "notwithstanding-clause": {
+   "name": "Notwithstanding clauses",
+   "plain": "Notwithstanding language overrides other law, and its scope, whether the Act or the code and whether it covers regulations, is often unclear.",
+   "check": "Find each 'notwithstanding' clause. Ask which laws it overrides, whether it reaches regulations, whether it covers this Act or the whole code, and whether the text lists what is displaced.",
+   "cues": [
+    "notwithstanding any other provision of law",
+    "notwithstanding any other provision of this act",
+    "notwithstanding any other law"
+   ],
+   "fix": "List the specific provisions overridden and state whether regulations are included.",
+   "ex_ai": ""
+  },
+  "otherwise-provided-by-law": {
+   "name": "Or as otherwise provided by law",
+   "plain": "Language excepting what is otherwise provided by law can let later statutes or regulations create exceptions the drafters never reviewed.",
+   "check": "Find phrases such as 'except as otherwise provided by law'. Ask which laws are meant, whether later laws or regulations could add exceptions, and whether the text cites them.",
+   "cues": [
+    "or as otherwise provided by law",
+    "except as otherwise provided by law",
+    "unless otherwise provided"
+   ],
+   "fix": "Cite the specific laws that create exceptions, and limit to those in effect at enactment.",
+   "ex_ai": ""
+  },
+  "phantom-deadlines": {
+   "name": "Deadlines without consequences",
+   "plain": "A deadline for agency action with no consequence for missing it is often ignored, since courts are reluctant to enforce timelines.",
+   "check": "Find each deadline for agency action. Ask what happens if it is missed, whether anyone may sue, and whether a default rule takes effect.",
+   "cues": [
+    "not later than",
+    "within 180 days",
+    "within 1 year",
+    "within 18 months",
+    "shall issue final rules"
+   ],
+   "fix": "Add a default rule, such as an interim rule taking effect, or a right to sue if the deadline passes.",
+   "ex_ai": ""
+  },
+  "pilot-programs": {
+   "name": "Pilot programs without a path",
+   "plain": "A pilot can be extended or redesigned without ever scaling, and the outcome can be read either as proof that it is enough or that it does not work.",
+   "check": "Find each pilot or demonstration program. Ask when it ends, what result would lead to expansion, who decides, and whether either success or failure could be read as a reason to stop.",
+   "cues": [
+    "pilot program",
+    "pilot",
+    "demonstration project",
+    "demonstration program"
+   ],
+   "fix": "Set a fixed end date and a rule that the program expands automatically unless the legislature or agency decides otherwise.",
+   "ex_ai": "AI bills can set up pilot programs for government use of AI that are extended without scaling."
+  },
+  "preemption-of-states": {
+   "name": "Preemption of state law",
+   "plain": "Unclear or broad preemption language can replace stronger state laws with a weaker federal rule, or leave a patchwork that is later used to argue for a single weaker standard.",
+   "check": "Read each clause displacing state or local law. Ask whether the federal rule is a floor or a ceiling, which state laws survive, and whether any federal standard replaces what is displaced.",
+   "cues": [
+    "preempt",
+    "supersede",
+    "no state may",
+    "shall not establish or enforce"
+   ],
+   "fix": "State plainly whether the federal rule is a floor or a ceiling and list which state laws are preserved.",
+   "ex_ai": "AI bills can replace stronger state AI laws with a weaker federal rule, or point to a patchwork as a reason for a single weaker standard."
+  },
+  "private-right-ambiguity": {
+   "name": "Unclear private right of action",
+   "plain": "When courts split on whether a statute implies a private right of action, individuals may be able to sue in some places and not others.",
+   "check": "Look for wording on whether individuals may sue. Ask whether the text says so expressly, what remedies exist, and whether courts could read the silence as denying a private claim.",
+   "cues": [
+    "private right of action",
+    "civil action",
+    "may bring an action"
+   ],
+   "fix": "State expressly whether individuals may sue and for what remedies.",
+   "ex_ai": ""
+  },
+  "private-standards-delegation": {
+   "name": "Private and industry standards",
+   "plain": "Requiring compliance with industry or private standards hands rule content to standards bodies where regulated parties are heavily represented.",
+   "check": "Find duties tied to industry, consensus or private standards. Ask who writes them, who takes part, whether the public can read them, and whether the legislature or agency adopts them.",
+   "cues": [
+    "consensus standard",
+    "industry standard",
+    "generally accepted",
+    "voluntary consensus"
+   ],
+   "fix": "Specify required outcomes in the bill, adopt standards by rule and require balanced participation in standards bodies.",
+   "ex_ai": "AI bills can require compliance with industry or consensus AI standards, which hands the content of the rule to bodies where developers are heavily represented."
+  },
+  "reciprocity-effectiveness": {
+   "name": "Takes effect when others act",
+   "plain": "Provisions that apply only when other countries adopt matching measures may remain inactive indefinitely.",
+   "check": "Find provisions that apply only when another government acts. Ask who determines that it has, what happens if it never does, and whether an independent date or review exists.",
+   "cues": [
+    "reciprocal",
+    "when other nations",
+    "upon the adoption by"
+   ],
+   "fix": "Set an independent effective date with a review rather than waiting on foreign action.",
+   "ex_ai": ""
+  },
+  "record-flooding": {
+   "name": "Record and comment flooding",
+   "plain": "Record requirements and duties to respond to comments reward large volumes of submissions, which can be used to build a litigation record or overwhelm review.",
+   "check": "Read the record and comment duties placed on decision makers. Ask whether duplicate or bulk submissions must each be answered, and whether the agency may group them.",
+   "cues": [
+    "substantial evidence",
+    "administrative record",
+    "respond to all significant comments",
+    "public comment"
+   ],
+   "fix": "Allow the agency to group duplicate comments and limit response duty to distinct issues.",
+   "ex_ai": "AI bills can reward large volumes of submissions that build a litigation record or overwhelm agency review."
+  },
+  "retroactive-redefinition": {
+   "name": "Retroactive redefinition",
+   "plain": "A later law that clarifies an earlier one can reinterpret it in ways that conflict with original intent or settled court rulings.",
+   "check": "Find provisions described as clarifying earlier law. Ask whether they change what the earlier law was read to mean, and whether they apply to events or cases already underway.",
+   "cues": [
+    "clarif",
+    "is hereby clarified",
+    "shall be deemed to have always"
+   ],
+   "fix": "Review later clarifying provisions against the original purpose and court readings.",
+   "ex_ai": ""
+  },
+  "rider-omnibus-bundling": {
+   "name": "Riders and omnibus bundling",
+   "plain": "Unrelated provisions placed in must-pass bills receive little scrutiny and can change unrelated policy areas.",
+   "check": "Look for provisions unrelated to the bill's main subject. Ask whether each has been separately debated, how much time readers had, and what unrelated policy it changes.",
+   "cues": [],
+   "fix": "Require germane amendments and posting time for large bills.",
+   "ex_ai": ""
+  },
+  "rulemaking-delay-mechanisms": {
+   "name": "Layered rulemaking requirements",
+   "plain": "Stacked analyses and consultations before a rule takes effect add months or years, and each creates a record open to challenge.",
+   "check": "List each analysis, consultation and procedural step required before a rule takes effect. Ask how long they take together, whether any total deadline exists, and whether interim rules are allowed.",
+   "cues": [
+    "cost-benefit analysis",
+    "regulatory flexibility",
+    "environmental assessment",
+    "interagency consultation",
+    "notice and comment"
+   ],
+   "fix": "Limit analytic steps, set a total deadline and allow interim rules.",
+   "ex_ai": ""
+  },
+  "safe-harbor-swallows": {
+   "name": "Broad safe harbors",
+   "plain": "A safe harbor deeming certain conduct compliant can be broad enough to cover most of the behavior the prohibition was meant to address.",
+   "check": "Find each safe harbor or deemed compliance rule. Ask how much of the regulated conduct it covers, whether the presumption can be rebutted, and who reviews it.",
+   "cues": [
+    "safe harbor",
+    "deemed to comply",
+    "shall be deemed",
+    "presumed compliant"
+   ],
+   "fix": "Narrow the safe harbor to defined practices, make presumptions rebuttable and review them periodically.",
+   "ex_ai": ""
+  },
+  "scoring-gamesmanship": {
+   "name": "Cost scoring windows",
+   "plain": "Provisions can be built so costs fall outside the budget scoring window, making the law appear free while costs arrive later.",
+   "check": "Look at the timing of each cost. Ask whether costs fall just outside the budget estimate window, and whether the full cost after that window is stated.",
+   "cues": [
+    "fiscal year",
+    "10-year",
+    "for each of fiscal years"
+   ],
+   "fix": "Report costs beyond the scoring period and avoid timing that moves costs out of it.",
+   "ex_ai": ""
+  },
+  "self-executing-rules": {
+   "name": "Self-executing House rules",
+   "plain": "A special rule can deem a bill passed without a separate vote, embedding policy that skips normal deliberation.",
+   "check": "Check whether a procedural rule deems the bill or text adopted. Ask whether members vote separately on the substance, and what policy sits inside the procedural measure.",
+   "cues": [],
+   "fix": "Require separate recorded votes on substantive text.",
+   "ex_ai": ""
+  },
+  "sense-of-congress": {
+   "name": "Sense of Congress language",
+   "plain": "A sense of Congress statement has no legal force but can be presented as if Congress took a position.",
+   "check": "Find statements of the legislature's sense or encouragement. Ask whether any operative duty follows, and whether the statement could be presented as a legal position.",
+   "cues": [
+    "sense of congress",
+    "it is the sense of",
+    "congress encourages",
+    "congress urges"
+   ],
+   "fix": "Replace with an operative provision or remove it.",
+   "ex_ai": ""
+  },
+  "severability-strategy": {
+   "name": "Severability used strategically",
+   "plain": "A severability clause can keep less visible provisions alive when others fall, while omitting one can make challenges to the whole law riskier or safer.",
+   "check": "Read the severability clause, or note its absence. Ask which provisions would survive if others were struck down, and whether the remainder still works as intended.",
+   "cues": [
+    "severability",
+    "if any provision of this act",
+    "held invalid",
+    "the remainder of this act"
+   ],
+   "fix": "Include a clear severability clause and consider which provisions are essential.",
+   "ex_ai": ""
+  },
+  "shall-consider": {
+   "name": "Shall consider instead of ensure",
+   "plain": "Requiring an agency only to consider a factor lets it record that it thought about the factor and then act as it already planned.",
+   "check": "Find duties to 'consider' or 'take into account' a factor. Ask what outcome is required, whether the agency must explain how the factor changed its decision, and who checks.",
+   "cues": [
+    "shall consider",
+    "take into account",
+    "give due consideration"
+   ],
+   "fix": "Require the agency to achieve or ensure a stated outcome, or to explain in writing how the factor changed the decision.",
+   "ex_ai": ""
+  },
+  "shall-may-ambiguity": {
+   "name": "Shall versus may ambiguity",
+   "plain": "Wording that leaves unclear whether an agency must act or merely may act lets the duty be read as optional, so the command depends on later interpretation.",
+   "check": "Find every use of 'may'. For each, ask whether the stated purpose depends on that act being done, and whether the official holding the choice has a reason not to do it.",
+   "cues": [
+    "may",
+    "shall",
+    "may, in its discretion",
+    "as appropriate"
+   ],
+   "fix": "Use shall for required acts, reserve may for true discretion, and state the consequence of inaction.",
+   "ex_ai": ""
+  },
+  "signing-statements": {
+   "name": "Signing statements",
+   "plain": "Presidential statements on how ambiguous provisions will be read signal how the law will be enforced without a vote.",
+   "check": "Compare the text with any statement by the signing official on how it will be read. Ask whether the statement narrows a provision, and whether the text settles the point itself.",
+   "cues": [],
+   "fix": "Draft provisions specifically and track statements for effect.",
+   "ex_ai": ""
+  },
+  "standing-ambiguity": {
+   "name": "Unclear standing to sue",
+   "plain": "When it is unclear who may sue, or affected communities have no way to challenge a decision, enforcement can depend on the agency's willingness.",
+   "check": "Look for who may sue, such as 'any person' or 'aggrieved person'. Ask whether affected people or groups could bring a claim, or whether enforcement depends on the agency's choice.",
+   "cues": [
+    "any person",
+    "aggrieved",
+    "affected person",
+    "standing"
+   ],
+   "fix": "State who may sue and allow community and organization standing.",
+   "ex_ai": "AI bills can leave affected communities with no way to challenge a deployment, so enforcement depends on the agency."
+  },
+  "study-instead-of-action": {
+   "name": "Reports and studies instead of action",
+   "plain": "Requiring a study or report in place of a concrete outcome gives the appearance of progress while action is deferred.",
+   "check": "Find each study, report or assessment. Ask what action follows it, by when, and whether the outcome changes anything if the report is late or never written.",
+   "cues": [
+    "shall conduct a study",
+    "report to congress",
+    "shall submit a report",
+    "study",
+    "feasibility study"
+   ],
+   "fix": "Attach an action or default rule to each report and set deadlines.",
+   "ex_ai": ""
+  },
+  "study-it-to-death": {
+   "name": "Sequential studies",
+   "plain": "Chained assessments each with its own timeline, comment period and challenge mean implementation is always one study away.",
+   "check": "Trace chains of studies where one report leads to another. Ask whether the text sets an end point, and what happens automatically when the last report is delivered.",
+   "cues": [
+    "follow-up study",
+    "subsequent report",
+    "review of the report",
+    "based on the findings"
+   ],
+   "fix": "Limit to one study with a deadline and an automatic next step.",
+   "ex_ai": ""
+  },
+  "sunset-clauses": {
+   "name": "Sunset clauses",
+   "plain": "A provision that expires unless renewed lets opponents end it by blocking reauthorization instead of repealing it.",
+   "check": "Find expiry dates and renewal rules. Ask what ends if nothing is done, who must act to continue it, and whether core duties are tied to the date.",
+   "cues": [
+    "sunset",
+    "shall expire",
+    "ceases to have effect",
+    "terminate",
+    "shall terminate"
+   ],
+   "fix": "Avoid sunsets for core duties, or make renewal automatic unless Congress acts to end it.",
+   "ex_ai": ""
+  },
+  "technical-corrections": {
+   "name": "Technical corrections used for substance",
+   "plain": "Bills presented as fixing typos can make substantive changes that receive little scrutiny.",
+   "check": "Read each section labeled technical or conforming. Ask whether any change alters who is covered, what is required or how much money is involved, beyond fixing errors.",
+   "cues": [
+    "technical corrections",
+    "technical amendments",
+    "conforming amendments"
+   ],
+   "fix": "Limit technical corrections to enumerated typographic fixes with review.",
+   "ex_ai": ""
+  },
+  "tollgate-provision": {
+   "name": "Permit with no decision deadline",
+   "plain": "A permit or approval requirement with no deadline for the agency lets applications wait indefinitely, so approval may never arrive.",
+   "check": "Find each permit, license, approval or application step. Ask whether the agency has a decision deadline, and what happens to an applicant if it passes.",
+   "cues": [
+    "permit",
+    "license",
+    "approval",
+    "application"
+   ],
+   "fix": "Set a decision deadline with automatic approval or a right to sue if it is missed.",
+   "ex_ai": ""
+  },
+  "unfunded-mandates": {
+   "name": "Mandates without money",
+   "plain": "Requirements placed on state or local governments with no funding leave them to pay or not comply.",
+   "check": "Find duties placed on state, local or other governments. Ask who pays, whether funds are provided or tied to compliance, and what happens if the government lacks the money.",
+   "cues": [
+    "state and local governments",
+    "shall comply",
+    "unfunded"
+   ],
+   "fix": "Appropriate funds or condition the mandate on funding.",
+   "ex_ai": ""
+  },
+  "vagueness-and-delegation": {
+   "name": "Undefined standards left to agencies",
+   "plain": "Terms like reasonable or appropriate left undefined push hard choices to agencies, whose rules can then be challenged and delayed.",
+   "check": "List terms like 'reasonable' or 'as necessary' that the agency must define later. Ask whether the bill gives criteria or a deadline, and whether the resulting rule could be challenged for exceeding the grant.",
+   "cues": [
+    "reasonable",
+    "appropriate",
+    "as practicable",
+    "in the public interest",
+    "as necessary",
+    "as the secretary determines"
+   ],
+   "fix": "Define standards in the bill or give objective criteria and a deadline for the rule.",
+   "ex_ai": ""
+  },
+  "waiver-authority": {
+   "name": "Waiver and exemption authority",
+   "plain": "Authority to grant waivers for good cause or hardship, especially without notice to Congress or the public, can be used selectively to reduce the law's effect.",
+   "check": "Find each power to waive or exempt. Ask what criteria limit it, how long a waiver lasts, whether notice is public, and whether anyone must report how often it is used.",
+   "cues": [
+    "waive",
+    "waiver",
+    "for good cause",
+    "undue hardship",
+    "exemption",
+    "exempt"
+   ],
+   "fix": "Limit waivers by criteria, time, and public notice, with reporting to Congress.",
+   "ex_ai": "AI bills can let agencies waive requirements for good cause or hardship without notice, which can be used selectively to reduce the law's effect."
+  },
+  "weak-enforcement": {
+   "name": "Weak or absent enforcement",
+   "plain": "A mandate with no private right of action, no penalties or only small fines gives little reason to comply, especially if the sole enforcer is underfunded.",
+   "check": "Find the penalties, enforcers and remedies. Ask whether they are large enough to change behavior, whether the enforcer is funded, and whether anyone else may sue.",
+   "cues": [
+    "civil penalty not to exceed",
+    "no private right of action",
+    "nothing in this act creates"
+   ],
+   "fix": "Add meaningful penalties, enforcement funding and a private right of action.",
+   "ex_ai": ""
+  }
+ },
+ "research": {
+  "modifier-scope-after-a-list": {
+   "check": "Find each qualifying phrase placed before or after a list. Ask whether it applies to the nearest item or to every item, and whether a reasonable reader could pick either.",
+   "fix": "Restructure the list into separate subparagraphs or repeat the modifier so its reach is explicit."
+  },
+  "and-and-or-in-conditions-and-negations": {
+   "check": "Find lists of conditions joined by 'and' or 'or', especially under 'not' or 'no'. Ask whether the text requires all conditions or any one, and whether the reverse reading would change the result.",
+   "fix": "Use 'all of the following' or 'any of the following', and set conditions out as separate lettered items."
+  },
+  "punctuation-dependent-meaning": {
+   "check": "Find sentences where a comma or its absence changes who or what is covered. Ask what the sentence means with the punctuation removed, and whether another reading is plausible.",
+   "fix": "Recast the sentence so its meaning does not depend on a comma, using separate clauses or subparagraphs."
+  },
+  "article-and-number-choice": {
+   "check": "Find uses of 'a', 'the' or plural forms in duties and tests. Ask whether one item or several satisfies the rule, and whether one document, person or act is meant.",
+   "fix": "State the number required, such as 'at least one' or 'each', instead of relying on articles or plurals."
+  },
+  "tense-that-leaves-earlier-conduct-in-doubt": {
+   "check": "Find verbs in the past or future tense in operative provisions. Ask whether the provision reaches conduct before enactment, and whether the text says so.",
+   "fix": "Write operative provisions in the present tense and state expressly whether earlier conduct is covered."
+  },
+  "duty-with-no-named-actor": {
+   "check": "Find passive sentences saying something 'shall be done'. For each, ask who must do it, and who answers if it is not done.",
+   "fix": "Name the responsible official or body in each duty, and state the consequence of not acting."
+  },
+  "shall-used-to-state-a-rule-or-status": {
+   "check": "Find uses of 'shall' where no person has a duty, such as statements of status or effect. Ask whether a command or a declaration is meant.",
+   "fix": "Use 'is' or 'has' for statements of status and reserve 'shall' for duties with a named actor."
+  },
+  "prohibition-silent-on-acts-done-in-violation": {
+   "check": "Find each 'shall not' or 'may not' and ask whether an act done in violation is void, voidable or valid. Ask who can challenge it.",
+   "fix": "State the legal effect of an act done in violation, such as that it is void or voidable, and who may raise it."
+  },
+  "proviso-of-uncertain-reach": {
+   "check": "Find each 'provided that' clause. Ask whether it sets a condition, an exception or a new rule, and which words it attaches to.",
+   "fix": "Replace the proviso with a separate sentence or subsection stating whether it is a condition, an exception or a rule."
+  },
+  "varying-words-for-one-thing": {
+   "check": "Compare the words used for the same idea across sections. Ask whether a court could presume different meanings, and whether one word is used in two senses.",
+   "fix": "Use one term for one idea throughout and define it once."
+  },
+  "surplus-words": {
+   "check": "Find doublets and repeated phrases such as 'rules and regulations'. Ask whether a party could argue a broad reading makes another clause meaningless, or that each word must add something.",
+   "fix": "Delete redundant words, or state that paired terms are to be read together."
+  },
+  "time-computation-gaps": {
+   "check": "Find each 'within', 'before' and 'after' period. Ask when the clock starts, whether the named date itself is included, and who decides if the start is unclear.",
+   "fix": "State the start event, the end date and whether both are included, and how weekends and holidays are treated."
+  },
+  "condition-placed-in-one-subpart": {
+   "check": "Find text inside one subparagraph or flush text after a list. Ask which sibling provisions it governs, and whether the layout answers that.",
+   "fix": "Move the condition into its own provision or repeat it in each subpart it governs."
+  },
+  "deem-used-for-a-judgment": {
+   "check": "Find each use of 'deem' or 'deemed'. Ask whether a legal fiction is meant or an exercise of judgment, and what standard guides the decision.",
+   "fix": "Use 'deemed' only for legal fictions and state the standard where an official must judge."
+  },
+  "drafting-slip-with-substantive-effect": {
+   "check": "Check cross-references, lists and numbers for wrong citations, omitted items and typographical errors. Ask whether correcting each would change who is covered or what is required.",
+   "fix": "Verify every cross-reference and list against the text before enactment, and add a correction process for later errors."
+  },
+  "inconsistent-base-in-parallel-clauses": {
+   "check": "Compare parallel provisions that compute amounts, such as gross against net. Ask whether the same base is used in each and whether the difference changes the result.",
+   "fix": "Define the base once and use it in each parallel clause."
+  },
+  "unreconciled-drafts-within-one-act": {
+   "check": "Read the long act for phrases that do not fit its overall structure or defined terms. Ask whether sections were drafted separately and whether they still agree.",
+   "fix": "Run a conformity review of terms, definitions and structure across the whole text before enactment."
+  },
+  "title-or-heading-at-odds-with-the-text": {
+   "check": "Compare each title, heading or slogan with the operative words beneath it. Ask whether it describes more or less than the text does.",
+   "fix": "Make headings accurate descriptions, and state that headings do not affect meaning."
+  },
+  "bill-text-length-that-hides-the-rule": {
+   "check": "Find the operative rule in the longest or most nested sections. Ask whether a reader can state it in one sentence, and how many cross-references are needed.",
+   "fix": "Move the core rule to a short, early provision and reduce nesting."
+  },
+  "canons-available-on-both-sides": {
+   "check": "Find ambiguous sentences and ask which interpretive canons each side could cite. Ask whether the outcome could be predicted from the text alone.",
+   "fix": "Resolve the ambiguity in the text and add a construction rule stating the intended breadth."
+  },
+  "means-where-an-open-list-was-intended": {
+   "check": "Find definitions beginning 'means' and ask whether the list is meant to be exhaustive. Ask whether examples were intended and later items could be left out.",
+   "fix": "Use 'includes' for examples and reserve 'means' for exhaustive definitions."
+  },
+  "operative-rule-inside-a-definition": {
+   "check": "Read definitions for duties, exceptions or conditions. Ask whether a reader looking at the operative sections would find them there.",
+   "fix": "Move operative content into the operative sections and keep definitions to meaning only."
+  },
+  "context-escape-wording-in-a-definition": {
+   "check": "Find 'unless the context requires otherwise' in a definition. Ask who decides when the context differs, and where the defined meaning could be set aside.",
+   "fix": "Delete the clause or list the specific contexts where a different meaning applies."
+  },
+  "defined-term-far-from-ordinary-meaning": {
+   "check": "Compare each defined term with its everyday meaning. Ask whether the label misleads, or is too bland to signal what it covers.",
+   "fix": "Use a label that reflects the content of the definition, or avoid reusing an ordinary word with a special meaning."
+  },
+  "reliance-on-dictionary-act-defaults": {
+   "check": "Find terms such as 'person' that are not defined in the bill. Ask whether general default definitions apply, and whether they fit the bill's purpose.",
+   "fix": "Define key terms in the bill instead of relying on general defaults, or state which default applies."
+  },
+  "status-label-without-a-functional-test": {
+   "check": "Find rules that turn on a status label. Ask whether a party could adopt the label without changing what it does, and whether a functional test is present.",
+   "fix": "Add a functional test describing what the party does, alongside or in place of the label."
+  },
+  "definition-bound-to-older-technology": {
+   "check": "Find definitions that describe a specific method, device or medium. Ask whether a replacement technology would fall outside, and who can update the definition.",
+   "fix": "Define by function rather than by method, and give a body authority to update the definition."
+  },
+  "definition-that-sweeps-in-bystanders": {
+   "check": "Test each broad definition against everyday conduct outside the bill's aim. Ask whether limits rest on official assurance rather than text.",
+   "fix": "Add express exclusions and a purpose or intent element so the definition reaches only the intended conduct."
+  },
+  "general-term-beyond-expected-applications": {
+   "check": "Find broad words and ask what cases the drafters did not picture. Ask whether the outcome in those cases fits the purpose.",
+   "fix": "State the purpose in the text and add a rule on how courts should treat cases outside the expected applications."
+  },
+  "two-scopes-within-one-bill": {
+   "check": "Compare how each section describes the covered class. Ask whether they differ, and which one governs where they conflict.",
+   "fix": "Define the covered class once and use that term in every section."
+  },
+  "terms-inconsistent-with-the-amended-statute": {
+   "check": "Compare inserted words with the same words in the statute being amended and neighboring statutes. Ask whether they carry different meanings there.",
+   "fix": "Conform inserted terms to the amended statute, or define them for the inserted text."
+  },
+  "omitted-case": {
+   "check": "List the categories and situations a reader would expect the text to address. Ask which are missing and whether a court could treat the silence as deliberate.",
+   "fix": "Add a catch-all or a statement of how omitted cases are treated, and name the cases that are meant to be left out."
+  },
+  "bright-line-that-invites-design-around": {
+   "check": "Find precise thresholds and cutoffs. Ask what conduct just outside them would escape, and whether the purpose is served by that result.",
+   "fix": "Pair the bright line with an anti-avoidance rule and a power to adjust it by rule."
+  },
+  "self-determined-coverage": {
+   "check": "Find tests the regulated party applies to itself. Ask whether any registry, notice or record shows who decided it is covered or not, and who can check.",
+   "fix": "Require registration or a written determination that the agency can inspect, and let the agency make its own coverage finding."
+  },
+  "no-anti-evasion-clause": {
+   "check": "Look for any rule reaching conduct that is restructured, relabeled or routed through another person. Ask what stops a party from arranging around the mandate.",
+   "fix": "Add an anti-avoidance clause covering arrangements whose main purpose is to avoid the rule."
+  },
+  "no-substance-over-form-backstop": {
+   "check": "Find compliance tests judged by form alone. Ask whether an arrangement with no purpose beyond avoiding the rule could still qualify.",
+   "fix": "Add a rule that arrangements without a purpose other than avoidance are disregarded."
+  },
+  "thresholds-without-aggregation": {
+   "check": "Find size, volume or notice thresholds that apply entity by entity or transaction by transaction. Ask whether splitting activity would avoid them.",
+   "fix": "Add aggregation rules treating related entities and linked transactions as one."
+  },
+  "blending-to-qualify": {
+   "check": "Find tests applied to a mixed whole, such as a share or ratio. Ask whether favored items could be added to meet the test, and how the mix is measured and checked.",
+   "fix": "Measure the test on the underlying components and add a rule against adding items mainly to meet it."
+  },
+  "uncovered-close-substitute": {
+   "check": "Find rules naming one item, asset or instrument. Ask what close equivalent is left outside, and whether the purpose would be served by covering it.",
+   "fix": "Define the covered category by function and include close substitutes, with a power to extend it by rule."
+  },
+  "recharacterization-into-a-favored-category": {
+   "check": "Find categories with lighter treatment. Ask whether income, activity or status could be relabeled to enter them, and who checks the label.",
+   "fix": "Add a substance based test for the favored category and a rule that disregards relabeling without a change in substance."
+  },
+  "unequal-treatment-of-close-equivalents": {
+   "check": "Compare treatment of near identical activities. Ask whether the difference is large enough that parties would shift between them, and whether the purpose justifies it.",
+   "fix": "Align the treatment of close equivalents, or add a rule limiting the benefit of shifting."
+  },
+  "round-trip-transactions": {
+   "check": "Look for benefits tied to a location, party or category. Ask whether a transaction could go out and back to pick up the benefit.",
+   "fix": "Add a rule denying the benefit to transactions that return to the original party or place, and require reporting."
+  },
+  "related-party-attribution-gap": {
+   "check": "Find limits that apply to one person. Ask whether family members, trusts or affiliates are attributed to that person, and whether limits could be multiplied.",
+   "fix": "Add attribution rules that treat related persons and controlled entities as one for each limit."
+  },
+  "duty-on-one-link-in-a-chain": {
+   "check": "Identify the one actor the duty binds. Ask whether affiliates, intermediaries or controlling persons could do the same thing outside the duty.",
+   "fix": "Extend the duty to controlling persons and intermediaries, or add a rule making them answerable for evasion."
+  },
+  "election-into-a-lighter-parallel-regime": {
+   "check": "Find other statutes under which a party could register or qualify with lighter duties. Ask whether this bill addresses that choice.",
+   "fix": "State which regime governs when more than one applies, and bar election into the lighter one for the same activity."
+  },
+  "timing-moves-around-a-date": {
+   "check": "Find effective dates and holding periods. Ask whether transactions could be moved across them, and whether a look back or anti-timing rule exists.",
+   "fix": "Add a look back period and a rule disregarding transactions timed mainly to fall on the favorable side of a date."
+  },
+  "netting-that-cancels-a-charge": {
+   "check": "Find offset, credit and netting rules attached to a new charge or duty. Ask whether they could reduce it toward zero.",
+   "fix": "Cap offsets, or provide a minimum amount that cannot be netted away."
+  },
+  "offsetting-response-by-another-government": {
+   "check": "Find limits placed on another level of government. Ask whether it could redesign its own law to neutralize the limit, and whether the text anticipates that.",
+   "fix": "Add a rule addressing offsetting changes by other governments, and a reporting duty to track them."
+  },
+  "single-enforcer": {
+   "check": "Find who may enforce. Ask whether state officials or others have parallel authority, and what happens if the one enforcer does not act.",
+   "fix": "Give parallel enforcement authority to state officials and allow a private right of action as a backstop."
+  },
+  "no-reward-for-insiders": {
+   "check": "Look for protection, rewards or suit rights for insiders who report violations. Ask whether reporting carries any benefit beyond protection from retaliation.",
+   "fix": "Add an insider reporting right with a share of recoveries, and protection from retaliation."
+  },
+  "private-right-without-economics": {
+   "check": "Find any right to sue and read the remedies. Ask whether damages, multiples or fee shifting make a small claim worth bringing.",
+   "fix": "Add statutory or multiplied damages and shifting of reasonable fees to a prevailing plaintiff."
+  },
+  "fees-lost-on-voluntary-compliance": {
+   "check": "Read the fee shifting terms. Ask whether fees are available only after a judgment, and whether a defendant could comply after suit and avoid them.",
+   "fix": "Allow fees where the suit prompted the change in conduct, not only after judgment."
+  },
+  "non-enforcement-left-unreviewable": {
+   "check": "Find standards for when the agency must enforce. Ask whether a decision not to enforce, including for a whole category, can be challenged.",
+   "fix": "State criteria or triggers for enforcement and allow review of a refusal to enforce, with a reporting duty."
+  },
+  "statutory-damages-without-concrete-harm": {
+   "check": "Find fixed damages for a bare violation. Ask whether a plaintiff must show concrete harm to sue in federal court, and which plaintiffs would be left out.",
+   "fix": "Define the injury the provision addresses, allow other enforcers to sue, and provide an alternative forum."
+  },
+  "agency-penalties-without-a-court-path": {
+   "check": "Find civil penalties imposed in the agency's own tribunal. Ask whether a court route exists, and whether a jury trial challenge could stall them.",
+   "fix": "Provide a court action for penalties as an alternative to the agency tribunal."
+  },
+  "funding-conditions-without-rights-language": {
+   "check": "Find duties written as conditions on grants. Ask whether the text uses clear rights creating language, and whether beneficiaries could sue.",
+   "fix": "Use express rights creating language and state who may enforce it."
+  },
+  "independence-resting-on-removal-protection": {
+   "check": "Find protections that assume enforcers cannot be removed at will. Ask what happens to the design if a court finds those protections invalid.",
+   "fix": "Add a fallback structure that keeps the body's function if removal protection is invalidated."
+  },
+  "missing-clear-statement-on-states": {
+   "check": "Find provisions that change the federal and state balance or subject states to suit. Ask whether the text says so explicitly in the way courts require.",
+   "fix": "State the intended effect on state governments in clear express terms."
+  },
+  "mental-state-unstated-or-set-high": {
+   "check": "Find penalty provisions and read the mental state required. Ask whether it is unstated, or limited to 'willful' or 'knowing' acts, and what a regulated party could claim not to know.",
+   "fix": "State the required mental state and provide for civil liability without proof of intent."
+  },
+  "ambiguity-in-a-penalty-provision": {
+   "check": "Find unclear words in provisions carrying criminal penalties. Ask whether the narrower reading would be applied, and whether that reading could carry into civil cases.",
+   "fix": "Define the key terms of any penalty provision and separate the civil standard from the criminal one."
+  },
+  "narrowing-by-constitutional-doubt": {
+   "check": "Find provisions that could raise a serious constitutional question. Ask whether a court could adopt a narrow reading to avoid it.",
+   "fix": "Include a clear statement of intended breadth and findings supporting the provision."
+  },
+  "gates-on-private-suits": {
+   "check": "Find notice periods, bars during government prosecution and government powers to dismiss. Ask whether a suit could be headed off by them.",
+   "fix": "Limit the notice period, define when a government action blocks a suit, and require court approval of dismissals."
+  },
+  "private-relator-open-to-challenge": {
+   "check": "Find enforcement by private parties on the government's behalf. Ask what constitutional objections could be raised and what happens if they succeed.",
+   "fix": "Add a government enforcement path that continues if the relator mechanism is invalidated."
+  },
+  "past-violations-not-actionable": {
+   "check": "Read what private suits may reach. Ask whether past violations can be sued over or only ongoing ones, and whether only forward looking relief is available.",
+   "fix": "Allow suit over past violations within a stated period and provide for damages as well as forward looking relief."
+  },
+  "limitation-period-that-never-restarts": {
+   "check": "Find limitation periods and their start points. Ask whether each continuing effect restarts the clock or only the first act counts.",
+   "fix": "State that each continuing violation or new effect starts a new period."
+  },
+  "no-time-limit-on-rule-challenges": {
+   "check": "Look for a time limit on challenges to rules made under the bill. Ask whether the general default period applies and when it restarts.",
+   "fix": "State a specific filing period for challenges and when it starts."
+  },
+  "filing-rule-readable-as-jurisdictional": {
+   "check": "Find deadlines and preconditions to suit. Ask whether the wording could be read as a limit on the court's power instead of a waivable rule.",
+   "fix": "Word deadlines as claim processing rules and state that they may be waived or tolled."
+  },
+  "private-trigger-open-to-misuse": {
+   "check": "Find private notices or complaints that compel action. Ask what penalizes false ones, whether a counter notice exists, and whether time to verify is enough.",
+   "fix": "Add a penalty for false notices, a counter notice process and a reasonable verification period."
+  },
+  "enforcement-gated-by-a-vote-or-limited-to-profit": {
+   "check": "Find penalties that need a vote before they apply, or recovery limited to realized profit. Ask who controls the vote and whether the cap makes violation cheap.",
+   "fix": "Remove the vote requirement and allow recovery beyond profit, such as damages or fixed penalties."
+  },
+  "dollar-figures-not-indexed": {
+   "check": "List each fixed dollar penalty, cap and threshold. Ask whether it is indexed, and what it will be worth after several years of inflation.",
+   "fix": "Index dollar figures to a named measure with a scheduled adjustment."
+  },
+  "penalties-deductible-or-untracked": {
+   "check": "Find the treatment of penalty payments. Ask whether they can be deducted or recovered from others, and where the money goes.",
+   "fix": "Bar deduction of penalties and direct where penalty receipts are deposited and reported."
+  },
+  "appropriated-funds-can-be-withheld": {
+   "check": "Find appropriations and ask whether anything forces timely obligation. Ask whether anyone can sue if the money is held back.",
+   "fix": "Add a deadline for obligating funds and a reporting duty on delays."
+  },
+  "funding-that-depends-on-a-request": {
+   "check": "Find funding that flows only on a request or a formula term. Ask who controls the request, and what happens if no one makes it.",
+   "fix": "Provide funding by default, with the request or formula as an adjustment rather than a condition."
+  },
+  "offsets-that-score-without-changing-outlays": {
+   "check": "Find savings used to pay for new spending. Ask whether they change actual outlays, or count the delay of a rule never in force.",
+   "fix": "Report the savings and the basis for scoring them, and require a review of actual outlays."
+  },
+  "designations-and-timing-shifts-outside-caps": {
+   "check": "Find emergency designations, advance appropriations and timing shifts. Ask whether they move spending outside budget limits.",
+   "fix": "Require a stated justification for each designation and report totals against the limits."
+  },
+  "spending-authority-outside-appropriations": {
+   "check": "Find contract or borrowing authority. Ask whether it commits funds without an appropriation, and who reviews the commitments.",
+   "fix": "Require appropriation or a reporting and review step before any commitment is made."
+  },
+  "provision-shaped-to-a-reconciliation-test": {
+   "check": "Find provisions sized, dated or worded to meet a special budget procedure. Ask whether the form departs from what the policy would otherwise need.",
+   "fix": "Disclose which provisions were shaped for the procedure and review them after enactment."
+  },
+  "serial-short-term-renewal": {
+   "check": "Find temporary provisions and their expiry dates. Ask whether they have been renewed before, and whether making them permanent or ending them is an option.",
+   "fix": "Set a longer term or a review that leads to a permanent or terminal decision."
+  },
+  "mandate-silent-on-who-pays": {
+   "check": "Find each requirement and ask which party bears its cost. Ask whether the text says, and what happens if that party cannot pay.",
+   "fix": "State who bears the cost and how, with funding or cost sharing where needed."
+  },
+  "overlapping-benefits-with-no-offset": {
+   "check": "Find programs that pay for the same period or need. Ask whether a clause coordinates them, and whether double payment is possible.",
+   "fix": "Add a coordination clause providing for offset or priority between the programs."
+  },
+  "amendatory-instruction-that-cannot-be-executed": {
+   "check": "Check each strike, insert and redesignation instruction against the text it amends. Ask whether it can be carried out exactly as written.",
+   "fix": "Verify each instruction against the current text of the amended law before enactment."
+  },
+  "reference-inside-amendatory-text-to-the-wrong-law": {
+   "check": "Read quoted inserted text for 'this Act' and 'date of enactment of this Act'. Ask whether it points to the amended law or the new bill.",
+   "fix": "Name the intended law and date expressly inside the inserted text."
+  },
+  "citation-to-the-wrong-source-of-law": {
+   "check": "Check whether each amendment targets the Code or the Act, and whether the title is positive law. Ask whether the citation form fits.",
+   "fix": "Use the correct citation form for each title and confirm it with the codifiers."
+  },
+  "broken-circular-or-chained-cross-reference": {
+   "check": "Follow each cross-reference to its target. Ask whether it points to the right unit, to itself, or through a chain of other references.",
+   "fix": "Replace chained references with direct ones and check that each target exists."
+  },
+  "repeal-or-sunset-with-unintended-survivors": {
+   "check": "Read each repeal and sunset. Ask whether prior law returns, and whether amendments made by the Act stay in force after the authority ends.",
+   "fix": "State which provisions and amendments end, and whether earlier law is restored."
+  },
+  "repeal-silent-on-accrued-liabilities": {
+   "check": "Read each repeal or expiry for penalties already incurred. Ask whether they survive or the general savings rule decides.",
+   "fix": "State whether accrued penalties and pending cases continue after repeal or expiry."
+  },
+  "effective-date-confused-with-applicability": {
+   "check": "Find each effective date. Ask whether the text separates the date it takes effect from the persons, things and events it applies to.",
+   "fix": "State the effective date and the applicability rule in separate provisions."
+  },
+  "no-transitional-rules": {
+   "check": "Look for rules on how existing cases, contracts and programs move to the new rule. Ask what happens to those in progress on the effective date.",
+   "fix": "Add transitional provisions covering pending matters and a schedule for existing cases."
+  },
+  "substantive-rule-stranded-in-an-amending-act": {
+   "check": "Find free standing rules in amending or temporary sections. Ask whether they will be codified with the parent law and found by readers.",
+   "fix": "Place the rule in the parent law or state how it is to be codified."
+  },
+  "restatement-of-other-law": {
+   "check": "Find provisions repeating existing law. Ask whether the two sources could diverge, and which one governs if they do.",
+   "fix": "Cross-refer to the existing law instead of restating it, or state which text governs."
+  },
+  "conflict-with-international-obligations": {
+   "check": "Compare the measure with treaty and trade commitments. Ask whether any conflict exists, and whether general override language reaches it.",
+   "fix": "Add an express statement on the relationship to those obligations and a review step."
+  },
+  "boilerplate-relied-on-for-work-it-does-not-do": {
+   "check": "Find stock clauses such as a general override or severability. Ask whether they actually protect what the drafters think they protect.",
+   "fix": "Replace boilerplate with specific text where protection matters, such as named provisions or tailored severability."
+  },
+  "no-protection-from-later-implied-override": {
+   "check": "Look for any rule that a later law must refer to this one expressly to displace it. Ask whether a later law could override it silently.",
+   "fix": "Add a clause requiring express reference by any later law that would displace this one."
+  },
+  "no-fallback-if-struck-down": {
+   "check": "Find the primary provision and ask what applies if a court invalidates it. Ask whether any substitute takes effect.",
+   "fix": "Add a fallback rule that takes effect if the primary provision is invalidated."
+  },
+  "linked-provisions-not-tied-together": {
+   "check": "Find provisions enacted as a package or bargain. Ask whether the text makes them inseverable, and what remains if a court removes one side.",
+   "fix": "State which provisions stand or fall together and add a fallback."
+  },
+  "no-fast-track-for-validity-challenges": {
+   "check": "Look for expedited procedure for constitutional challenges. Ask how long the law's status could stay uncertain under ordinary procedure.",
+   "fix": "Provide expedited review, a single forum and direct appeal for validity challenges."
+  },
+  "savings-clause-that-does-not-stop-implied-preemption": {
+   "check": "Read each clause preserving state law. Ask whether it stops a finding of conflict preemption, and whether words such as 'requirements' reach common law claims.",
+   "fix": "Add an express statement that conflict preemption does not apply to preserved state law, and define 'requirements'."
+  },
+  "preemption-without-a-replacement-standard": {
+   "check": "Find provisions displacing state rules. Ask what federal standard fills the gap, and what level of regulation remains.",
+   "fix": "Pair displacement with a federal standard, or limit displacement to areas the federal rule covers."
+  },
+  "funding-conditions-that-deter-state-rules": {
+   "check": "Find grant eligibility terms touching state or local regulation. Ask whether they discourage governments from adopting their own rules.",
+   "fix": "Limit conditions to the use of the funds and state that eligibility does not depend on forgoing state rules."
+  },
+  "no-anti-backsliding-rule": {
+   "check": "Find provisions for revising standards, permits or plans. Ask whether any floor prevents a downward revision at renewal.",
+   "fix": "Add a rule that revisions may not be less protective than the existing standard without a stated finding."
+  },
+  "no-construction-rule-for-coverage": {
+   "check": "Look for an instruction on how broadly coverage terms are to be read. Ask whether a narrow reading would defeat the stated purpose.",
+   "fix": "Add a rule that coverage terms are construed to serve the purpose, and state exceptions narrowly."
+  },
+  "later-ratification-of-a-lenient-reading": {
+   "check": "Find provisions reenacted without change after an agency or court read them narrowly. Ask whether a party could argue that the legislature accepted that reading.",
+   "fix": "State in the text that reenactment does not approve any prior reading."
+  },
+  "orphaned-functions-after-a-sunset": {
+   "check": "Find bodies that expire and ask what happens to their contracts, licenses and fee streams. Ask whether a successor is named.",
+   "fix": "Name a successor body and provide for transfer of functions when an agency sunsets."
+  },
+  "no-authority-to-correct-a-known-flaw": {
+   "check": "Look for authority to fix an acknowledged error without new legislation. Ask what the agency could do if a flaw appears.",
+   "fix": "Add a limited correction authority with notice, a stated finding and a reporting duty."
+  },
+  "eligibility-by-self-attestation": {
+   "check": "Find benefits or status established by the applicant's own statement. Ask whether verification is allowed, barred or required.",
+   "fix": "Allow after the fact verification and audit of attestations, with penalties for false statements."
+  },
+  "bar-on-sharing-data-between-agencies": {
+   "check": "Read confidentiality and privacy language. Ask whether it stops one agency from giving another the data it needs to carry out the bill.",
+   "fix": "Add an express data sharing authority with safeguards."
+  },
+  "decision-rule-decoupled-from-its-drivers": {
+   "check": "Find decisions set apart in time from the choices that make them necessary. Ask what happens if no one acts, and whether that result is intended.",
+   "fix": "Set a default outcome that matches the intended policy and require a decision before the default applies."
+  },
+  "no-backstop-for-delegated-implementers": {
+   "check": "Find programs carried out by states or other delegates. Ask what happens if a delegate does not act, and whether a default exists.",
+   "fix": "Provide a federal default or takeover if the delegate does not carry out the program."
+  },
+  "no-scheduled-review-of-standards": {
+   "check": "Look for a review date for standards set in the bill. Ask whether coverage could shrink as conditions change.",
+   "fix": "Add a scheduled review with a duty to update and report."
+  },
+  "review-duty-with-a-built-in-exit": {
+   "check": "Find periodic reviews and reports. Ask whether the agency may skip them on its own determination.",
+   "fix": "Make the review mandatory and require a published reason for any extension."
+  },
+  "power-to-exempt-whole-classes": {
+   "check": "Find powers to exempt 'any entity or class of entities'. Ask what criteria bound it, and what limits the number or size of the groups exempted.",
+   "fix": "Limit the exemption power by named criteria, time limits and public notice."
+  },
+  "unrecorded-waivers-and-exemptions": {
+   "check": "Look for a public record of waivers and exemptions. Ask whether anyone can learn how many were granted and to whom.",
+   "fix": "Require a public register of each waiver and an annual report."
+  },
+  "narrowing-or-deferral-after-enactment": {
+   "check": "Find general grants of rulemaking power and amendment risk. Ask whether regulations could narrow the statute or a later law could postpone duties before they apply.",
+   "fix": "Set the core terms in the statute and add a reporting duty on any narrowing or deferral."
+  },
+  "agency-barred-from-supplying-a-definition": {
+   "check": "Find limits on the agency's power to issue rules. Ask what gap results, and who fills it.",
+   "fix": "State the definition in the bill or allow a narrow rule to fill the gap."
+  },
+  "advisory-only-or-removable-watchdog": {
+   "check": "Find review bodies and inspectors. Ask whether they can only recommend, and whether removal needs notice and reasons.",
+   "fix": "Give the body binding follow up duties and require notice and reasons for removal."
+  },
+  "structural-checks-that-can-stall-the-agency": {
+   "check": "Find quorum and supermajority rules. Ask whether unfilled seats could halt the agency, and what the fallback is.",
+   "fix": "Add a fallback for the lack of a quorum and a deadline for filling seats."
+  },
+  "deadline-that-distorts-priorities": {
+   "check": "Find rigid deadlines and automatic defaults. Ask whether they could force action on one duty at the cost of rushed rules or neglect of others.",
+   "fix": "Set priorities among duties and allow a stated extension with reasons."
+  },
+  "many-independent-clearance-points": {
+   "check": "Count the separate sign offs before anything happens. Ask whether any one can block action, and whether a time limit applies to each.",
+   "fix": "Reduce the number of approvals, set a time limit for each and add a default if one is missed."
+  },
+  "administrative-burden-on-beneficiaries": {
+   "check": "Walk through the steps a person must take to claim a right or benefit. Ask how much paperwork and delay is involved, and who bears the cost.",
+   "fix": "Simplify the process, allow automatic enrollment where possible and require reporting on take up."
+  },
+  "no-built-in-evaluation-or-data-plan": {
+   "check": "Look for a clause requiring review against the stated purpose and data to do it. Ask who performs the review.",
+   "fix": "Add an independent evaluation duty with a data plan and a published report."
+  },
+  "powers-never-commenced-or-used": {
+   "check": "Find powers that need a start date or a first act. Ask whether any duty requires them to be brought into operation or reported on if not used.",
+   "fix": "Add a commencement date and a duty to report why any power has not been used."
+  },
+  "reform-that-codifies-existing-practice": {
+   "check": "Compare the new rule with current practice. Ask how many past cases it would have changed.",
+   "fix": "Add a measurable change or a review of whether the rule alters practice."
+  },
+  "committee-review-bypassed": {
+   "check": "Check how the text moved through the process. Ask whether it passed under emergency or leadership procedure, and whether a cleanup stage was skipped.",
+   "fix": "Require committee review and a posting period before floor action, and a technical review of the final text."
+  },
+  "externally-drafted-or-model-text": {
+   "check": "Compare the text with outside documents. Ask whether it was drafted by or copied from an outside organization, and whether that is disclosed.",
+   "fix": "Require disclosure of outside drafters and a review of the text against the bill's purpose."
+  },
+  "automatic-effect-absent-disapproval": {
+   "check": "Find recommendations that take effect unless the legislature acts. Ask who can stop them, how quickly, and what happens if no one does.",
+   "fix": "Require an affirmative approval step, or a clear window and procedure for disapproval."
+  },
+  "expedited-procedure-that-limits-amendment": {
+   "check": "Find fast track procedures. Ask what debate and amendment they allow, and what changes could not be made.",
+   "fix": "Allow amendment and a minimum debate period, or limit fast track to defined cases."
+  },
+  "authority-to-skip-public-comment": {
+   "check": "Find routes that allow rules to take effect without comment, such as good cause or interim final rules. Ask what limits them.",
+   "fix": "Limit skipping comment to stated circumstances, set a sunset on interim rules and require later notice and comment."
+  },
+  "no-comparative-print": {
+   "check": "Look for a document showing how the bill changes existing law. Ask whether readers can see the changes without assembling them.",
+   "fix": "Require a comparative print to be published before consideration."
+  },
+  "no-cost-or-regulatory-impact-statement": {
+   "check": "Look for a cost estimate and a regulatory impact evaluation with the bill. Ask who prepared them and whether they cover the main provisions.",
+   "fix": "Require a cost estimate and impact evaluation before consideration."
+  },
+  "no-agency-technical-review": {
+   "check": "Look for technical assistance from the agency that will administer the bill. Ask whether the text was reviewed for workability.",
+   "fix": "Request and publish a technical review from the administering agency before enactment."
+  },
+  "provision-added-or-dropped-late": {
+   "check": "Compare earlier versions of the vehicle with the final text. Ask what was added or removed late, especially checks, fixes and shields.",
+   "fix": "Require a posting period for late changes and a record of what was added or dropped."
+  },
+  "drafting-and-reading-conventions-differ": {
+   "check": "Compare the drafting style with the canons courts apply. Ask where the text could be read in ways its authors did not expect.",
+   "fix": "Have the text reviewed against common interpretive canons and add construction rules where they differ."
+  },
+  "procedure-that-favors-a-constituency": {
+   "check": "Read procedural rules for who receives information, standing or veto points. Ask whether a particular group gains an advantage.",
+   "fix": "Open procedural rights to affected parties generally and require public notice of key steps."
+  }
+ }
+}

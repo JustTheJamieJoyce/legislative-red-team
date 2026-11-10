@@ -1,0 +1,1081 @@
+<title>Legislative Red Team</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&display=swap">
+<style>
+/* Layout: a reading desk on deep blue. White sheets float on the blue with hard dark shadows; the measure's text is one sheet, each finding another. */
+:root{
+  --bg:#092e47; --card:#ffffff; --ink:#2a3343; --ink-2:#5d6676; --ink-3:#8a93a1; --soft:#f1f3f6; --soft-2:#e2e7ee;
+  --tray:rgba(255,255,255,.09); --on-bg:#ffffff; --on-bg-2:rgba(255,255,255,.76); --on-bg-3:rgba(255,255,255,.16);
+  --link:#3b5f9e; --link-on-bg:#c3d7ff; --focus:#9cc2ff;
+  --defect:#a23d48; --risk:#94600f; --tradeoff:#6a4fa3; --notice:#3b5f9e; --ok:#2a7451;
+  --sup:#86e0b0; --opp:#f7a8b0; --tag-bg:#fbf1e2;
+  --neu:0 1px 0 rgba(0,0,0,.35),0 12px 28px rgba(0,6,14,.55);
+  --shadow:0 1px 2px rgba(0,10,20,.18),0 4px 14px rgba(0,10,20,.22);
+  --f-ui:"Public Sans",system-ui,-apple-system,"Segoe UI",Helvetica,Arial,sans-serif;
+  --f-body:"Public Sans",system-ui,-apple-system,"Segoe UI",Helvetica,Arial,sans-serif;
+  --f-head:"Source Serif 4",Georgia,"Times New Roman",serif;
+  --f-text:"Source Serif 4",Georgia,"Times New Roman",serif;
+  --fg:var(--on-bg); --fg2:var(--on-bg-2); --rule:var(--on-bg-3); --fill:var(--tray); --lk:var(--link-on-bg); --pri-bg:#ffffff; --pri-fg:#092e47;
+}
+.card,.sheet,.pat,.doc,.am,.pane>.stack:not(.hd),.pane>.scroll-x,.pane>.q,.page-in>.stack:not(.hd),.page-in>.scroll-x{
+  --fg:var(--ink); --fg2:var(--ink-2); --rule:var(--soft-2); --fill:var(--soft); --lk:var(--link); --pri-bg:#092e47; --pri-fg:#ffffff; color:var(--fg)}
+.sheet,.pane>.stack:not(.hd),.pane>.scroll-x,.pane>.q,.page-in>.stack:not(.hd),.page-in>.scroll-x{background:var(--card);border-radius:7px;box-shadow:var(--neu);padding:14px 16px}
+*{box-sizing:border-box}
+html,body{height:100%}
+body{background:var(--bg);color:var(--fg);font:500 14.5px/1.5 var(--f-body);display:flex;flex-direction:column;min-height:0}
+button,input,select,textarea{font:inherit;color:inherit}
+button{cursor:pointer}
+a{color:var(--lk)}
+:focus-visible{outline:2px solid var(--focus);outline-offset:2px}
+.gut{padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+header.top{flex:none;border-bottom:1px solid var(--on-bg-3)}
+.top-in{display:flex;flex-wrap:wrap;align-items:center;gap:8px 16px;padding-block:10px}
+.brand{font:700 19px/1.1 var(--f-ui);letter-spacing:.01em;margin-right:4px;white-space:nowrap;color:var(--on-bg)}
+.brand small{display:block;font:500 12px/1.4 var(--f-body);color:var(--on-bg-2)}
+.picker{display:flex;flex-wrap:wrap;gap:7px;flex:1;min-width:0}
+.pill{border:0;background:var(--tray);color:var(--on-bg);border-radius:9px;padding:7px 12px 5px;font:500 14.5px/1.2 var(--f-ui);white-space:nowrap}
+.pill[aria-pressed="true"],.pill.on{background:#fff;color:#092e47;font-weight:700;box-shadow:var(--shadow)}
+.seg{display:inline-flex;background:var(--fill);border-radius:9px;padding:2px}
+.seg button{border:0;background:none;color:var(--fg2);padding:6px 10px 4px;font:500 13.5px/1.2 var(--f-ui);border-radius:7px}
+.seg button[aria-pressed="true"]{background:var(--pri-bg);color:var(--pri-fg);font-weight:700}
+.banner{flex:none;border-bottom:1px solid var(--on-bg-3)}
+.banner-in{padding-block:12px;display:grid;gap:6px}
+.what{font:600 19px/1.35 var(--f-body);text-wrap:balance;max-width:78ch;color:var(--on-bg)}
+.meta{display:flex;flex-wrap:wrap;gap:6px 14px;color:var(--on-bg-2);font-size:13px;align-items:center}
+.meta b{color:var(--on-bg);font-weight:700}
+.force{display:inline-block;font:700 12px/1 var(--f-ui);letter-spacing:.08em;text-transform:uppercase;padding:6px 8px 4px;border-radius:5px;color:#092e47;background:#fff}
+.force.none{background:var(--opp)} .force.binding{background:var(--sup)} .force.internal{background:var(--tag-bg)}
+main.desk{flex:1;min-height:0;display:grid;grid-template-columns:minmax(0,1fr) minmax(370px,480px)}
+.col{min-height:0;overflow-y:auto;min-width:0;scrollbar-color:rgba(255,255,255,.35) transparent}
+.col.text{padding:18px 14px 50px max(18px,env(safe-area-inset-left,0px))}
+.mobtabs{display:none}
+.doc{background:var(--card);border-radius:7px;box-shadow:var(--neu);padding:16px 20px 36px 12px;max-width:860px;margin:0 auto}
+.doc-h{display:flex;flex-wrap:wrap;gap:8px;align-items:center;justify-content:space-between;margin:0 0 10px 8px;color:var(--fg2);font-size:13px}
+.blk{display:grid;grid-template-columns:34px minmax(0,1fr);gap:0 8px;font:16px/1.62 var(--f-text);padding:2px 0}
+.blk .n{font:500 11px/2.4 var(--f-ui);color:var(--ink-3);text-align:right;user-select:none}
+.blk .t{min-width:0;overflow-wrap:anywhere}
+.blk.h{margin-top:14px}
+.blk.h .t{font:700 15px/1.5 var(--f-ui);letter-spacing:.04em}
+.blk.h .n{line-height:2}
+.blk.new .t{color:var(--ok);background:color-mix(in srgb,var(--ok) 11%,transparent);border-radius:3px;padding:0 3px}
+mark.hl{background:color-mix(in srgb,var(--c) 17%,transparent);color:inherit;border-bottom:2px solid var(--c);border-radius:2px;padding:1px 0;cursor:pointer}
+mark.hl.sel{background:color-mix(in srgb,var(--c) 36%,transparent);outline:2px solid var(--c)}
+mark.hl.cand{border-bottom-style:dotted}
+.k-defect{--c:var(--defect)} .k-risk{--c:var(--risk)} .k-tradeoff{--c:var(--tradeoff)} .k-notice{--c:var(--notice)}
+ins{color:var(--ok);text-decoration:none;background:color-mix(in srgb,var(--ok) 13%,transparent);border-radius:2px}
+del{color:var(--defect);background:color-mix(in srgb,var(--defect) 10%,transparent)}
+.tabs{position:sticky;top:0;z-index:2;background:var(--bg);border-bottom:1px solid var(--on-bg-3);display:flex;overflow-x:auto;gap:2px;padding:8px 12px 0}
+.tabs button{border:0;background:none;padding:8px 10px 6px;font:500 14.5px/1.2 var(--f-ui);color:var(--on-bg-2);border-bottom:3px solid transparent;white-space:nowrap}
+.tabs button[aria-selected="true"]{color:#fff;border-bottom-color:#fff;font-weight:700}
+.tabs .ct{font-size:12px;margin-left:5px;opacity:.85}
+.pane{padding:16px max(18px,env(safe-area-inset-right,0px)) 60px 14px;display:grid;gap:16px}
+h2{font:700 18px/1.25 var(--f-ui);margin:0;text-wrap:balance;color:var(--fg)}
+h3{font:700 12.5px/1.3 var(--f-ui);letter-spacing:.09em;text-transform:uppercase;color:var(--fg2);margin:0}
+p{margin:0}
+.stack{display:grid;gap:9px}
+.lead{font-size:15.5px;line-height:1.5}
+.small{font-size:13px;color:var(--fg2)}
+.chips{display:flex;flex-wrap:wrap;gap:5px}
+.chip{font:700 11px/1 var(--f-ui);letter-spacing:.07em;text-transform:uppercase;padding:5px 7px 3px;border-radius:4px;background:var(--fill);color:var(--fg2);white-space:nowrap}
+.chip.kind{background:color-mix(in srgb,var(--c) 15%,#fff);color:var(--c)}
+.chip.sev-critical{background:var(--c);color:#fff}
+.card{background:var(--card);border-left:5px solid var(--c);border-radius:7px;box-shadow:var(--neu)}
+.card.sel{outline:2px solid #fff;outline-offset:2px}
+.card>button.head{display:grid;gap:7px;width:100%;text-align:left;border:0;background:none;padding:12px 14px 10px}
+.card .ttl{font:700 16.5px/1.3 var(--f-ui);color:var(--ink)}
+.card .body{padding:0 14px 14px;display:grid;gap:11px}
+.card .plain{font-size:15px;line-height:1.5}
+.quote{font:14.5px/1.5 var(--f-text);border-left:3px solid var(--rule);padding-left:10px;color:var(--fg2)}
+.kv{display:grid;gap:3px;margin:0}
+.kv dt{font:700 11.5px var(--f-ui);letter-spacing:.08em;text-transform:uppercase;color:var(--fg2)}
+.kv dd{margin:0}
+.src{display:flex;flex-wrap:wrap;gap:4px 12px;font-size:13px}
+.inq{background:#092e47;color:#fff;border-radius:7px;padding:12px 14px;display:grid;gap:10px;--fg:#fff;--fg2:rgba(255,255,255,.76);--lk:var(--link-on-bg);--rule:rgba(255,255,255,.18)}
+.inq h3{color:#fff}
+.inq .iq{font-weight:700}
+.inq ul{margin:0;padding:0;list-style:none;display:grid;gap:9px}
+.inq li{border-top:1px solid var(--rule);padding-top:8px;display:grid;gap:3px}
+.inq li b{font:700 14.5px/1.3 var(--f-ui);letter-spacing:.02em}
+.am{border:1px dashed var(--ink-3);border-radius:7px;padding:11px;display:grid;gap:8px;background:var(--soft)}
+.am.acc{border:2px solid var(--ok)}
+.am .instr{font:14px/1.5 var(--f-text)}
+.btn{border:0;background:#fff;color:var(--ink-2);border-radius:9px;padding:7px 11px 5px;font:500 14px/1.2 var(--f-ui);box-shadow:var(--shadow)}
+.btn.pri{background:var(--pri-bg);color:var(--pri-fg);font-weight:700}
+.btn.on{color:var(--ok);box-shadow:inset 0 0 0 2px var(--ok)}
+.btn:disabled{opacity:.5;cursor:default}
+.row{display:flex;flex-wrap:wrap;gap:7px;align-items:center}
+.tbl{width:100%;border-collapse:collapse;font-size:13.5px}
+.tbl th{font:700 11.5px var(--f-ui);letter-spacing:.08em;text-transform:uppercase;color:var(--fg2);text-align:left;padding:6px 8px 6px 0;border-bottom:1px solid var(--rule)}
+.tbl td{padding:8px 8px 8px 0;border-bottom:1px solid var(--rule);vertical-align:top}
+.tbl tr:last-child td{border-bottom:0}
+.scroll-x{overflow-x:auto}
+.v{font:700 11px/1 var(--f-ui);letter-spacing:.07em;text-transform:uppercase;padding:5px 7px 3px;border-radius:4px;white-space:nowrap;display:inline-block}
+.v-delivered{color:var(--ok);background:#e4f1ea}
+.v-paper{color:var(--risk);background:var(--tag-bg)}
+.v-partly{color:var(--tradeoff);background:#eee8f7}
+.v-absent,.v-contradicted{color:var(--defect);background:#f6e6e8}
+.r-reached{color:var(--ok)} .r-partly{color:var(--risk)} .r-untouched{color:var(--defect)} .r-named{color:var(--notice)}
+.reach{font:700 11.5px var(--f-ui);letter-spacing:.07em;text-transform:uppercase;white-space:nowrap}
+.q{display:grid;gap:6px}
+.q .qq{font-weight:700}
+.tally{display:grid;grid-template-columns:repeat(auto-fit,minmax(92px,1fr));gap:8px}
+.tally div{background:var(--fill);border-radius:7px;padding:9px 11px}
+.tally b{display:block;font:700 24px/1 var(--f-ui);font-variant-numeric:tabular-nums}
+.tally span{font-size:12px;color:var(--fg2)}
+.note{background:var(--fill);border-radius:7px;padding:10px 12px;font-size:13.5px}
+.warn{background:var(--tag-bg);color:var(--risk);border-radius:7px;padding:10px 12px;font-size:13.5px}
+label.f{display:grid;gap:5px;font-size:13px;color:var(--fg2)}
+input[type=text],input[type=url],input[type=file],textarea,select{border:1px solid var(--soft-2);background:#fff;color:var(--ink);border-radius:7px;padding:8px 10px;width:100%;min-width:0}
+textarea{min-height:120px;resize:vertical;font:14px/1.5 var(--f-text)}
+.page{flex:1;min-height:0;overflow-y:auto;scrollbar-color:rgba(255,255,255,.35) transparent}
+.page-in{max-width:1000px;margin:0 auto;padding-block:22px 70px;display:grid;gap:18px}
+.grid2{display:grid;grid-template-columns:repeat(auto-fit,minmax(270px,1fr));gap:16px}
+.pat{background:var(--card);border-radius:7px;padding:12px 14px;display:grid;gap:6px;box-shadow:var(--neu)}
+.pat b{font:700 15.5px/1.3 var(--f-ui)}
+.steps{margin:0;padding-left:20px;display:grid;gap:8px}
+.out{white-space:pre-wrap;font-size:14.5px;line-height:1.5;background:var(--fill);border-radius:7px;padding:10px}
+abbr[title]{text-decoration:underline dotted;cursor:help}
+/* formal pass: one serif for headings and legal text, one government sans for interface; no colored card edges */
+body{font:400 14.5px/1.55 var(--f-body)}
+.brand{font:700 20px/1.15 var(--f-head);letter-spacing:0}
+.brand small{font:400 12px/1.4 var(--f-body)}
+.pill{padding:7px 12px;font:500 13.5px/1.2 var(--f-ui);border-radius:4px}
+.pill:hover{background:rgba(255,255,255,.18)}
+.pill[aria-pressed="true"]{font-weight:600;background:#fff}
+.seg{border-radius:4px}
+.seg button{padding:6px 10px;font:500 13px/1.2 var(--f-ui);border-radius:3px}
+.seg button[aria-pressed="true"]{font-weight:600}
+.what{font:600 21px/1.35 var(--f-head)}
+.force{font:700 11px/1 var(--f-ui);padding:5px 7px;border-radius:3px}
+.sheet,.pane>.stack:not(.hd),.pane>.scroll-x,.pane>.q,.page-in>.stack:not(.hd),.page-in>.scroll-x,.doc,.pat,.card{border-radius:4px}
+.blk .n{font:400 11px/2.4 var(--f-ui)}
+.blk.h .t{font:700 13.5px/1.6 var(--f-ui);letter-spacing:.05em}
+.tabs button{padding:9px 10px;font:500 13.5px/1.2 var(--f-ui);border-bottom-width:2px}
+.tabs button[aria-selected="true"]{font-weight:600}
+.tabs button:hover{color:#fff}
+h2{font:600 20px/1.25 var(--f-head)}
+h3{font:600 11.5px/1.3 var(--f-ui);letter-spacing:.1em}
+.lead{font:400 16px/1.5 var(--f-head)}
+.chip{font:600 10.5px/1 var(--f-ui);padding:4px 6px;border-radius:3px;letter-spacing:.06em}
+.card{border-left:0}
+.card.sel{outline:2px solid #fff;outline-offset:3px}
+.card>button.head{grid-template-columns:minmax(0,1fr) auto;align-items:start;gap:6px 12px;padding:14px 16px 8px;cursor:pointer}
+.card>button.head .tags{grid-column:1/-1}
+.card>button.head:hover .ttl{text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:3px}
+.card .ttl{font:600 18px/1.3 var(--f-head)}
+.card .tog{font:600 12px/1.6 var(--f-ui);color:var(--link);white-space:nowrap;padding-top:3px}
+.card .body{padding:0 16px 16px}
+.card .plain{font:400 15px/1.55 var(--f-body)}
+.tags{display:flex;flex-wrap:wrap;align-items:center;gap:6px 10px;font:600 11px/1 var(--f-ui);letter-spacing:.08em;text-transform:uppercase}
+.sevtag{padding:4px 7px;border-radius:2px;background:var(--soft);color:var(--ink-2)}
+.sevtag.critical{background:#092e47;color:#fff}
+.sevtag.significant{background:var(--soft-2);color:var(--ink)}
+.kindtag{color:var(--c);display:inline-flex;align-items:center;gap:5px}
+.kindtag::before{content:"";width:7px;height:7px;border-radius:50%;background:var(--c)}
+.more{display:flex;justify-content:space-between;align-items:center;gap:10px;width:100%;text-align:left;border:0;border-top:1px solid var(--soft-2);background:none;padding:10px 0 0;font:600 13px/1.4 var(--f-ui);color:var(--link);cursor:pointer}
+.more:hover{text-decoration:underline}
+.more span:last-child{font-size:16px}
+.cnav{display:flex;justify-content:space-between;align-items:center;gap:8px;border-top:1px solid var(--soft-2);padding-top:10px}
+.cnav button{border:0;background:none;font:600 13px/1.4 var(--f-ui);color:var(--link);padding:2px 0;cursor:pointer}
+.cnav button:hover{text-decoration:underline}
+.cnav button:disabled{color:var(--ink-3);text-decoration:none;cursor:default}
+.quote{font:italic 400 14.5px/1.5 var(--f-text);border-left:0;padding-left:0;color:var(--ink-2)}
+.kv dt{font:600 11px var(--f-ui);letter-spacing:.09em}
+.inq{background:var(--soft);color:var(--ink);border:1px solid var(--soft-2);border-radius:4px;padding:0;gap:0;--fg:var(--ink);--fg2:var(--ink-2);--lk:var(--link);--rule:var(--soft-2)}
+.inq h3{background:#092e47;color:#fff;padding:8px 12px;border-radius:3px 3px 0 0}
+.inq .iq{font:600 15.5px/1.4 var(--f-head);padding:12px 12px 0}
+.inq>.small{padding:8px 12px 0}
+.inq>.small:last-child{padding-bottom:12px}
+.inq ol{margin:0;padding:10px 12px 4px;list-style:none;display:grid;gap:0;counter-reset:i}
+.inq li{counter-increment:i;border-top:1px solid var(--soft-2);padding:10px 0 10px 30px;position:relative;display:grid;gap:3px}
+.inq li::before{content:counter(i);position:absolute;left:0;top:10px;width:20px;height:20px;border-radius:50%;background:#092e47;color:#fff;font:600 11px/20px var(--f-ui);text-align:center}
+.inq li b{font:600 14px/1.35 var(--f-ui);letter-spacing:0}
+.am{border-radius:4px}
+.am .instr{font:400 14px/1.5 var(--f-text)}
+.btn{padding:7px 11px;font:500 13px/1.2 var(--f-ui);border-radius:4px;box-shadow:0 0 0 1px var(--soft-2),0 1px 2px rgba(0,10,20,.12)}
+.btn:hover:not(:disabled){box-shadow:0 0 0 1px var(--ink-3),0 1px 2px rgba(0,10,20,.12)}
+.btn.pri{font-weight:600;box-shadow:none}
+.btn.on{box-shadow:inset 0 0 0 2px var(--ok)}
+.tbl th{font:600 11px var(--f-ui);letter-spacing:.09em}
+.v{font:600 10.5px/1 var(--f-ui);padding:4px 6px;border-radius:2px}
+.reach{font:600 10.5px/1 var(--f-ui)}
+.tally b{font:600 26px/1 var(--f-head)}
+.q .qq{font:600 16px/1.4 var(--f-head)}
+.pat b{font:600 16px/1.3 var(--f-head)}
+.legend{display:flex;flex-wrap:wrap;gap:6px 16px;align-items:center;margin:0 0 12px 8px;padding:8px 10px;background:var(--soft);border-radius:4px;font:400 12.5px/1.5 var(--f-ui);color:var(--ink-2)}
+.legend mark{cursor:default;padding:1px 3px}
+.start{display:grid;gap:0}
+.start button{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:10px;align-items:baseline;text-align:left;border:0;border-top:1px solid var(--soft-2);background:none;padding:10px 0;cursor:pointer;font:600 15.5px/1.35 var(--f-head);color:var(--ink)}
+.start button:hover{color:var(--link)}
+.start button span{font:600 12.5px var(--f-ui);color:var(--link);white-space:nowrap}
+h3.ch{margin:0;text-transform:none;letter-spacing:0;font:inherit;color:inherit}
+.card>.ch>button.head{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:start;gap:6px 12px;width:100%;text-align:left;border:0;background:none;padding:14px 16px 8px;cursor:pointer;border-radius:4px 4px 0 0}
+.card>.ch>button.head .tags{grid-column:1/-1}
+.card>.ch>button.head:hover{background:var(--soft)}
+.card>.ch>button.head:hover .ttl{text-decoration:none}
+.card .tog{display:inline-flex;align-items:center;gap:8px;font:600 12.5px/1 var(--f-ui);color:var(--ink);white-space:nowrap;padding:7px 9px 7px 10px;border:1px solid var(--ink-3);border-radius:4px;background:#fff}
+.caret{display:inline-block;width:8px;height:8px;border-right:2px solid currentColor;border-bottom:2px solid currentColor;transform:rotate(45deg) translate(-2px,-2px);flex:none}
+.caret.up{transform:rotate(-135deg) translate(-2px,-2px)}
+.more{display:grid;grid-template-columns:auto minmax(0,1fr) auto;align-items:center;gap:4px 12px;width:100%;text-align:left;border:1px solid var(--soft-2);border-radius:4px;background:var(--soft);padding:10px 14px 10px 12px;font:400 13px/1.4 var(--f-ui);color:var(--ink-2);cursor:pointer}
+.more:hover{text-decoration:none;border-color:var(--ink-3)}
+.more .ml{font-weight:600;color:var(--ink);white-space:nowrap}
+.more span:last-child{font-size:inherit}
+@media (max-width:480px){.more{grid-template-columns:minmax(0,1fr) auto}.more .mi{grid-column:1/-1;grid-row:2}}
+.two{border:1px solid var(--soft-2);border-radius:4px;display:grid;gap:10px;padding:0 0 12px}
+.two h3{background:var(--soft);color:var(--ink);padding:8px 12px;border-radius:3px 3px 0 0;border-bottom:1px solid var(--soft-2)}
+.two-g{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:12px 18px;padding:0 12px}
+.two-g b{font:600 12.5px/1.3 var(--f-ui);display:block;margin-bottom:4px}
+.two-g ul{margin:0;padding-left:17px;display:grid;gap:5px}
+.two>p{padding:0 12px}
+.views{padding:0 12px;display:grid;gap:6px}
+.views>b{font:600 12.5px/1.3 var(--f-ui)}
+.views .tbl td{padding:7px 8px 7px 0}
+.pos-keep{color:var(--ok);background:#e4f1ea}.pos-close{color:var(--defect);background:#f6e6e8}.pos-depends{color:var(--ink-2);background:var(--soft-2)}
+
+.banner.compact .what,.banner.compact .banner-in>.meta{display:none}
+.brow{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:8px 16px}
+.modes{display:inline-flex;flex-wrap:wrap;align-items:center;gap:4px;background:rgba(255,255,255,.09);border-radius:6px;padding:3px}
+.modes .ml2{font:600 11px/1 var(--f-ui);letter-spacing:.09em;text-transform:uppercase;color:var(--on-bg-2);padding:0 8px 0 6px}
+.modes button{border:0;background:none;color:var(--on-bg);font:500 13.5px/1.2 var(--f-ui);padding:7px 11px;border-radius:4px;cursor:pointer}
+.modes button:hover{background:rgba(255,255,255,.12)}
+.modes button[aria-pressed="true"]{background:#fff;color:#092e47;font-weight:600}
+.plist{list-style:none;margin:0;padding:0;display:grid}
+.plist li{display:grid;gap:6px;padding:14px 0;border-top:1px solid var(--soft-2);justify-items:start}
+.plist li:first-child{border-top:0;padding-top:4px}
+.vl li{gap:4px}
+pre.bill{white-space:pre-wrap;font:400 14px/1.6 var(--f-head);max-height:420px;overflow:auto}
+.amg{display:grid;gap:8px;padding:12px 0;border-top:1px solid var(--soft-2)}
+.amg:first-child{border-top:0;padding-top:0}
+.card .body details.legal ol{margin-top:8px}
+.rl .chip{margin-left:6px}
+.rl li p{max-width:70ch}
+.plist .pp{font:600 16px/1.4 var(--f-body)}
+.plist p{margin:0}
+.lks{display:grid;gap:4px;justify-items:start;margin-top:4px}
+.lkt{border:0;background:none;padding:2px 0;text-align:left;color:var(--link);font:500 14px/1.4 var(--f-body);cursor:pointer;text-decoration:underline;text-underline-offset:2px}
+.lkt:hover{text-decoration-thickness:2px}
+.btn.lk{box-shadow:none;background:var(--soft);color:var(--link);font-weight:600}
+.btn.lk:hover:not(:disabled){box-shadow:0 0 0 1px var(--soft-2)}
+.quote .ql{display:block;font:600 11px/1.3 var(--f-ui);letter-spacing:.09em;text-transform:uppercase;color:var(--ink-3);font-style:normal;margin-bottom:3px}
+.why{background:var(--soft);border-radius:4px;padding:10px 12px;font:500 14.5px/1.5 var(--f-body);color:var(--ink)}
+details.legal{border-top:1px solid var(--soft-2);padding-top:8px}
+details.legal>summary{cursor:pointer;font:600 13px/1.4 var(--f-ui);color:var(--link)}
+details.legal[open]>summary{margin-bottom:8px}
+details.legal>div{margin-top:6px}
+
+.nowv{align-self:center;font:600 13px/1.2 var(--f-ui);color:var(--on-bg-2);padding:0 6px;border-left:1px solid var(--on-bg-3);margin-left:4px;padding-left:12px}
+.home{max-width:980px;margin:0 auto;padding-block:48px 80px;display:grid;gap:52px;color:var(--on-bg)}
+.hero{display:grid;gap:18px;justify-items:start}
+.hero h1{font:600 clamp(32px,5vw,50px)/1.1 var(--f-head);margin:0;max-width:16ch;text-wrap:balance;color:#fff}
+.hero p{font:400 19px/1.55 var(--f-body);max-width:58ch;color:var(--on-bg-2);margin:0}
+.btn.big{padding:13px 20px;font-size:16px;border-radius:4px;box-shadow:var(--neu)}
+.btn.pri.big{background:#fff;color:#092e47}
+.btn.ghostb{background:transparent;color:#fff;box-shadow:inset 0 0 0 1px rgba(255,255,255,.5)}
+.btn.ghostb:hover:not(:disabled){box-shadow:inset 0 0 0 1px #fff;background:rgba(255,255,255,.08)}
+.hsec{display:grid;gap:14px}
+.hsec h2{color:#fff;font:600 24px/1.2 var(--f-head)}
+.hsub{color:var(--on-bg-2);margin:-6px 0 0}
+.hgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:16px}
+.htile{background:var(--card);color:var(--ink);border-radius:4px;box-shadow:var(--neu);padding:18px;display:grid;gap:8px;align-content:start;text-align:left;border:0;font:inherit}
+.htile b{font:600 18px/1.25 var(--f-head)}
+.htile p{margin:0;font-size:14.5px;color:var(--ink-2)}
+.htile .small{color:var(--ink-3);font:600 11px/1.3 var(--f-ui);letter-spacing:.09em;text-transform:uppercase}
+.exb{cursor:pointer}
+.exb:hover{outline:2px solid #fff;outline-offset:3px}
+.exb .go{font:600 13px/1 var(--f-ui);color:var(--link);margin-top:4px}
+.hgrid.ex{grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
+#tour{position:fixed;inset:0;z-index:50}
+.tblock{position:absolute;inset:0}
+.thole{position:fixed;border-radius:6px;box-shadow:0 0 0 200vmax rgba(3,16,27,.74),0 0 0 2px #fff;pointer-events:none;transition:top .38s ease,left .38s ease,width .38s ease,height .38s ease,opacity .2s}
+.tcard{position:fixed;width:min(340px,calc(100vw - 24px));background:#fff;color:var(--ink);border-radius:4px;box-shadow:var(--neu);padding:18px 18px 14px;display:grid;gap:8px;transition:top .38s ease,left .38s ease;--fg:var(--ink);--fg2:var(--ink-2);--pri-bg:#092e47;--pri-fg:#fff}
+.tcard h2{font:600 20px/1.2 var(--f-head);color:var(--ink)}
+.tcard p{margin:0;font-size:15px;line-height:1.5}
+.tcard .tk{font:600 11px/1 var(--f-ui);letter-spacing:.1em;text-transform:uppercase;color:var(--ink-3)}
+.trow{display:flex;gap:8px;align-items:center;margin-top:6px}
+.trow .tsp{flex:1}
+@media (prefers-reduced-motion:reduce){.thole,.tcard{transition:none}}
+
+.wait{max-width:520px;margin:0 auto;padding-block:36px 70px;display:grid;gap:14px;justify-items:center;text-align:center;color:var(--on-bg)}
+.wfloat{animation:wfl 5s ease-in-out infinite}
+@keyframes wfl{0%,100%{transform:translateY(0) rotate(-2.5deg)}50%{transform:translateY(-14px) rotate(2deg)}}
+.wpaper{width:170px;height:auto;display:block}
+.wpaper .wpg{fill:#fff}.wpaper .wsh{fill:rgba(0,6,14,.5)}
+.wpaper .wtitle{stroke:#092e47;stroke-width:7;stroke-linecap:round}
+.wpaper .whl{fill:#ffe27a;opacity:0;animation:whl 4.6s linear infinite}
+@keyframes whl{0%,40%{opacity:0}48%,88%{opacity:1}100%{opacity:0}}
+.wpaper .wln{fill:none;stroke:#5d6676;stroke-width:3;stroke-linecap:round;stroke-dasharray:100;stroke-dashoffset:100;animation:wdr 4.6s ease-in-out infinite}
+@keyframes wdr{0%{stroke-dashoffset:100}12%,86%{stroke-dashoffset:0}96%,100%{stroke-dashoffset:100}}
+.wh{font:600 28px/1.2 var(--f-head);color:#fff}
+.wtm{font:500 16px/1.4 var(--f-ui);color:var(--on-bg-2);font-variant-numeric:tabular-nums;margin:0}
+.wst{list-style:none;margin:8px 0 4px;padding:0;display:grid;gap:9px;text-align:left;justify-self:center}
+.wst li{display:flex;align-items:center;gap:12px;font:400 15.5px/1.35 var(--f-body);color:rgba(255,255,255,.5)}
+.wst .wdot{width:14px;height:14px;border-radius:50%;border:2px solid rgba(255,255,255,.4);flex:none}
+.wst li.now{color:#fff;font-weight:600}
+.wst li.now .wdot{border-color:#fff;background:radial-gradient(#fff 38%,transparent 42%);animation:wpl 1.4s ease-in-out infinite}
+@keyframes wpl{50%{box-shadow:0 0 0 6px rgba(255,255,255,.15)}}
+.wst li.done{color:rgba(255,255,255,.78)}
+.wst li.done .wdot{border-color:#86e0b0;background:#86e0b0}
+.wait .small{color:var(--on-bg-2)}
+@media (prefers-reduced-motion:reduce){.wfloat,.wpaper .wln,.wpaper .whl,.wst li.now .wdot{animation:none}.wpaper .wln{stroke-dashoffset:0}.wpaper .whl{opacity:1}}
+/* step by step */
+.walk{flex:1;min-height:0;overflow-y:auto;padding:16px max(16px,env(safe-area-inset-right,0px)) 60px max(16px,env(safe-area-inset-left,0px));--wh:clamp(210px,34vh,340px)}
+.wcol{max-width:900px;margin:0 auto;display:grid;gap:22px}
+.wstage{display:grid;grid-template-columns:52px minmax(0,1fr) 52px;grid-template-areas:". hd ." "pv tx nx" ". dots .";gap:10px 16px;align-items:center;background:var(--bg)}
+.whd{grid-area:hd;display:flex;justify-content:space-between;gap:12px;font:600 12px/1.3 var(--f-ui);letter-spacing:.09em;text-transform:uppercase;color:var(--on-bg-2)}
+.whd span:first-child{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.whd span:last-child{white-space:nowrap;color:var(--on-bg)}
+.wtext{grid-area:tx;position:relative;height:var(--wh);background:var(--card);border-radius:4px;box-shadow:var(--neu);overflow:hidden;color:var(--ink)}
+.wscroll{height:100%;overflow-y:auto;padding:calc(var(--wh)/2 - 24px) 26px calc(var(--wh)/2 - 24px) 10px;scrollbar-width:none;transition:opacity .16s ease;-webkit-mask-image:linear-gradient(to bottom,transparent 0,#000 30%,#000 70%,transparent 100%);mask-image:linear-gradient(to bottom,transparent 0,#000 30%,#000 70%,transparent 100%)}
+.wscroll::-webkit-scrollbar{display:none}
+.wscroll.swap{opacity:0}
+.wscroll .blk{font-size:16.5px;line-height:1.6}
+mark.wm{background:transparent;color:inherit;cursor:pointer;padding:1px 0}
+mark.wm.cur{background:#ffe27a;color:#1b2230;border-radius:2px;box-shadow:0 0 0 2px #ffe27a}
+.ghost{display:none;margin:10px 0 10px 42px;border:2px dashed var(--ink-2);border-radius:4px;padding:10px 12px;font:500 15px/1.45 var(--f-body);color:var(--ink);background:#fff8d9}
+.ghost.on{display:grid;gap:2px}
+.ghost b{font:700 11px/1.3 var(--f-ui);letter-spacing:.09em;text-transform:uppercase;color:var(--ink-2)}
+.wbtn{width:52px;height:64px;border:0;border-radius:4px;background:#fff;color:#092e47;cursor:pointer;box-shadow:var(--neu);display:grid;place-items:center}
+.wbtn svg{width:22px;height:22px;stroke:currentColor;stroke-width:2.6;fill:none;stroke-linecap:square}
+.wbtn[data-act="wprev"]{grid-area:pv}.wbtn[data-act="wnext"]{grid-area:nx}
+.wbtn:hover:not(:disabled){background:#e9eef6}
+.wbtn:disabled{opacity:.28;cursor:default;box-shadow:none}
+.wdots{grid-area:dots;display:flex;flex-wrap:wrap;justify-content:center;gap:2px}
+.wdots button{width:18px;height:18px;border:0;background:transparent;padding:0;cursor:pointer;display:grid;place-items:center}
+.wdots button::before{content:"";width:8px;height:8px;border-radius:50%;background:rgba(255,255,255,.28)}
+.wdots button.seen::before{background:rgba(255,255,255,.6)}
+.wdots button[aria-current="true"]::before{background:#fff;width:12px;height:12px}
+.wissue{padding-inline:68px;display:grid;gap:14px;color:var(--on-bg)}
+.wissue .wk{font:600 12px/1 var(--f-ui);letter-spacing:.1em;text-transform:uppercase;color:var(--on-bg-2)}
+.wt{font:600 26px/1.25 var(--f-head);margin:0;color:var(--on-bg);text-wrap:balance}
+.wl{font:400 18px/1.55 var(--f-body);margin:0;max-width:66ch;color:var(--on-bg)}
+.wwhy{font:400 16px/1.55 var(--f-body);margin:0;max-width:66ch;color:var(--on-bg-2)}
+.wwhy b{color:var(--on-bg);font-weight:700}
+.wmorebtn{justify-self:start;display:inline-flex;align-items:center;gap:10px;border:1px solid rgba(255,255,255,.45);background:transparent;color:#fff;border-radius:4px;padding:10px 14px;font:600 14.5px/1.2 var(--f-ui);cursor:pointer}
+.wmorebtn:hover{background:rgba(255,255,255,.1)}
+.wmorebtn .caret{transition:transform .15s}
+.wmorebtn[aria-expanded="true"] .caret{transform:rotate(225deg) translate(-2px,-2px)}
+.wmore{scroll-margin-top:calc(var(--wh) + 96px);background:var(--card);color:var(--ink);border-radius:4px;box-shadow:var(--neu);padding:6px 22px 20px;display:grid;gap:0;--fg:var(--ink);--fg2:var(--ink-2);--rule:var(--soft-2);--fill:var(--soft);--lk:var(--link);--pri-bg:#092e47;--pri-fg:#fff}
+.wsec{display:grid;gap:6px;border-top:1px solid var(--soft-2);padding-block:14px}
+.wsec:first-child{border-top:0}
+.wsec p{margin:0}
+.wtwo{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.wtwo b{font:600 12.5px/1.3 var(--f-ui)}
+.wtwo p{font-size:14.5px;margin-top:3px}
+.wol{margin:0;padding-left:20px;display:grid;gap:4px}
+.wvl{margin:0;padding:0;list-style:none;display:grid;gap:6px}
+.wrow{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+.wissue .seg button{color:var(--on-bg)}
+.wissue .seg button[aria-pressed="true"]{color:#092e47}
+.wcol.bare .whd,.wcol.bare .wtext,.wcol.bare .wstage .wbtn{display:none}
+.wrow .wbtn{width:52px;height:44px}
+.wcol.bare{padding-top:6vh}
+.wissue>.tags .sevtag.critical{background:#fff;color:#092e47}
+.wissue>.tags .sevtag{background:rgba(255,255,255,.16);color:#fff}
+.wissue>.tags .sevtag.significant{background:rgba(255,255,255,.3);color:#fff}
+@media (min-width:901px) and (min-height:720px){.wstage{position:sticky;top:-16px;z-index:3;padding-block:16px 6px;margin-top:-16px}}
+/* one-page summary */
+.brief{max-width:780px;margin:0 auto;padding-block:22px 70px}
+.bsheet{background:var(--card);color:var(--ink);border-radius:4px;box-shadow:var(--neu);padding:34px 40px 30px;display:grid;gap:26px;--fg:var(--ink);--fg2:var(--ink-2);--rule:var(--soft-2);--fill:var(--soft);--lk:var(--link);--pri-bg:#092e47;--pri-fg:#fff}
+.bk{font:600 12px/1 var(--f-ui);letter-spacing:.1em;text-transform:uppercase;color:var(--ink-3);margin:0}
+.bt{font:600 32px/1.15 var(--f-head);margin:-14px 0 0;text-wrap:balance}
+.bsheet section{display:grid;gap:10px;border-top:1px solid var(--soft-2);padding-top:18px}
+.bsheet h3{color:var(--ink-2)}
+.bl{font:400 17px/1.55 var(--f-head);margin:0}
+.bprom{list-style:none;margin:0;padding:0;display:grid;gap:12px}
+.bprom li{display:grid;grid-template-columns:118px minmax(0,1fr);gap:12px;align-items:start}
+.bprom .v{justify-self:start;white-space:normal;line-height:1.25}
+.bprom p{margin:2px 0 0;font-size:14.5px;color:var(--ink-2)}
+.bitem{display:grid;gap:6px;padding:12px 0;border-top:1px dashed var(--soft-2)}
+.bitem:first-of-type{border-top:0;padding-top:0}
+.stack h4{font:600 13px/1.3 var(--f-ui);margin:10px 0 2px}
+.bitem h4{font:600 18px/1.3 var(--f-head);margin:0}
+.bitem p{margin:0}
+.bwhy{font-weight:600}
+.bitem .btn{justify-self:start}
+.bsheet ul{margin:0}
+@media (max-width:900px){
+  .walk{--wh:clamp(190px,34vh,300px);padding-top:10px}
+  .wstage{grid-template-columns:48px minmax(0,1fr) 48px;grid-template-areas:"hd hd hd" "tx tx tx" "pv dots nx";gap:10px}
+  .wbtn{width:48px;height:48px}
+  .wscroll{padding-inline:2px 14px}
+  .wscroll .blk{font-size:15.5px}
+  .wissue{padding-inline:0}
+  .wt{font-size:24px}.wl{font-size:17px}
+  .wtwo{grid-template-columns:1fr}
+  .wmore{padding-inline:16px}
+  .bsheet{padding:22px 18px}
+  .bprom li{grid-template-columns:1fr;gap:6px}
+  .bt{font-size:26px}
+}
+@media (prefers-reduced-motion:reduce){.wscroll .blk,mark.wm,.wbar span{transition:none}.ghost.on{animation:none}}
+@media (max-width:900px){
+  html,body{height:auto}
+  body{display:block}
+  .brand,.picker{flex:1 1 100%}
+  .pill{max-width:100%;overflow:hidden;text-overflow:ellipsis}
+  .page{overflow:visible}
+  main.desk{display:block}
+  .col{overflow:visible}
+  .col.text{padding:8px max(16px,env(safe-area-inset-right,0px)) 50px max(16px,env(safe-area-inset-left,0px))}
+  .pane{padding:14px max(16px,env(safe-area-inset-right,0px)) 60px max(16px,env(safe-area-inset-left,0px))}
+  .doc{padding:14px 12px 30px 4px}
+  .mobtabs{display:flex;position:sticky;top:env(safe-area-inset-top,0px);z-index:3;background:var(--bg);padding-block:8px}
+  main.desk[data-m="text"] .col.panel{display:none}
+  main.desk[data-m="panel"] .col.text{display:none}
+  .tabs{top:calc(46px + env(safe-area-inset-top,0px))}
+  .what{font-size:16.5px}
+}
+</style>
+
+<header class="top"><div class="top-in gut">
+  <div class="brand">Legislative Red Team<small>Does the text do what it says?</small></div>
+  <nav class="picker" id="picker" aria-label="Measures"></nav>
+  <div class="seg" role="group" aria-label="Reading level">
+    <button id="lv-plain" type="button">Plain language</button><button id="lv-pro" type="button">Professional</button>
+  </div>
+</div></header>
+<div id="root" style="display:contents"></div>
+
+<script id="data" type="application/json">__DATA__</script>
+<script>
+(function(){
+"use strict";
+var D=JSON.parse(document.getElementById('data').textContent);
+function mk(text,pro,pla,extra){var o=extra||{};o.text=text;o.pro=pro;o.pla=pla||null;Object.defineProperty(o,"analysis",{get:function(){return S.level==="plain"&&this.pla?this.pla:this.pro},enumerable:true});return o}
+var STYLE=D.style,COI=D.coi,COIT={};COI.types.forEach(function(t){COIT[t.id]=t});var KB=D.kb.patterns, M={}, INQ=D.rules.inq, INQ=D.rules.inq, SRC=D.rules.src, CAND=D.rules.cand, STD=D.rules.standards||[], CONF=D.rules.conflicts||[], MECH=D.rules.mech, POST=D.rules.posture||{};
+var FAM={obligation:"Obligation strength",definitions:"Definitions and scope",actors:"Actors and jurisdiction",timing:"Timing and triggers",exceptions:"Exceptions and discretion",enforcement:"Enforcement and remedies",money:"Money",delegation:"Delegation and process",information:"Information and accountability",interaction:"Interaction with other law",constitutional:"Constitutional and litigation exposure",symbolic:"Symbolic and non-binding form",evidence:"Evidence and measurement",market:"Market structure",process:"Process tactics (outside the text)",mechanics:"Sentence and amendatory mechanics",response:"Response of the regulated party",design:"Program design and implementation",conflict:"Conflicts of interest and independence"};
+var DET={word:"In the words",structure:"Across sections",absence:"Missing",external:"Outside the text",process:"In the process"};
+var KIND={defect:"Defect",risk:"Risk",tradeoff:"Trade-off",notice:"Notice"};
+var VER={delivered:"Delivered",paper:"Stated, no mechanism",partly:"Partly",absent:"Not in the text",contradicted:"Contradicted"};
+var FORCE={binding:"Binding law","binding-if-enacted":"Binding if enacted",none:"No force of law",internal:"Binds the chamber only"};
+var SEVN={critical:0,significant:1,minor:2};
+var QTYPES=[["Purpose","What does this claim to achieve: the mechanism, the outcome, or the larger aim?"],["Promise to provision","For each promise, which words deliver it, and how strong are they?"],["Language","For each may, qualifier, narrowing word and undefined term: what does it allow, and who decides?"],["Actors","Who is bound, who is not, who is missing, and who holds discretion?"],["Conflicts of interest","Is each person or body the measure puts in charge independent of the people, records or money the measure is about, and what checks that holder?"],["System and supply chain","Who creates, holds, moves, sells and uses the regulated thing? Where on that chain does the measure act?"],["Industry and incentives","Who profits from the current arrangement, and what is their cheapest way to continue?"],["Other routes","If the measure blocks one way of doing something, what other way leads to the same result?"],["History","What happened under the closest earlier laws, and how were they avoided?"],["Enforcement","If the obligated party does nothing, what happens, and who can force it?"],["Capacity","Does this need money, staff, expertise or time the measure does not provide?"],["Legal setting","What existing statutes, doctrines and constitutional limits will shape how this is read?"],["Affected people","Who bears the effects if this works exactly as written, including those it is meant to protect?"],["Time","When does it start and end, and what happens as conditions change?"],["Best design","What would the strongest version look like, and what is the smallest set of changes that gets there?"]];
+var METHOD=[["Ingest","Read the official text into addressable blocks."],["Classify","Assign the vehicle, function and stage. This sets the banner and switches checks on or off."],["Establish purpose","Record the stated purpose, how the measure has been marketed, and each specific promise."],["Promise audit","Trace every promise to the words that would deliver it."],["Self-questioning","Generate questions from this text and answer them by reading and research."],["Read against purpose","Flag words, structures and absences that let the purpose fail."],["Specific inquiry","For every critical finding, ask the follow-up question set for that kind of weakness, then research and name exactly what is exempt, overlooked or left open."],["Stakeholder map","Identify the roles with something at stake: groups in the subject area, sides in Congress, and legal roles such as drafters, litigators and judges of different interpretive approaches."],["Conflict of interest review","Start with people. Name who holds each deciding job today, and research that person\u2019s documented ties to anyone the measure affects: past clients and employers, appointments, money and family. Then check offices: who can appoint or remove the decision-maker. Then check institutions: whether a body decides matters about its own conduct. State each conflict directly, with its source."],["Skeptic pass","A separate review tries to disprove each finding."],["Bigger picture","Place the measure on a map of the larger issue and show what it leaves untouched."],["Amend and re-test","Draft fixes in amendatory form, apply them, and test the result again."]];
+function guideText(level){var g=STYLE,L=["WRITING STYLE GUIDE. Every title, explanation, reason and question you return must follow it.",g.test,"Rules for all text:"].concat(g.all.map(function(x){return"- "+x}));
+  if(level!=="pro")L=L.concat(["Rules for plain language:"],g.plain.map(function(x){return"- "+x}));
+  if(level!=="plain")L=L.concat(["Rules for the professional version:"],g.pro.map(function(x){return"- "+x}));
+  L.push("Examples of text that fails, and the corrected versions:");g.examples.forEach(function(e){L.push("FAILS: "+e.bad+" ("+e.why+")"+(level!=="pro"?"\n  PLAIN: "+e.plain:"")+(level!=="plain"?"\n  PROFESSIONAL: "+e.pro:""))});return L.join("\n")}
+function WR(p){return p+"\n\n"+guideText("plain")}
+var STANDARD=["It points to exact words, or to a named absence. The highlight covers the whole limiting phrase, including any clause that defines its reach, or a single word where one word is the problem.","It says what the weakness lets someone do, or what a reader would wrongly believe. A flag with no consequence is not a finding.","Its claims about the outside world carry a source.","A separate review tried to disprove it and could not.","Every line follows the writing guide below and passes its automated check."];
+STANDARD.push("A conflict of interest is stated directly and names the person. It reports the tie as the source states it and does not allege that anyone acted wrongly.");
+STANDARD.push("Plain language shows only findings that matter to a general reader: ones where the result for a person or the public can be stated without explaining how laws are drafted. Wrong cross-references, typing mistakes and other drafting mechanics appear in the professional view only.");
+STANDARD.push("No invented arguments. A reason for keeping or changing wording is shown only when someone has actually given that reason and a source records it.");
+STANDARD.push("Nothing generic. A sentence that would still be true about a different measure is rewritten with this measure\u2019s specifics or cut.");
+STANDARD.push("If the wording is of a kind a careful drafter might choose on purpose, the finding shows the case for keeping it and the case for closing it, and how different stakeholders would likely see it. The tool gives no verdict of its own.");
+var RULE=["Ask the follow-up question set for that kind of weakness in the Follow-up questions table. Every category of weakness has one.","Research it. Name agencies, record types, statutes, cases, dates and figures. Each item carries a source a reader can open.","Separate what is documented from what is inferred, and state what remains unknown. A claim that an agency holds records is not made unless a source supports it.","Correct the finding if the inquiry contradicts it. A finding that survives only in vague form is rewritten or cut.","Until the inquiry is done, the finding is shown as pending."];
+var VEH=[["Bill","H.R., S.","Both chambers and the President","Yes","Most legislation: programs, changes to law, spending, taxes"],["Joint resolution","H.J. Res., S.J. Res.","Both chambers and the President","Yes","Continuing appropriations, disapproval of agency rules, war powers"],["Constitutional amendment (joint resolution)","H.J. Res., S.J. Res.","Two thirds of both chambers, then three quarters of the States","Amends the Constitution if ratified","Constitutional amendments only"],["Concurrent resolution","H. Con. Res., S. Con. Res.","Both chambers; not sent to the President","No","Budget resolution, adjournment, sense of Congress"],["Simple resolution","H. Res., S. Res.","One chamber","No","Chamber rules, sense of the House or Senate, commemorations, discipline"]];
+var FUNC=[["Freestanding mandate or program","Bill","Needs its own definitions, enforcement and funding"],["Amendatory bill","Bill","Judge only after applying the changes to current law"],["Authorization or reauthorization","Bill","Permits spending up to a limit; does not provide the money"],["Appropriations, continuing resolution, supplemental","Bill or joint resolution","Usually one fiscal year; limitation riders make policy through funding"],["Omnibus or consolidated measure","Bill","Unrelated provisions receive little individual scrutiny"],["Reconciliation, revenue, debt limit","Bill","Budget rules shape what can be included"],["Repeal, technical corrections, codification","Bill","Check for substantive change under a housekeeping label"],["Private bill; commemorative or naming law","Bill","Binding but narrow or symbolic in effect"],["Rule disapproval (Congressional Review Act)","Joint resolution","Cancels an agency rule and bars a similar one"],["War and emergency measures; arms sale disapproval","Joint resolution","Scope, duration and sunset language"],["Budget resolution","Concurrent resolution","Binds congressional procedure, not agencies or the public"],["Sense of Congress","Concurrent resolution","No legal effect"],["Sense of the House or Senate","Simple resolution","No legal effect"],["Commemorative, congratulatory, condolence","Simple resolution","No legal effect"],["Chamber rules; special rule for debate","Simple resolution","Binds the chamber; special rules can be self-executing"],["Discipline, impeachment, contempt, inquiry","Simple resolution","Internal or accusatory effect"],["Amendments: perfecting, substitute, in the nature of a substitute, manager's, en bloc, limitation","Not a measure","The text that passes can differ sharply from the text debated"],["Conference report and amendments between the houses","Not a measure","Final compromise text; not open to amendment"],["Treaty resolution of ratification; nominations","Senate executive business","Two-thirds vote for treaties"]];
+var GLOSS={"sense of the House":"A statement of one chamber's opinion. It has no force of law.","simple resolution":"A measure adopted by one chamber only. It is not sent to the President and is not law.","amendatory":"Changes the wording of an existing law by striking or inserting text.","cause of action":"A legal right to bring a lawsuit.","qualified immunity":"A court-made defense that shields officials from damages unless the right they violated was already clearly established.","severability":"A clause saying that if one part is struck down, the rest survives.","cloture":"A Senate vote to end debate, usually needing 60 votes.","engrossed":"The version of a measure as passed by one chamber.","enrolled":"The final version passed by both chambers and sent to the President.","appropriation":"A law that actually provides money.","authorization":"A law that permits spending up to a limit without providing the money.","rule of construction":"An instruction in a statute about how its words should be read.","warrant":"Written permission from a judge to search, based on evidence that a crime is likely.","redact":"To black out words in a document before it is released.","classified":"Government information kept secret for national security reasons.","Fourth Amendment":"The part of the U.S. Constitution that protects people from unreasonable searches by the government.","statute":"A law passed by a legislature.","amendment":"A change to the wording of a bill or a law.","resolution":"A formal statement adopted by Congress or one chamber. Some resolutions have no force of law.","sunset":"A date when a law or part of a law stops having effect unless it is renewed."};
+
+var S={view:"home",level:"plain",tab:"overview",sel:null,open:{},hard:false,showMinor:false,fKind:"",fFam:"",mob:"text",acc:{},marks:{},live:null,busy:null,libQ:"",libDet:"",libTab:"patterns",retest:{},goal:{},ask:{}};
+function ls(k,v){try{if(v===undefined){var r=localStorage.getItem("lrt."+k);return r?JSON.parse(r):null}localStorage.setItem("lrt."+k,JSON.stringify(v))}catch(e){return null}}
+S.acc=ls("acc")||{};S.marks=ls("marks")||{};S.level=ls("level")||"plain";
+var sample=null;
+if(window.claude&&window.claude.use){window.claude.use("sample").then(function(s){sample=s;render()}).catch(function(){})}
+
+function esc(s){return String(s==null?"":s).replace(/[&<>"']/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]})}
+function el(id){return document.getElementById(id)}
+Object.keys(D.measures).forEach(function(k){M[k]=mk(D.measures[k].text,D.measures[k].analysis,D.measures[k].pla)});
+function cur(){if(S.view==="live")return S.live;return M[S.view]||null}
+function arr(x){return Array.isArray(x)?x:(x?[x]:[])}
+function gloss(html){Object.keys(GLOSS).forEach(function(k){var re=new RegExp("\\b("+k.replace(/[.*+?^${}()|[\]\\]/g,"\\$&")+")\\b","i");html=html.replace(re,function(m){return'<abbr title="'+esc(GLOSS[k])+'">'+m+"</abbr>"})});return html}
+function links(ss){if(!ss||!ss.length)return"";return'<div class="src">'+ss.map(function(s){return s.u?'<a href="'+esc(s.u)+'" target="_blank" rel="noopener">'+esc(s.l)+"</a>":"<span>"+esc(s.l)+"</span>"}).join("")+"</div>"}
+
+/* ---------- locating text ---------- */
+function locate(blocks,a){
+  var out=[],i,b,k;
+  if(a.all){for(i=0;i<blocks.length;i++){b=blocks[i].text;k=b.indexOf(a.q);while(k>=0){out.push({bi:i,s:k,e:k+a.q.length});k=b.indexOf(a.q,k+a.q.length)}}return out}
+  var key=a.ctx||a.q;
+  for(i=0;i<blocks.length;i++){b=blocks[i].text;var c=b.indexOf(key);if(c<0)continue;
+    var s=a.ctx?(a.ctx.indexOf(a.q)>=0?c+a.ctx.indexOf(a.q):b.indexOf(a.q)):c;
+    if(s>=0){out.push({bi:i,s:s,e:s+a.q.length});return out}}
+  return out}
+function findBlock(blocks,str){for(var i=0;i<blocks.length;i++)if(blocks[i].text.indexOf(str)>=0)return i;return -1}
+
+/* ---------- hardened draft ---------- */
+function acceptedAms(m){var acc=S.acc[m.analysis.id]||{},out=[];m.analysis.findings.forEach(function(f){(f.am||[]).forEach(function(am){if(acc[am.id])out.push({f:f,am:am})})});return out}
+function buildHard(m){
+  var blocks=m.text.blocks,edits={},before={},after={},tail=[];
+  acceptedAms(m).forEach(function(x){(x.am.ops||[]).forEach(function(o){
+    if(o.t==="replace"){var r=locate(blocks,o)[0];if(r){(edits[r.bi]=edits[r.bi]||[]).push({s:r.s,e:r.e,w:o.w||""})}}
+    else if(o.t==="insert"){var k=o.before||o.after,bi=findBlock(blocks,k);if(bi>=0){var tgt=o.before?before:after;(tgt[bi]=tgt[bi]||[]).push(o.w)}}
+    else if(o.t==="append"){tail.push(o.w)}
+  })});
+  return{edits:edits,before:before,after:after,tail:tail}}
+function newBlocks(w,indent){return String(w).split("\n").map(function(line){var h=/^SEC\./.test(line);return'<div class="blk new'+(h?" h":"")+'" style="padding-left:'+((h?0:indent)*18)+'px"><span class="n">+</span><span class="t">'+esc(line)+"</span></div>"}).join("")}
+
+/* ---------- text column ---------- */
+function textHTML(m){
+  var A=m.analysis,blocks=m.text.blocks,per={},hard=S.hard?buildHard(m):null;
+  if(!hard){A.findings.forEach(function(f){arr(f.a).forEach(function(a){locate(blocks,a).forEach(function(r){(per[r.bi]=per[r.bi]||[]).push({s:r.s,e:r.e,f:f})})})});
+    (m.cands||[]).forEach(function(c){(per[c.bi]=per[c.bi]||[]).push({s:c.s,e:c.e,cand:c})})}
+  var h="";
+  blocks.forEach(function(b,i){
+    var t=b.text,inner="";
+    if(hard){
+      if(hard.before[i])hard.before[i].forEach(function(w){h+=newBlocks(w,b.indent)});
+      var ed=(hard.edits[i]||[]).slice().sort(function(x,y){return x.s-y.s}),p=0;
+      ed.forEach(function(e){if(e.s<p)return;inner+=esc(t.slice(p,e.s))+"<del>"+esc(t.slice(e.s,e.e))+"</del>"+(e.w?"<ins>"+esc(e.w)+"</ins>":"");p=e.e});
+      inner+=esc(t.slice(p));
+    }else{
+      var rs=(per[i]||[]).slice().sort(function(x,y){return x.s-y.s||y.e-x.e}),p2=0;
+      rs.forEach(function(r){if(r.s<p2)return;inner+=esc(t.slice(p2,r.s));
+        if(r.cand)inner+='<mark class="hl cand k-notice" data-c="'+r.cand.i+'" tabindex="0" title="'+esc(r.cand.name)+'">'+esc(t.slice(r.s,r.e))+"</mark>";
+        else inner+='<mark class="hl k-'+r.f.kind+(S.sel===r.f.id?" sel":"")+'" data-f="'+esc(r.f.id)+'" tabindex="0" role="button" aria-label="'+esc(fTitle(m,r.f))+'">'+esc(t.slice(r.s,r.e))+"</mark>";
+        p2=r.e});
+      inner+=esc(t.slice(p2));
+    }
+    h+='<div class="blk'+(b.kind==="heading"?" h":"")+'" id="blk-'+i+'" style="padding-left:'+(b.indent*18)+'px"><span class="n">'+(i+1)+'</span><span class="t">'+inner+"</span></div>";
+    if(hard&&hard.after[i])hard.after[i].forEach(function(w){h+=newBlocks(w,b.indent)});
+  });
+  if(hard)hard.tail.forEach(function(w){h+=newBlocks(w,1)});
+  var n=acceptedAms(m).length;
+  return'<div class="doc"><div class="doc-h"><span>'+esc(A.cite||"")+(A.sourceUrl?' · <a href="'+esc(A.sourceUrl)+'" target="_blank" rel="noopener">official text</a>':"")+'</span><span class="seg" role="group" aria-label="Text view"'+(S.level==="plain"?" hidden":"")+'><button type="button" data-act="hard0" aria-pressed="'+(!S.hard)+'">Flagged text</button><button type="button" data-act="hard1" aria-pressed="'+(!!S.hard)+'">With amendments ('+n+")</button></span></div>"+
+    (!S.hard&&A.findings.length?'<div class="legend"><span><b>'+(S.level==="plain"?"Highlighted words have a problem.":"Highlighted passages are findings.")+"</b> "+(S.level==="plain"?"Tap one to read about it.":"Select one to read it.")+"</span>"+["defect","risk","tradeoff","notice"].filter(function(k){return A.findings.some(function(f){return f.kind===k&&f.a})}).map(function(k){return'<mark class="hl k-'+k+'">'+(S.level==="plain"?KINDP[k]:KIND[k])+"</mark>"}).join("")+"</div>":"")+
+    (S.hard&&!n?'<p class="note">No amendments accepted yet. Open a finding and choose "Accept" on a suggested amendment to see it applied here.</p>':"")+h+"</div>"}
+
+/* ---------- cards ---------- */
+function chipRow(f){var c='<span class="sevtag '+f.sev+'">'+esc(sevL(f))+'</span><span class="kindtag">'+esc(kindL(f))+"</span>";
+  if(S.level==="pro"){c+='<span class="chip">'+esc(DET[f.det]||f.det)+'</span><span class="chip">'+esc(FAM[f.fam]||f.fam)+'</span><span class="chip">confidence '+esc(f.conf)+"</span>"}
+  if(f.two&&f.kind!=="tradeoff"&&S.level==="pro")c+='<span class="chip">two-sided</span>';
+  if(f.unverified)c+='<span class="chip">unverified</span>';
+  return'<span class="tags">'+c+"</span>"}
+function inside(f){if(S.level==="plain"){var q=[];q.push("why it matters");if(f.two)q.push("who would keep it or change it");if(f.inq)q.push("what it leaves out, specifically");if(f.am&&f.am.length)q.push("a possible fix");return q.join(" \u00b7 ")}var p=[];if(f.two)p.push("both sides and "+((f.two.views||[]).length||"")+" stakeholder views");if(f.inq)p.push(f.inq.items.length+" specifics named");if(f.am&&f.am.length)p.push(f.am.length+" suggested amendment"+(f.am.length>1?"s":""));if(f.s&&f.s.length)p.push(f.s.length+" source"+(f.s.length>1?"s":""));return p.join(" \u00b7 ")}
+function order(m){var g=function(f){return(f.det==="absence"?1:f.det==="external"?2:0)*10+SEVN[f.sev]};return m.analysis.findings.filter(function(f){return!f.note}).sort(function(a,b){return g(a)-g(b)})}
+var POS={keep:"Keep as written",close:"Change the text",depends:"Depends"};
+var SEVP={critical:"Serious",significant:"Important",minor:"Minor"},KINDP={defect:"Mistake",risk:"Possible gap",tradeoff:"Trade-off",notice:"Good to know"};
+var VERP={delivered:"Yes",paper:"Stated, but nothing makes it happen",partly:"Only partly",absent:"Not in the bill",contradicted:"The bill does the opposite"};
+function PL(m){return S.level==="plain"&&m&&m.plain?m.plain:null}
+function pf(m,f){var p=PL(m);return p&&p.findings?p.findings[f.id]||null:null}
+function fTitle(m,f){var q=pf(m,f);return q&&q.title||f.title}
+function fText(m,f){var q=pf(m,f);return q&&q.text||f.plain}
+function fWhy(m,f){return S.level==="plain"?(f.use||""):""}
+function sevL(f){return S.level==="plain"?SEVP[f.sev]:f.sev}
+function kindL(f){return S.level==="plain"?KINDP[f.kind]:KIND[f.kind]}
+function fById(m,id){return m.analysis.findings.filter(function(x){return x.id===id})[0]}
+function fLinks(m,ids){return""}
+function twoHTML(t,m,f){var mm=MECH[t.m],rs={},q=f&&pf(m,f),pt=q&&q.two;if(pt)t={m:t.m,keep:pt.keep||t.keep,close:pt.close||t.close,dec:pt.dec||t.dec,views:t.views};((m&&m.analysis.stake)||[]).forEach(function(r){rs[r.id]=r});
+  var pl=S.level==="plain",kc=arr(t.keep).length||arr(t.close).length;
+  var vw=(t.views||[]).length?'<ul class="plist vl">'+t.views.map(function(v){var r=rs[v.r]||{role:v.r};return'<li><div><b class="pp">'+esc(r.role)+'</b> <span class="v pos-'+esc(v.pos)+'">'+esc(POS[v.pos]||v.pos)+"</span></div><p>"+esc(v.why)+"</p>"+links(v.s)+"</li>"}).join("")+"</ul>":"";
+  return'<div class="two"><h3>'+(pl?"What people on different sides have said":"Documented positions")+"</h3>"+(kc?'<div class="two-g"><div><b>'+(pl?"Reasons given to leave it":"Reasons given for the wording")+'</b><ul>'+arr(t.keep).map(function(x){return"<li>"+esc(x)+"</li>"}).join("")+"</ul></div><div><b>"+(pl?"Reasons given to change it":"Reasons given against it")+"</b><ul>"+arr(t.close).map(function(x){return"<li>"+esc(x)+"</li>"}).join("")+"</ul></div></div>":"")+(t.dec?"<p><b>"+(pl?"The open question: ":"Deciding question: ")+"</b>"+esc(t.dec)+"</p>":"")+vw+'<p class="small">'+(pl?"Only positions someone has actually stated are shown, each with its source. The tool takes no side.":"Only stated positions with a source are shown. The tool takes no position.")+"</p></div>"}
+function inqHTML(q,rule,m,f){var pq=m&&f?pf(m,f):null,its=q.items.map(function(it,i){var x=pq&&pq.inq&&pq.inq[i];return{h:x&&x.h||it.h,d:x&&x.d||it.d,s:it.s}});
+  return'<div class="inq"><h3>'+(S.level==="plain"?"What it leaves out, specifically":"Specific inquiry: "+q.items.length+" items named")+'</h3><div class="iq">'+esc(pq&&pq.inq_q||q.q)+"</div>"+(rule&&S.level==="pro"?'<div class="small">Where to look for this kind of weakness: '+esc(rule[2])+".</div>":"")+"<ol>"+its.map(function(it){return"<li><b>"+esc(it.h)+"</b><span>"+esc(it.d)+"</span>"+links(it.s)+"</li>"}).join("")+"</ol>"+(q.open&&S.level==="pro"?'<div class="small"><b>Still unknown:</b> '+esc(q.open)+"</div>":"")+(q.unverified?'<div class="small">Drawn from the text and general knowledge. Not researched in this pass.</div>':"")+"</div>"}
+function amHTML(m,f,am){var on=(S.acc[m.analysis.id]||{})[am.id],sp=S.level==="plain"?am.cost:null;
+  if(sp)return'<div class="am'+(on?" acc":"")+'"><div class="row" style="justify-content:space-between;align-items:flex-start"><span class="instr" style="font-family:var(--f-body);font-size:15px;flex:1;min-width:0">'+esc(sp)+'</span><button type="button" class="btn'+(on?" on":"")+'" data-act="acc" data-f="'+esc(f.id)+'" data-am="'+esc(am.id)+'">'+(on?"Added to draft":"Add to draft")+'</button></div><details class="legal"><summary>Show the legal wording</summary><div class="instr">'+esc(am.instr)+'</div><div class="row"><button type="button" class="btn" data-act="copy" data-text="'+esc(am.instr)+'">Copy the legal wording</button></div></details></div>';
+  return'<div class="am'+(on?" acc":"")+'"><div class="row" style="justify-content:space-between"><b>'+esc(am.label)+'</b><button type="button" class="btn'+(on?" on":"")+'" data-act="acc" data-f="'+esc(f.id)+'" data-am="'+esc(am.id)+'">'+(on?"Accepted":"Accept")+"</button></div>"+
+    '<div class="instr">'+esc(am.instr)+"</div>"+
+    '<div class="small"><b>What it costs:</b> '+esc(am.cost)+"</div>"+
+    '<div class="row"><button type="button" class="btn" data-act="copy" data-text="'+esc(am.instr)+'">Copy amendment</button></div></div>'}
+function cardHTML(m,f){
+  var open=S.sel===f.id||S.open[f.id],pl=S.level==="plain";
+  var fid=esc(f.id),h='<article class="card k-'+f.kind+(S.sel===f.id?" sel":"")+'" id="card-'+fid+'"><h3 class="ch"><button type="button" class="head" data-act="sel" data-f="'+fid+'" aria-expanded="'+!!open+'" aria-controls="body-'+fid+'">'+chipRow(f)+'<span class="ttl">'+esc(fTitle(m,f))+'</span><span class="tog"><span>'+(open?"Hide":"Show")+'</span><span class="caret'+(open?" up":"")+'" aria-hidden="true"></span></span></button></h3>';
+  if(!open)return h+"</article>";
+  h+='<div class="body" id="body-'+fid+'">';
+  var q=arr(f.a).map(function(a){return a.q}).filter(Boolean);
+  if(q.length)h+='<div class="quote">'+q.map(function(x){return"\u201c"+esc(x)+"\u201d"}).join(" \u00b7 ")+"</div>";
+  h+='<div class="plain">'+gloss(esc(fText(m,f)))+"</div>";
+  if(pl){if(fWhy(m,f))h+='<div class="why">'+esc(fWhy(m,f))+"</div>"}
+  else{h+='<div class="plain">'+gloss(esc(f.tech))+"</div>";if(f.use)h+='<div class="why">'+esc(f.use)+"</div>"}
+  if(f.inq)h+='<details class="legal"><summary>'+(pl?"The specifics":"Specifics")+" ("+f.inq.items.length+")</summary><ol class=\"wol\">"+f.inq.items.map(function(it){return"<li><b>"+esc(it.h)+"</b> "+esc(it.d)+links(it.s)+"</li>"}).join("")+"</ol></details>";
+  if(f.s&&f.s.length)h+=links(f.s);
+  if(!pl&&f.am&&f.am.length)h+='<div class="row"><button type="button" class="btn" data-act="toam" data-f="'+fid+'">'+(f.am.length>1?f.am.length+" amendments drafted":"Amendment drafted")+" \u203a</button></div>";
+  return h+"</div></article>"}
+function listFindings(m,pred){var fs=m.analysis.findings.filter(pred);
+  if(S.fKind)fs=fs.filter(function(f){return f.kind===S.fKind});
+  if(S.fFam)fs=fs.filter(function(f){return f.fam===S.fFam});
+  return fs.slice().sort(function(a,b){return SEVN[a.sev]-SEVN[b.sev]})}
+function filtersHTML(m){var fams={};m.analysis.findings.forEach(function(f){fams[f.fam]=1});
+  return'<div class="row"><select id="f-kind" aria-label="Filter by kind"><option value="">All kinds</option>'+Object.keys(KIND).map(function(k){return'<option value="'+k+'"'+(S.fKind===k?" selected":"")+">"+KIND[k]+"</option>"}).join("")+'</select><select id="f-fam" aria-label="Filter by category"><option value="">All categories</option>'+Object.keys(fams).map(function(k){return'<option value="'+k+'"'+(S.fFam===k?" selected":"")+">"+esc(FAM[k]||k)+"</option>"}).join("")+"</select></div>"}
+function confList(m,full){var rs=m.analysis.conflicts||[];
+  return'<ul class="plist rl">'+rs.map(function(r){return"<li>"+'<b class="pp">'+esc(r.claim)+"</b>"+(full?"<p>"+esc(r.detail)+"</p>"+links(r.s)+(r.unverified?'<div class="small">From general knowledge, not checked against a source.</div>':""):"")+"</li>"}).join("")+"</ul>"}
+function paneFindings(m){
+  var fs=listFindings(m,function(f){return f.det!=="absence"&&f.det!=="external"&&!f.note}),notes=m.analysis.findings.filter(function(f){return f.note});
+  var top=fs.filter(function(f){return f.sev!=="minor"||f.id===S.sel}),minor=fs.filter(function(f){return f.sev==="minor"&&f.id!==S.sel});
+  var h=S.level==="plain"?'<div class="stack hd"><h2>Problems in the wording</h2><p class="small">Each one points to the exact words in the bill. Tap a highlighted passage in the bill, or a card here.</p></div>':'<div class="stack hd"><h2>What the words do</h2><p class="small">Each flag is tied to exact words in the text. Select a highlight or a card.</p>'+filtersHTML(m)+"</div>";
+  h+=top.map(function(f){return cardHTML(m,f)}).join("");
+  if(minor.length){h+='<button type="button" class="btn" data-act="minor">'+(S.showMinor?"Hide":"Show")+" "+minor.length+" minor "+(S.level==="plain"?"issue":"finding")+(minor.length>1?"s":"")+"</button>";if(S.showMinor)h+=minor.map(function(f){return cardHTML(m,f)}).join("")}
+  if(!fs.length)h+='<p class="small">No findings match these filters.</p>';
+  if(notes.length)h+='<div class="stack"><h3>Drafting notes</h3><p class="small">Errors with no practical consequence that were found along the way. They are not counted as findings.</p>'+notes.map(function(f){var am=(f.am||[])[0],on=am&&(S.acc[m.analysis.id]||{})[am.id];return'<div class="q" id="card-'+esc(f.id)+'" style="border-top:1px solid var(--soft-2);padding-top:8px"><b>'+esc(f.title)+"</b><span>"+esc(f.plain)+"</span>"+(am?'<div class="row"><button type="button" class="btn'+(on?" on":"")+'" data-act="acc" data-f="'+esc(f.id)+'" data-am="'+esc(am.id)+'">'+(on?"Fix accepted":"Accept the fix")+"</button></div>":"")+"</div>"}).join("")+"</div>";
+  if(m.cands&&m.cands.length)h+='<div class="note">'+m.cands.length+" phrase matches are marked with dotted underlines. They come from matching the pattern library's cue phrases and have not been reviewed.</div>";
+  return h}
+function paneMissing(m){
+  var ab=listFindings(m,function(f){return f.det==="absence"}),ex=listFindings(m,function(f){return f.det==="external"});
+  return'<div class="stack hd"><h2>'+(S.level==="plain"?"What the bill leaves out":"What is missing")+'</h2><p class="small">'+(S.level==="plain"?"Things a law like this would usually need, and this one does not have. There are no words to highlight, because the words are not there.":"Provisions a measure with this purpose would need and does not have. There are no words to highlight, so each is pinned to where it would belong.")+'</p></div>'+(ab.map(function(f){return cardHTML(m,f)}).join("")||'<p class="small">None found.</p>')+
+    '<div class="stack hd"><h2>'+(S.level==="plain"?"What you can only see from outside the bill":"Outside the text")+'</h2><p class="small">'+(S.level==="plain"?"Things you would not know from reading the bill alone, such as who else is involved and what has happened before.":"What only research beyond the measure can show: other actors, existing law, past behavior.")+'</p></div>'+(ex.map(function(f){return cardHTML(m,f)}).join("")||'<p class="small">None recorded.</p>')}
+function paneOverview(m){
+  var A=m.analysis,c={critical:0,significant:0,minor:0},am=0;A.findings.forEach(function(f){if(!f.note)c[f.sev]++;am+=(f.am||[]).length});
+  var pl=S.level==="plain";
+  var h='<div class="stack"><h2>'+esc(A.short)+'</h2><div class="tally"><div><b>'+c.critical+"</b><span>"+(pl?"serious":"critical")+"</span></div><div><b>"+c.significant+"</b><span>"+(pl?"important":"significant")+"</span></div><div><b>"+c.minor+"</b><span>minor</span></div>"+(pl?"":"<div><b>"+am+"</b><span>amendments drafted</span></div>")+"</div>"+
+    (S.level==="pro"?'<p class="small"><b>Checks applied:</b> '+esc(A.cls.checks)+"</p>":"")+(A.live?'<div class="warn">This analysis was produced from the text alone. Claims about outside facts were not researched and are marked unverified.'+(A.runNote?" "+esc(A.runNote):"")+"</div>":"")+"</div>";
+  h+='<div class="stack"><h3>What it says it is for</h3>'+A.purpose.stated.map(function(s){return'<div class="quote">'+esc(s.t)+' <span class="small">('+esc(s.w)+")</span></div>"}).join("")+"</div>";
+  if(A.purpose.marketed&&A.purpose.marketed.length)h+='<div class="stack"><h3>How it has been described</h3>'+A.purpose.marketed.map(function(s){return'<div class="quote">'+esc(s.t)+" "+(s.u?'<a class="small" href="'+esc(s.u)+'" target="_blank" rel="noopener">'+esc(s.l)+"</a>":'<span class="small">'+esc(s.l||"")+"</span>")+"</div>"}).join("")+"</div>";
+  var L=A.purpose.ladder;if(L&&!pl)h+='<div class="stack"><h3>Three levels of purpose</h3><dl class="kv"><dt>Mechanism</dt><dd>'+esc(L.mechanism)+'</dd></dl><dl class="kv"><dt>Outcome</dt><dd>'+esc(L.outcome)+'</dd></dl><dl class="kv"><dt>Larger aim</dt><dd>'+esc(L.aim)+"</dd></dl></div>";
+  var PP=PL(m)&&PL(m).promises;
+  h+='<div class="stack"><h3>'+(pl?"Does it do what it says?":"Promise audit")+'</h3><p class="small">'+(pl?"Each thing the bill or its supporters say it will do, checked against what the words would actually do.":"Each promise in the title, text and public descriptions, traced to the words that would deliver it.")+'</p><ul class="plist">'+
+    A.promises.map(function(p,i){return'<li><span class="v v-'+p.v+'">'+(pl?VERP[p.v]:VER[p.v])+'</span><b class="pp">'+esc(p.p)+'</b>'+(S.level==="pro"?'<div class="small">'+esc(p.src)+(p.prov?" \u00b7 "+esc(p.prov):"")+"</div>":"")+"<p>"+esc(p.why)+"</p>"+(p.f&&p.f.length?fLinks(m,p.f):"")+"</li>"}).join("")+"</ul></div>";
+  var g=S.goal[A.id]||{};
+  h+='<div class="stack"><h3>Test against your own goal</h3>'+(sample?'<label class="f">The tool measured the text against its stated purpose. To test a different goal, describe it here.<textarea id="goal-in" style="min-height:70px" placeholder="For example: end the sale of location data to any government buyer">'+esc(g.q||"")+'</textarea></label><div class="row"><button type="button" class="btn" data-act="goal"'+(g.busy?" disabled":"")+">"+(g.busy?"Thinking...":"Test this goal")+"</button></div>"+(g.a?'<div class="out">'+esc(g.a)+"</div>":""):'<p class="small">Available when the page is opened inside Claude.</p>')+"</div>";
+  return h}
+function paneBigger(m){
+  var B=m.analysis.bigger;if(!B)return'<p class="small">Not available.</p>';
+  var h='<div class="stack hd"><h2>The bigger picture: '+esc(B.issue)+'</h2><p class="lead">'+esc(PL(m)&&PL(m).bigger_lead||B.lead)+'</p><p class="small">These are context notes, not defects. A measure is not flawed for being narrow.</p></div>';
+  h+='<div class="scroll-x"><table class="tbl"><thead><tr><th>Part of the issue</th><th>Reach</th><th>Note</th></tr></thead><tbody>'+B.map.map(function(r){return"<tr><td><b>"+esc(r.part)+'</b></td><td><span class="reach r-'+r.reach+'">'+({reached:"Reached",partly:"Partly",untouched:"Untouched",named:"Named only"})[r.reach]+"</span></td><td>"+esc(r.note)+links(r.s)+"</td></tr>"}).join("")+"</tbody></table></div>";
+  if(B.binding)h+='<div class="stack"><h3>What a binding version would need</h3><div class="scroll-x"><table class="tbl"><thead><tr><th>Goal</th><th>Needed in a bill</th></tr></thead><tbody>'+B.binding.map(function(r){return"<tr><td><b>"+esc(r.goal)+"</b></td><td>"+esc(r.need)+"</td></tr>"}).join("")+"</tbody></table></div></div>";
+  if(B.others&&B.others.length)h+='<div class="stack"><h3>How others have approached the untouched parts</h3>'+B.others.map(function(o){return"<div>"+(o.u?'<a href="'+esc(o.u)+'" target="_blank" rel="noopener">'+esc(o.l)+"</a>":"<b>"+esc(o.l)+"</b>")+'<div class="small">'+esc(o.n)+"</div></div>"}).join("")+"</div>";
+  return h}
+function paneReason(m){
+  return'<div class="stack hd"><h2>Reasoning trail</h2><p class="small">The questions the tool generated from this text and asked itself, with what it found. No answers were requested from the reader.</p></div>'+
+   m.analysis.questions.map(function(q){return'<div class="q"><div class="chips"><span class="chip">'+esc(q.ty)+'</span></div><div class="qq">'+esc(q.q)+'</div><div class="qa">'+esc(q.a)+"</div>"+links(q.s)+(q.f&&q.f.length?fLinks(m,q.f):"")+"</div>"}).join("")}
+function memoText(m){var A=m.analysis,L=[];L.push("RED TEAM MEMO: "+A.short+" ("+A.cite+")","",A.cls.banner,"","PROMISE AUDIT");
+  A.promises.forEach(function(p){L.push("- "+p.p+": "+VER[p.v]+". "+p.why)});L.push("","FINDINGS");
+  A.findings.slice().sort(function(a,b){return SEVN[a.sev]-SEVN[b.sev]}).forEach(function(f){L.push("["+f.sev.toUpperCase()+", "+KIND[f.kind]+"] "+f.title,"  "+f.plain);arr(f.a).forEach(function(a){L.push('  Text: "'+a.q+'"')});(f.s||[]).forEach(function(s){if(s.u)L.push("  Source: "+s.l+" "+s.u)})});
+  var ac=acceptedAms(m);if(ac.length){L.push("","ACCEPTED AMENDMENTS");ac.forEach(function(x){L.push("- "+x.am.instr,"  Cost: "+x.am.cost)})}
+  return L.join("\n")}
+function billText(m){var A=m.analysis,ac=acceptedAms(m);if(!ac.length)return"";
+  if(A.cls.force!=="binding")return hardText(m);
+  var L=["A BILL","","To amend the "+A.short+", and for other purposes.","","Be it enacted by the Senate and House of Representatives of the United States of America in Congress assembled,","","SECTION 1. SHORT TITLE.","This Act may be cited as the \""+A.short.replace(/ Act$/,"")+" Amendments Act\"."];
+  ac.forEach(function(x,i){L.push("","SEC. "+(i+2)+". "+String(x.am.label).replace(/^[^:]{0,24}:\s*/,"").toUpperCase()+".",x.am.instr)});return L.join("\n")}
+function paneDraft(m){
+  var A=m.analysis,id=A.id,ac=acceptedAms(m),rt=S.retest[id]||{},mode=(S.out=S.out||{})[id]||(A.draft?"rewrite":"bill"),enacted=A.cls.force==="binding";
+  var fs=A.findings.filter(function(f){return f.am&&f.am.length});
+  var h='<div class="stack hd"><h2>Amendments</h2><p class="small">Choose the amendments to include. Then produce them as a new bill or as a rewrite of this text.</p></div>';
+  if(A.cls.force==="none")return h+'<div class="stack"><p>This measure has no force of law, so there is no text to amend into force. The Bigger picture tab shows what a binding bill would need.</p></div>';
+  if(!fs.length)return h+'<div class="stack"><p>No amendments have been drafted for this measure.</p></div>';
+  h+='<div class="stack">'+fs.map(function(f){return'<div class="amg" id="amg-'+esc(f.id)+'"><p class="small">'+esc(fTitle(m,f))+"</p>"+f.am.map(function(am){var on=(S.acc[id]||{})[am.id];return'<div class="am'+(on?" acc":"")+'"><div class="row" style="justify-content:space-between"><b>'+esc(am.label)+'</b><button type="button" class="btn'+(on?" on":"")+'" data-act="acc" data-f="'+esc(f.id)+'" data-am="'+esc(am.id)+'">'+(on?"Included":"Include")+'</button></div><div class="instr">'+esc(am.instr)+'</div><p class="small">'+esc(am.cost)+"</p></div>"}).join("")+"</div>"}).join("")+"</div>";
+  h+='<div class="stack"><h3>Output ('+ac.length+' included)</h3><div class="seg" role="group" aria-label="Output"><button type="button" data-act="outmode" data-o="bill" aria-pressed="'+(mode==="bill")+'">New bill</button><button type="button" data-act="outmode" data-o="rewrite" aria-pressed="'+(mode==="rewrite")+'">Rewrite of this text</button></div>';
+  if(!ac.length)h+='<p class="small">Include at least one amendment to produce an output.</p>';
+  else if(mode==="bill")h+='<p class="small">'+(enacted?"This law is already enacted, so the changes are written as a new bill that amends it.":"This bill is not yet law, so the new bill is its full text with the included changes written in.")+'</p><pre class="out bill">'+esc(billText(m))+'</pre><div class="row"><button type="button" class="btn pri" data-act="copy" data-text="'+esc(billText(m))+'">Copy the bill</button></div>';
+  else h+='<p class="small">The text column shows this measure with the included changes marked.</p><div class="row"><button type="button" class="btn pri" data-act="hard1">Show the marked-up text</button><button type="button" class="btn" data-act="copy" data-text="'+esc(hardText(m))+'">Copy the rewritten text</button></div>';
+  if(ac.length)h+='<div class="row"><button type="button" class="btn" data-act="retest"'+(rt.busy||!sample?" disabled":"")+">"+(rt.busy?"Re-testing...":"Re-test with these changes")+"</button></div>"+(rt.a?'<div class="out">'+esc(rt.a)+"</div>":"");
+  h+='<div id="copy-fallback"></div></div>';return h}
+function paneRoles(m){var A=m.analysis,pl=S.level==="plain",rs=A.conflicts||[];
+  var h='<div class="stack hd"><h2>Conflicts of interest</h2><p class="small">'+(pl?"People first, then offices, then institutions. Each tie is stated as its source reports it. Nothing here says anyone acted wrongly.":"Individuals first, then offices, then institutions. Each tie is stated as its source reports it. No misconduct is alleged.")+"</p></div>";
+  if(rs.length)h+='<div class="stack">'+confList(m,true)+"</div>";
+  if(A.conf_note&&!rs.length)h+='<div class="stack"><p class="lead">'+esc(A.conf_note)+"</p></div>";
+  else if(A.conf_note&&!rs.some(function(r){return r.level==="person"}))h+='<p class="small">'+esc(A.conf_note)+"</p>";
+  if(A.live&&rs.length)h+='<div class="warn">'+(pl?"The people named here come from general knowledge and were not checked against sources. Confirm who holds each job today.":"Named individuals and ties are drawn from general knowledge and were not verified against sources. Confirm the current officeholders.")+"</div>";
+  return h}
+function paneStake(m){var A=m.analysis,pl=S.level==="plain",by={};
+  A.findings.forEach(function(f){((f.two&&f.two.views)||[]).forEach(function(v){(by[v.r]=by[v.r]||[]).push({f:f,v:v})})});
+  var st=(A.stake||[]).filter(function(r){return(r.s&&r.s.length)||by[r.id]});
+  var h='<div class="stack hd"><h2>'+(pl?"Who is affected, and what they have said":"Stakeholders and documented positions")+'</h2><p class="small">'+(pl?"Only what each group has actually said or done is shown, with its source.":"Only stated or documented positions are shown, each with a source.")+"</p></div>";
+  if(!st.length)return h+'<div class="stack"><p>No documented positions have been recorded for this measure.</p></div>';
+  return h+'<div class="stack"><ul class="plist">'+st.map(function(r){return'<li><b class="pp">'+esc(r.role)+"</b>"+(r.s&&r.s.length?"<p>"+esc(r.want)+"</p>"+links(r.s):"")+(by[r.id]||[]).map(function(x){return"<p>"+esc(x.v.why)+"</p>"+links(x.v.s)}).join("")+"</li>"}).join("")+"</ul></div>"}
+var TABS=[["overview","Overview"],["findings","In the text"],["missing","Missing and outside"],["roles","Conflicts of interest"],["stake","Stakeholders"],["bigger","Bigger picture"],["draft","Amendments"]];
+var TABSP={overview:"Summary",findings:"Problems in the wording",missing:"What's missing",roles:"Conflicts of interest",stake:"Who is affected",bigger:"Bigger picture",draft:"Amendments"};
+function panelHTML(m){var A=m.analysis,nT=A.findings.filter(function(f){return f.det!=="absence"&&f.det!=="external"&&!f.note}).length,nM=A.findings.filter(function(f){return f.det==="absence"||f.det==="external"}).length,nA=acceptedAms(m).length;
+  var ct={findings:nT,missing:nM,draft:nA};if(A.conflicts&&A.conflicts.length)ct.roles=A.conflicts.length;
+  var body={overview:paneOverview,findings:paneFindings,missing:paneMissing,roles:paneRoles,stake:paneStake,bigger:paneBigger,draft:paneDraft};var tabs=TABS.filter(function(t){return!(S.level==="plain"&&t[0]==="draft")});if(!tabs.some(function(t){return t[0]===S.tab}))S.tab="overview";body=body[S.tab](m);
+  return'<div class="tabs" role="tablist">'+tabs.map(function(t){return'<button type="button" role="tab" data-act="tab" data-t="'+t[0]+'" aria-selected="'+(S.tab===t[0])+'">'+(S.level==="plain"?TABSP[t[0]]:t[1])+(ct[t[0]]!=null?'<span class="ct">'+ct[t[0]]+"</span>":"")+"</button>"}).join("")+'</div><div class="pane" role="tabpanel">'+body+"</div>"}
+
+/* ---------- library ---------- */
+function libHTML(){
+  var tabs=[["patterns","Weakness patterns ("+KB.length+")"],["standards","Official standards"],["method","Method"],["rules","Follow-up questions"],["two","Two-sided patterns"],["coi","Conflicts of interest ("+COI.types.length+")"],["sources","Source index ("+SRC.length+")"],["types","Measure types"],["questions","Question types"],["glossary","Glossary"]];
+  var h='<div class="page"><div class="page-in gut"><div class="stack hd"><h2 style="font-size:24px">Knowledge base</h2><p class="lead" style="max-width:70ch">The reference material the analysis draws on. The pattern library is a vocabulary and a coverage check, not the detector: the analysis reads each measure openly first, then names what it found.</p></div><div class="row">'+tabs.map(function(t){return'<button type="button" class="pill'+(S.libTab===t[0]?" on":"")+'" data-act="libtab" data-t="'+t[0]+'">'+t[1]+"</button>"}).join("")+"</div>";
+  if(S.libTab==="patterns"){
+    var q=S.libQ.toLowerCase(),ps=KB.filter(function(p){return(!S.libOr||(S.libOr==="pack"?p.origin==="pack-ai":S.libOr==="research"?!!p.cand:(!p.cand&&p.origin!=="pack-ai")))&&(!S.libDet||p.detect===S.libDet)&&(!q||(p.name+" "+p.plain+" "+p.headings.join(" ")).toLowerCase().indexOf(q)>=0)});
+    h+='<div class="row"><input type="text" id="lib-q" placeholder="Search patterns" value="'+esc(S.libQ)+'" style="max-width:320px"><select id="lib-det" aria-label="How it can be detected" style="max-width:220px"><option value="">Any detection</option>'+Object.keys(DET).map(function(k){return'<option value="'+k+'"'+(S.libDet===k?" selected":"")+">"+DET[k]+"</option>"}).join("")+'</select><select id="lib-or" aria-label="Origin" style="max-width:200px"><option value="">All origins</option><option value="lists"'+(S.libOr==="lists"?" selected":"")+'>From the two source lists</option><option value="research"'+(S.libOr==="research"?" selected":"")+'>Candidates from research</option><option value="pack"'+(S.libOr==="pack"?" selected":"")+'>AI subject pack</option></select><span class="small">'+ps.length+" shown</span></div>";
+    Object.keys(FAM).forEach(function(f){var g=ps.filter(function(p){return p.family===f});if(!g.length)return;
+      h+='<div class="stack hd"><h3>'+esc(FAM[f])+" · "+g.length+'</h3><div class="grid2">'+g.map(function(p){return'<div class="pat"><b>'+esc(p.name)+'</b><div class="chips">'+(p.cand?'<span class="chip" style="background:var(--tag-bg);color:var(--risk)">candidate</span>':"")+(POST[p.id]&&POST[p.id]!=="none"?'<span class="chip" style="background:#092e47;color:#fff">two-sided</span>':"")+'<span class="chip">'+DET[p.detect]+'</span><span class="chip">'+({general:"any subject",ai:"AI legislation",both:"any subject",lists:"any subject",research:"any subject","pack-ai":"AI subject pack"})[p.origin]+"</span></div><div>"+esc(p.plain)+"</div>"+(p.check?'<div class="small"><b>What to check:</b> '+esc(p.check)+"</div>":"")+(p.ex_ai&&S.level==="pro"?'<div class="small"><b>In AI bills:</b> '+esc(p.ex_ai)+"</div>":"")+(p.ex_other&&S.level==="pro"?'<div class="small">'+esc(p.ex_other)+"</div>":"")+(p.fix?'<div class="small"><b>Standard fix:</b> '+esc(p.fix)+"</div>":"")+(p.src?'<div class="small">Source: '+(p.url?'<a href="'+esc(p.url)+'" target="_blank" rel="noopener">'+esc(p.src)+"</a>":esc(p.src))+(p.verified===false?" (not yet opened)":"")+"</div>":"")+(p.note?'<div class="warn">'+esc(p.note)+"</div>":"")+"</div>"}).join("")+"</div></div>"});
+    h+='<p class="small">Every pattern is written to apply to a bill on any subject, with an instruction for what to check. A small number that only make sense for one subject are kept in a subject pack and used only when a bill is about that subject. Switch to Professional to see how each pattern shows up in AI legislation, where the source lists were most detailed.</p><p class="small">Entries from the two source lists describe what wording permits and have not yet been checked line by line against legal authorities. Entries marked candidate come from a review of drafting manuals, court decisions, oversight reports, scholarship and press critiques. Each names its source, and none has been tested against a bill yet.</p>';
+  }else if(S.libTab==="standards"){
+    h+='<div class="stack hd"><p class="lead" style="max-width:72ch">Congress and the executive branch publish standards for how legislation should be written. None of them is binding, and none addresses enforcement design, preemption or penalties.</p></div><div class="scroll-x"><table class="tbl"><thead><tr><th>Standard</th><th>Issued by</th><th>What it says</th></tr></thead><tbody>'+STD.map(function(x){return"<tr><td>"+(x.u?'<a href="'+esc(x.u)+'" target="_blank" rel="noopener"><b>'+esc(x.n)+"</b></a>":"<b>"+esc(x.n)+"</b>")+(x.public===false?'<div class="small">Not officially published</div>':"")+"</td><td>"+esc(x.who)+"</td><td>"+esc(x.says)+"</td></tr>"}).join("")+"</tbody></table></div>"+(CONF.length?'<div class="stack"><h3>Where the library\'s advice is in tension with the manuals or current law</h3><div class="scroll-x"><table class="tbl"><thead><tr><th>Topic</th><th>The library advises</th><th>The manual or current law says</th></tr></thead><tbody>'+CONF.map(function(x){return"<tr><td><b>"+esc(x.topic)+"</b></td><td>"+esc(x.says)+"</td><td>"+esc(x.but)+(x.src?'<div class="small">'+(x.url?'<a href="'+esc(x.url)+'" target="_blank" rel="noopener">'+esc(x.src)+"</a>":esc(x.src))+"</div>":"")+"</td></tr>"}).join("")+"</tbody></table></div></div>":"");
+  }else if(S.libTab==="method"){
+    h+='<div class="stack"><h3>How a measure is red-teamed</h3><ol class="steps">'+METHOD.map(function(x){return"<li><b>"+esc(x[0])+".</b> "+esc(x[1])+"</li>"}).join("")+'</ol></div><div class="stack"><h3>How the tool writes</h3><p>Every stored analysis, every knowledge base entry and every new analysis is written to this guide and checked against it before it is shown.</p><p><b>'+esc(STYLE.test)+'</b></p><h4>Rules for all text</h4><ul>'+STYLE.all.map(function(x){return"<li>"+esc(x)+"</li>"}).join("")+'</ul><h4>Plain language</h4><ul>'+STYLE.plain.map(function(x){return"<li>"+esc(x)+"</li>"}).join("")+'</ul><h4>Professional</h4><ul>'+STYLE.pro.map(function(x){return"<li>"+esc(x)+"</li>"}).join("")+'</ul><h4>Examples</h4><div class="scroll-x"><table class="tbl"><thead><tr><th>Fails the guide</th><th>Why</th><th>Plain language</th><th>Professional</th></tr></thead><tbody>'+STYLE.examples.map(function(e){return"<tr><td>"+esc(e.bad)+"</td><td>"+esc(e.why)+"</td><td>"+esc(e.plain)+"</td><td>"+esc(e.pro)+"</td></tr>"}).join("")+"</tbody></table></div></div>"+'<div class="stack"><h3>What counts as a finding</h3><ol class="steps">'+STANDARD.map(function(x){return"<li>"+esc(x)+"</li>"}).join("")+'</ol><p class="small">Harmless errors found along the way are listed separately as drafting notes.</p></div><div class="stack"><h3>The specificity rule</h3><p class="lead">A critical finding is not finished when it names a general weakness. It is finished when it names the specific people, records or conduct that the weakness leaves uncovered.</p><ol class="steps">'+RULE.map(function(x){return"<li>"+esc(x)+"</li>"}).join("")+"</ol></div>";
+  }else if(S.libTab==="rules"){
+    h+='<div class="stack hd"><p class="lead" style="max-width:72ch">Every category of weakness carries its own follow-up question. When a finding in that category is critical, the tool must ask the question, name the specifics and cite where it looked before the finding is complete.</p></div><div class="scroll-x"><table class="tbl"><thead><tr><th>Category</th><th>Ask</th><th>Name specifically</th><th>Where to look</th></tr></thead><tbody>'+Object.keys(INQ).map(function(k){var r=INQ[k];return"<tr><td><b>"+esc(FAM[k])+"</b></td><td>"+esc(r[0])+"</td><td>"+esc(r[1])+"</td><td>"+esc(r[2])+"</td></tr>"}).join("")+"</tbody></table></div>";
+  }else if(S.libTab==="coi"){
+    h+='<div class="stack hd"><p class="lead" style="max-width:72ch">'+esc(COI.intro)+'</p><p class="small">'+esc(COI.neutral)+"</p></div>";
+    h+='<div class="stack"><h3>Step 1. Work in this order</h3>'+COI.levels.map(function(x){return"<p><b>"+esc(x[0])+".</b> "+esc(x[1])+"</p>"}).join("")+"</div>";
+    h+='<div class="stack"><h3>Step 2. Find every deciding job in the text, and who holds it</h3><ul>'+COI.jobs.map(function(x){return"<li>"+esc(x)+"</li>"}).join("")+'</ul><h3>Ties to look for</h3><ul>'+COI.ties.map(function(x){return"<li>"+esc(x)+"</li>"}).join("")+"</ul></div>";
+    h+='<div class="stack"><h3>Step 3. Match the tie to a type of conflict</h3><div class="grid2">'+COI.types.map(function(t){return'<div class="pat"><b>'+esc(t.name)+"</b><p>"+esc(t.plain)+'</p><p class="small"><b>What to check:</b> '+esc(t.check)+'</p><p class="small"><b>Safeguards to look for:</b> '+esc(t.guard)+"</p>"+(t.ex?'<p class="small"><b>Documented example:</b> '+esc(t.ex)+"</p>"+links([t.src].concat(t.src2?[t.src2]:[])):'<p class="small">No sourced example has been recorded for this type yet.</p>')+"</div>"}).join("")+"</div></div>";
+    h+='<div class="stack"><h3>Step 4. Look for safeguards</h3><ul>'+COI.guards.map(function(x){return"<li>"+esc(x)+"</li>"}).join("")+'</ul><p class="small">A conflict with no safeguard becomes a finding when it lets the holder do something that defeats the purpose of the measure. Giving a job to the body that holds the records or the expertise also has benefits, so these findings show both sides and how different stakeholders would likely see them.</p></div>';
+  }else if(S.libTab==="two"){
+    var cnt={},base=KB.filter(function(p){return!p.cand});base.forEach(function(p){var k=POST[p.id]||"none";cnt[k]=(cnt[k]||0)+1});var tot=base.length-(cnt.none||0);
+    h+='<div class="stack hd"><p class="lead" style="max-width:72ch">A loophole pattern is not automatically a defect. Vague or flexible wording sometimes serves the purpose better than precision, because a precise rule can leave something out. '+(tot?tot+" of the "+base.length+" patterns from the two source lists are two-sided: a careful drafter might choose them on purpose. The candidates added from research have not been classified yet.":"")+' When the tool finds one, it shows the case for keeping it and the case for closing it, tied to the measure in front of it.</p></div><div class="scroll-x"><table class="tbl"><thead><tr><th>Mechanism</th><th>What keeping it offers</th><th>What it costs</th><th>What decides it</th><th>Patterns</th></tr></thead><tbody>'+Object.keys(MECH).map(function(k){var r=MECH[k];return"<tr><td><b>"+esc(r[0])+"</b></td><td>"+esc(r[1])+"</td><td>"+esc(r[2])+"</td><td>"+esc(r[3])+"</td><td>"+(cnt[k]||0)+"</td></tr>"}).join("")+'</tbody></table></div><div class="stack"><h3>How the tool decides what to call it</h3><ol class="steps"><li>If the pattern is one-sided, such as a broken cross-reference, it is a defect or a risk.</li><li>If the pattern is two-sided, the tool asks the deciding question for that mechanism against this measure\'s purpose and subject.</li><li>It is labeled a risk only when the open choice rests with the party the measure constrains, or when the documented practice is to read it against the purpose. Otherwise it is labeled a trade-off.</li><li>Either way, both sides are shown, and at least one suggested amendment keeps the benefit while closing the gap.</li><li>The tool does not say which side is right. It shows how each stakeholder role would likely see the choice, with a source where a position has been stated and a label where it is inferred.</li></ol></div>';
+  }else if(S.libTab==="sources"){
+    var ST={used:"Opened and used",found:"Located, not yet harvested",listed:"Listed, not yet opened"},cats={};SRC.forEach(function(x){(cats[x.k]=cats[x.k]||[]).push(x)});
+    h+='<div class="stack hd"><p class="lead" style="max-width:72ch">Publications and records that document how legislation failed, was worked around or was fixed. Each is a place to harvest case studies that become examples, new patterns and sharper inquiry rules.</p><p class="small">'+SRC.filter(function(x){return x.st==="used"}).length+" opened and used in the three demo analyses, "+SRC.filter(function(x){return x.st==="found"}).length+" located by search and not yet harvested, "+SRC.filter(function(x){return x.st==="listed"}).length+" listed from knowledge of the field and not yet opened.</p></div>";
+    Object.keys(cats).forEach(function(c){h+='<div class="stack"><h3>'+esc(c)+'</h3><div class="scroll-x"><table class="tbl"><thead><tr><th>Source</th><th>What it yields</th><th>Feeds</th><th>Status</th></tr></thead><tbody>'+cats[c].map(function(x){return"<tr><td>"+(x.u?'<a href="'+esc(x.u)+'" target="_blank" rel="noopener"><b>'+esc(x.n)+"</b></a>":"<b>"+esc(x.n)+"</b>")+"</td><td>"+esc(x.y)+'</td><td class="small">'+(x.fam||[]).map(function(f){return esc(FAM[f]||f)}).join("; ")+'</td><td><span class="v v-'+({used:"delivered",found:"partly",listed:"paper"})[x.st]+'">'+ST[x.st]+"</span></td></tr>"}).join("")+"</tbody></table></div></div>"});
+    h+='<div class="stack"><h3>Candidate additions to the taxonomy</h3><p class="small">Patterns the professional literature names that the current library does not yet carry as their own entries. Each needs a harvested case before it is added.</p><div class="scroll-x"><table class="tbl"><thead><tr><th>Candidate</th><th>What it is</th><th>Where it is documented</th></tr></thead><tbody>'+CAND.map(function(r){return"<tr><td><b>"+esc(r[0])+"</b></td><td>"+esc(r[1])+"</td><td>"+esc(r[2])+"</td></tr>"}).join("")+"</tbody></table></div></div>";
+  }else if(S.libTab==="types"){
+    h+='<div class="stack"><h3>Formal vehicles</h3><div class="scroll-x"><table class="tbl"><thead><tr><th>Vehicle</th><th>Designation</th><th>Who must approve</th><th>Becomes law?</th><th>Typical uses</th></tr></thead><tbody>'+VEH.map(function(r){return"<tr>"+r.map(function(c,i){return"<td>"+(i?esc(c):"<b>"+esc(c)+"</b>")+"</td>"}).join("")+"</tr>"}).join("")+'</tbody></table></div></div><div class="stack"><h3>Functional types</h3><div class="scroll-x"><table class="tbl"><thead><tr><th>Function</th><th>Vehicle</th><th>What to watch</th></tr></thead><tbody>'+FUNC.map(function(r){return"<tr><td><b>"+esc(r[0])+"</b></td><td>"+esc(r[1])+"</td><td>"+esc(r[2])+"</td></tr>"}).join("")+"</tbody></table></div></div>";
+  }else if(S.libTab==="questions"){
+    h+='<p class="small">The tool writes its own questions for each measure from these types, and from an open round with no categories, then answers them by reading and research.</p><div class="scroll-x"><table class="tbl"><tbody>'+QTYPES.map(function(r){return"<tr><td><b>"+esc(r[0])+"</b></td><td>"+esc(r[1])+"</td></tr>"}).join("")+"</tbody></table></div>";
+  }else{h+='<div class="scroll-x"><table class="tbl"><tbody>'+Object.keys(GLOSS).map(function(k){return"<tr><td><b>"+esc(k)+"</b></td><td>"+esc(GLOSS[k])+"</td></tr>"}).join("")+"</tbody></table></div>"}
+  return h+"</div></div>"}
+
+/* ---------- new measure ---------- */
+function newHTML(){var b=S.busy;
+  return'<div class="page">'+(b?waitHTML():"")+'<div class="page-in gut"'+(b?" hidden":"")+'><div class="stack hd"><h2 style="font-size:24px">Analyze a measure</h2><p class="lead" style="max-width:70ch">Paste the text of a bill or resolution, or upload a PDF, Word or text file. The tool checks its promises, finds problems in the wording, names conflicts of interest and drafts amendments.</p></div>'+
+  '<label class="f">Link to the measure (optional)<input type="url" id="n-url" placeholder="https://www.congress.gov/bill/119th-congress/house-bill/8470"></label><p class="small" id="n-urlnote">This page cannot retrieve pages from other sites. A link is used to identify the type of measure; the text still needs to be pasted or uploaded.</p>'+
+  '<label class="f">Upload a file<input type="file" id="n-file" accept=".pdf,.docx,.txt,.htm,.html,.xml"></label>'+
+  '<label class="f">Text of the measure<textarea id="n-text" style="min-height:220px" placeholder="Paste the full text here"></textarea></label>'+
+  '<label class="f">What is this text?<select id="n-kind"><option value="bill">A bill that has been introduced, or a law already passed</option><option value="draft">A draft that is still being written</option></select></label>'+
+  '<label class="f">Press release or sponsor statement (optional, used for the promise audit)<textarea id="n-press" style="min-height:90px"></textarea></label>'+
+  '<div class="row"><button type="button" class="btn pri" data-act="analyze"'+(b?" disabled":"")+">"+(b?"Working...":"Run the red team")+"</button>"+(b?'<button type="button" class="btn" data-act="stop">Stop</button>':"")+"</div>"+
+  '<div id="n-status" class="'+(b?"note":"small")+'">'+(b?esc(b):(sample?"The analysis runs in six steps and takes several minutes.":"A live connection to Claude is not available in this view. The tool will still classify the measure and mark phrases that match the pattern library, labeled as unreviewed."))+"</div>"+
+  (S.newErr?'<div class="warn">'+esc(S.newErr)+"</div>":"")+"</div></div>"}
+
+
+/* ---------- waiting screen ---------- */
+var WSTEPS=[["Reading the measure and checking its promises",16],["Finding problems in the wording",30],["Double-checking each finding",9],["Naming the specifics",10],["Writing the professional version",17],["Writing the plain-language version",18]];
+var WAIT={i:0,t0:0,est:480,iv:0};
+function waitStepOf(t){var m=/Pass (\d)/.exec(t||"");if(m)return Math.min(3,+m[1]-1);if(/plain language/.test(t))return 5;if(/Style pass/.test(t))return Math.max(4,WAIT.i);return WAIT.i}
+function waitHTML(){
+  var lines=[[30,58,150],[30,78,128],[30,98,156],[30,118,96],[30,150,146],[30,170,120],[30,190,152],[30,210,84]];
+  var svg='<svg class="wpaper" viewBox="0 0 220 270" aria-hidden="true"><rect class="wsh" x="14" y="14" width="192" height="246" rx="3"/><rect class="wpg" x="8" y="6" width="192" height="246" rx="3"/><rect class="whl" x="30" y="111" width="70" height="14" rx="2"/>'+lines.map(function(l,k){return'<path class="wln" style="animation-delay:'+(k*0.55).toFixed(2)+'s" pathLength="100" d="M'+l[0]+" "+l[1]+" q"+(l[2]/8)+" -5 "+(l[2]/4)+" 0 t"+(l[2]/4)+" 0 t"+(l[2]/4)+" 0 t"+(l[2]/4)+' 0"/>'}).join("")+'<path class="wtitle" d="M30 34 h92"/></svg>';
+  return'<div class="wait gut" id="wait"><div class="wfloat">'+svg+'</div><h2 class="wh">Reading your measure</h2><p class="wtm" id="w-time" aria-live="polite"></p><ol class="wst" id="w-steps">'+WSTEPS.map(function(x,k){return'<li data-k="'+k+'"><span class="wdot" aria-hidden="true"></span>'+x[0]+"</li>"}).join("")+'</ol><p class="small" id="n-status" hidden>'+esc(S.busy||"")+'</p><p class="small">You can leave this page open and do something else. The result opens here when it is ready.</p><div class="row" style="justify-content:center"><button type="button" class="btn" data-act="stop">Stop</button></div></div>'}
+function waitTick(){var w=el("wait");if(!w){clearInterval(WAIT.iv);WAIT.iv=0;return}
+  w.querySelectorAll("#w-steps li").forEach(function(li){var k=+li.dataset.k;li.className=k<WAIT.i?"done":k===WAIT.i?"now":""});
+  var el2=(Date.now()-WAIT.t0)/1000,done=0;for(var k=0;k<WAIT.i;k++)done+=WSTEPS[k][1];
+  var byStep=WAIT.est*(100-done)/100,byClock=WAIT.est-el2,left=Math.max(byClock,byStep*0.5),t=el("w-time");
+  var mm=Math.floor(el2/60),ss=Math.floor(el2%60),ela=mm+":"+(ss<10?"0":"")+ss;
+  if(t)t.textContent=(left>75?"About "+Math.round(left/60)+" minutes left":left>20?"About a minute left":el2>WAIT.est*1.3?"Taking longer than usual. Still working.":"Almost done")+" · "+ela+" so far"}
+function waitStart(nblocks){WAIT.i=0;WAIT.t0=Date.now();WAIT.est=Math.max(300,Math.min(1200,300+nblocks*4));clearInterval(WAIT.iv);WAIT.iv=setInterval(waitTick,1000);setTimeout(waitTick,30)}
+
+/* ---------- alternative views: step by step, and one-page summary ---------- */
+S.mode=ls("mode")||"dash";S.wstep={};S.word=ls("word")||"sev";
+var MODES=[["walk","Step by step"],["brief","One-page summary"],["dash","Full analysis"]];
+function modeSwitch(){return'<div class="modes" role="group" aria-label="How to read it"><span class="ml2">How to read it</span>'+MODES.map(function(x){return'<button type="button" data-act="mode" data-md="'+x[0]+'" aria-pressed="'+(S.mode===x[0])+'">'+x[1]+"</button>"}).join("")+"</div>"}
+function bannerHTML(m){var A=m.analysis,pl=PL(m);
+  return'<section class="banner'+(S.mode!=="dash"?" compact":"")+'"><div class="banner-in gut"><div class="brow"><div class="meta"><span class="force '+A.cls.force+'">'+FORCE[A.cls.force]+"</span>"+(S.level==="pro"?"<span><b>"+esc(A.cls.vehicle)+"</b></span><span>"+gloss(esc(A.cls.function))+"</span><span>"+esc(A.cls.stage)+"</span>":"<span>"+esc(A.cite||"")+"</span>")+"</div>"+modeSwitch()+"</div>"+
+    '<p class="what">'+gloss(esc(pl&&pl.banner||A.cls.banner))+'</p><div class="meta"><span>'+esc(A.sponsor||"")+"</span><span>"+esc(A.status||"")+"</span></div></div></section>"}
+function anchorBlock(m,f){var B=m.text.blocks,as=arr(f.a);for(var i=0;i<as.length;i++){var r=locate(B,as[i])[0];if(r)return r.bi}return -1}
+function whereBlock(m,f){var B=m.text.blocks,w=(f.where||"").toLowerCase();
+  if(!w||/outside|whole/.test(w))return B.length;
+  var mm=w.match(/(?:section|sec\.?)\s*([0-9]+[a-z]?)/i);if(!mm)return B.length;
+  var num=mm[1].toUpperCase(),re=new RegExp("^(SECTION|SEC\\.|Sec\\.)\\s*"+num+"\\b","i");
+  for(var i=0;i<B.length;i++){if(B[i].kind==="heading"&&re.test(B[i].text)){var j=i+1;while(j<B.length&&!(B[j].kind==="heading"&&B[j].indent<=B[i].indent))j++;return j}}
+  return B.length}
+function fPos(m,f){var b=anchorBlock(m,f);return b>=0?b:whereBlock(m,f)}
+function walkSteps(m){var fs=order(m);if(S.word==="text")fs=fs.slice().sort(function(a,b){return fPos(m,a)-fPos(m,b)||SEVN[a.sev]-SEVN[b.sev]});
+  return[{t:"intro"}].concat(fs.map(function(f){return{t:"f",f:f}})).concat([{t:"end"}])}
+function walkText(m){var A=m.analysis,B=m.text.blocks,per={},gh={};
+  A.findings.forEach(function(f){if(f.note)return;var as=arr(f.a),hit=false;as.forEach(function(a){locate(B,a).forEach(function(r){hit=true;(per[r.bi]=per[r.bi]||[]).push({s:r.s,e:r.e,f:f})})});
+    if(!hit){var p=whereBlock(m,f);(gh[p]=gh[p]||[]).push(f)}});
+  var ghost=function(list){return list.map(function(f){var ext=f.det==="external";return'<div class="ghost k-'+f.kind+'" data-g="'+esc(f.id)+'"><b>'+(ext?(S.level==="plain"?"Outside the bill":"Outside the text"):(S.level==="plain"?"Missing here":"Absent here"))+"</b><span>"+esc(fTitle(m,f))+"</span></div>"}).join("")};
+  var h="";
+  B.forEach(function(b,i){if(gh[i])h+=ghost(gh[i]);var t=b.text,inner="",rs=(per[i]||[]).slice().sort(function(x,y){return x.s-y.s||y.e-x.e}),p=0;
+    rs.forEach(function(r){if(r.s<p)return;inner+=esc(t.slice(p,r.s))+'<mark class="wm k-'+r.f.kind+'" data-wf="'+esc(r.f.id)+'" title="'+esc(fTitle(m,r.f))+'">'+esc(t.slice(r.s,r.e))+"</mark>";p=r.e});inner+=esc(t.slice(p));
+    h+='<div class="blk'+(b.kind==="heading"?" h":"")+'" data-b="'+i+'" style="padding-left:'+(b.indent*18)+'px"><span class="n">'+(i+1)+'</span><span class="t">'+inner+"</span></div>"});
+  if(gh[B.length])h+=ghost(gh[B.length]);
+  return h}
+function tally(m,f){var c={keep:0,close:0,depends:0};((f.two&&f.two.views)||[]).forEach(function(v){c[v.pos]=(c[v.pos]||0)+1});return c}
+function walkCard(m,st,i,n){var A=m.analysis,pl=S.level==="plain",h="";
+  if(st.t==="intro"){var cnt={critical:0,significant:0,minor:0};order(m).forEach(function(f){cnt[f.sev]++});var tot=n-2;
+    h+='<h2 class="wt">'+esc(A.short)+"</h2>";
+    h+='<p class="wl">'+gloss(esc(PL(m)&&PL(m).banner||A.cls.banner))+"</p>";
+    h+='<p class="wwhy">'+(pl?"We found ":"")+tot+" "+(pl?"issues":"findings")+": "+[cnt.critical+" "+(pl?"serious":"critical"),cnt.significant+" "+(pl?"important":"significant"),cnt.minor+" minor"].join(", ")+". "+(pl?"Go through them one at a time. Each step shows the words in the bill that the issue is about.":"Each step shows the passage at issue. The arrow keys also work.")+"</p>";
+    h+='<div class="wrow"><button type="button" class="wbtn" data-act="wnext" aria-label="'+(pl?"Show the first issue":"First finding")+'">'+CHV("M9 4l8 8-8 8")+'</button><div class="seg" role="group" aria-label="Order"><button type="button" data-act="word" data-o="sev" aria-pressed="'+(S.word==="sev")+'">Most serious first</button><button type="button" data-act="word" data-o="text" aria-pressed="'+(S.word==="text")+'">In the order of the bill</button></div></div>';
+    return h}
+  if(st.t==="end"){var vc={};A.promises.forEach(function(p){vc[p.v]=(vc[p.v]||0)+1});
+    h+='<h2 class="wt">'+(pl?"That is every issue we found":"End of findings")+"</h2>";
+    h+='<p class="wwhy">'+(pl?"Does it do what it says? ":"Promise audit: ")+Object.keys(VER).filter(function(k){return vc[k]}).map(function(k){return vc[k]+" of "+A.promises.length+" promises "+(pl?VERP[k]:VER[k]).toLowerCase()}).join(", ")+".</p>";
+    h+='<div class="wrow"><button type="button" class="btn pri" data-act="mode" data-md="brief">Read the one-page summary</button><button type="button" class="btn" data-act="mode" data-md="dash">Open the full analysis</button><button type="button" class="btn" data-act="wgo" data-i="0">Start again</button></div>';
+    return h}
+  var f=st.f,c=tally(m,f),mh="";
+  h+='<div class="tags"><span class="sevtag '+f.sev+'">'+esc(sevL(f))+'</span><span class="kindtag k-'+f.kind+'">'+esc(kindL(f))+"</span></div>";
+  h+='<h2 class="wt">'+esc(fTitle(m,f))+"</h2>";
+  h+='<p class="wl">'+gloss(esc(fText(m,f)))+"</p>";
+  if(fWhy(m,f))h+='<p class="wwhy">'+esc(fWhy(m,f))+"</p>";
+  if(f.inq){var pq=pf(m,f);mh+='<div class="wsec"><h3>'+(pl?"What it leaves out, specifically":"Specifics")+'</h3><ol class="wol">'+f.inq.items.map(function(it,k){var x=pq&&pq.inq&&pq.inq[k];return"<li>"+esc(x&&x.h||it.h)+"</li>"}).join("")+"</ol></div>"}
+  mh+='<div class="wsec"><button type="button" class="btn" style="justify-self:start" data-act="wfull" data-f="'+esc(f.id)+'">'+(pl?"See everything about this issue":"Open this finding in the full analysis")+"</button></div>";
+  h+='<button type="button" class="wmorebtn" data-act="wmore" aria-expanded="false" aria-controls="wmore"><span>Show more</span><span class="caret" aria-hidden="true"></span></button><div class="wmore" id="wmore" hidden>'+mh+"</div>";
+  return h}
+var CHV=function(d){return'<svg viewBox="0 0 24 24" aria-hidden="true"><path d="'+d+'"/></svg>'};
+function walkHTML(m){var steps=walkSteps(m),n=steps.length;
+  return'<main class="walk"><div class="wcol"><div class="wstage"><div class="whd"><span id="wloc"></span><span id="wcount"></span></div><button type="button" class="wbtn" data-act="wprev" aria-label="Previous issue">'+CHV("M15 4l-8 8 8 8")+'</button><div class="wtext" aria-label="Text of the measure"><div class="wscroll" id="wscroll" tabindex="0">'+walkText(m)+'</div></div><button type="button" class="wbtn" data-act="wnext" aria-label="Next issue">'+CHV("M9 4l8 8-8 8")+'</button><nav class="wdots" aria-label="Steps">'+steps.map(function(st,k){var lb=st.t==="intro"?"Start":st.t==="end"?"End":k+". "+fTitle(m,st.f);return'<button type="button" data-act="wgo" data-i="'+k+'" title="'+esc(lb)+'" aria-label="'+esc(lb)+'"></button>'}).join("")+'</nav></div><section class="wissue" id="wcard" aria-live="polite"></section></div></main>'}
+var RM=false;try{RM=window.matchMedia("(prefers-reduced-motion: reduce)").matches}catch(e){}
+var WT=0;
+function walkGo(i,instant){var m=cur();if(!m)return;var steps=walkSteps(m),n=steps.length;i=Math.max(0,Math.min(n-1,i));S.wstep[m.analysis.id]=i;
+  var st=steps[i],card=el("wcard"),sc=el("wscroll");if(!card||!sc)return;
+  card.innerHTML=walkCard(m,st,i,n);
+  var col=document.querySelector(".wcol"),was=col.classList.contains("bare");col.classList.toggle("bare",st.t!=="f");if(was)instant=true;
+  var pl=S.level==="plain",cn=el("wcount");if(cn)cn.textContent=st.t==="f"?(pl?"Issue ":"Finding ")+i+" of "+(n-2):st.t==="intro"?"Start":"End";
+  document.querySelectorAll(".wdots button").forEach(function(d,k){d.classList.toggle("seen",k<i);if(k===i)d.setAttribute("aria-current","true");else d.removeAttribute("aria-current")});
+  var pv=document.querySelector('.wbtn[data-act="wprev"]'),nx=document.querySelector('.wbtn[data-act="wnext"]');if(pv)pv.disabled=i===0;if(nx)nx.disabled=i===n-1;
+  sc.querySelectorAll(".cur").forEach(function(e){e.classList.remove("cur")});sc.querySelectorAll(".ghost.on").forEach(function(e){e.classList.remove("on")});
+  var tgt=null,ms=[];
+  if(st.t==="f"){var id=st.f.id;ms=sc.querySelectorAll('mark[data-wf="'+id+'"]');
+    ms.forEach(function(e){e.classList.add("cur")});
+    var g=sc.querySelector('.ghost[data-g="'+id+'"]');if(g){g.classList.add("on")}
+    tgt=ms[0]||g}
+  var loc=el("wloc");if(loc){var B=m.text.blocks,bi=-1,lab=pl?"The bill":"Text";
+    if(tgt){var bk=ms[0]?tgt.closest(".blk"):tgt.nextElementSibling||tgt.previousElementSibling;bi=bk&&bk.dataset.b!=null?+bk.dataset.b-(ms[0]?0:1):B.length-1;
+      for(var k=Math.min(bi,B.length-1);k>=0;k--){if(B[k].kind==="heading"){lab=B[k].text;break}}
+      if(!ms[0])lab=(st.f.det==="external"?(pl?"Outside the bill":"Outside the text"):(pl?"Not in the bill":"Absent"))+" · "+lab}
+    loc.textContent=lab.length>70?lab.slice(0,68)+"…":lab}
+  var place=function(){var top=0;if(tgt){var sr=sc.getBoundingClientRect(),tr=tgt.getBoundingClientRect();top=sc.scrollTop+(tr.top-sr.top)-(sr.height/2-Math.min(tr.height,sr.height*.5)/2)}else if(st.t==="end")top=sc.scrollHeight;return Math.max(0,top)};
+  clearTimeout(WT);var top=place(),H=sc.clientHeight,d=top-sc.scrollTop;
+  if(instant||RM){sc.classList.remove("swap");sc.scrollTo({top:top,behavior:"auto"})}
+  else if(Math.abs(d)>H*1.2){sc.classList.add("swap");WT=setTimeout(function(){sc.scrollTo({top:Math.max(0,top-(d>0?1:-1)*H*.35),behavior:"auto"});sc.classList.remove("swap");sc.scrollTo({top:top,behavior:"smooth"})},170)}
+  else{sc.classList.remove("swap");sc.scrollTo({top:top,behavior:"smooth"})}
+  if(!instant){var w=document.querySelector(".walk");if(w&&w.scrollTop>0)w.scrollTo({top:0,behavior:RM?"auto":"smooth"})}}
+function briefHTML(m){var A=m.analysis,pl=S.level==="plain",PP=PL(m)&&PL(m).promises,od=order(m);
+  var h='<div class="page"><article class="brief gut"><div class="bsheet">';
+  h+='<p class="bk">'+esc(A.cite||"")+'</p><h2 class="bt">'+esc(A.short)+"</h2>";
+  h+='<section><h3>'+(pl?"What this is":"Classification")+'</h3><p class="bl">'+gloss(esc(PL(m)&&PL(m).banner||A.cls.banner))+"</p></section>";
+  h+='<section><h3>'+(pl?"Does it do what it says?":"Promise audit")+'</h3><ul class="bprom">'+A.promises.map(function(p,i){var q=PP&&PP[i]||{};return'<li><span class="v v-'+p.v+'">'+(pl?VERP[p.v]:VER[p.v])+"</span><div><b>"+esc(q.p||p.p)+"</b><p>"+esc(q.why||p.why)+"</p></div></li>"}).join("")+"</ul></section>";
+  var top=od.filter(function(f){return f.sev!=="minor"&&!f.two}).slice(0,5);
+  if(top.length)h+='<section><h3>'+(pl?"The biggest problems":"Principal findings")+"</h3>"+top.map(function(f){var k=walkSteps(m).map(function(s){return s.f&&s.f.id}).indexOf(f.id);return'<div class="bitem"><div class="tags"><span class="sevtag '+f.sev+'">'+esc(sevL(f))+'</span></div><h4>'+esc(fTitle(m,f))+"</h4><p>"+gloss(esc(fText(m,f)))+"</p>"+(fWhy(m,f)?'<p class="bwhy">'+esc(fWhy(m,f))+"</p>":"")+'<button type="button" class="btn lk" data-act="wfrom" data-i="'+k+'">'+(pl?"See it in the bill":"Show in text")+" ›</button></div>"}).join("")+"</section>";
+  if(A.conflicts&&A.conflicts.length)h+='<section><h3>Conflicts of interest</h3>'+confList(m,false)+"</section>";
+  var B=A.bigger;if(B){var un=B.map.filter(function(r){return r.reach==="untouched"});h+='<section><h3>The bigger picture</h3><p class="bl">'+esc(PL(m)&&PL(m).bigger_lead||B.lead)+"</p>"+(un.length?"<p><b>"+(pl?"Not touched by this bill:":"Untouched:")+"</b></p><ul>"+un.map(function(r){return"<li>"+esc(r.part)+"</li>"}).join("")+"</ul>":"")+"</section>"}
+  h+='<section class="bfoot"><p class="small">'+(pl?"This summary describes what the wording allows. It does not take a side on the policy. Some points rest on research that should be checked against the sources linked in the full analysis.":"Describes what the wording permits; takes no position on the policy. Sources and confidence levels are in the full analysis.")+'</p><div class="row"><button type="button" class="btn pri" data-act="mode" data-md="walk">Step through it</button><button type="button" class="btn" data-act="mode" data-md="dash">Open the full analysis</button></div></section>';
+  return h+"</div></article></div>"}
+document.addEventListener("click",function(ev){var b=ev.target.closest("[data-act]");if(!b)return;var a=b.dataset.act,m=cur();
+  if(a==="mode"){S.mode=b.dataset.md;ls("mode",S.mode);render();var pg=document.querySelector(".page");if(pg)pg.scrollTop=0}
+  else if(a==="wnext"){walkGo((S.wstep[m.analysis.id]||0)+1)}
+  else if(a==="wprev"){walkGo((S.wstep[m.analysis.id]||0)-1)}
+  else if(a==="wgo"){walkGo(+b.dataset.i)}
+  else if(a==="wmore"){var x=el("wmore"),o=b.getAttribute("aria-expanded")==="true";b.setAttribute("aria-expanded",String(!o));x.hidden=o;b.firstChild.textContent=o?"Show more":"Show less";if(!o)x.scrollIntoView({block:"start",behavior:RM?"auto":"smooth"})}
+  else if(a==="wfrom"){S.mode="walk";ls("mode",S.mode);S.wstep[m.analysis.id]=+b.dataset.i;render()}
+  else if(a==="word"){var st=walkSteps(m)[S.wstep[m.analysis.id]||0],fid=st&&st.f&&st.f.id;S.word=b.dataset.o;ls("word",S.word);var root=el("root");root.innerHTML=bannerHTML(m)+walkHTML(m);var ns=walkSteps(m),k=0;if(fid)ns.forEach(function(x,j){if(x.f&&x.f.id===fid)k=j});walkGo(k,true)}
+  else if(a==="wfull"){S.mode="dash";ls("mode",S.mode);select(b.dataset.f,"goto")}});
+document.addEventListener("click",function(ev){var mk=ev.target.closest("mark.wm");if(!mk||S.mode!=="walk")return;var m=cur(),st=walkSteps(m);st.forEach(function(x,j){if(x.f&&x.f.id===mk.dataset.wf)walkGo(j)})});
+document.addEventListener("keydown",function(ev){if(S.mode!=="walk"||!cur()||S.view==="library"||S.view==="new")return;var t=ev.target;if(t&&/INPUT|TEXTAREA|SELECT/.test(t.tagName))return;
+  if(ev.key==="ArrowRight"){ev.preventDefault();walkGo((S.wstep[cur().analysis.id]||0)+1)}else if(ev.key==="ArrowLeft"){ev.preventDefault();walkGo((S.wstep[cur().analysis.id]||0)-1)}});
+
+/* ---------- render ---------- */
+function render(){
+  el("lv-plain").setAttribute("aria-pressed",S.level==="plain");el("lv-pro").setAttribute("aria-pressed",S.level==="pro");
+  var mv=cur(),pk='<button type="button" class="pill" data-act="view" data-v="home" aria-pressed="'+(S.view==="home")+'">Home</button><button type="button" class="pill" data-act="view" data-v="new" data-tour="analyze" aria-pressed="'+(S.view==="new")+'">Analyze a measure</button><button type="button" class="pill" data-act="examples">Examples</button><button type="button" class="pill" data-act="view" data-v="library" aria-pressed="'+(S.view==="library")+'">Knowledge base</button><button type="button" class="pill" data-act="tour">Take the tour</button>';
+  if(mv&&S.view!=="home"&&S.view!=="new"&&S.view!=="library")pk+='<span class="nowv">'+esc(mv.analysis.short)+"</span>";
+  el("picker").innerHTML=pk;
+  var root=el("root"),m=cur(),keep={};
+  ["n-url","n-text","n-press","n-kind"].forEach(function(i){var e=el(i);if(e)keep[i]=e.value});
+  var sc1=document.querySelector(".col.text"),sc2=document.querySelector(".col.panel"),st1=sc1?sc1.scrollTop:0,st2=sc2?sc2.scrollTop:0;
+  if(S.view==="library"){root.innerHTML=libHTML();return}
+  if(S.view==="home"){root.innerHTML=homeHTML();return}
+  if(S.view==="new"||!m){root.innerHTML=newHTML();Object.keys(keep).forEach(function(i){var e=el(i);if(e)e.value=keep[i]});return}
+  var A=m.analysis;
+  if(S.mode==="walk"){root.innerHTML=bannerHTML(m)+walkHTML(m);walkGo(S.wstep[A.id]||0,true);return}
+  if(S.mode==="brief"){root.innerHTML=bannerHTML(m)+briefHTML(m);return}
+  root.innerHTML=bannerHTML(m)+
+    '<main class="desk" data-m="'+S.mob+'"><div class="mobtabs gut"><div class="seg" role="group" aria-label="Show"><button type="button" data-act="mob" data-m="text" aria-pressed="'+(S.mob==="text")+'">Text</button><button type="button" data-act="mob" data-m="panel" aria-pressed="'+(S.mob==="panel")+'">Analysis</button></div></div>'+
+    '<div class="col text">'+textHTML(m)+'</div><div class="col panel">'+panelHTML(m)+"</div></main>";
+  sc1=document.querySelector(".col.text");sc2=document.querySelector(".col.panel");if(sc1)sc1.scrollTop=st1;if(sc2)sc2.scrollTop=st2}
+function reveal(id,which){setTimeout(function(){var e=which==="card"?el("card-"+id):document.querySelector('mark[data-f="'+id+'"]');if(e&&e.scrollIntoView)e.scrollIntoView({block:"center",behavior:"smooth"})},30)}
+function select(id,from){var m=cur();if(!m)return;var f=m.analysis.findings.filter(function(x){return x.id===id})[0];if(!f)return;
+  S.sel=(S.sel===id&&from==="card")?null:id;S.hard=false;S.tab=(f.det==="absence"||f.det==="external")?"missing":"findings";S.fKind="";S.fFam="";
+  if(from==="text"||from==="goto")S.mob="panel";render();if(S.sel){if(from!=="card")reveal(id,"card");if(from!=="text")reveal(id,"text")}}
+
+/* ---------- actions ---------- */
+function copyText(t,btn){var done=function(){if(btn){var o=btn.textContent;btn.textContent="Copied";setTimeout(function(){btn.textContent=o},1400)}};
+  var fb=function(){var c=el("copy-fallback");if(c){c.innerHTML='<label class="f">Select and copy<textarea readonly style="min-height:160px">'+esc(t)+"</textarea></label>";var ta=c.querySelector("textarea");ta.focus();ta.select()}};
+  try{navigator.clipboard.writeText(t).then(done,fb)}catch(e){fb()}}
+document.addEventListener("click",function(ev){
+  var mk=ev.target.closest("mark.hl");if(mk&&mk.dataset.f){select(mk.dataset.f,"text");return}
+  var b=ev.target.closest("[data-act]");if(!b){if(ev.target.id==="lv-plain"||ev.target.id==="lv-pro"){S.level=ev.target.id==="lv-pro"?"pro":"plain";S.sel=null;ls("level",S.level);render()}return}
+  var a=b.dataset.act,m=cur();
+  if(a==="examples"){S.view="home";render();var ex=el("examples");if(ex)ex.scrollIntoView({behavior:RM?"auto":"smooth",block:"start"});return}
+  if(a==="tour"){tourStart();return}
+  if(a==="view"){S.view=b.dataset.v;S.sel=null;S.tab="overview";S.hard=false;S.mob="text";S.fKind="";S.fFam="";try{location.hash=S.view}catch(e){}render()}
+  else if(a==="tab"){S.tab=b.dataset.t;render();var p=document.querySelector(".col.panel");if(p)p.scrollTop=0}
+  else if(a==="mob"){S.mob=b.dataset.m;render()}
+  else if(a==="sel"){select(b.dataset.f,"card")}
+  else if(a==="goto"){select(b.dataset.f,"goto")}
+  else if(a==="minor"){S.showMinor=!S.showMinor;render()}
+  else if(a==="toam"){S.tab="draft";S.mob="panel";render();var g=el("amg-"+b.dataset.f);if(g)g.scrollIntoView({block:"start"})}
+  else if(a==="outmode"&&m){(S.out=S.out||{})[m.analysis.id]=b.dataset.o;render()}
+  else if(a==="hard0"||a==="hard1"){S.hard=a==="hard1";S.mob="text";render()}
+  else if(a==="acc"&&m){var id=m.analysis.id,acc=S.acc[id]=S.acc[id]||{},f=m.analysis.findings.filter(function(x){return x.id===b.dataset.f})[0];
+    var was=acc[b.dataset.am];(f.am||[]).forEach(function(x){delete acc[x.id]});if(!was)acc[b.dataset.am]=1;ls("acc",S.acc);delete S.retest[id];render()}
+  else if(a==="mark"&&m){var mm=S.marks[m.analysis.id]=S.marks[m.analysis.id]||{};mm[b.dataset.f]=mm[b.dataset.f]===b.dataset.k?null:b.dataset.k;ls("marks",S.marks);render()}
+  else if(a==="copy"){copyText(b.dataset.memo?memoText(m):b.dataset.text,b)}
+  else if(a==="libtab"){S.libTab=b.dataset.t;render()}
+  else if(a==="ask"){askFinding(b.dataset.f)}
+  else if(a==="goal"){testGoal()}
+  else if(a==="retest"){retest()}
+  else if(a==="analyze"){analyze()}
+  else if(a==="stop"){if(ctl)ctl.abort()}
+});
+document.addEventListener("keydown",function(ev){if((ev.key==="Enter"||ev.key===" ")&&ev.target.matches&&ev.target.matches("mark.hl[data-f]")){ev.preventDefault();select(ev.target.dataset.f,"text")}});
+document.addEventListener("change",function(ev){var t=ev.target;
+  if(t.id==="f-kind"){S.fKind=t.value;render()}else if(t.id==="f-fam"){S.fFam=t.value;render()}else if(t.id==="lib-det"){S.libDet=t.value;render()}else if(t.id==="lib-or"){S.libOr=t.value;render()}
+  else if(t.id==="n-file"&&t.files&&t.files[0]){readFile(t.files[0])}
+  else if(t.id==="n-url"){var c=classifyUrl(t.value),n=el("n-urlnote");if(n&&c)n.textContent="Recognized from the link: "+c+". This page cannot retrieve pages from other sites, so the text still needs to be pasted or uploaded."}});
+var libT;document.addEventListener("input",function(ev){if(ev.target.id==="lib-q"){S.libQ=ev.target.value;clearTimeout(libT);libT=setTimeout(function(){render();var e=el("lib-q");if(e){e.focus();e.setSelectionRange(e.value.length,e.value.length)}},180)}});
+function goHash(){var h=(location.hash||"").replace("#","");if(h&&(M[h]||h==="new"||h==="library"||h==="home"||(h==="live"&&S.live))){S.view=h;render()}}
+window.addEventListener("hashchange",goHash);
+
+/* ---------- Claude calls ---------- */
+var ERR={not_granted:"Claude access was not allowed for this page, so live analysis is off.",rate_limited:"Claude is rate limited right now. Try again later.",session_expired:"Sign in to Claude again, then retry.",refused:"Claude declined this request.",prompt_too_large:"The text is too long for one pass. Try a shorter measure or one title at a time.",invalid_json:"The reply could not be read as structured data. Try again.",cancelled:"Stopped."};
+function errMsg(e){return ERR[e&&e.code]||"The request did not complete. Try again."}
+function ctxFor(m,f){return"MEASURE: "+m.analysis.short+" ("+m.analysis.cite+")\n\nTEXT:\n"+m.text.blocks.map(function(b){return b.text}).join("\n")+(f?"\n\nFINDING: "+f.title+"\n"+f.plain+"\n"+(f.tech||""):"")}
+function askFinding(id){var m=cur(),f=m.analysis.findings.filter(function(x){return x.id===id})[0],inp=el("ask-"+id),q=inp?inp.value.trim():"";if(!q||!sample)return;
+  var st=S.ask[id]={q:q,busy:true};render();
+  sample(ctxFor(m,f)+"\n\nA reader asks about this finding: "+q+"\n\nAnswer in plain language in under 150 words. Describe what the wording permits; do not speculate about anyone's motives. If the answer depends on facts outside the text that you cannot verify here, say so. Do not use em dashes.",{cache:false}).then(function(r){st.a=r.text},function(e){st.a=errMsg(e)}).then(function(){st.busy=false;render()})}
+function testGoal(){var m=cur(),inp=el("goal-in"),q=inp?inp.value.trim():"";if(!q||!sample)return;var st=S.goal[m.analysis.id]={q:q,busy:true};render();
+  sample(ctxFor(m)+"\n\nKNOWN FINDINGS:\n"+m.analysis.findings.map(function(f){return"- "+f.title}).join("\n")+"\n\nThe reader wants to test this text against their own goal instead of the sponsors' stated purpose.\nGOAL: "+q+"\n\nIn under 220 words and plain language: (1) say how far the text as written would achieve that goal, (2) list the specific gaps between the text and the goal, quoting exact words where a word is the problem, (3) name the kinds of provisions that would be needed and the main trade-off of each. Be clear that this goal is the reader's and not one the sponsors claimed. Do not use em dashes.",{cache:false,modelTier:"complex"}).then(function(r){st.a=r.text},function(e){st.a=errMsg(e)}).then(function(){st.busy=false;render()})}
+function hardText(m){var H=buildHard(m),out=[];m.text.blocks.forEach(function(b,i){(H.before[i]||[]).forEach(function(w){out.push(w)});var t=b.text,ed=(H.edits[i]||[]).slice().sort(function(x,y){return y.s-x.s});ed.forEach(function(e){t=t.slice(0,e.s)+e.w+t.slice(e.e)});if(t.trim())out.push(t);(H.after[i]||[]).forEach(function(w){out.push(w)})});H.tail.forEach(function(w){out.push(w)});return out.join("\n")}
+function retest(){var m=cur(),id=m.analysis.id,ac=acceptedAms(m);if(!ac.length)return;
+  if(!sample){S.retest[id]={a:ac.map(function(x){return x.f.id+" · "+x.am.label+": "+x.am.cost}).join("\n\n")};render();return}
+  var st=S.retest[id]={busy:true};render();
+  sample("You are red-teaming an amended draft of a measure. The amendments below were just applied.\n\nAMENDMENTS APPLIED:\n"+ac.map(function(x){return"- "+x.am.instr}).join("\n")+"\n\nAMENDED TEXT:\n"+hardText(m)+"\n\nCheck only the effects of these amendments. In plain language and under 250 words, list: (1) any new gap, conflict, broken cross-reference or unintended consequence the amendments create, quoting exact words; (2) any original weakness the amendments were meant to fix that remains open; (3) designations or references that now need conforming changes. If an amendment is clean, say so in one line. Do not use em dashes.",{cache:false,modelTier:"complex"}).then(function(r){st.a=r.text},function(e){st.a=errMsg(e)}).then(function(){st.busy=false;render()})}
+
+/* ---------- intake for a new measure ---------- */
+function classifyUrl(u){var t=(u||"").toLowerCase(),map=[["house-resolution","simple resolution of the House, which has no force of law"],["senate-resolution","simple resolution of the Senate, which has no force of law"],["concurrent-resolution","concurrent resolution, which is not law"],["joint-resolution","joint resolution, which becomes law if enacted"],["house-bill","House bill"],["senate-bill","Senate bill"],["hres","simple resolution of the House"],["sres","simple resolution of the Senate"],["conres","concurrent resolution"],["jres","joint resolution"],["bills-","bill"]];
+  for(var i=0;i<map.length;i++)if(t.indexOf(map[i][0])>=0)return map[i][1];return""}
+function loadScript(src){return new Promise(function(res,rej){var s=document.createElement("script");s.src=src;s.onload=res;s.onerror=function(){rej(new Error("load"))};document.head.appendChild(s)})}
+function readFile(file){var name=file.name.toLowerCase(),ta=el("n-text"),stat=el("n-status");var put=function(t){if(ta)ta.value=t;if(stat)stat.textContent="Loaded "+file.name+" ("+t.length.toLocaleString()+" characters). Check the text, then run the red team."};var fail=function(){if(stat)stat.textContent="That file could not be read here. Paste the text instead."};
+  if(/\.pdf$/.test(name)){if(stat)stat.textContent="Reading PDF...";loadScript("https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js").then(function(){return loadScript("https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js")}).then(function(){return file.arrayBuffer()}).then(function(buf){return window.pdfjsLib.getDocument({data:buf}).promise}).then(function(pdf){var ps=[];for(var i=1;i<=pdf.numPages;i++)ps.push(pdf.getPage(i).then(function(p){return p.getTextContent()}).then(function(tc){var out="",ly=null;tc.items.forEach(function(it){var y=it.transform?it.transform[5]:0;if(ly!==null&&Math.abs(y-ly)>2)out+="\n";out+=it.str;ly=y});return out}));return Promise.all(ps)}).then(function(pages){put(pages.join("\n").replace(/^\s*\d{1,2}\s+/gm,""))}).catch(fail)}
+  else if(/\.docx$/.test(name)){if(stat)stat.textContent="Reading Word file...";loadScript("https://cdnjs.cloudflare.com/ajax/libs/mammoth/1.6.0/mammoth.browser.min.js").then(function(){return file.arrayBuffer()}).then(function(buf){return window.mammoth.extractRawText({arrayBuffer:buf})}).then(function(r){put(r.value)}).catch(fail)}
+  else{file.text().then(function(t){if(/<[a-z][\s\S]*>/i.test(t)){var d=new DOMParser().parseFromString(t,"text/html");t=d.body?d.body.textContent:t}put(t)}).catch(fail)}}
+function toBlocks(raw){
+  var lines=raw.replace(/\r/g,"").replace(/``|''/g,'"').replace(/[\u2018\u2019]/g,"'").replace(/[\u201c\u201d]/g,'"').replace(/<<NOTE:[^>]*>>/g,"").split("\n"),out=[],curB=null,blank=true;
+  var startRe=/^\s*"?(SEC(TION)?\.? ?\d|Sec\. ?\d|\([a-zA-Z0-9]{1,5}\)|Whereas|Resolved|A BILL|AN ACT|RESOLUTION|Be it enacted)/;
+  lines.forEach(function(l){var t=l.trim();if(!t||/^\[\[Page|^_{5,}|^<all>|^<DOC>/.test(t)){blank=true;return}
+    if(startRe.test(t)||(blank&&!curB)){curB={text:t};out.push(curB)}else if(curB){curB.text+=(/-$/.test(curB.text)&&!/--$/.test(curB.text)?"":" ")+t}else{curB={text:t};out.push(curB)}blank=false});
+  var lvl=1;out.forEach(function(b,i){var t=b.text.replace(/^"/,""),mm=t.match(/^\(([a-zA-Z0-9]{1,5})\)/);b.id="b"+(i+1);b.kind=/^(SEC(TION)?\.? ?\d|Sec\. ?\d)/.test(t)?"heading":"text";
+    if(b.kind==="heading"){b.indent=0;lvl=1}else if(mm){var e=mm[1];if(/^\d+$/.test(e))lvl=2;else if(/^[A-Z]+$/.test(e))lvl=3;else if(/^(i|ii|iii|iv|v|vi|vii|viii|ix|x)$/.test(e)&&lvl>=3)lvl=4;else lvl=1;b.indent=lvl}else b.indent=/^(Whereas|Resolved)/.test(t)?1:(i<3?0:1);
+    b.text=b.text.replace(/\s+/g," ")});
+  return out.slice(0,1200)}
+function offlineClassify(blocks){var head=blocks.slice(0,6).map(function(b){return b.text}).join(" "),all=blocks.map(function(b){return b.text}).join(" ");
+  var c={vehicle:"Bill",function:"Freestanding measure",stage:"As provided",force:"binding-if-enacted",banner:"If enacted, this would be binding law.",checks:"All families run."};
+  if(/sense of the (House|Senate|Congress)/i.test(all)&&/Resolved/.test(all)){c.function="Sense-of resolution";c.force="none";c.vehicle=/concurrent/i.test(head)?"Concurrent resolution":"Simple resolution";c.banner="This states an opinion. It does not change the law, direct any agency or spend any money.";c.checks="Enforcement, funding and loophole checks are switched off."}
+  else if(/^.{0,400}Resolved,/.test(all)&&!/Be it enacted/.test(all)){c.vehicle="Resolution";c.function="Resolution";c.force="internal";c.banner="This is a resolution. Unless it is a joint resolution that is enacted, it is not law."}
+  else{var am=(all.match(/is amended/g)||[]).length;if(am>=1)c.function="Amendatory bill";if(/authorized to be appropriated/i.test(all))c.function+=" with an authorization of appropriations";if(am>=1)c.banner="If enacted, this would change existing law."}
+  return c}
+var CUE1={"may":1,"practicable":1,"feasible":1,"appropriate":1,"reasonable":1,"substantially":1,"notwithstanding":1};
+function cueScan(blocks){var out=[],seen={};KB.forEach(function(p){if(p.detect!=="word")return;(p.cues||[]).forEach(function(c){c=c.toLowerCase();if(c.indexOf(" ")<0&&!CUE1[c])return;var re=new RegExp("\\b"+c.replace(/[.*+?^${}()|[\]\\]/g,"\\$&")+"\\b","gi");
+    blocks.forEach(function(b,bi){var mm;while((mm=re.exec(b.text))&&out.length<400){var key=bi+":"+mm.index;if(seen[key])continue;seen[key]=1;out.push({i:out.length,bi:bi,s:mm.index,e:mm.index+mm[0].length,name:p.name+": "+p.plain})}})})});return out}
+var ctl=null;
+function setBusy(t){var was=S.busy;S.busy=t;if(t)WAIT.i=waitStepOf(t);var s=el("n-status");if(s&&t&&was&&el("wait")){s.textContent=t;waitTick()}else render()}
+function kbDigest(){var by={};KB.forEach(function(p){if(p.detect==="process"||p.detect==="external"||p.origin==="pack-ai")return;(by[p.family]=by[p.family]||[]).push(p.name+(p.check?" ("+p.check+")":""))});return Object.keys(by).map(function(f){return FAM[f]+" ["+f+"]:\n- "+by[f].join("\n- ")}).join("\n")}
+function packDigest(){var ps=KB.filter(function(p){return p.origin==="pack-ai"});return ps.length?"\n\nSUBJECT PACK, use only if this measure is about artificial intelligence or automated decision systems:\n- "+ps.map(function(p){return p.name+(p.check?" ("+p.check+")":"")}).join("\n- "):""}
+function analyze(){
+  var raw=(el("n-text")||{}).value||"",press=(el("n-press")||{}).value||"",url=(el("n-url")||{}).value||"";S.newErr="";
+  if(raw.trim().length<200){S.newErr="Paste or upload the text of the measure first. At least a few paragraphs are needed.";render();return}
+  var blocks=toBlocks(raw);if(raw.length>180000){S.newErr="This text is very long. Only the first part will be analyzed; consider one title at a time.";blocks=blocks.slice(0,500)}
+  var numbered=blocks.map(function(b){return"["+b.id+"] "+b.text}).join("\n");
+  var cls=offlineClassify(blocks),title=(blocks[0]||{}).text||"Uploaded measure";
+  var base={id:"live",short:title.length>46?title.slice(0,44)+"...":title,cite:url||"Uploaded text",sponsor:"",status:"",sourceUrl:/^https?:/.test(url)?url:"",live:true,cls:cls,purpose:{stated:[{t:title,w:"Opening text"}],marketed:[],ladder:null},promises:[],questions:[],findings:[],bigger:null,draft:((el("n-kind")||{}).value==="draft")};
+  if(!sample){S.live=mk({blocks:blocks},base,null,{cands:cueScan(blocks)});base.questions=[{ty:"Purpose",q:"Full self-questioning was not run.",a:"This view has no live connection to Claude, so only the classification and phrase matching were done. Open the page inside Claude for the full analysis."}];S.view="live";S.tab="findings";render();return}
+  ctl=new AbortController();var sig=ctl.signal,chars=0;var tick=function(label){return function(u){chars=u.text.length;var ni=waitStepOf(label);if(ni!==WAIT.i){WAIT.i=ni;waitTick()}var s=el("n-status");if(s)s.textContent=label+" ("+chars.toLocaleString()+" characters written)"}};
+  var rules="Rules: describe what the wording permits and never assert that a weakness was intended or lobbied for. You cannot browse; do not invent sources, citations, statistics or URLs. Where a claim depends on facts outside the text, set \"unverified\": true. Write for a general reader in short sentences. Never use em dashes. Reply with only one JSON object.";
+  waitStart(blocks.length);
+  setBusy("Pass 1 of 5: classifying the measure, auditing its promises and questioning it...");
+  var p1="You are the first pass of a legislative red-teaming tool for measures of the United States Congress.\n"+rules+"\n\nMEASURE (each block has an id in brackets):\n"+numbered+(press.trim()?"\n\nPRESS RELEASE OR SPONSOR STATEMENT:\n"+press.slice(0,12000):"")+
+   "\n\nCONFLICT TYPES (a holder has a conflict when it is not independent of the people, records or money the measure is about):\n"+COI.types.map(function(t){return t.id+": "+t.name+". "+t.plain}).join("\n")+"\n\nQUESTION TYPES to draw on (also ask anything else the text calls for):\n"+QTYPES.map(function(q){return q[0]+": "+q[1]}).join("\n")+
+   "\n\nReturn JSON with exactly these keys:\n{\"short\": short name of the measure,\n \"cls\": {\"vehicle\": bill | joint resolution | concurrent resolution | simple resolution | amendment | other, \"function\": what it does (for example amendatory bill, freestanding mandate, authorization, appropriations, sense-of resolution, commemorative, chamber rule), \"stage\": string, \"force\": one of \"binding\",\"binding-if-enacted\",\"none\",\"internal\", \"banner\": one or two plain sentences telling a member of the public what this is and whether it would have legal force, \"checks\": one sentence on which checks apply},\n \"purpose\": {\"stated\": [{\"t\": purpose quoted or closely paraphrased from title, findings or purposes, \"w\": where}], \"marketed\": [{\"t\": claim from the press material, \"l\": \"Press material provided\"}], \"ladder\": {\"mechanism\":..., \"outcome\":..., \"aim\":...}},\n \"promises\": [{\"p\": a specific promise made in the title, findings, text or press material, \"src\": where it is made, \"v\": one of \"delivered\",\"paper\",\"partly\",\"absent\",\"contradicted\", \"prov\": the provision that would deliver it or \"None\", \"why\": one or two sentences}],\n \"questions\": [8 to 12 of {\"ty\": question type, \"q\": a question written specifically for this text, quoting its words where useful, \"a\": your answer from the text and well-established general knowledge, \"unverified\": true if the answer rests on outside facts}],\n \"stake\": [9 to 14 of {\"id\": short lowercase id, \"role\": a stakeholder role described by function and never by a real person's name, \"g\": \"Subject\" for groups in the subject area on every side of it (advocates, industry, agencies, affected people), \"Politics\" for sponsors and opponents in Congress, or \"Law\" for legal roles, \"want\": what that role wants from this measure}]. Always include in group Law: a judge who reads statutes by their text, a judge who reads statutes by their purpose, a legislative drafter, a lawyer who would sue under the measure and a lawyer who would defend. Cover opposing interests evenly,\n \"conflicts\": [conflicts of interest, people first. Step 1, people: for each official the text puts in charge of a decision, name who holds that office as far as you know and state any widely documented tie between that person and anyone the measure affects (former client or employer, appointing authority, money, family). Step 2, offices: who can appoint or remove the decision-maker, and is that person affected by the decisions. Step 3, institutions: does a body decide matters about its own conduct, records or money. Each entry is {\"who\": the person, office or body, \"level\": \"person\"|\"office\"|\"body\", \"claim\": one direct sentence of 10 to 28 words stating the conflict and naming the person or body, \"detail\": two to four sentences with the specifics and the safeguard the text provides or lacks, \"unverified\": true for anything not in the text}. State only ties you are confident are publicly documented. Never guess, never allege wrongdoing, and return an empty list if there are none],\n \"conf_note\": one sentence, used only when no conflict was found, saying why,\n \"bigger\": {\"issue\": the larger issue this measure belongs to, \"lead\": one sentence beginning \"Even if this worked exactly as written,\", \"map\": [5 to 9 of {\"part\": a part of the larger issue, \"reach\": \"reached\"|\"partly\"|\"untouched\"|\"named\", \"note\": one sentence}]}}\n\"paper\" means the text says it but nothing compels or enforces it. Measure against the purpose the sponsors actually state, not one you attribute to them.";
+  var R1,R2;
+  sample.json(WR(p1),{modelTier:"complex",signal:sig,onText:tick("Pass 1 of 5: purpose, promises and questions")}).then(function(r){R1=r||{};
+    setBusy("Pass 2 of 5: reading the text against its purpose and drafting amendments...");
+    var p2="You are the second pass of a legislative red-teaming tool. Read the measure the way a skilled adversary would: counsel for a regulated party, a reluctant agency, a litigator. Find where the text falls short of its own purpose.\n"+rules+"\n\nMEASURE:\n"+numbered+"\n\nCLASSIFICATION: "+JSON.stringify(R1.cls||cls)+"\nPURPOSE AND PROMISES: "+JSON.stringify({purpose:R1.purpose,promises:R1.promises})+"\nSTAKEHOLDERS: "+JSON.stringify(R1.stake||[])+"\nYOUR EARLIER QUESTIONS AND ANSWERS: "+JSON.stringify(R1.questions||[])+
+     "\n\nPATTERN LIBRARY (a vocabulary and coverage check; findings that match no pattern are welcome, label them \"novel\"). Each entry is a subject-neutral pattern followed by what to check. Apply every one that fits this measure whatever its subject:\n"+kbDigest()+packDigest()+
+     "\n\nCONFLICT OF INTEREST REVIEW. Conflicts identified in the first pass: "+JSON.stringify(R1.conflicts||[])+"\nFor each conflict that would let its holder do something that defeats the stated purpose, return a finding with fam \"conflict\". State it directly and name the person or body. Report a tie only as publicly documented, never allege that anyone acted wrongly, and set \"unverified\": true for anything not in the text. Suggest an amendment that adds a safeguard from this list: "+COI.guards.join(" ")+"\n\nNO INVENTED ARGUMENTS AND NOTHING GENERIC. Never make up a reason why someone might want wording kept or changed. Leave the \"keep\", \"close\" and \"views\" lists empty unless the measure\u2019s own text or the sponsor material supplied above states that reason or position. Every sentence you write must be specific to this measure: if it would still be true about a different bill, replace it with this bill\u2019s specifics or leave it out.\n\nTWO-SIDED MECHANISMS. Vague, flexible or narrow wording is not automatically a weakness. Sometimes it serves the purpose better than precision, because a precise rule can omit something. When a finding rests on one of these mechanisms, do not assume it is a risk. Ask the deciding question against this measure's purpose and subject. Label it \"risk\" only if the open choice rests with the party the measure constrains or the wording plainly defeats the stated purpose; otherwise label it \"tradeoff\". In both cases include a \"two\" object, and make at least one amendment keep the benefit while closing the gap.\n"+Object.keys(MECH).map(function(k){return k+": "+MECH[k][0]+". Deciding question: "+MECH[k][3]}).join("\n")+"\n\nIf the measure has no force of law, do not flag loopholes; return notices explaining the gap between stated goals and legal effect, with no amendments.\n\nReturn JSON: {\"findings\": [up to 22 of {\"id\": \"L1\", \"L2\"..., \"kind\": \"defect\" (an error on any reading) | \"risk\" (a gap between purpose and effect) | \"tradeoff\" (a policy choice with a cost) | \"notice\", \"sev\": \"critical\"|\"significant\"|\"minor\", \"conf\": \"high\"|\"medium\"|\"low\", \"fam\": a family key in square brackets from the library, \"pat\": pattern name or \"novel\", \"det\": \"word\"|\"structure\"|\"absence\"|\"external\", \"block\": the block id the quote is in or null, \"quote\": the exact span copied character for character from one block that carries the problem: a single word where one word is the problem, otherwise the complete limiting phrase including any clause that defines its reach (for example the whole of \\\"in the possession of the Department, including its named components\\\", not just the first half), or null for an absence, \"where\": for an absence, where the missing provision would belong, \"aud\": \"pro\" when the finding is about drafting mechanics that only a drafter or lawyer would act on (a wrong cross-reference, a typing or capitalization mistake, a term of art, amendatory form), otherwise \"everyone\", \"title\": one complete sentence of 8 to 22 words that a person who has never read the measure can understand with nothing else on the screen. It names the actor (the bill, the law, the agency) and says what it does or fails to do. No headline shorthand, no figure of speech (not \"has no teeth\", \"leaves the line with\", \"nothing behind it\"), no quoted term without saying what it refers to, no pronoun or \"the exception\" pointing at something unnamed, \"plain\": two or three sentences for a general reader, \"tech\": the reasoning for policy staff, \"use\": the concrete move a regulated party, agency or litigant could make, or for a notice what a reader would wrongly believe (if you cannot name one, do not return the finding), \"unverified\": boolean, \"two\": for a two-sided mechanism {\"m\": mechanism key, \"keep\": [1 to 3 concrete things keeping this wording offers on this measure], \"close\": [1 to 3 concrete costs on this measure], \"dec\": the question it turns on here, written as one complete question ending in a question mark that names the people, records or agencies involved so it makes sense with no other context (never a fragment starting \"Whether\" or \"Who\"), \"views\": [3 to 6 of {\"r\": a stakeholder id from the STAKEHOLDERS list, \"pos\": \"keep\"|\"close\"|\"depends\", \"why\": one sentence on why that role would likely take that position}]} else null. Give no view of your own on which side is right, \"am\": [0 to 2 of {\"label\": short name, \"instr\": the amendment in the form used by Legislative Counsel (for example: Section 2(c)(1) is amended by striking \\\"may\\\" and inserting \\\"shall\\\".), \"cost\": what the change costs or risks, \"ops\": [{\"t\":\"replace\",\"q\": exact text to strike copied from the measure,\"w\": replacement} or {\"t\":\"insert\",\"after\": exact text from the block it follows,\"w\": new text} or {\"t\":\"append\",\"w\": new section text}]}]}]}\nEvery quote and every \"q\" and \"after\" must be an exact substring of a single block. A finding whose quote does not match will be discarded.";
+    return sample.json(WR(p2),{modelTier:"complex",signal:sig,onText:tick("Pass 2 of 5: findings and amendments")})
+  }).then(function(r){R2=(r&&r.findings)||[];
+    setBusy("Pass 3 of 5: a separate skeptic pass is testing each finding...");
+    var p3="You are a skeptic reviewing findings produced by another reviewer of a congressional measure. You have not seen their reasoning beyond what is below. Try to knock each finding down.\n\nMEASURE:\n"+numbered+"\n\nFINDINGS:\n"+JSON.stringify(R2.map(function(f){return{id:f.id,title:f.title,quote:f.quote,where:f.where,kind:f.kind,sev:f.sev,claim:f.tech||f.plain}}))+
+     "\n\nFor each finding ask: Is the quoted text really there and does it say what is claimed? Does another provision of the measure cure the problem? Is this a defect, or a defensible drafting choice? Is the severity right? Does it rest on an outside fact that cannot be checked here?\nReply with only JSON: {\"verdicts\": [{\"id\":..., \"verdict\": \"confirm\"|\"downgrade\"|\"drop\", \"reason\": one sentence, no em dashes}]}";
+    return sample.json(WR(p3),{modelTier:"default",signal:sig,onText:tick("Pass 3 of 5: skeptic review")}).catch(function(e){if(e&&e.code==="cancelled")throw e;return{verdicts:[]}})
+  }).then(function(r3){
+    var V0={};((r3&&r3.verdicts)||[]).forEach(function(v){V0[v.id]=v});
+    var crit=R2.filter(function(f){return f&&f.sev==="critical"&&!(V0[f.id]&&V0[f.id].verdict!=="confirm")}).slice(0,6);
+    if(!crit.length)return{r3:r3,r4:{inquiries:[]}};
+    setBusy("Pass 4 of 5: specific inquiry on "+crit.length+" critical finding"+(crit.length>1?"s":"")+"...");
+    var p4="You are running the specific-inquiry step of a legislative red-teaming tool. A critical finding is not finished when it names a general weakness. It is finished when it names the specific people, records or conduct that the weakness leaves uncovered.\n\nMEASURE:\n"+numbered+"\n\nFor each finding below, apply the inquiry rule for its family and return concrete specifics: named agencies, components, record types, statutes by section, actors, events or figures. You cannot browse. Use the text itself and well-established public knowledge only. Do not assert that any body holds records or did something unless that is well established; where it is only likely, say it is an inference. Never invent citations, figures or URLs. Never use em dashes.\n\nFINDINGS AND RULES:\n"+JSON.stringify(crit.map(function(f){var k=String(f.fam||"").replace(/[\[\]]/g,""),r=INQ[k]||INQ.actors;return{id:f.id,title:f.title,quote:f.quote,claim:f.tech||f.plain,ask:r[0],name:r[1]}}))+"\n\nReply with only JSON: {\"inquiries\": [{\"id\":..., \"q\": the concrete question for this finding, \"items\": [3 to 6 of {\"h\": the specific thing in under 10 words, \"d\": one or two sentences saying what it is and whether this measure reaches it}], \"open\": what could not be established without research}]}";
+    return sample.json(WR(p4),{modelTier:"complex",signal:sig,onText:tick("Pass 4 of 5: specific inquiry")}).then(function(r4){return{r3:r3,r4:r4||{}}},function(e){if(e&&e.code==="cancelled")throw e;return{r3:r3,r4:{}}})
+  }).then(function(pack){
+    var r3=pack.r3,IQ={};((pack.r4&&pack.r4.inquiries)||[]).forEach(function(q){if(q&&q.id&&q.items&&q.items.length)IQ[q.id]={q:q.q||"",items:q.items.filter(function(i){return i&&i.h}).map(function(i){return{h:i.h,d:i.d||"",s:[]}}),open:q.open||"",unverified:true}});
+    var V={};((r3&&r3.verdicts)||[]).forEach(function(v){V[v.id]=v});
+    var kept=[],dropped=0,unanch=0,SEVD={critical:"significant",significant:"minor",minor:"minor"};
+    R2.forEach(function(f,i){if(!f||!f.title)return;var v=V[f.id];if(v&&v.verdict==="drop"){dropped++;return}
+      var o={id:String(f.id||("L"+(i+1))),kind:KIND[f.kind]?f.kind:"risk",sev:SEVN[f.sev]!=null?f.sev:"minor",conf:f.conf||"medium",fam:String(f.fam||"").replace(/[\[\]]/g,""),pat:f.pat||"novel",det:DET[f.det]?f.det:"word",title:f.title,plain:f.plain||"",tech:f.tech||"",use:f.use||"",unverified:!!f.unverified,where:f.where||"",s:[],am:[],aud:f.aud==="pro"?"pro":"everyone"};
+      if(IQ[f.id])o.inq=IQ[f.id];
+      if(f.two&&MECH[f.two.m]&&(arr(f.two.keep).length||arr(f.two.close).length||arr(f.two.views).length))o.two={m:f.two.m,keep:arr(f.two.keep).map(String),close:arr(f.two.close).map(String),dec:String(f.two.dec||""),views:arr(f.two.views).filter(function(v){return v&&v.r&&POS[v.pos]}).map(function(v){return{r:String(v.r),pos:v.pos,why:String(v.why||""),s:[]}})};
+      if(o.kind!=="notice"&&(!o.use||/^(none|n\/a|not applicable)/i.test(o.use))){if(o.kind==="defect"){o.note=true;o.use=""}else return}
+      if(v){if(v.verdict==="downgrade"){o.sev=SEVD[o.sev];o.conf="low"}o.skeptic=(v.verdict==="confirm"?"Confirmed. ":"Downgraded. ")+(v.reason||"")}
+      if(f.quote&&o.det!=="absence"&&o.det!=="external"){if(findBlock(blocks,f.quote)>=0)o.a={q:f.quote};else{unanch++;return}}
+      else if(o.det==="word"||o.det==="structure"){o.det="absence"}
+      (f.am||[]).forEach(function(am,j){if(!am||!am.instr)return;var ops=(am.ops||[]).filter(function(op){if(!op)return false;if(op.t==="replace")return op.q&&findBlock(blocks,op.q)>=0;if(op.t==="insert")return(op.after||op.before)&&findBlock(blocks,op.after||op.before)>=0;return op.t==="append"&&op.w});
+        o.am.push({id:o.id+"-"+j,label:am.label||"Amendment",instr:am.instr,cost:am.cost||"",ops:ops})});
+      kept.push(o)});
+    var A=base;A.short=R1.short||A.short;if(R1.cls&&FORCE[R1.cls.force])A.cls=R1.cls;
+    if(R1.purpose){A.purpose={stated:(R1.purpose.stated||[]).filter(function(x){return x&&x.t}),marketed:(R1.purpose.marketed||[]).filter(function(x){return x&&x.t}),ladder:R1.purpose.ladder||null};if(!A.purpose.stated.length)A.purpose.stated=[{t:title,w:"Opening text"}]}
+    A.promises=(R1.promises||[]).filter(function(p){return p&&p.p&&VER[p.v]}).map(function(p){return{p:p.p,src:p.src||"",v:p.v,prov:p.prov||"",why:p.why||"",f:[]}});
+    A.questions=(R1.questions||[]).filter(function(q){return q&&q.q}).map(function(q){return{ty:q.ty||"Open",q:q.q,a:(q.a||"")+(q.unverified?" (Rests on outside facts not checked here.)":"")}});
+    A.runNote=kept.length+" findings were kept, "+dropped+" were dropped by a separate review, and "+unanch+" were discarded because their quoted words did not match the text.";
+    if(R1.bigger&&R1.bigger.map)A.bigger={issue:R1.bigger.issue||"",lead:R1.bigger.lead||"",map:R1.bigger.map.filter(function(x){return x&&x.part}).map(function(x){return{part:x.part,reach:{reached:1,partly:1,untouched:1,named:1}[x.reach]?x.reach:"untouched",note:x.note||""}}),others:[]};
+    A.conflicts=arr(R1.conflicts).filter(function(r){return r&&r.claim}).map(function(r){return{who:String(r.who||""),level:{person:1,office:1,body:1}[r.level]?r.level:"body",claim:String(r.claim),detail:String(r.detail||""),unverified:r.level!=="body"||!!r.unverified,s:[],f:[]}}).sort(function(a,b){var o={person:0,office:1,body:2};return o[a.level]-o[b.level]});A.conf_note=String(R1.conf_note||"");A.stake=arr(R1.stake).filter(function(r){return r&&r.id&&r.role}).map(function(r){return{id:String(r.id),role:String(r.role),g:{Subject:1,Politics:1,Law:1}[r.g]?r.g:"Subject",want:String(r.want||""),s:[]}});
+    A.findings=kept;setBusy("Style pass: rewriting every line to the writing guide and checking it...");
+    return stylePass(A,numbered,sig,tick).then(function(sp){var sn=sp.ran===2?(sp.left?" "+sp.left+" lines still failed the writing check after one correction.":" Every line passed the writing check."):" The writing check did not complete.";A.runNote+=sn;if(sp.pla)sp.pla.runNote=A.runNote;S.live=mk({blocks:blocks},A,sp.pla||null);S.busy=null;S.view="live";S.tab="overview";S.sel=null;render()})
+  }).catch(function(e){S.busy=null;S.newErr=errMsg(e);render()})}
+
+
+/* ---------- style pass: every generated line is rewritten to the guide and checked ---------- */
+var SKEYS={title:1,plain:1,tech:1,use:1,cost:1,label:1,h:1,d:1,open:1,dec:1,why:1,want:1,role:1,lead:1,note:1,part:1,issue:1,banner:1,checks:1,p:1,"function":1,skeptic:1,claim:1,detail:1,who:1,conf_note:1};
+function sFlatten(A){var out={};(function walk(o,path,key,anc){
+  if(Array.isArray(o)){o.forEach(function(v,i){var id=(v&&typeof v==="object"&&v.id!=null&&(key==="findings"||key==="am"||key==="stake"))?String(v.id):String(i);walk(v,path.concat([id]),key,anc)})}
+  else if(o&&typeof o==="object"){Object.keys(o).forEach(function(k){var v=o[k];if((k==="a"&&typeof v!=="string")||k==="ops"||k==="s"||k==="stated"||k==="marketed")return;walk(v,path.concat([k]),k,anc.concat([k]))})}
+  else if(typeof o==="string"&&o.trim()){var ok=SKEYS[key]||anc.indexOf("ladder")>=0||key==="keep"||key==="close"||(key==="q"&&(anc.indexOf("inq")>=0||anc.indexOf("questions")>=0))||(key==="a"&&anc.indexOf("questions")>=0);if(ok)out[path.join(".")]=o}})(A,[],"",[]);return out}
+function sSet(A,path,val){var o=A,ps=path.split(".");for(var j=0;j<ps.length;j++){var p=ps[j],k=p;if(Array.isArray(o)){k=-1;o.forEach(function(v,i){if(v&&typeof v==="object"&&String(v.id)===p)k=i});if(k<0)k=+p}if(o==null||o[k]==null)return;if(j===ps.length-1){if(typeof o[k]==="string")o[k]=val}else o=o[k]}}
+function sKind(path){var p=path.split("."),l=p[p.length-1];if({label:1,role:1,part:1,issue:1,"function":1,who:1}[l])return"label";if(l==="title"||l==="claim")return"title";if(l==="dec"||l==="q")return"question";if(l==="h")return"head";return"prose"}
+function sLint(level,path,t){var L=STYLE.lint,k=sKind(path),tl=t.toLowerCase(),r=[];
+  if(/[\u2014\u2013]/.test(t))r.push("contains a dash");if(level==="plain"&&t.indexOf(";")>=0)r.push("contains a semicolon");
+  L.idioms.forEach(function(i){if(tl.indexOf(i)>=0)r.push('figure of speech "'+i+'"')});
+  if(k==="label")return r;
+  if(!/[.?!"\u201d)]$/.test(t.trim()))r.push("does not end as a complete sentence");
+  if(k!=="prose")L.vague.forEach(function(v){var i=tl.indexOf(v);if(i>=0&&new RegExp("\\b"+v.replace(/ /g,"\\s")+"\\b").test(tl)&&!new RegExp(v+"\\s+(for|on|about|of|to|that|in|against)\\b").test(tl))r.push('vague reference "'+v+'" with nothing saying which one')});
+  if(k==="title"){var n=t.trim().split(/\s+/).length,lim=L[level].title;if(n<lim[0]||n>lim[1])r.push("title has "+n+" words, needs "+lim[0]+" to "+lim[1])}
+  if(k==="question"&&t.indexOf("?")<0)r.push("is not written as a question");
+  t.trim().split(/(?<=[.!?])\s+/).forEach(function(x){var w=x.split(/\s+/).length;if(w>L[level].sentence&&k!=="title")r.push("a sentence has "+w+" words, limit "+L[level].sentence);if(w<4)r.push('fragment "'+x+'"')});
+  if(/^(Want|Wants|Needs|Need|Prefers|Prefer|Favors|Favor|Opposes|Oppose|Permitted|Depends|Likely|Benefits|Seeks|Seek|Supports|Support|Fears|Fear|Gains|Loses)\b/.test(t))r.push("starts without a subject");
+  if(level==="plain"){L.plain_jargon.forEach(function(j){var jl=j.toLowerCase();if(tl.indexOf(jl)>=0){var x=t.split(/(?<=[.!?])\s+/).filter(function(y){return y.toLowerCase().indexOf(jl)>=0})[0]||t;if(!/\b(means|meaning|which is|that is|called|known as)\b|, (the|a|an) /.test(x))r.push('technical word "'+j.trim()+'" is not explained in the same sentence')}});
+    if(/\b(section|sec\.|subsection)\s*\d/i.test(t))r.push("uses a section number")}
+  return r}
+function stylePass(A,numbered,sig,tick){var flat=sFlatten(A),keys=Object.keys(flat);if(!keys.length)return Promise.resolve({pla:null,left:0});
+  var ask=function(level,src){return sample.json("You are the copy editor of a legislative red-teaming tool. Rewrite every value in the JSON map below so it follows the style guide, in the "+(level==="plain"?"PLAIN LANGUAGE":"PROFESSIONAL")+" version. Change wording only. Do not add, drop or change any fact, number, date, name or quotation. Each key is a path that tells you what the text is: a path ending in title is a finding's title, dec or q is a question, h is a one-sentence statement of a specific fact, label, role, part and issue are short labels, everything else is prose. Return one JSON object with exactly the same keys.\n\n"+guideText(level)+"\n\nMEASURE (for reference, so each line can name its subject):\n"+numbered.slice(0,60000)+"\n\nTEXT TO REWRITE:\n"+JSON.stringify(src),{modelTier:"complex",signal:sig,onText:tick("Style pass: "+(level==="plain"?"plain language":"professional")+" version")})};
+  var fix=function(level,out){var bad={},why={};keys.forEach(function(k){var t=typeof out[k]==="string"&&out[k].trim()?out[k]:flat[k];out[k]=t;var r=sLint(level,k,t);if(r.length){bad[k]=t;why[k]=r}});
+    var nb=Object.keys(bad);if(!nb.length)return Promise.resolve({out:out,left:0});
+    return sample.json("These lines failed an automated check against the style guide. Rewrite each so it passes. Wording only, facts frozen. Return one JSON object with exactly the same keys.\n\n"+guideText(level)+"\n\nLINES AND WHY EACH FAILED:\n"+JSON.stringify(nb.map(function(k){return{key:k,text:bad[k],failed:why[k]}})),{modelTier:"complex",signal:sig,onText:tick("Style pass: fixing "+nb.length+" lines")}).then(function(r2){var left=0;nb.forEach(function(k){var t=r2&&typeof r2[k]==="string"&&r2[k].trim()?r2[k]:bad[k];out[k]=t;if(sLint(level,k,t).length)left++});return{out:out,left:left}},function(e){if(e&&e.code==="cancelled")throw e;return{out:out,left:nb.length}})};
+  var res={left:0,ran:0};
+  return ask("pro",flat).then(function(o){return fix("pro",o||{})},function(e){if(e&&e.code==="cancelled")throw e;return null}).then(function(p){if(p){res.ran++;res.left+=p.left;keys.forEach(function(k){sSet(A,k,p.out[k])})}
+    return ask("plain",sFlatten(A)).then(function(o){return fix("plain",o||{})},function(e){if(e&&e.code==="cancelled")throw e;return null})}).then(function(q){if(q){res.ran++;res.left+=q.left;var B=JSON.parse(JSON.stringify(A));keys.forEach(function(k){sSet(B,k,q.out[k])});B.findings=B.findings.filter(function(f){return f.aud!=="pro"});res.pla=B}return res})}
+
+
+/* ---------- home and guided tour ---------- */
+function homeHTML(){var ks=Object.keys(M);
+  var kind={binding:"A law already passed","binding-if-enacted":"A bill in Congress",none:"A statement of opinion by the House",internal:"A rule for one chamber"};
+  var h='<div class="page"><div class="home gut"><section class="hero"><h1>Find out whether a bill does what it says.</h1><p>Upload a bill or a law. The tool reads the exact words and shows where they fall short of what was promised. It names conflicts of interest and what the bill leaves out. For professionals, it drafts amendments.</p><div class="row"><button type="button" class="btn pri big" data-act="view" data-v="new">Analyze a measure</button><button type="button" class="btn big ghostb" data-act="tour">Take the one-minute tour</button></div></section>';
+  h+='<section class="hsec"><h2>What you get</h2><div class="hgrid">'+[["Step by step","One problem at a time. The page moves to the exact words each problem is about."],["One-page summary","What the bill is, whether it does what it says, and its biggest problems."],["Full analysis","Every problem, what is missing, conflicts of interest, and what people have said, with sources."],["Amendments","For professionals. Choose fixes and produce a new bill or a marked-up rewrite."]].map(function(x){return'<div class="htile"><b>'+x[0]+"</b><p>"+x[1]+"</p></div>"}).join("")+"</div></section>";
+  h+='<section class="hsec" id="examples"><h2>Explore an example</h2><p class="hsub">Three measures that have already been analyzed.</p><div class="hgrid ex">'+ks.map(function(k){var A=M[k].analysis;return'<button type="button" class="htile exb" data-act="view" data-v="'+k+'"><span class="small">'+esc(kind[A.cls.force]||"")+"</span><b>"+esc(A.short)+"</b><p>"+esc(A.cls.banner)+'</p><span class="go">Open ›</span></button>'}).join("")+(S.live?'<button type="button" class="htile exb" data-act="view" data-v="live"><span class="small">Your upload</span><b>'+esc(S.live.analysis.short)+'</b><span class="go">Open ›</span></button>':"")+"</div></section></div></div>";
+  return h}
+var TOUR=[
+ {prep:function(){S.view="home"},sel:null,t:"Welcome",x:"This tool reads a bill or a law and shows where its words fall short of what was promised. This tour takes about a minute."},
+ {prep:function(){S.view="efta";S.mode="dash";S.tab="overview";S.level="plain";S.sel=null},sel:'.seg[aria-label="Reading level"]',t:"Pick your reading level",x:"Plain language is for everyone. Professional adds the legal detail and the tools for drafting amendments."},
+ {sel:".modes",t:"Three ways to read",x:"Step by step shows one problem at a time. The one-page summary is the short version. Full analysis shows everything."},
+ {prep:function(){S.mob="text"},sel:".col.text .doc",t:"The bill itself",x:"This is the actual text. Highlighted words have a problem. Tap any highlight to read about it."},
+ {prep:function(){S.tab="findings";S.mob="panel"},sel:'.tabs [data-t="findings"]',t:"Problems in the wording",x:"Each card points to exact words in the bill and says what those words allow."},
+ {prep:function(){S.tab="missing"},sel:'.tabs [data-t="missing"]',t:"What is missing",x:"Things a law like this usually has, and this one does not."},
+ {prep:function(){S.tab="roles"},sel:'.tabs [data-t="roles"]',t:"Conflicts of interest",x:"Who is in charge, and what ties they have to the people the bill is about. Each tie has a source."},
+ {prep:function(){S.tab="stake"},sel:'.tabs [data-t="stake"]',t:"Who is affected",x:"What the people involved have actually said, with a link to where they said it."},
+ {prep:function(){S.tab="bigger"},sel:'.tabs [data-t="bigger"]',t:"The bigger picture",x:"What the bill leaves untouched, even if it works exactly as written."},
+ {prep:function(){S.level="pro";S.tab="draft"},sel:'.tabs [data-t="draft"]',t:"Amendments, for professionals",x:"Choose the fixes you want. The tool writes them up as a new bill or as a marked-up rewrite."},
+ {prep:function(){S.level="plain";S.mode="walk";var m=cur();if(m)S.wstep[m.analysis.id]=1},sel:".wstage",t:"Step by step",x:"Press the arrows. The page moves to the words each problem is about, and the problem is explained underneath."},
+ {prep:function(){S.mode="brief"},sel:".bsheet",t:"One-page summary",x:"The short version on a single page: what the bill is, whether it does what it says, its biggest problems and any conflicts of interest."},
+ {prep:function(){S.mode="dash";S.view="home"},sel:'[data-tour="analyze"]',t:"Your turn",x:"Upload a bill of your own here, or open one of the examples below."}];
+var TI=-1;
+function tourStart(){if(!el("tour")){var d=document.createElement("div");d.id="tour";d.innerHTML='<div class="tblock"></div><div class="thole" id="thole"></div><div class="tcard" id="tcard" role="dialog" aria-live="polite" aria-label="Guided tour"></div>';document.body.appendChild(d)}TI=-1;tourGo(0)}
+function tourEnd(){var t=el("tour");if(t)t.remove();TI=-1;ls("toured",true);S.level=ls("level")||"plain";S.mode="dash";S.view="home";S.tab="overview";render()}
+function tourPlace(){if(TI<0)return;var st=TOUR[TI],hole=el("thole"),card=el("tcard");if(!hole||!card)return;var t=st.sel?document.querySelector(st.sel):null,W=window.innerWidth,H=window.innerHeight;
+  if(t&&!t.getBoundingClientRect().width)t=null;
+  if(!t){hole.style.cssText="top:"+(H/2)+"px;left:"+(W/2)+"px;width:0;height:0;opacity:0";card.style.top=Math.max(16,H/2-110)+"px";card.style.left=Math.max(12,W/2-170)+"px";return}
+  var r=t.getBoundingClientRect(),p=6,top=Math.max(4,r.top-p),left=Math.max(4,r.left-p),w=Math.min(W-8,r.width+2*p),hh=Math.min(H-8-top,r.height+2*p);
+  hole.style.cssText="top:"+top+"px;left:"+left+"px;width:"+w+"px;height:"+hh+"px;opacity:1";
+  var ch=card.offsetHeight||190,cw=Math.min(340,W-24),below=top+hh+14,ct=below+ch<H-8?below:(top-ch-14>8?top-ch-14:Math.max(8,H-ch-12));
+  card.style.top=ct+"px";card.style.left=Math.max(12,Math.min(W-cw-12,left+w/2-cw/2))+"px"}
+function tourGo(i){if(i<0)return;if(i>=TOUR.length){tourEnd();return}TI=i;var st=TOUR[i];if(st.prep)st.prep();render();
+  var card=el("tcard");card.innerHTML='<p class="tk">'+(i+1)+" of "+TOUR.length+'</p><h2>'+esc(st.t)+"</h2><p>"+esc(st.x)+'</p><div class="trow"><button type="button" class="btn" data-tour-act="skip">'+(i===TOUR.length-1?"Close":"Skip the tour")+'</button><span class="tsp"></span>'+(i>0?'<button type="button" class="btn" data-tour-act="back">Back</button>':"")+'<button type="button" class="btn pri" data-tour-act="next">'+(i===TOUR.length-1?"Finish":"Next")+"</button></div>";
+  var t=st.sel?document.querySelector(st.sel):null;if(t&&t.scrollIntoView)t.scrollIntoView({block:"nearest",inline:"center"});
+  requestAnimationFrame(function(){tourPlace();var n=card.querySelector('[data-tour-act="next"]');if(n)n.focus({preventScroll:true})})}
+document.addEventListener("click",function(ev){var b=ev.target.closest("[data-tour-act]");if(!b)return;ev.stopPropagation();var a=b.dataset.tourAct;if(a==="next")tourGo(TI+1);else if(a==="back")tourGo(TI-1);else tourEnd()},true);
+document.addEventListener("keydown",function(ev){if(TI<0)return;if(ev.key==="Escape"){tourEnd()}else if(ev.key==="ArrowRight"){ev.stopPropagation();ev.preventDefault();tourGo(TI+1)}else if(ev.key==="ArrowLeft"){ev.stopPropagation();ev.preventDefault();tourGo(TI-1)}},true);
+window.addEventListener("resize",tourPlace);
+
+goHash();render();
+if(!ls("toured")&&S.view==="home"&&!(location.hash||"").replace("#",""))setTimeout(function(){if(TI<0&&S.view==="home")tourStart()},900);
+})();
+</script>

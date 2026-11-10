@@ -1,0 +1,3308 @@
+{
+ "patterns": [
+  {
+   "id": "shall-may-ambiguity",
+   "name": "Shall versus may ambiguity",
+   "family": "obligation",
+   "detect": "word",
+   "origin": "general",
+   "headings": [
+    "\"Shall\" vs. \"May\" Ambiguity"
+   ],
+   "plain": "Wording that leaves unclear whether an agency must act or merely may act lets the duty be read as optional, so the command depends on later interpretation.",
+   "cues": [
+    "may",
+    "shall",
+    "may, in its discretion",
+    "as appropriate"
+   ],
+   "fix": "Use shall for required acts, reserve may for true discretion, and state the consequence of inaction."
+  },
+  {
+   "id": "shall-consider",
+   "name": "Shall consider instead of ensure",
+   "family": "obligation",
+   "detect": "word",
+   "origin": "general",
+   "headings": [
+    "Strategic Use of \"Shall Consider\""
+   ],
+   "plain": "Requiring an agency only to consider a factor lets it record that it thought about the factor and then act as it already planned.",
+   "cues": [
+    "shall consider",
+    "take into account",
+    "give due consideration"
+   ],
+   "fix": "Require the agency to achieve or ensure a stated outcome, or to explain in writing how the factor changed the decision."
+  },
+  {
+   "id": "feasibility-escape",
+   "name": "Feasibility and practicability qualifiers",
+   "family": "obligation",
+   "detect": "word",
+   "origin": "general",
+   "headings": [
+    "Qualified Mandates with Feasibility Escapes"
+   ],
+   "plain": "Phrases like to the extent practicable make a requirement depend on cost or feasibility, so regulated parties can argue that compliance is not required in their case.",
+   "cues": [
+    "to the extent practicable",
+    "to the maximum extent feasible",
+    "economically achievable",
+    "best available technology",
+    "where feasible",
+    "to the extent technically feasible"
+   ],
+   "fix": "Replace the qualifier with a fixed standard, or define feasibility objectively and put the burden of showing infeasibility on the regulated party."
+  },
+  {
+   "id": "good-faith-shield",
+   "name": "Good faith compliance shield",
+   "family": "obligation",
+   "detect": "word",
+   "origin": "both",
+   "headings": [
+    "The \"Good Faith\" Shield",
+    "Safe Harbor for \"Good Faith\" Safety Efforts"
+   ],
+   "plain": "Protecting those who made a good faith or reasonable effort turns a duty to comply into a duty to try, which is hard to disprove.",
+   "cues": [
+    "good faith",
+    "reasonable efforts",
+    "reasonable steps",
+    "made a good faith effort"
+   ],
+   "fix": "Define required practices objectively and limit any good faith defense to named, verifiable steps with the burden on the defendant."
+  },
+  {
+   "id": "mandamus-proof-qualifier",
+   "name": "Qualified shall that resists court orders",
+   "family": "obligation",
+   "detect": "word",
+   "origin": "general",
+   "headings": [
+    "Mandamus-Proof Drafting"
+   ],
+   "plain": "A duty qualified by the agency's judgment or available resources reads as mandatory but leaves room for discretion that courts will not override.",
+   "cues": [
+    "in the administrator's judgment",
+    "consistent with available resources",
+    "subject to the availability of appropriations",
+    "as the secretary determines"
+   ],
+   "fix": "State the duty without judgment or resource qualifiers, or give a deadline and a defined remedy if the agency does not act."
+  },
+  {
+   "id": "model-opacity-shield",
+   "name": "Technical infeasibility as exemption",
+   "family": "obligation",
+   "detect": "word",
+   "origin": "ai",
+   "headings": [
+    "Model Opacity as a Shield"
+   ],
+   "plain": "Saying developers cannot fully explain their models is used to soften transparency duties, so disclosure is required only where technically feasible.",
+   "cues": [
+    "to the extent technically feasible",
+    "where technically possible",
+    "to the extent known"
+   ],
+   "fix": "Require disclosure of inputs, tests and outputs that can be measured, and do not condition them on explaining internal model workings."
+  },
+  {
+   "id": "constructive-ambiguity",
+   "name": "Open ended key terms",
+   "family": "definitions",
+   "detect": "structure",
+   "origin": "general",
+   "headings": [
+    "Constructive Ambiguity in Definitions"
+   ],
+   "plain": "Key terms left undefined, or defined loosely, let different groups read the law differently, which shifts the real meaning to later disputes.",
+   "cues": [
+    "as defined by the secretary",
+    "reasonable",
+    "appropriate",
+    "in the public interest"
+   ],
+   "fix": "Define each operative term in the bill with examples, and state that the definition applies throughout."
+  },
+  {
+   "id": "definitional-bootstrapping",
+   "name": "Near-identical defined terms",
+   "family": "definitions",
+   "detect": "structure",
+   "origin": "general",
+   "headings": [
+    "Definitional Bootstrapping"
+   ],
+   "plain": "A term defined in one section appears in a slightly different form elsewhere, leaving doubt whether the definition applies.",
+   "cues": [],
+   "fix": "Use each defined term in exactly one form and add a clause that the definition governs every use in the Act."
+  },
+  {
+   "id": "definition-by-exception",
+   "name": "Definition by exclusion list",
+   "family": "definitions",
+   "detect": "word",
+   "origin": "general",
+   "headings": [
+    "The \"Definition by Exception\" Trick"
+   ],
+   "plain": "Defining a term by what it does not include leaves unclear boundaries and invites disputes over excluded categories.",
+   "cues": [
+    "does not include",
+    "shall not include",
+    "excludes"
+   ],
+   "fix": "State affirmatively what is covered, and keep any exclusion list short, closed and justified."
+  },
+  {
+   "id": "lists-and-canons",
+   "name": "Lists and interpretive canons",
+   "family": "definitions",
+   "detect": "structure",
+   "origin": "both",
+   "headings": [
+    "Interpretive Canons as Hidden Architecture",
+    "Inclusion and Exclusion Lists"
+   ],
+   "plain": "Enumerated lists of covered items can be read as excluding everything unlisted, and a short list before a general term can narrow it.",
+   "cues": [
+    "including",
+    "including but not limited to",
+    "such as",
+    "and other"
+   ],
+   "fix": "Add a rule that lists are illustrative, state intended breadth, and avoid short example lists before catch-all terms."
+  },
+  {
+   "id": "unit-selection",
+   "name": "Choice of measurement unit",
+   "family": "evidence",
+   "detect": "structure",
+   "origin": "ai",
+   "headings": [
+    "Unit Selection",
+    "Unit Selection (The AI Version)"
+   ],
+   "plain": "The unit a law uses to count harm, such as net jobs or average screen time, can make the same facts look small or large.",
+   "cues": [
+    "net jobs",
+    "net employment",
+    "average"
+   ],
+   "fix": "Specify the unit in the bill, prefer distributional measures, and require reporting in more than one unit."
+  },
+  {
+   "id": "baseline-choice",
+   "name": "Baseline selection",
+   "family": "evidence",
+   "detect": "structure",
+   "origin": "ai",
+   "headings": [
+    "Baseline Manipulation"
+   ],
+   "plain": "Comparing present conditions to a chosen starting year can make a new harm look like a continuation of existing trends.",
+   "cues": [
+    "baseline",
+    "as compared to",
+    "relative to"
+   ],
+   "fix": "Fix the baseline year in the text with a stated reason, and require sensitivity checks against alternative baselines."
+  },
+  {
+   "id": "temporal-averaging",
+   "name": "Averaging over long periods",
+   "family": "evidence",
+   "detect": "structure",
+   "origin": "ai",
+   "headings": [
+    "Temporal Averaging"
+   ],
+   "plain": "Measuring impact as an average across a year or an election cycle hides concentrated harms that occur in short windows.",
+   "cues": [
+    "annual",
+    "annually",
+    "on average",
+    "per year"
+   ],
+   "fix": "Require measurement over the specific high-risk windows as well as the overall period."
+  },
+  {
+   "id": "geographic-demographic-aggregation",
+   "name": "Aggregated populations hide harm",
+   "family": "evidence",
+   "detect": "structure",
+   "origin": "ai",
+   "headings": [
+    "Geographic and Demographic Aggregation"
+   ],
+   "plain": "Measuring effects across the whole workforce or population can hide harms concentrated in particular places or groups.",
+   "cues": [
+    "the workforce",
+    "the general population",
+    "nationwide"
+   ],
+   "fix": "Require results broken out by region, income, age and other affected groups."
+  },
+  {
+   "id": "threshold-selection",
+   "name": "Threshold for what counts",
+   "family": "definitions",
+   "detect": "word",
+   "origin": "ai",
+   "headings": [
+    "Threshold Selection"
+   ],
+   "plain": "A high or hard to prove threshold for what counts as harm or interference can leave almost nothing covered.",
+   "cues": [
+    "materially altered",
+    "materially affected",
+    "substantial",
+    "significant"
+   ],
+   "fix": "Set thresholds from observable measures such as reach or timing, and avoid proof of outcome effects."
+  },
+  {
+   "id": "ai-system-definition",
+   "name": "Narrow AI system definition",
+   "family": "definitions",
+   "detect": "word",
+   "origin": "ai",
+   "headings": [
+    "Defining \"AI System\" Itself"
+   ],
+   "plain": "A definition limited to large or fully autonomous models leaves out recommendation tools, fine-tuned models and decision support that people rely on.",
+   "cues": [
+    "artificial intelligence system",
+    "covered model",
+    "autonomous",
+    "fully autonomous",
+    "frontier model"
+   ],
+   "fix": "Define by function and effect on people, not by size or autonomy, and cover decision support."
+  },
+  {
+   "id": "harm-definition",
+   "name": "Narrow definition of harm",
+   "family": "definitions",
+   "detect": "word",
+   "origin": "ai",
+   "headings": [
+    "What Constitutes \"Harm\""
+   ],
+   "plain": "Requiring individual, demonstrable, direct harm excludes diffuse or systemic harms that no single person can prove.",
+   "cues": [
+    "direct harm",
+    "proximate cause",
+    "demonstrable harm",
+    "individualized harm",
+    "actual harm"
+   ],
+   "fix": "Define harm to include probabilistic, cumulative and population-level effects."
+  },
+  {
+   "id": "de-minimis-exception",
+   "name": "De minimis thresholds",
+   "family": "definitions",
+   "detect": "word",
+   "origin": "ai",
+   "headings": [
+    "De Minimis Exceptions"
+   ],
+   "plain": "A minimum size below which a deployment is ignored can exempt many small deployments that together have large effects.",
+   "cues": [
+    "de minimis",
+    "fewer than",
+    "less than",
+    "at least",
+    "more than"
+   ],
+   "fix": "Aggregate related deployments toward the threshold and set it on cumulative effect."
+  },
+  {
+   "id": "who-conducts-assessment",
+   "name": "Who runs impact assessments",
+   "family": "evidence",
+   "detect": "structure",
+   "origin": "ai",
+   "headings": [
+    "Who Conducts Impact Assessments"
+   ],
+   "plain": "When the company or its chosen auditor controls the methodology and conduct of an assessment, the assessment may reflect the company's preferences.",
+   "cues": [
+    "impact assessment",
+    "self-assessment",
+    "third-party auditor",
+    "independent auditor"
+   ],
+   "fix": "Require independent assessors chosen by the regulator, with methodology set in rules."
+  },
+  {
+   "id": "counterfactual-framing",
+   "name": "Counterfactual comparison",
+   "family": "evidence",
+   "detect": "structure",
+   "origin": "ai",
+   "headings": [
+    "Counterfactual Framing"
+   ],
+   "plain": "Comparing impact against what would have happened anyway makes the added contribution of a technology look small.",
+   "cues": [
+    "would have occurred",
+    "in the absence of",
+    "but for",
+    "absent the"
+   ],
+   "fix": "Measure absolute and incremental effects separately and do not net out assumed trends."
+  },
+  {
+   "id": "measurable-vs-matters",
+   "name": "Easy metrics over important ones",
+   "family": "evidence",
+   "detect": "structure",
+   "origin": "ai",
+   "headings": [
+    "Measuring What's Measurable Versus What Matters"
+   ],
+   "plain": "Reporting duties built around easy numbers such as compute or API calls can leave out harder to measure harms such as loss of autonomy.",
+   "cues": [
+    "compute",
+    "parameters",
+    "number of users",
+    "api calls"
+   ],
+   "fix": "Require measures tied to outcomes for people, with qualitative evidence where numbers are weak."
+  },
+  {
+   "id": "latency-attribution",
+   "name": "Proof of causation required first",
+   "family": "evidence",
+   "detect": "word",
+   "origin": "ai",
+   "headings": [
+    "Latency and Attribution Problems",
+    "The \"Correlation Isn't Causation\" Filibuster"
+   ],
+   "plain": "Requiring established causal proof before action can delay rules until effects are entrenched, since long term harms take years to document.",
+   "cues": [
+    "causal",
+    "scientifically established",
+    "demonstrated harm",
+    "causation",
+    "causal evidence"
+   ],
+   "fix": "Allow action on credible evidence of risk and use a reasonable likelihood standard."
+  },
+  {
+   "id": "foreseeable-harm",
+   "name": "Foreseeability requirement",
+   "family": "evidence",
+   "detect": "word",
+   "origin": "ai",
+   "headings": [
+    "Requiring Harm to Be \"Foreseeable\""
+   ],
+   "plain": "Limiting liability to foreseeable harm leaves out unexpected behavior of complex systems, which is a main concern.",
+   "cues": [
+    "foreseeable",
+    "reasonably foreseeable"
+   ],
+   "fix": "Pair foreseeability with duties to test for unknown risks, or apply strict liability for high-risk uses."
+  },
+  {
+   "id": "individualizing-systemic-harm",
+   "name": "Individual proof for systemic harm",
+   "family": "evidence",
+   "detect": "structure",
+   "origin": "ai",
+   "headings": [
+    "Individualizing Systemic Harm",
+    "The Epidemiological Gap"
+   ],
+   "plain": "Frameworks that require one person to prove one system caused one injury cannot address effects visible only across populations.",
+   "cues": [
+    "specific individual",
+    "caused by the system",
+    "individual plaintiff"
+   ],
+   "fix": "Allow proof by population-level evidence and statistical showings."
+  },
+  {
+   "id": "future-benefits",
+   "name": "Speculative benefits weighed against harm",
+   "family": "evidence",
+   "detect": "structure",
+   "origin": "ai",
+   "headings": [
+    "Future Benefits as Present Justification"
+   ],
+   "plain": "Cost-benefit rules that count uncertain future gains against documented present harms can tip decisions toward inaction.",
+   "cues": [
+    "cost-benefit",
+    "benefits of innovation",
+    "economic benefits"
+   ],
+   "fix": "Require equal evidence standards on both sides and discount uncertain benefits."
+  },
+  {
+   "id": "new-jobs-assumption",
+   "name": "Assumed job reabsorption",
+   "family": "evidence",
+   "detect": "structure",
+   "origin": "ai",
+   "headings": [
+    "\"New Jobs Will Emerge\" as Statutory Assumption"
+   ],
+   "plain": "Methods that assume displaced workers will find new roles leave out harm in cases where transitions are faster or harder than before.",
+   "cues": [
+    "new jobs",
+    "job creation",
+    "net job"
+   ],
+   "fix": "Measure realized outcomes for displaced workers and do not assume reabsorption."
+  },
+  {
+   "id": "benchmark-gaming",
+   "name": "Benchmark based compliance",
+   "family": "evidence",
+   "detect": "structure",
+   "origin": "ai",
+   "headings": [
+    "Benchmark Gaming"
+   ],
+   "plain": "Compliance measured by fixed benchmarks can be met by tuning to the test while real-world performance differs.",
+   "cues": [
+    "benchmark",
+    "standardized test",
+    "evaluation suite"
+   ],
+   "fix": "Require varied and updated tests including real-world outcome monitoring."
+  },
+  {
+   "id": "preemption-of-states",
+   "name": "Preemption of state law",
+   "family": "actors",
+   "detect": "word",
+   "origin": "both",
+   "headings": [
+    "Preemption Ambiguity",
+    "Preemption of State Action"
+   ],
+   "plain": "Unclear or broad preemption language can replace stronger state laws with a weaker federal rule, or leave a patchwork that is later used to argue for a single weaker standard.",
+   "cues": [
+    "preempt",
+    "supersede",
+    "no state may",
+    "shall not establish or enforce"
+   ],
+   "fix": "State plainly whether the federal rule is a floor or a ceiling and list which state laws are preserved."
+  },
+  {
+   "id": "jurisdictional-fragmentation",
+   "name": "Split agency responsibility",
+   "family": "actors",
+   "detect": "structure",
+   "origin": "general",
+   "headings": [
+    "Jurisdictional Fragmentation",
+    "Parallel Construction of Authority"
+   ],
+   "plain": "Authority divided or overlapping among agencies or committees leaves no single accountable body and gives regulated parties several venues.",
+   "cues": [
+    "in consultation with",
+    "jointly",
+    "concurrent jurisdiction",
+    "in coordination with"
+   ],
+   "fix": "Name one lead agency with clear authority and a duty to resolve overlaps."
+  },
+  {
+   "id": "federal-entity-exemption",
+   "name": "Exemption of federal entities",
+   "family": "actors",
+   "detect": "word",
+   "origin": "general",
+   "headings": [
+    "Exemptions for Federal Entities"
+   ],
+   "plain": "Requirements that apply to others but exclude federal agencies leave the largest public users outside the rule.",
+   "cues": [
+    "federal agency",
+    "sovereign immunity",
+    "does not include any department",
+    "except the federal government"
+   ],
+   "fix": "Apply the requirements to federal agencies or explain each exclusion and set an equal standard."
+  },
+  {
+   "id": "choosing-regulator",
+   "name": "Choice of regulator",
+   "family": "actors",
+   "detect": "structure",
+   "origin": "ai",
+   "headings": [
+    "Choosing the Regulator"
+   ],
+   "plain": "Which agency oversees a subject shapes its culture and priorities, and some choices produce weaker or fragmented oversight.",
+   "cues": [
+    "secretary of commerce",
+    "federal trade commission",
+    "national institute of standards and technology",
+    "designated agency"
+   ],
+   "fix": "Assign oversight to the agency with enforcement authority and expertise, with stated resources."
+  },
+  {
+   "id": "policy-enforcement-split",
+   "name": "Policy and enforcement in different bodies",
+   "family": "actors",
+   "detect": "structure",
+   "origin": "ai",
+   "headings": [
+    "Splitting Policy From Enforcement"
+   ],
+   "plain": "Assigning rulemaking and enforcement to separate bodies with different standards lets each point to the other when gaps appear.",
+   "cues": [],
+   "fix": "Place both functions in one agency or require shared standards and a joint accountability mechanism."
+  },
+  {
+   "id": "deployer-developer-split",
+   "name": "Developer versus deployer duties",
+   "family": "actors",
+   "detect": "structure",
+   "origin": "ai",
+   "headings": [
+    "Defining \"Deployer\" Versus \"Developer\" Responsibility"
+   ],
+   "plain": "When duties are divided between those who build and those who use a system without a clear rule, each can point to the other.",
+   "cues": [
+    "deployer",
+    "developer",
+    "provider",
+    "user of the system"
+   ],
+   "fix": "Assign duties to each role and add joint and several liability where responsibility is shared."
+  },
+  {
+   "id": "platform-model-liability",
+   "name": "Platform versus model liability",
+   "family": "actors",
+   "detect": "structure",
+   "origin": "ai",
+   "headings": [
+    "Platform Versus Model Liability Splitting"
+   ],
+   "plain": "If the law does not say whether model makers, platforms or users are responsible, no party is clearly liable for harmful output.",
+   "cues": [
+    "interactive computer service",
+    "platform",
+    "provider",
+    "user"
+   ],
+   "fix": "Specify the liable party for each type of harm and how liability is shared."
+  },
+  {
+   "id": "extraterritorial-scope",
+   "name": "Extraterritorial reach unclear",
+   "family": "actors",
+   "detect": "structure",
+   "origin": "both",
+   "headings": [
+    "Extraterritoriality Ambiguity",
+    "Extraterritorial Compliance Asymmetry"
+   ],
+   "plain": "Silence or vague wording on whether the law reaches foreign conduct invites arguments that it does not, and foreign firms may escape duties domestic ones bear.",
+   "cues": [
+    "outside the united states",
+    "foreign",
+    "extraterritorial",
+    "extraterritorially"
+   ],
+   "fix": "State the reach of the law, the jurisdictional hooks, and the agent for service of process for foreign firms."
+  },
+  {
+   "id": "regulatory-arbitrage",
+   "name": "Jurisdiction shopping provisions",
+   "family": "actors",
+   "detect": "structure",
+   "origin": "ai",
+   "headings": [
+    "Regulatory Arbitrage Provisions"
+   ],
+   "plain": "Jurisdictional hooks that depend on where a company locates operations let it choose the place with the lightest rules.",
+   "cues": [
+    "principal place of business",
+    "established in",
+    "located in"
+   ],
+   "fix": "Tie coverage to where people are affected, not where the company operates."
+  },
+  {
+   "id": "mutual-recognition",
+   "name": "Mutual recognition of foreign rules",
+   "family": "actors",
+   "detect": "word",
+   "origin": "ai",
+   "headings": [
+    "Mutual Recognition as Downward Pressure",
+    "Mutual Recognition Agreements as Downward Pressure"
+   ],
+   "plain": "Treating weaker foreign regulation as equivalent can lower the effective standard for companies that comply abroad.",
+   "cues": [
+    "equivalent",
+    "substantially equivalent",
+    "mutual recognition",
+    "recognized"
+   ],
+   "fix": "Define equivalence by objective criteria and give the regulator authority to revoke findings."
+  },
+  {
+   "id": "surveillance-laundering",
+   "name": "Military tools reused domestically",
+   "family": "actors",
+   "detect": "external",
+   "origin": "ai",
+   "headings": [
+    "Surveillance Technology Laundering"
+   ],
+   "plain": "Systems built for military use may be reused for domestic policing and fall outside rules written for civilian products.",
+   "cues": [
+    "law enforcement",
+    "military",
+    "national defense",
+    "dual use"
+   ],
+   "fix": "Apply the rules to any use in domestic law enforcement regardless of the system's origin."
+  },
+  {
+   "id": "revolving-door",
+   "name": "No cooling-off period",
+   "family": "actors",
+   "detect": "absence",
+   "origin": "ai",
+   "headings": [
+    "Revolving Door Provisions (or Lack Thereof)"
+   ],
+   "plain": "Without a waiting period for officials moving to regulated firms, the agency can become a training ground for industry staff.",
+   "cues": [],
+   "fix": "Add post-service restrictions and conflict of interest rules for agency staff and board members."
+  },
+  {
+   "id": "delayed-effective-dates",
+   "name": "Delayed effective dates",
+   "family": "timing",
+   "detect": "word",
+   "origin": "general",
+   "headings": [
+    "Delayed Effective Dates and Phase-Ins"
+   ],
+   "plain": "A law may take effect years after passage with extensions built in, leaving time for conditions to change or for it to be amended or defunded.",
+   "cues": [
+    "effective date",
+    "shall take effect",
+    "takes effect",
+    "not later than",
+    "phase-in",
+    "phased"
+   ],
+   "fix": "Use a short fixed effective date, and limit any extension to one with stated conditions and reporting."
+  },
+  {
+   "id": "sunset-clauses",
+   "name": "Sunset clauses",
+   "family": "timing",
+   "detect": "word",
+   "origin": "general",
+   "headings": [
+    "Sunset Clauses"
+   ],
+   "plain": "A provision that expires unless renewed lets opponents end it by blocking reauthorization instead of repealing it.",
+   "cues": [
+    "sunset",
+    "shall expire",
+    "ceases to have effect",
+    "terminate",
+    "shall terminate"
+   ],
+   "fix": "Avoid sunsets for core duties, or make renewal automatic unless Congress acts to end it."
+  },
+  {
+   "id": "phantom-deadlines",
+   "name": "Deadlines without consequences",
+   "family": "timing",
+   "detect": "structure",
+   "origin": "general",
+   "headings": [
+    "Phantom Deadlines"
+   ],
+   "plain": "A deadline for agency action with no consequence for missing it is often ignored, since courts are reluctant to enforce timelines.",
+   "cues": [
+    "not later than",
+    "within 180 days",
+    "within 1 year",
+    "within 18 months",
+    "shall issue final rules"
+   ],
+   "fix": "Add a default rule, such as an interim rule taking effect, or a right to sue if the deadline passes."
+  },
+  {
+   "id": "contingency-triggers",
+   "name": "Activation depends on a finding",
+   "family": "timing",
+   "detect": "word",
+   "origin": "general",
+   "headings": [
+    "Contingency Triggers and Preconditions",
+    "The \"Determination\" Prerequisite"
+   ],
+   "plain": "A mandate that begins only after an official finding or determination may never operate if no one makes the finding.",
+   "cues": [
+    "upon a finding",
+    "upon a determination",
+    "when conditions warrant",
+    "if the secretary determines",
+    "determination"
+   ],
+   "fix": "Set a default effective date and require a published decision by a deadline with reasons."
+  },
+  {
+   "id": "grandfathering",
+   "name": "Grandfathering and prospective-only rules",
+   "family": "timing",
+   "detect": "word",
+   "origin": "both",
+   "headings": [
+    "Savings Clauses and Grandfather Provisions",
+    "Grandfathering Deployed Systems"
+   ],
+   "plain": "Applying rules only to new conduct or new systems exempts existing actors and systems, so impact is felt gradually if at all.",
+   "cues": [
+    "grandfather",
+    "existing",
+    "in effect on the date of enactment",
+    "prior to the date of enactment",
+    "prospective"
+   ],
+   "fix": "Apply rules to existing actors on a defined schedule and set an end date for any exemption."
+  },
+  {
+   "id": "anti-retroactivity-default",
+   "name": "Silence on retroactivity",
+   "family": "timing",
+   "detect": "absence",
+   "origin": "general",
+   "headings": [
+    "Anti-Retroactivity Defaults"
+   ],
+   "plain": "A law silent on retroactivity is presumed not to reach past conduct, which can leave existing violations untouched.",
+   "cues": [],
+   "fix": "State whether the rule applies to conduct before enactment and how continuing violations are treated."
+  },
+  {
+   "id": "pilot-programs",
+   "name": "Pilot programs without a path",
+   "family": "timing",
+   "detect": "word",
+   "origin": "both",
+   "headings": [
+    "\"Pilot Program\" Indefinite Extensions",
+    "Pilot-to-Mandate Gateways With No Forcing Function"
+   ],
+   "plain": "A pilot can be extended or redesigned without ever scaling, and the outcome can be read either as proof that it is enough or that it does not work.",
+   "cues": [
+    "pilot program",
+    "pilot",
+    "demonstration project",
+    "demonstration program"
+   ],
+   "fix": "Set a fixed end date and a rule that the program expands automatically unless Congress or the agency decides otherwise."
+  },
+  {
+   "id": "pre-post-deployment",
+   "name": "Pre versus post deployment standards",
+   "family": "timing",
+   "detect": "structure",
+   "origin": "ai",
+   "headings": [
+    "Post-Deployment Versus Pre-Deployment Standards",
+    "Pre-Deployment Versus Post-Deployment Obligations"
+   ],
+   "plain": "Favoring monitoring after release over testing before release leaves harms to be corrected after the fact, which does not help when effects cannot be reversed.",
+   "cues": [
+    "pre-deployment",
+    "post-deployment",
+    "before deployment",
+    "after deployment",
+    "monitoring"
+   ],
+   "fix": "Require testing before release for high-risk uses along with ongoing monitoring."
+  },
+  {
+   "id": "premature-regulation",
+   "name": "Too early to regulate arguments",
+   "family": "timing",
+   "detect": "word",
+   "origin": "ai",
+   "headings": [
+    "\"Premature Regulation\" Arguments"
+   ],
+   "plain": "Readiness reviews or short reauthorization windows can make the right time to regulate always later, since technology keeps changing.",
+   "cues": [
+    "technology readiness",
+    "reauthorization",
+    "review period",
+    "not yet"
+   ],
+   "fix": "Use performance-based duties that adapt to change, rather than waiting for stability."
+  },
+  {
+   "id": "let-market-correct",
+   "name": "Waiting period for market solutions",
+   "family": "timing",
+   "detect": "word",
+   "origin": "ai",
+   "headings": [
+    "The \"Let the Market Correct\" Window"
+   ],
+   "plain": "Requiring market-based or voluntary solutions to be tried first builds in a waiting period while harm continues, and insufficient is rarely defined.",
+   "cues": [
+    "market-based",
+    "voluntary",
+    "self-regulation",
+    "before issuing"
+   ],
+   "fix": "Define when voluntary measures are insufficient and set a deadline after which mandates apply."
+  },
+  {
+   "id": "international-harmonization",
+   "name": "Consultation with international partners",
+   "family": "timing",
+   "detect": "word",
+   "origin": "ai",
+   "headings": [
+    "International Harmonization as Delay"
+   ],
+   "plain": "A duty to consult or align with international partners can delay action until consensus is reached, which may take years.",
+   "cues": [
+    "international partners",
+    "consult with allies",
+    "harmonize",
+    "international standards"
+   ],
+   "fix": "Allow domestic action to proceed while consultation continues, with a fixed time limit."
+  },
+  {
+   "id": "no-maintenance-duty",
+   "name": "No duty after release",
+   "family": "timing",
+   "detect": "absence",
+   "origin": "ai",
+   "headings": [
+    "No Ongoing Maintenance Obligations",
+    "No Ongoing Maintenance or Update Obligations"
+   ],
+   "plain": "Without ongoing duties, companies can release systems and leave them in use without updates or support while they keep making consequential decisions.",
+   "cues": [],
+   "fix": "Require maintenance, security updates and a notice before withdrawing support for systems in use."
+  },
+  {
+   "id": "model-update-loophole",
+   "name": "Updates do not retrigger review",
+   "family": "timing",
+   "detect": "structure",
+   "origin": "ai",
+   "headings": [
+    "Model Update Loopholes"
+   ],
+   "plain": "If minor updates do not require new review, a system can change substantially over time without fresh evaluation.",
+   "cues": [
+    "substantial modification",
+    "material change",
+    "minor update",
+    "significant change"
+   ],
+   "fix": "Define substantial modification by measurable change and require re-evaluation when it occurs."
+  },
+  {
+   "id": "loading-sequence",
+   "name": "Order of obligations",
+   "family": "timing",
+   "detect": "structure",
+   "origin": "ai",
+   "headings": [
+    "Loading Sequence as Strategy"
+   ],
+   "plain": "Putting disclosure duties first and safety standards later gives time to influence the later rules while the consequences come last.",
+   "cues": [],
+   "fix": "Phase obligations so safety duties take effect no later than disclosure duties."
+  },
+  {
+   "id": "conditional-cascades",
+   "name": "Chained prerequisites",
+   "family": "timing",
+   "detect": "structure",
+   "origin": "ai",
+   "headings": [
+    "Conditional Cascades"
+   ],
+   "plain": "Provisions that each require an earlier step can be reasonable alone but together make implementation depend on a long chain.",
+   "cues": [
+    "after the completion of",
+    "following the issuance of",
+    "once the secretary has"
+   ],
+   "fix": "Limit dependencies, give each step a deadline, and provide a default if a step is missed."
+  },
+  {
+   "id": "transition-speed-mismatch",
+   "name": "Transition timelines slower than change",
+   "family": "timing",
+   "detect": "structure",
+   "origin": "ai",
+   "headings": [
+    "Transition Timelines Disconnected From Speed",
+    "Transition Timelines Disconnected From Actual Displacement Speed"
+   ],
+   "plain": "Multi-year timelines for support or compliance can lag changes that happen within months, leaving affected people without help.",
+   "cues": [
+    "within 5 years",
+    "over a period of"
+   ],
+   "fix": "Tie timelines to measured speed of change and include triggers to accelerate."
+  },
+  {
+   "id": "rolling-emergency-authorization",
+   "name": "Emergency authorizations without end",
+   "family": "timing",
+   "detect": "word",
+   "origin": "ai",
+   "headings": [
+    "Emergency Deployment Authorizations"
+   ],
+   "plain": "Emergency approvals with no end date or compliance requirement allow systems to become entrenched.",
+   "cues": [
+    "emergency",
+    "exigent",
+    "public safety emergency"
+   ],
+   "fix": "Add a sunset, reporting and a later compliance date to any emergency authorization."
+  },
+  {
+   "id": "reciprocity-effectiveness",
+   "name": "Takes effect when others act",
+   "family": "timing",
+   "detect": "word",
+   "origin": "general",
+   "headings": [
+    "Conditional Effectiveness Based on Reciprocity"
+   ],
+   "plain": "Provisions that apply only when other countries adopt matching measures may remain inactive indefinitely.",
+   "cues": [
+    "reciprocal",
+    "when other nations",
+    "upon the adoption by"
+   ],
+   "fix": "Set an independent effective date with a review rather than waiting on foreign action."
+  },
+  {
+   "id": "waiver-authority",
+   "name": "Waiver and exemption authority",
+   "family": "exceptions",
+   "detect": "word",
+   "origin": "both",
+   "headings": [
+    "Waiver and Exemption Authority",
+    "Executive Waiver Without Notification",
+    "Executive Waiver Without Congressional Notification"
+   ],
+   "plain": "Authority to grant waivers for good cause or hardship, especially without notice to Congress or the public, can be used selectively to reduce the law's effect.",
+   "cues": [
+    "waive",
+    "waiver",
+    "for good cause",
+    "undue hardship",
+    "exemption",
+    "exempt"
+   ],
+   "fix": "Limit waivers by criteria, time, and public notice, with reporting to Congress."
+  },
+  {
+   "id": "safe-harbor-swallows",
+   "name": "Broad safe harbors",
+   "family": "exceptions",
+   "detect": "word",
+   "origin": "general",
+   "headings": [
+    "Safe Harbors That Swallow the Rule"
+   ],
+   "plain": "A safe harbor deeming certain conduct compliant can be broad enough to cover most of the behavior the prohibition was meant to address.",
+   "cues": [
+    "safe harbor",
+    "deemed to comply",
+    "shall be deemed",
+    "presumed compliant"
+   ],
+   "fix": "Narrow the safe harbor to defined practices, make presumptions rebuttable and review them periodically."
+  },
+  {
+   "id": "notwithstanding-clause",
+   "name": "Notwithstanding clauses",
+   "family": "exceptions",
+   "detect": "word",
+   "origin": "general",
+   "headings": [
+    "\"Notwithstanding\" Clauses",
+    "The \"Notwithstanding\" Scope Problem"
+   ],
+   "plain": "Notwithstanding language overrides other law, and its scope, whether the Act or the code and whether it covers regulations, is often unclear.",
+   "cues": [
+    "notwithstanding any other provision of law",
+    "notwithstanding any other provision of this act",
+    "notwithstanding any other law"
+   ],
+   "fix": "List the specific provisions overridden and state whether regulations are included."
+  },
+  {
+   "id": "otherwise-provided-by-law",
+   "name": "Or as otherwise provided by law",
+   "family": "exceptions",
+   "detect": "word",
+   "origin": "general",
+   "headings": [
+    "Strategic Use of \"Or as Otherwise Provided by Law\""
+   ],
+   "plain": "Language excepting what is otherwise provided by law can let later statutes or regulations create exceptions the drafters never reviewed.",
+   "cues": [
+    "or as otherwise provided by law",
+    "except as otherwise provided by law",
+    "unless otherwise provided"
+   ],
+   "fix": "Cite the specific laws that create exceptions, and limit to those in effect at enactment."
+  },
+  {
+   "id": "dual-reading",
+   "name": "Provisions readable two ways",
+   "family": "exceptions",
+   "detect": "word",
+   "origin": "general",
+   "headings": [
+    "Dual-Reading Provisions"
+   ],
+   "plain": "A sentence prohibiting conduct except in compliance with a standard can read as both a ban and a permission, depending on where the standard is set.",
+   "cues": [
+    "except in compliance with",
+    "except as provided in",
+    "unless in accordance with"
+   ],
+   "fix": "Separate the prohibition from the permitted conduct and define permissions by named conditions."
+  },
+  {
+   "id": "national-security-carveout",
+   "name": "National security carve-out",
+   "family": "exceptions",
+   "detect": "word",
+   "origin": "ai",
+   "headings": [
+    "The National Security Carve-Out",
+    "National Security Override Clauses"
+   ],
+   "plain": "Broad exemptions or waivers for national security can be defined widely enough to cover surveillance, policing and border uses.",
+   "cues": [
+    "national security",
+    "national defense",
+    "homeland security",
+    "intelligence community"
+   ],
+   "fix": "Define the exemption narrowly, require specific findings, and add oversight reporting."
+  },
+  {
+   "id": "trade-secret-exemption",
+   "name": "Trade secret exemptions",
+   "family": "exceptions",
+   "detect": "word",
+   "origin": "ai",
+   "headings": [
+    "Trade Secret Exemptions",
+    "Trade Secret Exemptions for Algorithmic Transparency"
+   ],
+   "plain": "Trade secret protection can limit disclosure to high-level descriptions, withholding detail needed for independent evaluation.",
+   "cues": [
+    "trade secret",
+    "proprietary",
+    "confidential business information",
+    "commercially sensitive"
+   ],
+   "fix": "Allow confidential disclosure to regulators and vetted auditors and bar use of trade secret claims to block review."
+  },
+  {
+   "id": "open-source-definition",
+   "name": "Open source exemption",
+   "family": "exceptions",
+   "detect": "word",
+   "origin": "ai",
+   "headings": [
+    "The \"Open Source\" Definitional Battle"
+   ],
+   "plain": "How open source is defined decides whether an exemption covers genuinely open projects or large companies releasing parts of their models.",
+   "cues": [
+    "open source",
+    "open-source",
+    "publicly available weights"
+   ],
+   "fix": "Define open source by license terms and exclude commercial deployments at scale."
+  },
+  {
+   "id": "consent-fiction",
+   "name": "Consent by clicking agree",
+   "family": "exceptions",
+   "detect": "word",
+   "origin": "ai",
+   "headings": [
+    "The Consent Fiction"
+   ],
+   "plain": "Treating a click on lengthy terms as consent satisfies the law's wording while giving users little real choice.",
+   "cues": [
+    "consent",
+    "opt-in",
+    "terms of service",
+    "agrees to"
+   ],
+   "fix": "Require clear, specific, separate consent and bar consent as a substitute for core duties."
+  },
+  {
+   "id": "parental-responsibility",
+   "name": "Parental controls as safe harbor",
+   "family": "exceptions",
+   "detect": "word",
+   "origin": "ai",
+   "headings": [
+    "The \"Parental Responsibility\" Deflection"
+   ],
+   "plain": "Offering parental controls can be treated as meeting the duty, shifting responsibility to parents who may lack technical knowledge.",
+   "cues": [
+    "parental controls",
+    "parental consent",
+    "parents"
+   ],
+   "fix": "Keep duties on the company and treat parental tools as an addition and not a defense."
+  },
+  {
+   "id": "synthetic-data-escape",
+   "name": "Synthetic data exemption",
+   "family": "exceptions",
+   "detect": "word",
+   "origin": "ai",
+   "headings": [
+    "Synthetic Data as Regulatory Escape",
+    "Synthetic Data as a Regulatory Escape"
+   ],
+   "plain": "Data generated from personal data may be treated as outside privacy rules, even though it carries information derived from individuals.",
+   "cues": [
+    "synthetic data",
+    "de-identified",
+    "anonymized",
+    "aggregated data"
+   ],
+   "fix": "Treat data derived from personal data as covered unless re-identification is shown to be impossible."
+  },
+  {
+   "id": "classified-escape",
+   "name": "Classification as escape",
+   "family": "exceptions",
+   "detect": "external",
+   "origin": "ai",
+   "headings": [
+    "Classification as Regulatory Escape"
+   ],
+   "plain": "Systems designated classified fall outside public review, and records requests and challenges become effectively impossible.",
+   "cues": [
+    "classified",
+    "foia",
+    "exempt from disclosure"
+   ],
+   "fix": "Provide cleared oversight bodies with access and require periodic declassification review."
+  },
+  {
+   "id": "manipulation-definition",
+   "name": "Manipulation versus persuasion",
+   "family": "definitions",
+   "detect": "word",
+   "origin": "ai",
+   "headings": [
+    "Defining \"Manipulation\" Versus \"Persuasion\""
+   ],
+   "plain": "Requiring deceptive intent or coercion before something counts as manipulation leaves out engagement design that exploits users without such intent.",
+   "cues": [
+    "deceptive",
+    "coercion",
+    "intent to deceive",
+    "manipulat"
+   ],
+   "fix": "Define manipulation by effect on users and by design features, without requiring proof of intent."
+  },
+  {
+   "id": "content-neutrality-deflection",
+   "name": "Content neutral framing",
+   "family": "definitions",
+   "detect": "word",
+   "origin": "ai",
+   "headings": [
+    "\"Content Neutrality\" as a Deflection"
+   ],
+   "plain": "Treating algorithmic curation as content neutral leaves amplification of harmful material outside rules aimed at content.",
+   "cues": [
+    "content neutral",
+    "content-neutral",
+    "viewpoint neutral"
+   ],
+   "fix": "Regulate design and amplification features directly, regardless of content."
+  },
+  {
+   "id": "synthetic-content-definition",
+   "name": "Narrow synthetic content definition",
+   "family": "definitions",
+   "detect": "word",
+   "origin": "ai",
+   "headings": [
+    "Defining \"Synthetic Content\" Narrowly"
+   ],
+   "plain": "Requiring content to be entirely AI-generated leaves out mixed content that a person edited from an AI draft.",
+   "cues": [
+    "synthetic content",
+    "entirely generated",
+    "wholly generated",
+    "ai-generated"
+   ],
+   "fix": "Cover content that is wholly or substantially generated or altered by AI."
+  },
+  {
+   "id": "deepfake-definition",
+   "name": "Narrow deepfake definition",
+   "family": "definitions",
+   "detect": "word",
+   "origin": "ai",
+   "headings": [
+    "Defining \"Deepfake\" to Exclude Most Synthetic Media"
+   ],
+   "plain": "A narrow deepfake definition can exclude fake news text, synthetic images of invented events and made-up quotes.",
+   "cues": [
+    "deepfake",
+    "digital replica",
+    "realistic",
+    "appears to a reasonable person"
+   ],
+   "fix": "Define by deception of a reasonable viewer and include text, image, audio and video."
+  },
+  {
+   "id": "addictive-design-definition",
+   "name": "Narrow addictive design definition",
+   "family": "definitions",
+   "detect": "word",
+   "origin": "ai",
+   "headings": [
+    "Defining \"Addictive Design\" Impossibly Narrowly"
+   ],
+   "plain": "Tying addictive design to clinical criteria leaves out compulsive-use features, so engaging designs remain allowed while addictive ones are banned.",
+   "cues": [
+    "addictive",
+    "clinical",
+    "compulsive",
+    "engagement"
+   ],
+   "fix": "Define by design features such as infinite scroll and variable rewards, with no clinical test."
+  },
+  {
+   "id": "emotional-ai-gap",
+   "name": "Companion systems outside categories",
+   "family": "definitions",
+   "detect": "structure",
+   "origin": "ai",
+   "headings": [
+    "Emotional AI and Companionship Loopholes"
+   ],
+   "plain": "AI companions may not fit existing categories, so it can be argued that existing law is enough or does not apply.",
+   "cues": [
+    "companion",
+    "chatbot",
+    "conversational"
+   ],
+   "fix": "Add a category for emotionally interactive systems with specific duties."
+  },
+  {
+   "id": "vulnerable-populations-definition",
+   "name": "Narrow vulnerable population definition",
+   "family": "definitions",
+   "detect": "word",
+   "origin": "ai",
+   "headings": [
+    "Defining \"Vulnerable Populations\" Narrowly"
+   ],
+   "plain": "A narrow list of vulnerable groups can leave out minors, people with cognitive decline, people in crisis and the economically desperate.",
+   "cues": [
+    "vulnerable",
+    "minors",
+    "under the age of",
+    "protected class"
+   ],
+   "fix": "Define vulnerability by circumstances and include a regulator power to expand it."
+  },
+  {
+   "id": "incident-definition",
+   "name": "Incident reporting definitions",
+   "family": "definitions",
+   "detect": "word",
+   "origin": "ai",
+   "headings": [
+    "Incident Reporting Definitions"
+   ],
+   "plain": "Incident definitions requiring physical harm or materiality exclude near-misses, statistical discrimination and gradual harms.",
+   "cues": [
+    "serious incident",
+    "incident",
+    "material harm",
+    "physical harm",
+    "bodily injury"
+   ],
+   "fix": "Define incidents to include near-misses and non-physical harms, with low thresholds for reporting."
+  },
+  {
+   "id": "risk-framework-definition",
+   "name": "Risk tiers set narrowly",
+   "family": "definitions",
+   "detect": "structure",
+   "origin": "ai",
+   "headings": [
+    "Risk-Based Frameworks That Industry Defines"
+   ],
+   "plain": "Risk categories focused on physical safety leave out risks such as labor disruption, democratic erosion and concentration of power.",
+   "cues": [
+    "high-risk",
+    "risk-based",
+    "risk tier",
+    "unacceptable risk"
+   ],
+   "fix": "Define risk to include societal, economic and civil rights harms."
+  },
+  {
+   "id": "algorithmic-vs-ai-label",
+   "name": "Algorithmic versus AI label",
+   "family": "definitions",
+   "detect": "word",
+   "origin": "ai",
+   "headings": [
+    "\"Algorithmic\" Versus \"AI\""
+   ],
+   "plain": "Choosing the term algorithmic or AI changes how broad a law appears, and the label can narrow or widen what is covered.",
+   "cues": [
+    "algorithmic",
+    "algorithm",
+    "automated decision",
+    "artificial intelligence"
+   ],
+   "fix": "Define the term by functions covered and use it consistently."
+  },
+  {
+   "id": "displacement-vs-augmentation",
+   "name": "Displacement versus augmentation",
+   "family": "definitions",
+   "detect": "word",
+   "origin": "ai",
+   "headings": [
+    "Defining \"Displacement\" Versus \"Augmentation\""
+   ],
+   "plain": "Regulating only replacement of workers leaves out augmentation that often turns into replacement over time.",
+   "cues": [
+    "displace",
+    "augment",
+    "replace workers",
+    "replacement"
+   ],
+   "fix": "Cover tasks changed or reduced as well as full job loss."
+  },
+  {
+   "id": "ai-dependent-workers",
+   "name": "Algorithmically managed workers",
+   "family": "definitions",
+   "detect": "word",
+   "origin": "ai",
+   "headings": [
+    "Classifying AI-Dependent Workers"
+   ],
+   "plain": "Workers managed by algorithms may not be legally recognized as employees, leaving employment protections outside reach.",
+   "cues": [
+    "independent contractor",
+    "employee",
+    "worker",
+    "gig"
+   ],
+   "fix": "Define employment by control and dependence, including algorithmic control."
+  },
+  {
+   "id": "export-control-definition",
+   "name": "Narrow export control definitions",
+   "family": "definitions",
+   "detect": "word",
+   "origin": "ai",
+   "headings": [
+    "Export Control Definitions"
+   ],
+   "plain": "Narrow definitions of controlled technology cover specific models while training methods and know-how move freely.",
+   "cues": [
+    "export",
+    "controlled technology",
+    "dual-use",
+    "export administration"
+   ],
+   "fix": "Define controlled items by capability and include methods and know-how."
+  },
+  {
+   "id": "litigation-friendly-drafting",
+   "name": "Ambiguity that invites litigation",
+   "family": "enforcement",
+   "detect": "structure",
+   "origin": "general",
+   "headings": [
+    "Litigation-Friendly Drafting"
+   ],
+   "plain": "Ambiguous terms and unclear standing invite legal challenges that can delay implementation for years.",
+   "cues": [],
+   "fix": "Define terms and standing clearly and add severability and expedited review."
+  },
+  {
+   "id": "weak-enforcement",
+   "name": "Weak or absent enforcement",
+   "family": "enforcement",
+   "detect": "absence",
+   "origin": "general",
+   "headings": [
+    "Purposely Weak Enforcement Mechanisms"
+   ],
+   "plain": "A mandate with no private right of action, no penalties or only small fines gives little reason to comply, especially if the sole enforcer is underfunded.",
+   "cues": [
+    "civil penalty not to exceed",
+    "no private right of action",
+    "nothing in this act creates"
+   ],
+   "fix": "Add meaningful penalties, enforcement funding and a private right of action."
+  },
+  {
+   "id": "judicial-review-limits",
+   "name": "Judicial review limits",
+   "family": "enforcement",
+   "detect": "word",
+   "origin": "general",
+   "headings": [
+    "Judicial Review Limitations"
+   ],
+   "plain": "Limits on which courts may hear challenges, short filing periods or deferential review standards can restrict or delay legal review.",
+   "cues": [
+    "judicial review",
+    "arbitrary and capricious",
+    "not subject to judicial review",
+    "within 60 days",
+    "exclusive jurisdiction"
+   ],
+   "fix": "Set clear venue, reasonable filing times and the standard of review."
+  },
+  {
+   "id": "exhaustion-requirements",
+   "name": "Exhaustion of remedies",
+   "family": "enforcement",
+   "detect": "word",
+   "origin": "general",
+   "headings": [
+    "Procedural Exhaustion Requirements"
+   ],
+   "plain": "Requiring every administrative step before court can take years, by which time the issue may be moot.",
+   "cues": [
+    "exhaust",
+    "administrative remedies",
+    "reconsideration",
+    "administrative appeal"
+   ],
+   "fix": "Set time limits for each step and allow court access if deadlines pass."
+  },
+  {
+   "id": "standing-ambiguity",
+   "name": "Unclear standing to sue",
+   "family": "enforcement",
+   "detect": "structure",
+   "origin": "both",
+   "headings": [
+    "Strategic Ambiguity About Standing",
+    "Community Standing for Deployment Decisions"
+   ],
+   "plain": "When it is unclear who may sue, or affected communities have no way to challenge a deployment, enforcement depends on the agency's willingness.",
+   "cues": [
+    "any person",
+    "aggrieved",
+    "affected person",
+    "standing"
+   ],
+   "fix": "State who may sue and allow community and organization standing."
+  },
+  {
+   "id": "private-right-ambiguity",
+   "name": "Unclear private right of action",
+   "family": "enforcement",
+   "detect": "absence",
+   "origin": "general",
+   "headings": [
+    "Strategic Ambiguity About Private Right of Action"
+   ],
+   "plain": "When courts split on whether a statute implies a private right of action, individuals may be able to sue in some places and not others.",
+   "cues": [
+    "private right of action",
+    "civil action",
+    "may bring an action"
+   ],
+   "fix": "State expressly whether individuals may sue and for what remedies."
+  },
+  {
+   "id": "burden-of-proof",
+   "name": "Burden placed on the enforcer",
+   "family": "enforcement",
+   "detect": "structure",
+   "origin": "both",
+   "headings": [
+    "Asymmetric Burden of Proof Assignments",
+    "Asymmetric Information Requirements"
+   ],
+   "plain": "Requiring regulators to prove harm without requiring companies to show safety makes enforcement slow and costly.",
+   "cues": [
+    "burden of proof",
+    "clear and convincing",
+    "preponderance",
+    "the secretary shall demonstrate"
+   ],
+   "fix": "Require developers to show safety for high-risk uses and shift the burden after a threshold showing."
+  },
+  {
+   "id": "damages-vs-injunction",
+   "name": "Money only remedies",
+   "family": "enforcement",
+   "detect": "word",
+   "origin": "ai",
+   "headings": [
+    "Monetary Damages Versus Injunctive Relief"
+   ],
+   "plain": "Remedies limited to fines treat violations as a cost of business, while the ability to halt a system is a stronger deterrent.",
+   "cues": [
+    "monetary damages",
+    "civil penalty",
+    "injunctive relief",
+    "fine"
+   ],
+   "fix": "Include injunctive relief and the power to suspend a system."
+  },
+  {
+   "id": "damages-caps",
+   "name": "Caps on damages and liability",
+   "family": "enforcement",
+   "detect": "word",
+   "origin": "ai",
+   "headings": [
+    "Caps on Damages and Liability"
+   ],
+   "plain": "Statutory caps limit what injured people can recover, so losses above the cap fall on them instead of the company.",
+   "cues": [
+    "not to exceed",
+    "cap",
+    "limit of liability",
+    "maximum"
+   ],
+   "fix": "Remove caps or index them to revenue and harm."
+  },
+  {
+   "id": "no-structural-remedies",
+   "name": "No structural remedies",
+   "family": "enforcement",
+   "detect": "word",
+   "origin": "ai",
+   "headings": [
+    "No Structural Remedies"
+   ],
+   "plain": "Excluding court power to order changes to algorithms or divestiture of data limits remedies to money.",
+   "cues": [
+    "structural relief",
+    "divestiture",
+    "modify the algorithm"
+   ],
+   "fix": "Authorize courts to order modifications, deletion of models and data divestiture."
+  },
+  {
+   "id": "penalties-flat",
+   "name": "Flat penalties that shrink with scale",
+   "family": "enforcement",
+   "detect": "word",
+   "origin": "ai",
+   "headings": [
+    "Penalty Structures That Diminish With Scale"
+   ],
+   "plain": "Flat per-violation penalties are small for large companies, while revenue-based penalties scale with size.",
+   "cues": [
+    "per violation",
+    "not more than $",
+    "fine of",
+    "civil penalty of"
+   ],
+   "fix": "Set penalties as the greater of a fixed sum or a percentage of revenue."
+  },
+  {
+   "id": "challenge-notification",
+   "name": "No notice of AI decisions",
+   "family": "enforcement",
+   "detect": "absence",
+   "origin": "ai",
+   "headings": [
+    "Who Gets to Challenge AI Decisions"
+   ],
+   "plain": "Without notice that AI shaped a decision, affected people cannot know they have something to challenge.",
+   "cues": [
+    "notice",
+    "notify",
+    "explanation",
+    "adverse action"
+   ],
+   "fix": "Require notice, explanation and an appeal path for AI-mediated decisions."
+  },
+  {
+   "id": "arbitration-class-waivers",
+   "name": "Arbitration and class waivers",
+   "family": "enforcement",
+   "detect": "word",
+   "origin": "ai",
+   "headings": [
+    "Collective Action and Aggregation Barriers",
+    "Mandatory Arbitration and Class Action Waivers"
+   ],
+   "plain": "Mandatory arbitration, class action waivers and individualized proof requirements prevent claims from being combined, leaving little remedy for widely shared harms.",
+   "cues": [
+    "arbitration",
+    "class action",
+    "waiver",
+    "pre-dispute"
+   ],
+   "fix": "Bar pre-dispute arbitration and class waivers and allow aggregate proof."
+  },
+  {
+   "id": "limitations-period",
+   "name": "Short limitations period",
+   "family": "enforcement",
+   "detect": "word",
+   "origin": "ai",
+   "headings": [
+    "Statute of Limitations for AI Harm"
+   ],
+   "plain": "A short filing period can close the window before many harms are discovered.",
+   "cues": [
+    "statute of limitations",
+    "within 1 year",
+    "within two years",
+    "after the date of the violation"
+   ],
+   "fix": "Start the clock at discovery and allow a longer period."
+  },
+  {
+   "id": "board-liability",
+   "name": "No board level duties",
+   "family": "enforcement",
+   "detect": "absence",
+   "origin": "ai",
+   "headings": [
+    "Board-Level Safety Obligations"
+   ],
+   "plain": "Without duties at board level, responsibility rests with the company, which changes behavior less than personal accountability.",
+   "cues": [
+    "board of directors",
+    "officer",
+    "director"
+   ],
+   "fix": "Add oversight duties and personal liability for directors and officers in cases of knowing violation."
+  },
+  {
+   "id": "defunding-without-repealing",
+   "name": "Defunding instead of repeal",
+   "family": "money",
+   "detect": "word",
+   "origin": "general",
+   "headings": [
+    "Defunding Without Repealing"
+   ],
+   "plain": "A spending rider barring enforcement leaves the law on the books but inactive, avoiding a visible repeal vote.",
+   "cues": [
+    "none of the funds",
+    "no funds appropriated",
+    "may be used to enforce",
+    "shall be used to implement"
+   ],
+   "fix": "Provide a dedicated funding source and a standing authority not dependent on annual riders."
+  },
+  {
+   "id": "conditional-appropriations",
+   "name": "Conditional appropriations",
+   "family": "money",
+   "detect": "word",
+   "origin": "general",
+   "headings": [
+    "Conditional Appropriations"
+   ],
+   "plain": "Funding made conditional on certifications or reports means money does not flow if the condition is never met.",
+   "cues": [
+    "subject to",
+    "conditioned upon",
+    "only after",
+    "provided that",
+    "upon certification"
+   ],
+   "fix": "Fund the work without conditions or give a default release of funds."
+  },
+  {
+   "id": "scoring-gamesmanship",
+   "name": "Cost scoring windows",
+   "family": "money",
+   "detect": "structure",
+   "origin": "general",
+   "headings": [
+    "Scoring Gamesmanship"
+   ],
+   "plain": "Provisions can be built so costs fall outside the budget scoring window, making the law appear free while costs arrive later.",
+   "cues": [
+    "fiscal year",
+    "10-year",
+    "for each of fiscal years"
+   ],
+   "fix": "Report costs beyond the scoring period and avoid timing that moves costs out of it."
+  },
+  {
+   "id": "unfunded-mandates",
+   "name": "Mandates without money",
+   "family": "money",
+   "detect": "absence",
+   "origin": "general",
+   "headings": [
+    "Intergovernmental Mandates Without Funding"
+   ],
+   "plain": "Requirements placed on state or local governments with no funding leave them to pay or not comply.",
+   "cues": [
+    "state and local governments",
+    "shall comply",
+    "unfunded"
+   ],
+   "fix": "Appropriate funds or condition the mandate on funding."
+  },
+  {
+   "id": "authorization-vs-appropriation",
+   "name": "Authorized but not funded",
+   "family": "money",
+   "detect": "word",
+   "origin": "general",
+   "headings": [
+    "The Appropriations-Authorization Distinction"
+   ],
+   "plain": "A large authorization number can make a program look funded while actual appropriations are far smaller.",
+   "cues": [
+    "there are authorized to be appropriated",
+    "such sums as may be necessary",
+    "authorization of appropriations"
+   ],
+   "fix": "Pair authorizations with mandatory funding or require reporting of the gap."
+  },
+  {
+   "id": "anti-deficiency-triage",
+   "name": "Underfunded duties force triage",
+   "family": "money",
+   "detect": "structure",
+   "origin": "general",
+   "headings": [
+    "Anti-Deficiency Act Interactions"
+   ],
+   "plain": "A mandate funded below the cost of full compliance leaves staff to choose which parts to enforce, since spending beyond appropriations risks personal liability.",
+   "cues": [
+    "subject to the availability of appropriations",
+    "to the extent funds are available"
+   ],
+   "fix": "Match funding to duties or specify which duties take priority."
+  },
+  {
+   "id": "fee-funded-dependency",
+   "name": "Regulator funded by industry fees",
+   "family": "money",
+   "detect": "structure",
+   "origin": "ai",
+   "headings": [
+    "Funding Mechanisms That Create Dependency"
+   ],
+   "plain": "A regulator funded by fees from those it regulates may face budget pressure when it enforces strongly.",
+   "cues": [
+    "fees",
+    "user fee",
+    "assessments on",
+    "fee collected"
+   ],
+   "fix": "Fund the regulator through appropriations or insulate fee revenue from enforcement outcomes."
+  },
+  {
+   "id": "tax-treatment",
+   "name": "Tax treatment of AI investment",
+   "family": "money",
+   "detect": "structure",
+   "origin": "ai",
+   "headings": [
+    "Tax Treatment of AI Investment"
+   ],
+   "plain": "Tax rules such as accelerated depreciation and credits make deployment profitable regardless of social effects.",
+   "cues": [
+    "accelerated depreciation",
+    "research credit",
+    "tax credit",
+    "deduction"
+   ],
+   "fix": "Review tax incentives alongside regulation and condition them on compliance."
+  },
+  {
+   "id": "insurance-omission",
+   "name": "No insurance requirement",
+   "family": "money",
+   "detect": "absence",
+   "origin": "ai",
+   "headings": [
+    "Insurance and Bonding Omissions"
+   ],
+   "plain": "Without mandatory liability insurance, there is no outside assessment of risk and no guaranteed funds for injured people.",
+   "cues": [
+    "insurance",
+    "bond",
+    "financial responsibility"
+   ],
+   "fix": "Require insurance or bonding scaled to risk."
+  },
+  {
+   "id": "productivity-gains",
+   "name": "Gains go to capital",
+   "family": "money",
+   "detect": "structure",
+   "origin": "ai",
+   "headings": [
+    "Productivity Gains Attribution"
+   ],
+   "plain": "With no mechanism for sharing productivity gains, benefits accrue to owners, and transition funds can be described as penalizing innovation.",
+   "cues": [
+    "windfall",
+    "dividend",
+    "transition fund"
+   ],
+   "fix": "Include a defined mechanism for sharing gains or funding transitions."
+  },
+  {
+   "id": "vagueness-and-delegation",
+   "name": "Undefined standards left to agencies",
+   "family": "delegation",
+   "detect": "word",
+   "origin": "general",
+   "headings": [
+    "Vagueness and Delegation"
+   ],
+   "plain": "Terms like reasonable or appropriate left undefined push hard choices to agencies, whose rules can then be challenged and delayed.",
+   "cues": [
+    "reasonable",
+    "appropriate",
+    "as practicable",
+    "in the public interest",
+    "as necessary",
+    "as the secretary determines"
+   ],
+   "fix": "Define standards in the bill or give objective criteria and a deadline for the rule."
+  },
+  {
+   "id": "rulemaking-delay-mechanisms",
+   "name": "Layered rulemaking requirements",
+   "family": "delegation",
+   "detect": "structure",
+   "origin": "general",
+   "headings": [
+    "Rulemaking Requirements as Delay Mechanisms"
+   ],
+   "plain": "Stacked analyses and consultations before a rule takes effect add months or years, and each creates a record open to challenge.",
+   "cues": [
+    "cost-benefit analysis",
+    "regulatory flexibility",
+    "environmental assessment",
+    "interagency consultation",
+    "notice and comment"
+   ],
+   "fix": "Limit analytic steps, set a total deadline and allow interim rules."
+  },
+  {
+   "id": "incorporation-by-reference",
+   "name": "Cross-references and incorporation",
+   "family": "delegation",
+   "detect": "word",
+   "origin": "general",
+   "headings": [
+    "Cross-Referencing and Incorporation by Reference"
+   ],
+   "plain": "Defining terms by reference to other laws or private documents makes the law hard to read and shifts meaning if the source changes.",
+   "cues": [
+    "as defined in",
+    "incorporated by reference",
+    "in accordance with section",
+    "pursuant to"
+   ],
+   "fix": "Restate key definitions in the text and fix the version of any referenced document."
+  },
+  {
+   "id": "informal-guidance",
+   "name": "Guidance functioning as law",
+   "family": "delegation",
+   "detect": "external",
+   "origin": "general",
+   "headings": [
+    "Informal Guidance as Shadow Law"
+   ],
+   "plain": "Guidance documents and letters are not binding but are treated as law by regulated parties, can change without notice and comment and operate out of public view.",
+   "cues": [
+    "guidance",
+    "guidelines",
+    "frequently asked questions",
+    "dear colleague"
+   ],
+   "fix": "Require notice and comment for guidance with significant effect and publish it centrally."
+  },
+  {
+   "id": "private-standards-delegation",
+   "name": "Private and industry standards",
+   "family": "delegation",
+   "detect": "word",
+   "origin": "both",
+   "headings": [
+    "Constructive Delegation to Private Parties",
+    "Regulatory Capture of Standards Bodies"
+   ],
+   "plain": "Requiring compliance with industry or private standards hands rule content to standards bodies where regulated parties are heavily represented.",
+   "cues": [
+    "consensus standard",
+    "industry standard",
+    "nist",
+    "iso",
+    "ieee",
+    "generally accepted",
+    "voluntary consensus"
+   ],
+   "fix": "Specify required outcomes in the bill, adopt standards by rule and require balanced participation in standards bodies."
+  },
+  {
+   "id": "layered-delegation",
+   "name": "Delegation through several layers",
+   "family": "delegation",
+   "detect": "structure",
+   "origin": "general",
+   "headings": [
+    "Layered Delegation Chains"
+   ],
+   "plain": "Authority passed from agency to sub-agency to regional or local bodies compounds discretion until the original mandate is hard to recognize.",
+   "cues": [
+    "may delegate",
+    "delegate to",
+    "local authorities",
+    "regional offices"
+   ],
+   "fix": "Limit delegation depth and require reporting on how each level applies the mandate."
+  },
+  {
+   "id": "certification-bottlenecks",
+   "name": "Certification gatekeepers",
+   "family": "delegation",
+   "detect": "structure",
+   "origin": "both",
+   "headings": [
+    "Certification and Accreditation Bottlenecks",
+    "The \"Responsible AI\" Certification Industry"
+   ],
+   "plain": "Compliance through certified processes or accredited bodies can stall if the infrastructure does not exist, or can depend on certifiers paid by those they certify.",
+   "cues": [
+    "certified",
+    "accredited",
+    "certification",
+    "third-party auditor",
+    "approved methodology"
+   ],
+   "fix": "Set up certification capacity before the duty applies, limit certifier conflicts and allow alternatives."
+  },
+  {
+   "id": "future-amendments-incorporated",
+   "name": "Incorporation as amended",
+   "family": "delegation",
+   "detect": "word",
+   "origin": "general",
+   "headings": [
+    "Incorporation of Future Actions"
+   ],
+   "plain": "Referencing standards as amended from time to time changes the law's content without a new vote, handing control to whoever maintains the document.",
+   "cues": [
+    "as amended from time to time",
+    "as may be amended",
+    "as in effect on",
+    "as updated"
+   ],
+   "fix": "Fix the referenced version by date and require review before adopting changes."
+  },
+  {
+   "id": "advisory-capture",
+   "name": "Stacked advisory bodies",
+   "family": "delegation",
+   "detect": "word",
+   "origin": "both",
+   "headings": [
+    "Regulatory Capture by Design",
+    "Advisory Committee Stacking Requirements",
+    "Advisory Board Capture"
+   ],
+   "plain": "Seats set aside for industry or members chosen for industry experience can give regulated parties the leading role in drafting the rules.",
+   "cues": [
+    "advisory committee",
+    "advisory board",
+    "representatives of industry",
+    "demonstrated expertise",
+    "stakeholders"
+   ],
+   "fix": "Set balanced membership with public interest seats, conflict rules and published recommendations."
+  },
+  {
+   "id": "record-flooding",
+   "name": "Record and comment flooding",
+   "family": "delegation",
+   "detect": "word",
+   "origin": "both",
+   "headings": [
+    "Strategic Use of \"Record\" Requirements",
+    "Notice-and-Comment Flooding"
+   ],
+   "plain": "Record requirements and duties to respond to comments reward large volumes of submissions, which can be used to build a litigation record or overwhelm review.",
+   "cues": [
+    "substantial evidence",
+    "administrative record",
+    "respond to all significant comments",
+    "public comment"
+   ],
+   "fix": "Allow the agency to group duplicate comments and limit response duty to distinct issues."
+  },
+  {
+   "id": "stakeholder-process",
+   "name": "Stakeholder process design",
+   "family": "delegation",
+   "detect": "word",
+   "origin": "ai",
+   "headings": [
+    "Stakeholder Process Design"
+   ],
+   "plain": "Consensus requirements in stakeholder processes give a veto to industry, and expertise weighting or short timelines can marginalize civil society.",
+   "cues": [
+    "multi-stakeholder",
+    "consensus",
+    "stakeholder process",
+    "working group"
+   ],
+   "fix": "Replace consensus with majority rules, fund participation and set adequate timelines."
+  },
+  {
+   "id": "comment-period-timing",
+   "name": "Comment period timing",
+   "family": "delegation",
+   "detect": "structure",
+   "origin": "ai",
+   "headings": [
+    "Public Comment Period Timing"
+   ],
+   "plain": "Short comment windows for complex rules, including over holidays, limit public participation.",
+   "cues": [
+    "30 days",
+    "comment period",
+    "not less than 30 days"
+   ],
+   "fix": "Set comment periods in proportion to complexity, with minimum lengths."
+  },
+  {
+   "id": "technical-capacity-limits",
+   "name": "Limits on regulator capacity",
+   "family": "delegation",
+   "detect": "structure",
+   "origin": "ai",
+   "headings": [
+    "Technical Capacity Restrictions"
+   ],
+   "plain": "Barring internal testing tools, requiring third-party assessments or low pay scales reduces the regulator's own ability to evaluate.",
+   "cues": [
+    "third-party",
+    "may not develop",
+    "pay scale",
+    "contract with"
+   ],
+   "fix": "Fund in-house testing capacity and competitive pay for technical roles."
+  },
+  {
+   "id": "study-instead-of-action",
+   "name": "Reports and studies instead of action",
+   "family": "information",
+   "detect": "word",
+   "origin": "general",
+   "headings": [
+    "Reporting Requirements as Substitutes for Action"
+   ],
+   "plain": "Requiring a study or report in place of a concrete outcome gives the appearance of progress while action is deferred.",
+   "cues": [
+    "shall conduct a study",
+    "report to congress",
+    "shall submit a report",
+    "study",
+    "feasibility study"
+   ],
+   "fix": "Attach an action or default rule to each report and set deadlines."
+  },
+  {
+   "id": "study-it-to-death",
+   "name": "Sequential studies",
+   "family": "information",
+   "detect": "structure",
+   "origin": "general",
+   "headings": [
+    "The \"Study It to Death\" Approach"
+   ],
+   "plain": "Chained assessments each with its own timeline, comment period and challenge mean implementation is always one study away.",
+   "cues": [
+    "follow-up study",
+    "subsequent report",
+    "review of the report",
+    "based on the findings"
+   ],
+   "fix": "Limit to one study with a deadline and an automatic next step."
+  },
+  {
+   "id": "transparency-defined-down",
+   "name": "Transparency defined thinly",
+   "family": "information",
+   "detect": "word",
+   "origin": "ai",
+   "headings": [
+    "Defining \"Transparency\" Down"
+   ],
+   "plain": "A bare statement that content is AI-generated is less informative than disclosing training data and limitations, and laws can require only the former.",
+   "cues": [
+    "disclose",
+    "notice that",
+    "model card",
+    "transparency",
+    "label"
+   ],
+   "fix": "List the required disclosures such as data sources, limits and test results."
+  },
+  {
+   "id": "labeling-reductionism",
+   "name": "Labeling as the whole solution",
+   "family": "information",
+   "detect": "word",
+   "origin": "ai",
+   "headings": [
+    "\"Labeling Solves It\" Reductionism"
+   ],
+   "plain": "Labeling is inexpensive and may have little effect on belief, but can be treated as sufficient in place of structural measures.",
+   "cues": [
+    "label",
+    "watermark",
+    "provenance",
+    "disclosure"
+   ],
+   "fix": "Treat labels as one measure and keep structural duties."
+  },
+  {
+   "id": "access-to-proof",
+   "name": "Control of evidence",
+   "family": "information",
+   "detect": "absence",
+   "origin": "ai",
+   "headings": [
+    "Controlling Access to the Proof"
+   ],
+   "plain": "Companies hold the data needed to prove harm, and without disclosure powers, subpoena authority or preservation duties, regulators and plaintiffs cannot get it.",
+   "cues": [
+    "subpoena",
+    "preservation",
+    "discovery",
+    "access to records"
+   ],
+   "fix": "Add disclosure, subpoena and preservation powers."
+  },
+  {
+   "id": "evidentiary-trail",
+   "name": "Log retention missing",
+   "family": "information",
+   "detect": "absence",
+   "origin": "ai",
+   "headings": [
+    "Destroying the Evidentiary Trail by Design"
+   ],
+   "plain": "Without record retention duties, systems can minimize logging, which makes later accountability difficult.",
+   "cues": [
+    "retain",
+    "retention",
+    "logs",
+    "records for"
+   ],
+   "fix": "Require retention of logs and decision records for a fixed period."
+  },
+  {
+   "id": "researcher-access",
+   "name": "Researcher and journalist access",
+   "family": "information",
+   "detect": "absence",
+   "origin": "ai",
+   "headings": [
+    "Researcher and Journalist Access"
+   ],
+   "plain": "Without statutory access rights, independent evaluation depends on company goodwill that can be withdrawn.",
+   "cues": [
+    "researcher",
+    "vetted researcher",
+    "independent research",
+    "journalist"
+   ],
+   "fix": "Provide legal access for vetted researchers and safe harbor for good faith research."
+  },
+  {
+   "id": "whistleblower-absence",
+   "name": "Missing whistleblower protection",
+   "family": "information",
+   "detect": "absence",
+   "origin": "ai",
+   "headings": [
+    "Absence of Whistleblower Protections"
+   ],
+   "plain": "Employees are a likely source of safety information, and without protection they can be silenced or penalized.",
+   "cues": [
+    "whistleblower",
+    "retaliation",
+    "protected disclosure"
+   ],
+   "fix": "Add anti-retaliation protection, confidential channels and remedies."
+  },
+  {
+   "id": "nda-enforceability",
+   "name": "NDAs limit safety disclosure",
+   "family": "information",
+   "detect": "word",
+   "origin": "ai",
+   "headings": [
+    "NDA Enforceability in Safety Contexts"
+   ],
+   "plain": "If nondisclosure agreements stay fully enforceable, or exceptions apply only to confidential regulatory channels, employees may be unable to report safety concerns.",
+   "cues": [
+    "nondisclosure",
+    "non-disclosure",
+    "confidentiality agreement",
+    "nda"
+   ],
+   "fix": "Declare NDAs unenforceable for disclosures of safety or legal violations to any lawful recipient."
+  },
+  {
+   "id": "audit-scope",
+   "name": "Audit frequency and scope",
+   "family": "information",
+   "detect": "word",
+   "origin": "ai",
+   "headings": [
+    "Audit Frequency and Scope Manipulation"
+   ],
+   "plain": "Annual or narrowly scoped audits miss fast-changing systems and misuse.",
+   "cues": [
+    "annual audit",
+    "audit",
+    "at least once every",
+    "internal audit"
+   ],
+   "fix": "Require audits at major changes with scope covering misuse."
+  },
+  {
+   "id": "training-data-provenance",
+   "name": "Training data records",
+   "family": "information",
+   "detect": "absence",
+   "origin": "ai",
+   "headings": [
+    "Training Data Provenance (or Lack Thereof)",
+    "Training Data Provenance Requirements (or Lack Thereof)"
+   ],
+   "plain": "Without provenance requirements, data of uncertain origin cannot be traced and inputs stay unaccountable.",
+   "cues": [
+    "training data",
+    "provenance",
+    "data sources",
+    "dataset"
+   ],
+   "fix": "Require documentation of training data sources and rights."
+  },
+  {
+   "id": "retention-deletion-tension",
+   "name": "Retention versus deletion tension",
+   "family": "information",
+   "detect": "structure",
+   "origin": "ai",
+   "headings": [
+    "Data Retention Versus Deletion Tensions"
+   ],
+   "plain": "The tension between keeping records for accountability and deleting data for privacy can be invoked either way depending on convenience.",
+   "cues": [
+    "delete",
+    "deletion",
+    "retention period",
+    "right to erasure"
+   ],
+   "fix": "Reconcile in the text with a retention schedule for accountability records and a privacy-protective access regime."
+  },
+  {
+   "id": "reported-vs-published",
+   "name": "Reported but not published",
+   "family": "information",
+   "detect": "word",
+   "origin": "ai",
+   "headings": [
+    "Reported Versus Published",
+    "What Must Be Reported Versus What Must Be Published"
+   ],
+   "plain": "Reports sent to regulators without public release prevent public pressure and comparison.",
+   "cues": [
+    "confidential",
+    "submit to the secretary",
+    "shall report to",
+    "not be made public"
+   ],
+   "fix": "Require public release of reports with narrow redactions."
+  },
+  {
+   "id": "aggregation-proof-reporting",
+   "name": "Reports that cannot be compared",
+   "family": "information",
+   "detect": "structure",
+   "origin": "ai",
+   "headings": [
+    "Aggregation-Proof Reporting"
+   ],
+   "plain": "Reporting formats that differ between companies produce data that cannot be meaningfully compared.",
+   "cues": [
+    "in a form determined by",
+    "as each company determines",
+    "its own methodology"
+   ],
+   "fix": "Require a standard reporting template and metrics."
+  },
+  {
+   "id": "reporting-frequency-lag",
+   "name": "Reporting too infrequent",
+   "family": "information",
+   "detect": "word",
+   "origin": "ai",
+   "headings": [
+    "Reporting Frequency and Lag"
+   ],
+   "plain": "Annual reporting for systems that change weekly means information is always outdated.",
+   "cues": [
+    "annually",
+    "annual report",
+    "once per year",
+    "every year"
+   ],
+   "fix": "Set reporting frequency to match change speed and require event-driven reports."
+  },
+  {
+   "id": "severability-strategy",
+   "name": "Severability used strategically",
+   "family": "interaction",
+   "detect": "word",
+   "origin": "general",
+   "headings": [
+    "Severability Clauses as Strategic Hedging",
+    "Manufactured Ambiguity in Severability"
+   ],
+   "plain": "A severability clause can keep less visible provisions alive when others fall, while omitting one can make challenges to the whole law riskier or safer.",
+   "cues": [
+    "severability",
+    "if any provision of this act",
+    "held invalid",
+    "the remainder of this act"
+   ],
+   "fix": "Include a clear severability clause and consider which provisions are essential."
+  },
+  {
+   "id": "hollow-savings-clause",
+   "name": "Savings clause without substance",
+   "family": "interaction",
+   "detect": "word",
+   "origin": "general",
+   "headings": [
+    "\"Savings\" Language That Doesn't Save"
+   ],
+   "plain": "A clause preserving existing rights can be empty if the new framework makes those rights hard to use in practice.",
+   "cues": [
+    "nothing in this act shall be construed",
+    "shall not be construed to diminish",
+    "savings clause",
+    "does not affect"
+   ],
+   "fix": "Back the savings clause with operative rules that keep the rights usable."
+  },
+  {
+   "id": "common-law-preemption",
+   "name": "Preemption of tort and common law",
+   "family": "interaction",
+   "detect": "structure",
+   "origin": "both",
+   "headings": [
+    "Strategic Silence on Preemption of Common Law Claims",
+    "Preempting Tort Innovation"
+   ],
+   "plain": "Silence on state common law claims, or a freeze on legal frameworks, leaves doubt over whether courts may develop liability theories.",
+   "cues": [
+    "common law",
+    "tort",
+    "state law claims",
+    "preempt"
+   ],
+   "fix": "State whether state tort and common law claims are preserved."
+  },
+  {
+   "id": "implied-repeal",
+   "name": "Repeal by conflicting later law",
+   "family": "interaction",
+   "detect": "external",
+   "origin": "general",
+   "headings": [
+    "Constructive Repeal Through Irreconcilable Later Enactment"
+   ],
+   "plain": "A later statute that is hard to reconcile with an earlier one leaves both on the books, creating uncertainty settled only by litigation.",
+   "cues": [
+    "repeal",
+    "supersede",
+    "inconsistent"
+   ],
+   "fix": "Repeal or amend the earlier provisions expressly."
+  },
+  {
+   "id": "code-placement",
+   "name": "Placement within the code",
+   "family": "interaction",
+   "detect": "structure",
+   "origin": "general",
+   "headings": [
+    "Strategic Placement Within the U.S. Code"
+   ],
+   "plain": "Where a provision is codified affects which agency runs it, which committees oversee it and which precedents apply.",
+   "cues": [
+    "title",
+    "chapter",
+    "amended by inserting"
+   ],
+   "fix": "Choose placement with the intended regime and agency in mind and state it."
+  },
+  {
+   "id": "section-230-interaction",
+   "name": "Section 230 interactions",
+   "family": "interaction",
+   "detect": "absence",
+   "origin": "ai",
+   "headings": [
+    "Section 230 Interactions"
+   ],
+   "plain": "Whether algorithmic curation counts as publishing or neutral hosting is unresolved, and the bill may be silent on it.",
+   "cues": [
+    "section 230",
+    "interactive computer service",
+    "publisher or speaker"
+   ],
+   "fix": "State how Section 230 applies to AI-generated and algorithmically curated content."
+  },
+  {
+   "id": "ip-laundering",
+   "name": "Output as original work",
+   "family": "interaction",
+   "detect": "structure",
+   "origin": "ai",
+   "headings": [
+    "Intellectual Property Laundering"
+   ],
+   "plain": "Treating AI outputs as original works can reduce the leverage of rights holders over the use of their work for training.",
+   "cues": [
+    "copyright",
+    "training data",
+    "fair use",
+    "original work"
+   ],
+   "fix": "Address training use and output ownership expressly in the text."
+  },
+  {
+   "id": "preempting-anti-discrimination",
+   "name": "Preemption of anti-discrimination law",
+   "family": "interaction",
+   "detect": "structure",
+   "origin": "ai",
+   "headings": [
+    "Preempting Anti-Discrimination Law",
+    "Preempting Existing Anti-Discrimination Law"
+   ],
+   "plain": "Weaker AI-specific standards may displace stronger claims under existing civil rights laws.",
+   "cues": [
+    "title vii",
+    "fair housing act",
+    "equal credit opportunity act",
+    "civil rights"
+   ],
+   "fix": "Add a clause preserving existing civil rights and consumer protections."
+  },
+  {
+   "id": "ip-interactions",
+   "name": "Intellectual property interplay",
+   "family": "interaction",
+   "detect": "structure",
+   "origin": "ai",
+   "headings": [
+    "Intellectual Property Interactions"
+   ],
+   "plain": "Patents, copyrightable outputs and trade secret model weights together can limit auditing and competition.",
+   "cues": [
+    "patent",
+    "copyright",
+    "trade secret",
+    "model weights"
+   ],
+   "fix": "Allow audit access notwithstanding IP claims and address output ownership."
+  },
+  {
+   "id": "contract-supremacy",
+   "name": "Contract terms override public law",
+   "family": "interaction",
+   "detect": "absence",
+   "origin": "ai",
+   "headings": [
+    "Contract Law Supremacy",
+    "Contract Law Supremacy Provisions"
+   ],
+   "plain": "Without anti-waiver provisions, contracts of adhesion can set aside protections the statute gives.",
+   "cues": [
+    "freedom of contract",
+    "waive",
+    "agreement",
+    "terms of service"
+   ],
+   "fix": "Make protections non-waivable by contract."
+  },
+  {
+   "id": "major-questions-trigger",
+   "name": "Authority open to major questions challenge",
+   "family": "constitutional",
+   "detect": "structure",
+   "origin": "general",
+   "headings": [
+    "Triggering the Major Questions Doctrine"
+   ],
+   "plain": "Grants of authority just ambiguous enough to be challenged under the major questions doctrine can face years of litigation.",
+   "cues": [
+    "significant economic",
+    "vast economic",
+    "major rule"
+   ],
+   "fix": "State the authority and its limits clearly, with specific findings on scope."
+  },
+  {
+   "id": "chevron-vacuum",
+   "name": "Ambiguity after Chevron",
+   "family": "constitutional",
+   "detect": "structure",
+   "origin": "general",
+   "headings": [
+    "The Chevron Vacuum (Post-Loper Bright)"
+   ],
+   "plain": "With deference to agency readings gone, vague language is resolved by courts, which can delay or reverse agency interpretation.",
+   "cues": [
+    "interpret",
+    "as the agency determines",
+    "in the agency's discretion"
+   ],
+   "fix": "Draft specifically or give express discretion to the agency."
+  },
+  {
+   "id": "findings-for-deference",
+   "name": "Findings sections and constitutionality",
+   "family": "constitutional",
+   "detect": "word",
+   "origin": "general",
+   "headings": [
+    "Strategic Use of \"Findings\" Sections to Manufacture Deference"
+   ],
+   "plain": "Congressional findings shape how courts judge a law's constitutionality, and well-drafted or weakened findings change its vulnerability.",
+   "cues": [
+    "congress finds",
+    "findings",
+    "finds that",
+    "affects interstate commerce"
+   ],
+   "fix": "Include specific findings supported by record evidence."
+  },
+  {
+   "id": "legislative-veto",
+   "name": "Legislative veto provisions",
+   "family": "constitutional",
+   "detect": "word",
+   "origin": "general",
+   "headings": [
+    "The One-House Legislative Veto (Zombie Version)"
+   ],
+   "plain": "Legislative veto provisions are unenforceable but agencies often comply, creating congressional control through political norms.",
+   "cues": [
+    "disapproval",
+    "resolution of disapproval",
+    "either house",
+    "one house",
+    "committee approval"
+   ],
+   "fix": "Use joint resolutions subject to presentment instead of one-house vetoes."
+  },
+  {
+   "id": "first-amendment-engineering",
+   "name": "Provisions exposed to First Amendment challenge",
+   "family": "constitutional",
+   "detect": "structure",
+   "origin": "ai",
+   "headings": [
+    "Designing Provisions to Fail First Amendment Challenges"
+   ],
+   "plain": "Slightly overbroad provisions may be struck, and the resulting decision can narrow regulatory space for a generation.",
+   "cues": [
+    "speech",
+    "expressive",
+    "content-based",
+    "compelled disclosure"
+   ],
+   "fix": "Narrowly tailor speech-related provisions and document the interest served."
+  },
+  {
+   "id": "takings-traps",
+   "name": "Takings exposure",
+   "family": "constitutional",
+   "detect": "structure",
+   "origin": "ai",
+   "headings": [
+    "Takings Clause Traps"
+   ],
+   "plain": "Data sharing or forced access provisions can draw takings challenges that could limit regulation of whole categories.",
+   "cues": [
+    "just compensation",
+    "forced access",
+    "share training data",
+    "open model weights"
+   ],
+   "fix": "Provide compensation or voluntary licensing where taking risks arise."
+  },
+  {
+   "id": "due-process-hooks",
+   "name": "Due process vulnerability",
+   "family": "constitutional",
+   "detect": "structure",
+   "origin": "ai",
+   "headings": [
+    "Due Process Hooks"
+   ],
+   "plain": "Aggressive procedures with vague standards invite due process challenges that can remove enforcement while leaving the law in place.",
+   "cues": [
+    "fair notice",
+    "hearing",
+    "vague"
+   ],
+   "fix": "Pair enforcement powers with clear standards and procedural protections."
+  },
+  {
+   "id": "dormant-commerce-weaponization",
+   "name": "Dormant commerce clause challenges",
+   "family": "constitutional",
+   "detect": "external",
+   "origin": "ai",
+   "headings": [
+    "Dormant Commerce Clause Weaponization"
+   ],
+   "plain": "Vulnerable state laws can generate litigation that supports arguments for a weaker federal standard.",
+   "cues": [
+    "interstate commerce",
+    "burden on commerce"
+   ],
+   "fix": "Draft federal law to preserve state authority and avoid reliance on vulnerable state measures."
+  },
+  {
+   "id": "sense-of-congress",
+   "name": "Sense of Congress language",
+   "family": "symbolic",
+   "detect": "word",
+   "origin": "general",
+   "headings": [
+    "Sense of Congress Resolutions Masquerading as Action"
+   ],
+   "plain": "A sense of Congress statement has no legal force but can be presented as if Congress took a position.",
+   "cues": [
+    "sense of congress",
+    "it is the sense of",
+    "congress encourages",
+    "congress urges"
+   ],
+   "fix": "Replace with an operative provision or remove it."
+  },
+  {
+   "id": "aspirational-preamble",
+   "name": "Preamble goals without operative force",
+   "family": "symbolic",
+   "detect": "structure",
+   "origin": "general",
+   "headings": [
+    "Aspirational Preambles with Operative Loopholes"
+   ],
+   "plain": "A preamble declares bold goals while operative provisions contain qualifications that keep the goals from being achieved.",
+   "cues": [
+    "purpose of this act",
+    "findings and purposes",
+    "it is the policy of the united states"
+   ],
+   "fix": "Align operative text with each stated goal and state that purposes guide interpretation."
+  },
+  {
+   "id": "innovation-defense",
+   "name": "Innovation and competitiveness findings",
+   "family": "symbolic",
+   "detect": "word",
+   "origin": "ai",
+   "headings": [
+    "The Innovation Defense"
+   ],
+   "plain": "Findings that regulation could cause the country to fall behind competitors can shape later rulemaking and cost-benefit analysis.",
+   "cues": [
+    "global competitiveness",
+    "innovation",
+    "fall behind",
+    "leadership"
+   ],
+   "fix": "Keep competitiveness language out of mandatory analytical tests."
+  },
+  {
+   "id": "voluntary-commitments",
+   "name": "Voluntary commitments as substitute",
+   "family": "symbolic",
+   "detect": "structure",
+   "origin": "ai",
+   "headings": [
+    "Voluntary Commitments as Legislative Substitutes"
+   ],
+   "plain": "Voluntary pledges cited as proof that law is unnecessary can later be written into the law as its standard.",
+   "cues": [
+    "voluntary commitments",
+    "voluntary framework",
+    "best practices",
+    "industry commitments"
+   ],
+   "fix": "Treat commitments as a floor and require enforceable duties."
+  },
+  {
+   "id": "tool-not-agent",
+   "name": "Tool framing",
+   "family": "symbolic",
+   "detect": "word",
+   "origin": "ai",
+   "headings": [
+    "The \"Tool Not Agent\" Framing"
+   ],
+   "plain": "Describing AI as a tool can limit responsibility and block rules suited to autonomous systems.",
+   "cues": [
+    "tool",
+    "assistive",
+    "merely a tool"
+   ],
+   "fix": "Assign duties by function and degree of autonomy."
+  },
+  {
+   "id": "bias-is-a-bug",
+   "name": "Bias treated as a technical bug",
+   "family": "symbolic",
+   "detect": "word",
+   "origin": "ai",
+   "headings": [
+    "Embedding the \"Bias Is a Bug\" Frame",
+    "Embedding the \"Bias Is a Bug, Not a Feature\" Frame"
+   ],
+   "plain": "Framing bias as a technical defect makes the remedy to improve the system and not to limit its use.",
+   "cues": [
+    "bias mitigation",
+    "improve accuracy",
+    "reduce bias",
+    "fairness metric"
+   ],
+   "fix": "Allow use limits and outcome tests and not only technical fixes."
+  },
+  {
+   "id": "humans-in-the-loop",
+   "name": "Human review requirement",
+   "family": "symbolic",
+   "detect": "word",
+   "origin": "ai",
+   "headings": [
+    "The \"Humans in the Loop\" Illusion"
+   ],
+   "plain": "A human review requirement can create the appearance of oversight when reviewers tend to accept the system's output.",
+   "cues": [
+    "human review",
+    "human in the loop",
+    "human oversight",
+    "meaningful human"
+   ],
+   "fix": "Define meaningful review with authority, time and training and measure override rates."
+  },
+  {
+   "id": "assistance-without-assistance",
+   "name": "Assistance that does not assist",
+   "family": "symbolic",
+   "detect": "structure",
+   "origin": "ai",
+   "headings": [
+    "Displacement Assistance That Doesn't Assist"
+   ],
+   "plain": "Retraining or support programs that are underfunded, mismatched or hard to qualify for give the appearance of addressing displacement.",
+   "cues": [
+    "retraining",
+    "workforce assistance",
+    "adjustment assistance",
+    "transition assistance"
+   ],
+   "fix": "Fund and target assistance with measurable eligibility and outcomes."
+  },
+  {
+   "id": "impact-without-teeth",
+   "name": "Impact assessments without effect",
+   "family": "symbolic",
+   "detect": "structure",
+   "origin": "ai",
+   "headings": [
+    "Community Impact Provisions Without Teeth"
+   ],
+   "plain": "Informational assessments that do not affect deployment decisions show communities their harm while deployment goes ahead.",
+   "cues": [
+    "community impact",
+    "informational",
+    "assessment shall not delay",
+    "impact statement"
+   ],
+   "fix": "Link assessment findings to approval, mitigation duties or a right to object."
+  },
+  {
+   "id": "adversary-argument",
+   "name": "Adversary will do it anyway argument",
+   "family": "symbolic",
+   "detect": "word",
+   "origin": "ai",
+   "headings": [
+    "The \"Adversary Will Do It Anyway\" Argument"
+   ],
+   "plain": "Framing every safety rule as helping a rival nation presents restraint as surrender and can crowd out safety measures.",
+   "cues": [
+    "strategic competitors",
+    "adversaries",
+    "china",
+    "strategic competition"
+   ],
+   "fix": "Require stated evidence on competitive claims and keep safety duties independent."
+  },
+  {
+   "id": "incumbent-compliance-costs",
+   "name": "Compliance costs that favor incumbents",
+   "family": "market",
+   "detect": "structure",
+   "origin": "ai",
+   "headings": [
+    "Incumbent Advantage Through Compliance Costs"
+   ],
+   "plain": "Heavy compliance requirements can act as barriers that large firms can absorb and smaller or open source competitors cannot.",
+   "cues": [
+    "compliance program",
+    "registration",
+    "licensing",
+    "license"
+   ],
+   "fix": "Scale obligations to size and risk and offer support to small entrants."
+  },
+  {
+   "id": "data-moat",
+   "name": "Data moat through privacy rules",
+   "family": "market",
+   "detect": "structure",
+   "origin": "ai",
+   "headings": [
+    "Data Moat Protection Through Privacy Framing"
+   ],
+   "plain": "Privacy rules limiting new collection can leave established firms with historic data while new entrants have none.",
+   "cues": [
+    "collection of data",
+    "data minimization",
+    "consent for collection"
+   ],
+   "fix": "Assess competitive effects of privacy rules and allow data access for competitors."
+  },
+  {
+   "id": "compute-thresholds",
+   "name": "Compute thresholds",
+   "family": "market",
+   "detect": "word",
+   "origin": "ai",
+   "headings": [
+    "Compute Thresholds as Incumbent Protection"
+   ],
+   "plain": "Thresholds set to capture only the largest labs impose costs that only well-resourced firms can handle and leave others unregulated.",
+   "cues": [
+    "floating point operations",
+    "flops",
+    "compute threshold",
+    "10^26",
+    "training compute"
+   ],
+   "fix": "Use capability and risk measures, with thresholds updated by the regulator."
+  },
+  {
+   "id": "api-chokepoint",
+   "name": "API level regulation",
+   "family": "market",
+   "detect": "structure",
+   "origin": "ai",
+   "headings": [
+    "API Access as a Regulatory Chokepoint"
+   ],
+   "plain": "Rules at the API level make API controllers gatekeepers and can end open source distribution.",
+   "cues": [
+    "api",
+    "application programming interface",
+    "access to the model"
+   ],
+   "fix": "Regulate by use and risk and protect open distribution where risk is low."
+  },
+  {
+   "id": "procurement-standards",
+   "name": "Government procurement as standard",
+   "family": "market",
+   "detect": "structure",
+   "origin": "ai",
+   "headings": [
+    "Government Procurement as Standard-Setting",
+    "Government Procurement as De Facto Standard-Setting"
+   ],
+   "plain": "Federal procurement rules effectively set industry standards with little public scrutiny and can favor incumbents.",
+   "cues": [
+    "procurement",
+    "federal acquisition",
+    "contract award",
+    "government use"
+   ],
+   "fix": "Publish procurement criteria for comment and review their market effects."
+  },
+  {
+   "id": "data-portability",
+   "name": "Weak portability standards",
+   "family": "market",
+   "detect": "word",
+   "origin": "ai",
+   "headings": [
+    "Data Portability and Lock-In"
+   ],
+   "plain": "Weak portability standards preserve switching costs while appearing pro-competitive.",
+   "cues": [
+    "portability",
+    "data portability",
+    "transfer",
+    "export data"
+   ],
+   "fix": "Require standard formats and real-time access with interoperability."
+  },
+  {
+   "id": "interoperability",
+   "name": "Interoperability mandates or absence",
+   "family": "market",
+   "detect": "absence",
+   "origin": "ai",
+   "headings": [
+    "Interoperability Mandates (or Absence)",
+    "Interoperability Mandates (or Their Absence)"
+   ],
+   "plain": "Without interoperability, network effects lock in leading providers, so the choice is a market structure decision.",
+   "cues": [
+    "interoperab",
+    "open standards",
+    "compatibility"
+   ],
+   "fix": "Include interoperability duties for dominant services."
+  },
+  {
+   "id": "vertical-integration",
+   "name": "Vertical integration permissions",
+   "family": "market",
+   "detect": "structure",
+   "origin": "ai",
+   "headings": [
+    "Vertical Integration Permissions"
+   ],
+   "plain": "Rules applying to one layer favor integrated firms that can shift costs between layers.",
+   "cues": [
+    "cloud",
+    "chips",
+    "infrastructure provider",
+    "vertically integrated"
+   ],
+   "fix": "Regulate across layers and restrict self-preferencing."
+  },
+  {
+   "id": "acquisition-thresholds",
+   "name": "Acquisition review thresholds",
+   "family": "market",
+   "detect": "word",
+   "origin": "ai",
+   "headings": [
+    "Acquisition Review Thresholds"
+   ],
+   "plain": "High thresholds or price-based tests, often zero for free AI products, exempt most acquisitions.",
+   "cues": [
+    "acquisition",
+    "merger",
+    "threshold",
+    "hart-scott-rodino"
+   ],
+   "fix": "Add review triggers based on data, users and capability."
+  },
+  {
+   "id": "negative-pregnant",
+   "name": "Narrow ban implying permission",
+   "family": "definitions",
+   "detect": "structure",
+   "origin": "general",
+   "headings": [
+    "Negative Pregnant Drafting"
+   ],
+   "plain": "Prohibiting one specific act can be read as allowing closely related conduct that the text does not mention.",
+   "cues": [
+    "it shall be unlawful to",
+    "no person shall"
+   ],
+   "fix": "Add a general prohibition and state that unlisted related conduct is not authorized."
+  },
+  {
+   "id": "tollgate-provision",
+   "name": "Permit with no decision deadline",
+   "family": "timing",
+   "detect": "absence",
+   "origin": "general",
+   "headings": [
+    "The Tollgate Provision"
+   ],
+   "plain": "A permit or approval requirement with no deadline for the agency lets applications wait indefinitely, so approval may never arrive.",
+   "cues": [
+    "permit",
+    "license",
+    "approval",
+    "application"
+   ],
+   "fix": "Set a decision deadline with automatic approval or a right to sue if it is missed."
+  },
+  {
+   "id": "conference-rewrites",
+   "name": "Conference committee rewrites",
+   "family": "process",
+   "detect": "process",
+   "origin": "general",
+   "headings": [
+    "Conference Committee Rewrites"
+   ],
+   "plain": "Final text is reconciled by a small committee, so changes can occur with limited transparency after both chambers have debated.",
+   "cues": [],
+   "fix": "Require a waiting period and public posting of conference text before votes."
+  },
+  {
+   "id": "signing-statements",
+   "name": "Signing statements",
+   "family": "process",
+   "detect": "process",
+   "origin": "general",
+   "headings": [
+    "Signing Statements and Executive Interpretation"
+   ],
+   "plain": "Presidential statements on how ambiguous provisions will be read signal how the law will be enforced without a vote.",
+   "cues": [],
+   "fix": "Draft provisions specifically and track statements for effect."
+  },
+  {
+   "id": "rider-omnibus-bundling",
+   "name": "Riders and omnibus bundling",
+   "family": "process",
+   "detect": "process",
+   "origin": "general",
+   "headings": [
+    "Rider Provisions and Omnibus Bundling"
+   ],
+   "plain": "Unrelated provisions placed in must-pass bills receive little scrutiny and can change unrelated policy areas.",
+   "cues": [],
+   "fix": "Require germane amendments and posting time for large bills."
+  },
+  {
+   "id": "retroactive-redefinition",
+   "name": "Retroactive redefinition",
+   "family": "process",
+   "detect": "process",
+   "origin": "general",
+   "headings": [
+    "Retroactive Redefinition"
+   ],
+   "plain": "A later law that clarifies an earlier one can reinterpret it in ways that conflict with original intent or settled court rulings.",
+   "cues": [
+    "clarif",
+    "is hereby clarified",
+    "shall be deemed to have always"
+   ],
+   "fix": "Review later clarifying provisions against the original purpose and court readings."
+  },
+  {
+   "id": "legislative-history-staging",
+   "name": "Staged legislative history",
+   "family": "process",
+   "detect": "process",
+   "origin": "general",
+   "headings": [
+    "Legislative History Manipulation"
+   ],
+   "plain": "Floor statements and reports can be prepared to narrow or contradict plain text, and courts sometimes consult them.",
+   "cues": [],
+   "fix": "Write the intended meaning into the text itself."
+  },
+  {
+   "id": "enrolled-bill-doctrine",
+   "name": "Enrolled bill doctrine",
+   "family": "process",
+   "detect": "process",
+   "origin": "general",
+   "headings": [
+    "The Enrolled Bill Doctrine as Cover"
+   ],
+   "plain": "Once signed, the enrolled text is treated as conclusive even where it differs from what chambers voted on.",
+   "cues": [],
+   "fix": "Check enrolled text against passed text before signature."
+  },
+  {
+   "id": "self-executing-rules",
+   "name": "Self-executing House rules",
+   "family": "process",
+   "detect": "process",
+   "origin": "general",
+   "headings": [
+    "\"Self-Executing\" Rules in the House"
+   ],
+   "plain": "A special rule can deem a bill passed without a separate vote, embedding policy that skips normal deliberation.",
+   "cues": [],
+   "fix": "Require separate recorded votes on substantive text."
+  },
+  {
+   "id": "holman-rule",
+   "name": "Holman rule and targeted defunding",
+   "family": "process",
+   "detect": "process",
+   "origin": "general",
+   "headings": [
+    "The Holman Rule and Targeted Defunding"
+   ],
+   "plain": "Amendments to spending bills can cut named employees' pay to one dollar, neutralizing enforcement without touching the statute.",
+   "cues": [],
+   "fix": "Protect enforcement positions through statute and track appropriations amendments."
+  },
+  {
+   "id": "technical-corrections",
+   "name": "Technical corrections used for substance",
+   "family": "process",
+   "detect": "process",
+   "origin": "general",
+   "headings": [
+    "Strategic Enrollment Errors and Corrections"
+   ],
+   "plain": "Bills presented as fixing typos can make substantive changes that receive little scrutiny.",
+   "cues": [
+    "technical corrections",
+    "technical amendments",
+    "conforming amendments"
+   ],
+   "fix": "Limit technical corrections to enumerated typographic fixes with review."
+  },
+  {
+   "id": "cra-window",
+   "name": "Congressional Review Act timing",
+   "family": "process",
+   "detect": "process",
+   "origin": "general",
+   "headings": [
+    "Drafting to Exploit the Congressional Review Act Window"
+   ],
+   "plain": "Rules finalized late in an administration can be repealed by the next Congress, and drafting affects how quickly rules can be finished.",
+   "cues": [],
+   "fix": "Set deadlines that allow rules to be finalized outside the review window."
+  },
+  {
+   "id": "committee-forum-shopping",
+   "name": "Committee jurisdiction shopping",
+   "family": "process",
+   "detect": "process",
+   "origin": "ai",
+   "headings": [
+    "Forum Shopping Through Committee Jurisdiction"
+   ],
+   "plain": "Committee assignment sets the lens through which a bill is written, so routing to one committee over another shapes the result.",
+   "cues": [],
+   "fix": "Track referral and use joint referral where several interests apply."
+  },
+  {
+   "id": "starving-the-regulator",
+   "name": "Starving the regulator",
+   "family": "process",
+   "detect": "process",
+   "origin": "ai",
+   "headings": [
+    "Starving the Regulator"
+   ],
+   "plain": "Limiting a regulator's technical expertise through funding and staffing can make enforcement look ineffective.",
+   "cues": [],
+   "fix": "Fund technical staff and report on capacity."
+  },
+  {
+   "id": "age-verification-poison-pill",
+   "name": "Age verification burden",
+   "family": "process",
+   "detect": "process",
+   "origin": "ai",
+   "headings": [
+    "Age Verification as a Poison Pill"
+   ],
+   "plain": "Requiring age verification that is infeasible or invasive can generate opposition that sinks the whole bill.",
+   "cues": [
+    "age verification",
+    "verify the age",
+    "age assurance"
+   ],
+   "fix": "Use feasible age assurance with privacy protections."
+  },
+  {
+   "id": "strategic-complexity",
+   "name": "Volume of technical submissions",
+   "family": "process",
+   "detect": "process",
+   "origin": "ai",
+   "headings": [
+    "Strategic Complexity"
+   ],
+   "plain": "Submitting thousands of pages of technical documentation can obscure information through volume.",
+   "cues": [],
+   "fix": "Require summaries, standard formats and page limits for key submissions."
+  }
+ ]
+}
