@@ -24,7 +24,7 @@ Every line is available in plain language, written for a seventh-grade reading l
 
 Each analysis combines two reviews of the same text:
 
-1. **The method.** The tool's step-by-step review, which works from a library of known weaknesses in legislation.
+1. **The method.** The tool's step-by-step review, which works from a library of known weaknesses in legislation - to be used as an eval later for an agent process
 2. **A plain review.** A separate, plain request to the same model, with no library: "What loopholes, red flags, conflicts of interest, missing context, or gaps exist in this legislation, if any:" followed by the text.
 
 Every point from the plain review was checked against the measure's text and against primary sources such as statutes and court rulings. A point was added unless the text or a primary source showed it was wrong. A point that could not be checked against a primary source is shown at low confidence and says so.
