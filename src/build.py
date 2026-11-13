@@ -15,7 +15,7 @@ measures={}
 for path in sorted(glob.glob(os.path.join(HERE,'data','measures','*.json'))):
     m=json.load(open(path,encoding='utf8'))
     measures[os.path.basename(path)[:-5]]={'text':m['text'],'analysis':m['professional'],'pla':m['plain']}
-ORDER=['efta','saa','gnd']
+ORDER=['efta','saa','gnd','granite']
 measures={k:measures[k] for k in ORDER if k in measures}|{k:v for k,v in measures.items() if k not in ORDER}
 data={'measures':measures,'kb':load('knowledge-base.json'),'rules':load('rules.json'),'style':load('style-guide.json'),'coi':load('conflict-types.json')}
 

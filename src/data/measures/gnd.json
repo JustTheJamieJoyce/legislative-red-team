@@ -749,7 +749,7 @@
    {
     "ty": "Promise to provision",
     "q": "For each goal in the Green New Deal resolution, which words in the resolution would deliver it?",
-    "a": "None of the Green New Deal resolution's goals is paired with an operative provision. The resolution's governing verbs are \"it is the duty\", \"should be accomplished\" and \"will require\". The resolution names no agency, makes no appropriation and amends no statute.",
+    "a": "None of the goals is paired with an operative provision. The verbs are mostly \"it is the duty\", \"should be accomplished\" and \"will require\". The one \"shall\", in the clause on frontline and vulnerable communities, sits inside a statement of the sense of the House and binds no one. The resolution creates no agency, makes no appropriation and amends no statute.",
     "f": [
      "G3",
      "G4",
@@ -820,6 +820,77 @@
     "a": "A binding net-zero measure would need a statutory emissions target with dates, a named agency with authority to set and enforce limits, a funding source, and a way to enforce the target against the government itself. The \"binding version\" table in the bigger picture panel sets out these requirements goal by goal.",
     "f": [
      "G6"
+    ]
+   },
+   {
+    "ty": "Internal consistency",
+    "q": "How does the ten-year buildout fit with the consent, land-protection and local-leadership clauses?",
+    "a": "Paragraph (2) calls for a 10-year mobilization that includes high-speed rail, new power capacity, grid upgrades and upgrading all existing buildings. Paragraph (4) also calls for consent of indigenous peoples for all decisions affecting them (4)(M). It calls for processes \"led by frontline and vulnerable communities\" at the local level (4)(F). It calls for protection of public lands, waters and oceans with eminent domain \"not abused\" (4)(L), and for no adverse effect on frontline and vulnerable communities (4)(B)(iii). The text does not say which goal gives way when they conflict, or how. A binding version would have to decide.",
+    "f": [
+     "G15",
+     "G16",
+     "G4"
+    ],
+    "s": []
+   },
+   {
+    "ty": "Language",
+    "q": "Who would not be in a \"frontline and vulnerable community\"?",
+    "a": "Paragraph (1)(E) defines the term as a list that includes indigenous peoples, communities of color, migrant communities, deindustrialized and depopulated rural communities, the poor, low-income workers, women, the elderly, the unhoused, people with disabilities and youth. No income, place or other limit narrows the list. Because women, youth and the elderly are all included, the group is very large, so the clauses that give it priority or focus, (4)(C) and (4)(E), do not by themselves say who comes first.",
+    "f": [
+     "G16"
+    ],
+    "s": []
+   },
+   {
+    "ty": "Language",
+    "q": "Who counts as \"all people of the United States\"?",
+    "a": "The phrase is used for the jobs, health care, housing, education and economic security goals, in paragraphs (1)(B), (1)(D), (4)(C), (4)(H) and (4)(O). The text does not say whether it means citizens, lawful residents or everyone living in the country. A binding program would need an eligibility rule.",
+    "f": [
+     "G8"
+    ],
+    "s": []
+   },
+   {
+    "ty": "Language",
+    "q": "Which other key terms does the resolution leave undefined?",
+    "a": "Beyond the terms in G5 to G7, the text leaves several terms undefined. These are \"fair and just transition\" (1)(A), \"community-defined projects and strategies\" (2)(A) and (2)(I), and \"smart\" grids (2)(D). They also include \"appropriate ownership stakes and returns on investment\" and \"adequate capital\" (4)(A), \"community ownership\" (4)(E), and \"family-sustaining wage\" (4)(H). The list continues with \"abused\" for eminent domain (4)(L), \"unfair competition\" (4)(N), and \"high-quality\" health care and \"affordable\" housing (4)(O). The text does not say whether public ownership stakes would apply to private projects that receive public capital; the plain review suggests this could discourage private investment, a possibility the text neither confirms nor rules out. Any binding version would need definitions.",
+    "f": [
+     "G26",
+     "G9"
+    ],
+    "s": []
+   },
+   {
+    "ty": "Actors",
+    "q": "Who speaks for a community in the processes \"led by frontline and vulnerable communities\"?",
+    "a": "The text does not say. Paragraph (4)(F) calls for \"democratic and participatory processes that are inclusive of and led by frontline and vulnerable communities and workers to plan, implement, and administer the Green New Deal mobilization at the local level\". It does not say how representatives are chosen, who certifies them, or who is accountable if funds administered locally are misspent.",
+    "f": [
+     "G28"
+    ],
+    "s": []
+   },
+   {
+    "ty": "Capacity",
+    "q": "Would the labor standards in (4)(G) raise costs or lengthen the ten-year timeline?",
+    "a": "The text does not say. It sets union, prevailing-wage, local-hire and wage-parity goals in (4)(G) and a 10-year mobilization in paragraph (2), but it gives no budget or schedule against which to measure the effect. The plain review suggests the labor terms could conflict with cost and speed; that is a prediction this analysis has not verified.",
+    "f": [
+     "G30",
+     "G4",
+     "G9"
+    ],
+    "s": []
+   },
+   {
+    "ty": "Legal setting",
+    "q": "Would the border adjustments in (4)(K) be consistent with U.S. trade agreements?",
+    "a": "The text does not say, and it does not describe how the adjustments would work. GATT Article II:2(a) allows a charge on imports that is \"equivalent to an internal tax imposed consistently with the provisions of paragraph 2 of Article III\" on the like domestic product. Whether a particular adjustment fits that rule would depend on its design, which the resolution leaves to later legislation.",
+    "f": [],
+    "s": [
+     {
+      "l": "WTO Analytical Index, GATT 1994 Article II",
+      "u": "https://www.wto.org/english/res_e/booksp_e/gatt_ai_e/art2_e.pdf"
+     }
     ]
    }
   ],
@@ -1166,6 +1237,378 @@
      }
     ],
     "am": []
+   },
+   {
+    "id": "G15",
+    "kind": "notice",
+    "sev": "significant",
+    "conf": "high",
+    "fam": "interaction",
+    "pat": "Standard beyond existing federal practice",
+    "det": "word",
+    "a": {
+     "q": "obtaining the free, prior, and informed consent of indigenous peoples for all decisions that affect indigenous peoples and their traditional territories"
+    },
+    "title": "The Green New Deal resolution calls for indigenous consent to all affecting decisions, a stronger standard than the consultation the federal government has committed to.",
+    "plain": "Paragraph (4)(M) says a Green New Deal will require getting the consent of indigenous peoples for every decision that affects them or their traditional lands. Current federal practice asks agencies to consult tribes and get their input. When the United States endorsed the United Nations declaration on indigenous rights in 2010, it said it read consent to mean meaningful consultation, not necessarily agreement. The resolution does not say which of these two meanings it uses.",
+    "tech": "Paragraph (4)(M) of the resolved clause lists \"obtaining the free, prior, and informed consent of indigenous peoples for all decisions that affect indigenous peoples and their traditional territories\" among the things a Green New Deal \"will require\". Section 5(a) of Executive Order 13175 requires that \"Each agency shall have an accountable process to ensure meaningful and timely input by tribal officials in the development of regulatory policies that have tribal implications\". The 2010 State Department announcement of United States support for the UN Declaration on the Rights of Indigenous Peoples states that the United States \"recognizes the significance of the Declaration's provisions on free, prior and informed consent\". It adds that it understands them \"to call for a process of meaningful consultation with tribal leaders, but not necessarily the agreement of those leaders, before the actions addressed in those consultations are taken\". The resolution uses the Declaration's phrase without adopting or rejecting that reading. It applies the phrase to \"all decisions\", not only regulatory policies. Being a sense-of resolution, it changes neither the order nor the United States interpretation. The gap matters for any binding bill that carries the phrase forward.",
+    "use": "Supporters can cite the phrase as a commitment to a consent standard, while an agency could treat the same phrase as satisfied by the consultation it already conducts.",
+    "s": [
+     {
+      "l": "Executive Order 13175, Consultation and Coordination With Indian Tribal Governments (2000)",
+      "u": "https://www.federalregister.gov/documents/2000/11/09/00-29003/consultation-and-coordination-with-indian-tribal-governments"
+     },
+     {
+      "l": "U.S. Department of State, Announcement of U.S. Support for the United Nations Declaration on the Rights of Indigenous Peoples (2010)",
+      "u": "https://2009-2017.state.gov/documents/organization/153223.pdf"
+     }
+    ],
+    "am": []
+   },
+   {
+    "id": "G16",
+    "kind": "notice",
+    "sev": "minor",
+    "conf": "high",
+    "fam": "obligation",
+    "pat": "Absolute standard without balancing",
+    "det": "word",
+    "a": {
+     "q": "ensuring that frontline and vulnerable communities shall not be adversely affected"
+    },
+    "title": "The Green New Deal resolution states that frontline and vulnerable communities \"shall not be adversely affected\", the only \"shall\" in the resolved clause, with no balancing test.",
+    "plain": "Paragraph (4)(B)(iii) says frontline and vulnerable communities \"shall not be adversely affected\". This is an all-or-nothing standard: it does not say how much harm is acceptable or how harm is weighed against benefits. It is also the only place in the resolved clause that uses \"shall\", but because the whole clause is the House's opinion, the word does not make it binding.",
+    "tech": "Clause (4)(B)(iii) reads \"ensuring that frontline and vulnerable communities shall not be adversely affected\". It is the only occurrence of \"shall\" in the text. It sits under \"it is the sense of the House of Representatives that\", so it carries no force (see G1). The standard is unqualified: no threshold of harm, no net-benefit test and no decision-maker. Read with paragraph (1)(E), the protected class is the full list of groups in the definition of \"frontline and vulnerable communities\", so taken literally the standard would reach any project with a local adverse effect on any member of those groups.",
+    "use": "If carried into a binding bill unchanged, the clause could be cited against nearly any project with a local cost; a drafter would need to add a threshold or a balancing test.",
+    "s": [],
+    "am": []
+   },
+   {
+    "id": "G17",
+    "kind": "notice",
+    "sev": "minor",
+    "conf": "high",
+    "fam": "evidence",
+    "pat": "Source figure restated more broadly",
+    "det": "word",
+    "a": {
+     "q": "(A) global reductions in greenhouse gas emissions from human sources of 40 to 60 percent from 2010 levels by 2030; and"
+    },
+    "title": "The Green New Deal preamble presents IPCC carbon dioxide figures, a 40 to 60 percent cut by 2030 and net zero by 2050, as figures for all greenhouse gases.",
+    "plain": "The preamble says the world must cut greenhouse gas emissions 40 to 60 percent from 2010 levels by 2030 and reach net-zero emissions by 2050. The IPCC report it cites gives those numbers for carbon dioxide only, with a central estimate of about 45 percent. For other gases such as methane, the report describes deep cuts, not net zero by 2050.",
+    "tech": "Preamble paragraph (4) cites the IPCC Special Report on Global Warming of 1.5 °C for \"global reductions in greenhouse gas emissions from human sources of 40 to 60 percent from 2010 levels by 2030\" and \"net-zero global emissions by 2050\". SPM paragraph C.1 states that in pathways with no or limited overshoot \"global net anthropogenic CO2 emissions decline by about 45% from 2010 levels by 2030\", with an interquartile range of 40 to 60 percent. It adds \"reaching net zero around 2050\", with an interquartile range of 2045 to 2055. For other gases it states the following. \"Non-CO2 emissions in pathways that limit global warming to 1.5°C show deep reductions that are similar to those in pathways limiting warming to 2°C\". C.1.2 gives methane and black carbon reductions of \"35% or more of both by 2050 relative to 2010\". The preamble therefore reports the CO2 interquartile range as a greenhouse gas range and drops the 45 percent central estimate. The preamble has no operative effect (G12), so this affects how the case is framed, not what the resolution does.",
+    "use": "Critics can point out the mismatch with the cited report; supporters can cite the same report for the CO2 figures as stated there.",
+    "s": [
+     {
+      "l": "IPCC, Global Warming of 1.5 °C, Summary for Policymakers (2018)",
+      "u": "https://www.ipcc.ch/sr15/chapter/spm/"
+     }
+    ],
+    "am": []
+   },
+   {
+    "id": "G18",
+    "kind": "notice",
+    "sev": "minor",
+    "conf": "medium",
+    "fam": "evidence",
+    "pat": "Source figure restated more broadly",
+    "det": "word",
+    "a": {
+     "q": "(F) a risk of damage to $1,000,000,000,000 of public infrastructure and coastal real estate in the United States; and"
+    },
+    "title": "The Green New Deal preamble treats $1 trillion of coastal property risk as a result of 2 degrees of warming, though the cited assessment calls it a present risk.",
+    "plain": "The preamble lists a risk of damage to $1 trillion of public infrastructure and coastal real estate among the effects of warming at or above 2 degrees Celsius. The Fourth National Climate Assessment, which the preamble cites, says rising seas \"now threaten\" about $1 trillion in coastal real estate. It describes a current risk, not one tied to 2 degrees of warming.",
+    "tech": "Preamble paragraph (3) attributes items (A) to (F) to \"global warming at or above 2 degrees Celsius beyond preindustrialized levels\". NCA4 Volume II, Chapter 8, states: \"Although storms, floods, and erosion have always been hazards, in combination with rising sea levels they now threaten approximately $1 trillion in national wealth held in coastal real estate\". The chapter summary refers to \"America's trillion-dollar coastal property market and public infrastructure\" as threatened. Neither passage ties the figure to a warming level, scenario or date. The companion figure in item (B), more than $500 billion in lost annual output by 2100, could not be located in the NCA4 text read (see rejected points), so it is not addressed here.",
+    "use": "The figure can be cited accurately as a present-day exposure; citing it as a consequence of 2 degrees of warming goes beyond the source.",
+    "s": [
+     {
+      "l": "Fourth National Climate Assessment, Volume II, Chapter 8: Coastal Effects",
+      "u": "https://nca2018.globalchange.gov/chapter/8/"
+     }
+    ],
+    "am": []
+   },
+   {
+    "id": "G19",
+    "kind": "notice",
+    "sev": "minor",
+    "conf": "high",
+    "fam": "evidence",
+    "pat": "Statistic mislabeled",
+    "det": "word",
+    "a": {
+     "q": "a large racial wealth divide amounting to a difference of 20 times more wealth between the average white family and the average black family"
+    },
+    "title": "The Green New Deal preamble describes the 20 times racial wealth gap as a gap between average families, while the known source for that figure measured median household wealth.",
+    "plain": "The preamble says the average white family has 20 times more wealth than the average black family. The Pew Research Center study that reported a 20 times gap compared median wealth, the wealth of the household in the middle, using 2009 data. An average and a median can give very different ratios.",
+    "tech": "Preamble clause on income inequality, item (B): \"a difference of 20 times more wealth between the average white family and the average black family\". The resolution gives no source for this item. Pew Research Center (July 26, 2011) states: \"The median wealth of white households is 20 times that of black households\", based on \"newly available government data from 2009.\" The ratio is a median ratio; the preamble's \"average\" wording does not match it. The resolution's own next item uses \"at the median\" for the gender earnings gap, so the text distinguishes the two terms elsewhere.",
+    "use": "A critic can cite the wording as inaccurate; the underlying Pew figure supports the claim when stated as a median.",
+    "s": [
+     {
+      "l": "Pew Research Center, Wealth Gaps Rise to Record Highs Between Whites, Blacks, Hispanics (2011)",
+      "u": "https://www.pewresearch.org/social-trends/2011/07/26/wealth-gaps-rise-to-record-highs-between-whites-blacks-hispanics/"
+     }
+    ],
+    "am": []
+   },
+   {
+    "id": "G20",
+    "kind": "notice",
+    "sev": "minor",
+    "conf": "medium",
+    "fam": "evidence",
+    "pat": "Named means narrower than the goal",
+    "det": "word",
+    "a": {
+     "q": "removing greenhouse gases from the atmosphere and reducing pollution by restoring natural ecosystems through proven low-tech solutions that increase soil carbon storage, such as land preservation and afforestation"
+    },
+    "title": "The Green New Deal resolution names only low-tech natural methods for removing greenhouse gases, while the IPCC report it cites lists engineered removal methods as well.",
+    "plain": "The net-zero goal depends on removing some greenhouse gases from the air. The only removal methods the resolution names are natural ones, such as protecting land and planting forests. The IPCC report cited in the preamble says all of its 1.5 degree pathways with little or no overshoot use carbon dioxide removal, and lists engineered methods alongside forests. The resolution neither includes nor rules out those methods.",
+    "tech": "Paragraph (2)(J) refers to \"proven low-tech solutions that increase soil carbon storage, such as land preservation and afforestation\". Paragraph (2)(M) (\"identifying other emission and pollution sources and creating solutions to remove them\") addresses sources, not atmospheric removal. IPCC SR1.5 SPM C.3: \"All pathways that limit global warming to 1.5°C with limited or no overshoot project the use of carbon dioxide removal (CDR)\" on the order of 100 to 1000 GtCO2 over the 21st century. C.3.1: \"Existing and potential CDR measures include afforestation and reforestation,\" and the same paragraph goes on to list bioenergy with carbon capture and storage (BECCS), direct air carbon capture and storage, enhanced weathering and ocean alkalinization. Together with G6 (no rule on what counts toward \"net\"), the text leaves the role of engineered removal open.",
+    "use": "Advocates for and against engineered removal can each read the resolution as consistent with their position.",
+    "s": [
+     {
+      "l": "IPCC, Global Warming of 1.5 °C, Summary for Policymakers (2018)",
+      "u": "https://www.ipcc.ch/sr15/chapter/spm/"
+     }
+    ],
+    "am": []
+   },
+   {
+    "id": "G21",
+    "kind": "notice",
+    "sev": "minor",
+    "conf": "low",
+    "fam": "evidence",
+    "pat": "Source figure restated more broadly",
+    "det": "word",
+    "a": {
+     "q": "more than $500,000,000,000 in lost annual economic output in the United States by the year 2100"
+    },
+    "title": "The Green New Deal preamble ties $500 billion in yearly U.S. losses by 2100 to 2 degrees of warming; the cited assessment links large losses to high emissions.",
+    "plain": "The preamble lists more than $500 billion in lost yearly economic output by 2100 among the effects of warming at or above 2 degrees Celsius. The Fourth National Climate Assessment, which the preamble cites, says losses in some sectors could reach hundreds of billions of dollars a year by the end of the century if warming continues without significant cuts in emissions. The plain review states that losses of this size come mainly from a high-emissions scenario rather than from 2 degrees of warming. The exact $500 billion figure was not found in the assessment pages read.",
+    "tech": "Preamble paragraph (3) attributes items (A) to (F) to \"global warming at or above 2 degrees Celsius beyond preindustrialized levels\"; item (B) is \"more than $500,000,000,000 in lost annual economic output in the United States by the year 2100\". NCA4 Volume II Summary Findings refer to \"the continued warming that is projected to occur without significant reductions in global greenhouse gas emissions\". They state: \"The potential for losses in some sectors could reach hundreds of billions of dollars per year by the end of this century.\" Contemporary reporting on the assessment (TechCrunch) quotes it as saying: \"Under scenarios with high emissions and limited or no adaptation, annual losses in some sectors are estimated\" to grow to \"hundreds of billions of dollars by the end of the century\". The same reporting summarizes the total as \"nearly half a trillion dollars annually by 2090\". Chapter 29 gives sector figures (for example \"$155 billion in lost wages per year by 2090\") but no cross-sector total on the page read. So the assessment frames large losses as a high-emissions, end-of-century result, not as a 2 degree threshold. The $500 billion number and its scenario were not located in the primary text. This point has not been verified against a primary source.",
+    "use": "Critics can say the preamble attaches a high-emissions figure to a 2 degree threshold; supporters can cite the assessment's own language on losses of hundreds of billions of dollars a year.",
+    "s": [
+     {
+      "l": "Fourth National Climate Assessment, Volume II, Summary Findings",
+      "u": "https://nca2018.globalchange.gov/chapter/1/"
+     },
+     {
+      "l": "Fourth National Climate Assessment, Volume II, Chapter 29: Reducing Risks Through Emissions Mitigation",
+      "u": "https://nca2018.globalchange.gov/chapter/29/"
+     },
+     {
+      "l": "TechCrunch on the Fourth National Climate Assessment, Volume II (2018)",
+      "u": "https://techcrunch.com/?p=1750102"
+     }
+    ],
+    "am": []
+   },
+   {
+    "id": "G22",
+    "kind": "notice",
+    "sev": "minor",
+    "conf": "high",
+    "fam": "evidence",
+    "pat": "Time-bound figure",
+    "det": "word",
+    "a": {
+     "q": "the top 1 percent of earners accruing 91 percent of gains in the first few years of economic recovery after the Great Recession"
+    },
+    "title": "The Green New Deal preamble's 91 percent figure for top earners covers the first three recovery years; the same source later put the six-year share at 52 percent.",
+    "plain": "The preamble says the top 1 percent of earners received 91 percent of income gains in the first few years after the Great Recession. That matches economist Emmanuel Saez's estimate for 2009 to 2012. His later update, covering 2009 to 2015, found the top 1 percent received 52 percent of the gains over the first six years. The preamble's figure is accurate for the period it names, but the share shrank as the recovery went on.",
+    "tech": "The preamble clause on income inequality, item (A), draws on Saez, updated with 2015 estimates. He wrote: \"Hence, the top 1% captured 91% of the income gains in the first three years of the recovery.\" He also wrote: \"Hence, the top 1% captured 52% of the income gains in the first six years of the recovery.\" The resolution's wording (\"the first few years\") is consistent with the three-year figure. The plain review describes the figure as later revised; the source shows instead that the longer period gives a lower share. The preamble has no operative effect (G12).",
+    "use": "Both sides can cite the same source: the three-year figure supports the preamble, and the six-year figure shows the share declined.",
+    "s": [
+     {
+      "l": "Emmanuel Saez, Striking it Richer: The Evolution of Top Incomes in the United States (updated with 2015 estimates)",
+      "u": "https://eml.berkeley.edu/~saez/saez-UStopincomes-2015.pdf"
+     }
+    ],
+    "am": []
+   },
+   {
+    "id": "G23",
+    "kind": "notice",
+    "sev": "minor",
+    "conf": "high",
+    "fam": "evidence",
+    "pat": "Time-bound figure",
+    "det": "word",
+    "a": {
+     "q": "life expectancy declining"
+    },
+    "title": "The Green New Deal preamble describes U.S. life expectancy as declining, which matched data through 2017; the CDC later reported a small increase for 2018.",
+    "plain": "The preamble lists declining life expectancy among current crises. When the resolution was introduced in February 2019, the latest final data showed life expectancy falling to 78.6 years in 2017. The CDC later reported that it rose to 78.7 years in 2018. The statement was accurate when written but describes a condition that changed.",
+    "tech": "Preamble, crises clause, paragraph (1): \"life expectancy declining\". CDC Data Brief 328: \"Life expectancy for the U.S. population declined to 78.6 years in 2017\". CDC Data Brief 355: \"Life expectancy for the U.S. population in 2018 was 78.7 years, an increase of 0.1 year from 2017.\" The resolution states a dated condition in the present tense; later reintroductions would need current figures. The preamble has no operative effect (G12).",
+    "use": "Anyone quoting the preamble today should give the year of the data it reflects.",
+    "s": [
+     {
+      "l": "CDC National Center for Health Statistics, Data Brief No. 328, Mortality in the United States, 2017",
+      "u": "https://www.cdc.gov/nchs/products/databriefs/db328.htm"
+     },
+     {
+      "l": "CDC National Center for Health Statistics, Data Brief No. 355, Mortality in the United States, 2018",
+      "u": "https://www.cdc.gov/nchs/products/databriefs/db355.htm"
+     }
+    ],
+    "am": []
+   },
+   {
+    "id": "G24",
+    "kind": "notice",
+    "sev": "minor",
+    "conf": "medium",
+    "fam": "evidence",
+    "pat": "Unsourced figure",
+    "det": "word",
+    "a": {
+     "q": "having emitted 20 percent of global greenhouse gas emissions through 2014"
+    },
+    "title": "The Green New Deal preamble says the United States emitted 20 percent of global greenhouse gas emissions through 2014 without naming a source, start year or which gases count.",
+    "plain": "The preamble says the United States has emitted 20 percent of global greenhouse gas emissions through 2014. It does not say where the number comes from, what year the count starts, or whether it covers only carbon dioxide or all gases and land use. Published estimates of historical responsibility differ depending on those choices. One widely reported study put the U.S. share of warming at about 20 percent from 1750 to 2005, counting several gases and land use.",
+    "tech": "Preamble: \"having emitted 20 percent of global greenhouse gas emissions through 2014\". No source, baseline year, gas coverage or land-use treatment is given. Carbon Brief reports a 2014 study. It states \"The United States is responsible for a whopping 20 per cent of the warming\" and that the study \"examined each country's greenhouse gas emissions between 1750 and 2005\". The study counted \"carbon dioxide from fossil fuel burning and land use change, they included methane, nitrous oxide and sulphate aerosol emissions.\" That figure is a share of warming over a different period, not a share of emissions through 2014, so the preamble's exact metric could not be matched. The preamble has no operative effect (G12).",
+    "use": "Critics and supporters can each cite estimates with different metrics; the text gives no basis to choose among them.",
+    "s": [
+     {
+      "l": "Carbon Brief, UK tops list of world's biggest greenhouse gas emitters (2014)",
+      "u": "https://www.carbonbrief.org/uk-tops-list-of-worlds-biggest-greenhouse-gas-emitters"
+     }
+    ],
+    "am": []
+   },
+   {
+    "id": "G25",
+    "kind": "notice",
+    "sev": "minor",
+    "conf": "medium",
+    "fam": "evidence",
+    "pat": "Unsourced figure",
+    "det": "word",
+    "a": {
+     "q": "the third-worst level of socioeconomic mobility in the developed world before the Great Recession"
+    },
+    "title": "The Green New Deal preamble ranks the United States third-worst in socioeconomic mobility in the developed world without naming the study or the countries compared.",
+    "plain": "The preamble says the United States had the third-worst socioeconomic mobility in the developed world before the Great Recession. It names no source. Fact-checkers have traced a similar claim to a 2010 OECD study that placed the United States 10th of 12 developed countries, which fits \"third-worst\". They also note that the exact ranking depends on which countries are included.",
+    "tech": "Preamble, crises clause, paragraph (2)(B). PolitiFact (2013), on a comparable claim, states the research \"did find the U.S. to be 10th among the 12 examined countries\", that \"those 12 were all developed countries\", and that \"America's exact ranking in those studies depends on which countries are surveyed.\" The measure it describes is the share of fathers' earnings advantage passed to sons: \"at least 40 percent of the economic advantage that high-earning fathers have over low-earning fathers\". The plain review says the ranking also depends on the measure used; the source read addresses only the choice of countries. The preamble has no operative effect (G12).",
+    "use": "The ranking can be cited with its source and sample; without them, a critic can point to other samples with a different rank.",
+    "s": [
+     {
+      "l": "PolitiFact, Rep. Tim Ryan says United States ranks behind other countries in social mobility (2013)",
+      "u": "https://www.politifact.com/factchecks/2013/jun/26/tim-ryan/rep-tim-ryan-says-united-states-ranks-behind-other"
+     }
+    ],
+    "am": []
+   },
+   {
+    "id": "G26",
+    "kind": "notice",
+    "sev": "minor",
+    "conf": "high",
+    "fam": "interaction",
+    "pat": "Undefined limit on an existing power",
+    "det": "word",
+    "a": {
+     "q": "eminent domain is not abused"
+    },
+    "title": "The Green New Deal resolution says eminent domain should not be \"abused\" without defining abuse, while federal law lets approved transmission lines take land by eminent domain.",
+    "plain": "Paragraph (4)(L) says a Green New Deal will require that eminent domain is not abused. It does not say what counts as abuse. The resolution also calls for new transmission, grid and rail projects over ten years. Under existing federal law, the holder of a federal permit for certain transmission lines may take the right-of-way by eminent domain when it cannot reach agreement with the owner, so a binding version would have to say how the two fit together.",
+    "tech": "(4)(L): \"ensuring that public lands, waters, and oceans are protected and that eminent domain is not abused\". \"Abused\" is undefined and no standard or decision-maker is named. Federal Power Act section 216(e)(1), 16 U.S.C. 824p(e)(1), provides that for permits under subsection (b) \"the permit holder may acquire the right-of-way by the exercise of the right of eminent domain\" when it cannot acquire it by contract or agree on compensation. The Natural Gas Act, 15 U.S.C. 717f(h), gives a similar power to pipeline certificate holders: \"it may acquire the same by the exercise of the right of eminent domain in the district court of the United States\". Paragraph (2)(D) calls for \"building or upgrading to energy-efficient, distributed, and \\\"smart\\\" power grids\" and (2)(H)(iii) for \"high-speed rail\". The resolution does not say whether use of these existing powers for Green New Deal projects would be a permitted use or an abuse. Being a sense-of resolution, it changes neither statute.",
+    "use": "Landowners and project opponents could read \"not abused\" as a limit on condemnation for new lines; developers could read it as consistent with condemnation under existing procedures.",
+    "s": [
+     {
+      "l": "16 U.S.C. 824p, Siting of interstate electric transmission facilities",
+      "u": "https://www.law.cornell.edu/uscode/text/16/824p"
+     },
+     {
+      "l": "15 U.S.C. 717f, Natural Gas Act certificates",
+      "u": "https://www.law.cornell.edu/uscode/text/15/717f"
+     }
+    ],
+    "am": []
+   },
+   {
+    "id": "G27",
+    "kind": "notice",
+    "sev": "minor",
+    "conf": "medium",
+    "fam": "design",
+    "pat": "Unstated input to a stated goal",
+    "det": "word",
+    "a": {
+     "q": "to stop the transfer of jobs and pollution overseas"
+    },
+    "title": "The Green New Deal resolution does not address the minerals its clean power and vehicle goals would require, though its trade, land and consent clauses bear on their sourcing.",
+    "plain": "The resolution calls for 100 percent clean power and zero-emission vehicle infrastructure, but it never mentions mining or minerals. The International Energy Agency reports that a typical electric car needs six times the mineral inputs of a conventional car. Mining at home could run into the clauses on protecting public lands and on indigenous consent, while importing could run into the goal of stopping the transfer of jobs and pollution overseas. The text does not say how to weigh these.",
+    "tech": "Goals: (2)(C) \"meeting 100 percent of the power demand in the United States through clean, renewable, and zero-emission energy sources\"; (2)(H)(i) \"zero-emission vehicle infrastructure and manufacturing\". Constraints: (4)(K)(i) \"to stop the transfer of jobs and pollution overseas\"; (4)(L) protection of \"public lands, waters, and oceans\"; (4)(M) consent of indigenous peoples. The words \"mining\" and \"mineral\" do not appear. The IEA (2021) states: \"A typical electric car requires six times the mineral inputs of a conventional car\"; \"an onshore wind plant requires nine times more mineral resources than a similarly sized gas-fired power plant\". It also states that energy-sector mineral needs \"could increase by as much as six times by 2040\" in climate-driven scenarios. Whether domestic mining or imports would in fact conflict with (4)(K) to (4)(M) depends on project facts the text does not reach. The conflict is stated here as a possibility.",
+    "use": "Opponents can point to the missing supply plan; supporters can argue (4)(K) and (4)(L) set conditions on sourcing rather than forbid it.",
+    "s": [
+     {
+      "l": "International Energy Agency, Clean energy demand for critical minerals set to soar as the world pursues net zero goals (2021)",
+      "u": "https://www.iea.org/news/clean-energy-demand-for-critical-minerals-set-to-soar-as-the-world-pursues-net-zero-goals"
+     }
+    ],
+    "am": []
+   },
+   {
+    "id": "G28",
+    "kind": "notice",
+    "sev": "minor",
+    "conf": "high",
+    "fam": "actors",
+    "pat": "Advisers who are also beneficiaries",
+    "det": "word",
+    "a": {
+     "q": "labor unions, worker cooperatives, civil society groups, academia, and businesses"
+    },
+    "title": "The Green New Deal resolution names development partners who would also benefit from its terms and sets no conflict-of-interest, audit or bidding rules for its envisioned funds.",
+    "plain": "Paragraph (3) says a Green New Deal must be developed in partnership with groups including labor unions, worker cooperatives, civil society groups and businesses. Several of these would also benefit from other paragraphs, such as the union-job terms in (4)(G) and the capital and grants in (4)(A). The resolution has no rule separating advisory roles from receiving money, and no provision on audits, inspectors general, competitive bidding or fraud. Because it is non-binding and spends nothing, these gaps have no effect now, but any implementing law would need to address them.",
+    "tech": "(3): \"a Green New Deal must be developed through transparent and inclusive consultation, collaboration, and partnership with frontline and vulnerable communities, labor unions, worker cooperatives, civil society groups, academia, and businesses\". (4)(A): \"adequate capital (including through community grants, public banks, and other public financing)\" to \"communities, organizations, Federal, State, and local government agencies, and businesses working on the Green New Deal mobilization\". (4)(G): \"high-quality union jobs\". (2)(A) and (2)(I): \"community-defined projects and strategies\". The only process value stated is \"transparent and inclusive\". No text addresses recusal, conflicts of interest, audits, competitive award or recovery of misspent funds. The analysis notes elsewhere that no funds or duties exist to misuse, in its description of the checks applied; this finding records what the text would carry into a binding version.",
+    "use": "Critics can cite the overlap of partners and recipients; drafters of binding bills can treat the list as the set of parties needing conflict rules.",
+    "s": [],
+    "am": []
+   },
+   {
+    "id": "G29",
+    "kind": "tradeoff",
+    "sev": "minor",
+    "conf": "high",
+    "fam": "symbolic",
+    "pat": "Bundled commitments",
+    "det": "structure",
+    "a": null,
+    "where": "Resolved clause, paragraphs (4)(C), (4)(H) to (4)(K), (4)(N) and (4)(O)",
+    "title": "The Green New Deal resolution combines climate goals with commitments on jobs, health care, housing, education, labor law, trade and monopolies in one statement.",
+    "plain": "Alongside its climate goals, the resolution includes a job guarantee, high-quality health care and housing for all, education including higher education, stronger labor rights, trade rules and freedom from monopolies. Each is a large policy area in its own right. Because they are in one text, a vote for or against the resolution does not show a position on any single item, and the climate parts cannot be weighed on their own.",
+    "tech": "Paragraph (4) holds these non-climate items. Item (C) reads \"high-quality education, including higher education, to all people of the United States\". Item (H) reads \"guaranteeing a job with a family-sustaining wage, adequate family and medical leave, paid vacations, and retirement security\". Item (I) names the right \"to organize, unionize, and collectively bargain\". Item (J) covers labor, safety, antidiscrimination and wage standards \"across all employers, industries, and sectors\". Item (K) reads \"trade rules, procurement standards, and border adjustments\". Item (N) names freedom \"from unfair competition and domination by domestic or international monopolies\". Item (O) names \"high-quality health care\", \"affordable, safe, and adequate housing\" and \"economic security\". The preamble links them to the climate goals through \"systemic injustices\". Combining them is a deliberate choice that builds a coalition around one framework, so it is labeled a trade-off. G8 addresses the job guarantee alone.",
+    "use": "Supporters can present the whole agenda as one program; opponents can cite any single item as a reason to oppose the whole.",
+    "s": [],
+    "am": []
+   },
+   {
+    "id": "G30",
+    "kind": "notice",
+    "sev": "minor",
+    "conf": "high",
+    "fam": "interaction",
+    "pat": "Silent on existing state law",
+    "det": "word",
+    "a": {
+     "q": "creates high-quality union jobs that pay prevailing wages"
+    },
+    "title": "The Green New Deal resolution calls for union jobs without saying how this applies to non-union contractors or in states that bar union-membership requirements.",
+    "plain": "Paragraph (4)(G) says the mobilization should create high-quality union jobs paying prevailing wages. It does not say whether non-union contractors could do the work. Federal labor law lets states prohibit agreements that make union membership a condition of employment, which is what right-to-work laws do. The resolution does not say how its union-jobs goal would work in those states.",
+    "tech": "(4)(G): \"ensuring that the Green New Deal mobilization creates high-quality union jobs that pay prevailing wages, hires local workers, offers training and advancement opportunities, and guarantees wage and benefit parity for workers affected by the transition\". National Labor Relations Act section 14(b), 29 U.S.C. 164(b), provides the following. \"Nothing in this subchapter shall be construed as authorizing the execution or application of agreements requiring membership in a labor organization as a condition of employment in any State or Territory in which such execution or application is prohibited by State or Territorial law.\" The resolution does not say whether \"union jobs\" means work under a collective bargaining agreement, a project labor agreement, or union membership by each worker. It also says nothing about non-union contractors. (4)(I) separately calls for \"strengthening and protecting the right of all workers to organize\", which a binding bill could pursue by amending federal law.",
+    "use": "Unions can read (4)(G) as favoring union contractors; non-union contractors and right-to-work states can read it as compatible with open bidding.",
+    "s": [
+     {
+      "l": "29 U.S.C. 164, National Labor Relations Act section 14",
+      "u": "https://www.law.cornell.edu/uscode/text/29/164"
+     }
+    ],
+    "am": []
    }
   ],
   "bigger": {
@@ -1185,7 +1628,7 @@
     {
      "part": "Infrastructure, manufacturing, agriculture and transportation",
      "reach": "named",
-     "note": "The resolution qualifies the emissions goal for each of these sectors by technological feasibility."
+     "note": "The goals for infrastructure, industry, agriculture and transportation are qualified by technological feasibility. The goal for upgrading buildings is not."
     },
     {
      "part": "Public investment and financing",
@@ -1210,6 +1653,72 @@
       {
        "l": "Sen. Wyden release on the 2023 reintroduction",
        "u": "https://www.wyden.senate.gov/news/press-releases/wyden-merkley-colleagues-reintroduce-green-new-deal-resolution"
+      }
+     ]
+    },
+    {
+     "part": "Permitting and environmental review",
+     "reach": "untouched",
+     "note": "The resolution has no permitting or environmental review provision. Clause (4)(L) only says eminent domain should not be abused."
+    },
+    {
+     "part": "Mineral supply for clean energy",
+     "reach": "untouched",
+     "note": "The resolution does not mention mining or minerals."
+    },
+    {
+     "part": "International climate agreements",
+     "reach": "partly",
+     "note": "Paragraph (2)(N) promotes international exchange and leadership. The resolution does not name the Paris Agreement."
+    },
+    {
+     "part": "Trade and border adjustments",
+     "reach": "named",
+     "note": "Clause (4)(K) calls for trade rules and border adjustments without saying how they would work."
+    },
+    {
+     "part": "Indigenous consultation and consent",
+     "reach": "named",
+     "note": "Clause (4)(M) uses a consent standard, while current executive practice is consultation (finding G15)."
+    },
+    {
+     "part": "Grid reliability and interconnection",
+     "reach": "partly",
+     "note": "(2)(D) calls for building or upgrading grids and affordable access to electricity; reliability during the transition and interconnection backlogs are not mentioned."
+    },
+    {
+     "part": "Natural gas as a transition fuel",
+     "reach": "untouched",
+     "note": "Natural gas is not mentioned; G7 covers nuclear power and carbon capture."
+    },
+    {
+     "part": "Fossil-fuel revenue of states, tribes and localities",
+     "reach": "untouched",
+     "note": "No provision on the loss of fossil-fuel taxes or royalties; (4)(E) prioritizes investment in communities that may struggle with the transition."
+    },
+    {
+     "part": "Workforce supply",
+     "reach": "partly",
+     "note": "(4)(C) calls for resources, training and education; the text does not address whether enough trained workers exist for a ten-year timeline."
+    },
+    {
+     "part": "Clean energy supply chains",
+     "reach": "partly",
+     "note": "(2)(F) and (4)(K)(ii) call for growing domestic and renewable energy manufacturing; dependence on foreign solar panels and batteries is not mentioned."
+    },
+    {
+     "part": "Relocation of communities that cannot be protected in place",
+     "reach": "untouched",
+     "note": "(2)(A) and (2)(B)(iii) address resiliency and climate risk; relocation is not mentioned."
+    },
+    {
+     "part": "Emissions of other countries",
+     "reach": "partly",
+     "note": "The preamble's targets are global and (2)(N) aims to help other countries achieve a Green New Deal; the text does not explain how U.S. action connects to the global figures. EPA data show the United States produced about 15 percent of global emissions in 2014.",
+     "s": [
+      {
+       "l": "U.S. EPA, Global Greenhouse Gas Emissions Data (archived January 2021)",
+       "u": "https://19january2021snapshot.epa.gov/ghgemissions/global-greenhouse-gas-emissions-data_.html"
       }
      ]
     }
@@ -1504,7 +2013,7 @@
    {
     "ty": "Promise to provision",
     "q": "Which words in the Green New Deal resolution would actually make each of its goals happen?",
-    "a": "None of the Green New Deal resolution's goals comes with words that would make it happen. The resolution uses the phrases \"it is the duty\", \"should be accomplished\" and \"will require\". These words state hopes, not orders. The resolution names no agency, sets aside no money and changes no existing law.",
+    "a": "No goal in the resolution comes with a way to carry it out. The verbs are mostly \"it is the duty\", \"should be accomplished\" and \"will require\". The one \"shall\" is in the part about frontline and vulnerable communities. It sits inside a statement of what the House thinks, so it binds no one. The resolution sets up no agency, spends no money and changes no law.",
     "f": [
      "G3",
      "G4",
@@ -1575,6 +2084,77 @@
     "a": "A law to reach the Green New Deal goal of net-zero emissions would need several things. It would need an emissions target with dates, written into law. It would need a named agency with power to set and enforce limits. It would need a source of money. It would also need a way to hold the government itself to the target. A table in the bigger picture panel lists these needs for each goal.",
     "f": [
      "G6"
+    ]
+   },
+   {
+    "ty": "Internal consistency",
+    "q": "How does the ten-year building plan fit with the goals on consent, protecting land and local leadership?",
+    "a": "The resolution calls for a 10-year mobilization. It includes high-speed rail, new power capacity, grid upgrades and upgrading all existing buildings. It also calls for consent of indigenous peoples for all decisions affecting them. It calls for local processes \"led by frontline and vulnerable communities\". It calls for protecting public lands, waters and oceans, with eminent domain \"not abused\". It also says those communities should not be harmed. The text does not say which goal gives way when they conflict, or how. A binding version would have to decide.",
+    "f": [
+     "G15",
+     "G16",
+     "G4"
+    ],
+    "s": []
+   },
+   {
+    "ty": "Language",
+    "q": "Who would not be in a \"frontline and vulnerable community\"?",
+    "a": "The resolution defines the term as a list. The list names indigenous peoples, communities of color, migrant communities and the poor. It also names low-income workers, women, the elderly, the unhoused, people with disabilities and youth. It names deindustrialized and depopulated rural communities too. No income level or place narrows the list. Women, youth and the elderly are all on it, so the group is very large. The goals that give this group priority do not say who comes first.",
+    "f": [
+     "G16"
+    ],
+    "s": []
+   },
+   {
+    "ty": "Language",
+    "q": "Who counts as \"all people of the United States\"?",
+    "a": "The resolution uses the phrase for its goals on jobs, health care, housing, education and economic security. The text does not say if it means citizens, lawful residents or everyone in the country. A binding program would need a rule on who can take part.",
+    "f": [
+     "G8"
+    ],
+    "s": []
+   },
+   {
+    "ty": "Language",
+    "q": "Which other key terms does the resolution leave undefined?",
+    "a": "The resolution leaves many terms undefined. Examples are \"fair and just transition\", \"smart\" grids and \"community ownership\". Others are \"family-sustaining wage\", \"high-quality\" health care and \"affordable\" housing. It also leaves out \"adequate capital\" and \"abused\" for eminent domain. The text does not say if public ownership stakes would apply to private projects that get public money. The plain review says this could scare off private investment. The text neither confirms nor rules that out. Any binding version would need definitions.",
+    "f": [
+     "G26",
+     "G9"
+    ],
+    "s": []
+   },
+   {
+    "ty": "Actors",
+    "q": "Who speaks for local groups when plans are \"led by frontline and vulnerable communities\"?",
+    "a": "The text does not say. It calls for \"democratic and participatory processes\" that are \"led by frontline and vulnerable communities and workers\". These would \"plan, implement, and administer the Green New Deal mobilization at the local level\". The text does not say how representatives are chosen or who certifies them. It also does not say who is accountable if money run locally is misspent.",
+    "f": [
+     "G28"
+    ],
+    "s": []
+   },
+   {
+    "ty": "Capacity",
+    "q": "Would the labor standards in the resolution raise costs or lengthen its ten-year timeline?",
+    "a": "The text does not say. It sets goals on union jobs, prevailing wages, local hiring and wage parity. It also calls for a 10-year mobilization. It gives no budget or schedule to measure the effect against. The plain review says the labor terms could clash with cost and speed. This analysis has not verified that prediction.",
+    "f": [
+     "G30",
+     "G4",
+     "G9"
+    ],
+    "s": []
+   },
+   {
+    "ty": "Legal setting",
+    "q": "Would the resolution's border adjustments be consistent with U.S. trade agreements?",
+    "a": "The text does not say, and it does not describe how the adjustments would work. GATT Article II:2(a) allows a charge on imports that is \"equivalent to an internal tax\". The charge must be \"imposed consistently with\" the rules in paragraph 2 of Article III. It applies to the like domestic product. Whether an adjustment fits that rule would depend on its design. The resolution leaves the design to later legislation.",
+    "f": [],
+    "s": [
+     {
+      "l": "WTO Analytical Index, GATT 1994 Article II",
+      "u": "https://www.wto.org/english/res_e/booksp_e/gatt_ai_e/art2_e.pdf"
+     }
     ]
    }
   ],
@@ -1902,6 +2482,378 @@
      }
     ],
     "am": []
+   },
+   {
+    "id": "G15",
+    "kind": "notice",
+    "sev": "significant",
+    "conf": "high",
+    "fam": "interaction",
+    "pat": "Standard beyond existing federal practice",
+    "det": "word",
+    "a": {
+     "q": "obtaining the free, prior, and informed consent of indigenous peoples for all decisions that affect indigenous peoples and their traditional territories"
+    },
+    "title": "The Green New Deal asks for indigenous consent to all decisions that affect them. Federal practice asks only for consultation.",
+    "plain": "The resolution says a Green New Deal will need indigenous peoples to agree to every decision that affects them or their lands. Today federal agencies only talk with tribes and ask for their views. In 2010 the United States backed a United Nations declaration on indigenous rights. It said consent means real talks, not always agreement. The resolution does not say which meaning it uses.",
+    "tech": "The resolution says a Green New Deal \"will require\" consent of indigenous peoples. That consent covers \"all decisions that affect indigenous peoples and their traditional territories\". A federal order says each agency must have a way to get \"meaningful and timely input\" from tribal officials. That order is about agency rules. In 2010 the State Department explained consent. It said consent calls for \"a process of meaningful consultation with tribal leaders, but not necessarily the agreement of those leaders\". The resolution uses the declaration's phrase. It does not accept or reject that reading. It applies the phrase to all decisions, not only agency rules. The resolution only states the House's view. So it changes neither the order nor the United States reading. The difference would matter for any binding bill that keeps the phrase.",
+    "use": "Supporters can cite the phrase as a promise of a consent standard. An agency could say the same phrase is met by the consultation it already does.",
+    "s": [
+     {
+      "l": "Executive Order 13175, Consultation and Coordination With Indian Tribal Governments (2000)",
+      "u": "https://www.federalregister.gov/documents/2000/11/09/00-29003/consultation-and-coordination-with-indian-tribal-governments"
+     },
+     {
+      "l": "U.S. Department of State, Announcement of U.S. Support for the United Nations Declaration on the Rights of Indigenous Peoples (2010)",
+      "u": "https://2009-2017.state.gov/documents/organization/153223.pdf"
+     }
+    ],
+    "am": []
+   },
+   {
+    "id": "G16",
+    "kind": "notice",
+    "sev": "minor",
+    "conf": "high",
+    "fam": "obligation",
+    "pat": "Absolute standard without balancing",
+    "det": "word",
+    "a": {
+     "q": "ensuring that frontline and vulnerable communities shall not be adversely affected"
+    },
+    "title": "The Green New Deal says frontline and vulnerable communities \"shall not be adversely affected\". It sets no limit on harm.",
+    "plain": "The resolution says frontline and vulnerable communities \"shall not be adversely affected\". It does not say how much harm is acceptable. It does not say how harm is weighed against benefits. This is the only place in the main text that uses \"shall\". The whole text is only the House's opinion, so the word does not make it binding.",
+    "tech": "The text reads \"ensuring that frontline and vulnerable communities shall not be adversely affected\". It is the only \"shall\" in the text. It sits under \"it is the sense of the House of Representatives that\", so it has no legal force. The standard has no limit. It sets no level of harm, no test of net benefit and no one to decide. The protected group is the full list in the definition of \"frontline and vulnerable communities\". Read literally, the standard would reach any project that harms even one member of those groups locally.",
+    "use": "If a binding bill kept this wording, people could cite it against nearly any project that has a local cost. A drafter would need to add a limit or a way to weigh harm.",
+    "s": [],
+    "am": []
+   },
+   {
+    "id": "G17",
+    "kind": "notice",
+    "sev": "minor",
+    "conf": "high",
+    "fam": "evidence",
+    "pat": "Source figure restated more broadly",
+    "det": "word",
+    "a": {
+     "q": "(A) global reductions in greenhouse gas emissions from human sources of 40 to 60 percent from 2010 levels by 2030; and"
+    },
+    "title": "The Green New Deal gives carbon dioxide figures as if they covered all greenhouse gases.",
+    "plain": "The resolution has an opening part called the preamble. It says the world must cut greenhouse gas emissions 40 to 60 percent from 2010 levels by 2030. It also says the world must reach net-zero emissions by 2050. The report it cites comes from the IPCC, a United Nations climate science panel. That report gives those numbers for carbon dioxide only. Its central estimate is about 45 percent. For other gases such as methane, it describes deep cuts, not net zero by 2050.",
+    "tech": "The opening part of the resolution cites the IPCC Special Report on Global Warming of 1.5 °C. It asks for \"global reductions in greenhouse gas emissions from human sources of 40 to 60 percent from 2010 levels by 2030\". It also asks for \"net-zero global emissions by 2050\". The report says that in some paths \"global net anthropogenic CO2 emissions decline by about 45% from 2010 levels by 2030\". It gives a middle range of 40 to 60 percent. It also says \"reaching net zero around 2050\", with a middle range of 2045 to 2055. For other gases it says their cuts are \"deep reductions\". It gives methane and black carbon cuts of \"35% or more of both by 2050 relative to 2010\". So the resolution gives the carbon dioxide range as a range for all greenhouse gases. It also leaves out the 45 percent central estimate. This part has no legal effect, so it changes how the case is framed, not what the resolution does.",
+    "use": "Critics can point out that the figures do not match the cited report. Supporters can cite the same report for the carbon dioxide figures as it states them.",
+    "s": [
+     {
+      "l": "IPCC, Global Warming of 1.5 °C, Summary for Policymakers (2018)",
+      "u": "https://www.ipcc.ch/sr15/chapter/spm/"
+     }
+    ],
+    "am": []
+   },
+   {
+    "id": "G18",
+    "kind": "notice",
+    "sev": "minor",
+    "conf": "medium",
+    "fam": "evidence",
+    "pat": "Source figure restated more broadly",
+    "det": "word",
+    "a": {
+     "q": "(F) a risk of damage to $1,000,000,000,000 of public infrastructure and coastal real estate in the United States; and"
+    },
+    "title": "The Green New Deal ties $1 trillion of coastal risk to 2 degrees of warming. Its source calls it current.",
+    "plain": "The opening part of the resolution lists a risk to $1 trillion of public infrastructure and coastal real estate. It puts this among the effects of warming at or above 2 degrees Celsius. The Fourth National Climate Assessment, which it cites, says rising seas \"now threaten\" about $1 trillion in coastal real estate. That is a risk today. It is not tied to 2 degrees of warming.",
+    "tech": "The resolution blames its list of effects on \"global warming at or above 2 degrees Celsius beyond preindustrialized levels\". The Fourth National Climate Assessment says rising seas \"now threaten approximately $1 trillion in national wealth held in coastal real estate\". Its summary calls \"America's trillion-dollar coastal property market and public infrastructure\" threatened. Neither passage ties the figure to a warming level, a scenario or a date. The resolution gives a second figure. It is more than $500 billion in lost output each year by 2100. That figure was not found in the report text that was read. This finding does not cover it.",
+    "use": "People can fairly cite the figure as a risk today. Citing it as a result of 2 degrees of warming goes beyond what the source says.",
+    "s": [
+     {
+      "l": "Fourth National Climate Assessment, Volume II, Chapter 8: Coastal Effects",
+      "u": "https://nca2018.globalchange.gov/chapter/8/"
+     }
+    ],
+    "am": []
+   },
+   {
+    "id": "G19",
+    "kind": "notice",
+    "sev": "minor",
+    "conf": "high",
+    "fam": "evidence",
+    "pat": "Statistic mislabeled",
+    "det": "word",
+    "a": {
+     "q": "a large racial wealth divide amounting to a difference of 20 times more wealth between the average white family and the average black family"
+    },
+    "title": "The Green New Deal calls a 20 times wealth gap an average gap, but its source measured the median.",
+    "plain": "The opening part of the resolution says the average white family has 20 times more wealth than the average black family. The Pew Research Center study that reported a 20 times gap compared median wealth. Median wealth is the wealth of the household in the middle. The study used 2009 data. An average and a median can give very different ratios.",
+    "tech": "The resolution says there is \"a difference of 20 times more wealth between the average white family and the average black family\". It names no source for this. The Pew Research Center (July 26, 2011) said: \"The median wealth of white households is 20 times that of black households\". Pew used \"newly available government data from 2009.\" So the ratio is a median ratio. The word \"average\" does not match it. The next item in the resolution uses \"at the median\" for the gender earnings gap. So the text treats the two terms as different elsewhere.",
+    "use": "A critic can call the wording inaccurate. The Pew figure supports the claim when it is stated as a median.",
+    "s": [
+     {
+      "l": "Pew Research Center, Wealth Gaps Rise to Record Highs Between Whites, Blacks, Hispanics (2011)",
+      "u": "https://www.pewresearch.org/social-trends/2011/07/26/wealth-gaps-rise-to-record-highs-between-whites-blacks-hispanics/"
+     }
+    ],
+    "am": []
+   },
+   {
+    "id": "G20",
+    "kind": "notice",
+    "sev": "minor",
+    "conf": "medium",
+    "fam": "evidence",
+    "pat": "Named means narrower than the goal",
+    "det": "word",
+    "a": {
+     "q": "removing greenhouse gases from the atmosphere and reducing pollution by restoring natural ecosystems through proven low-tech solutions that increase soil carbon storage, such as land preservation and afforestation"
+    },
+    "title": "The Green New Deal names only natural ways to remove greenhouse gases. Its climate report lists engineered ways too.",
+    "plain": "The net-zero goal depends on taking some greenhouse gases out of the air. The only ways the resolution names are natural ones, such as protecting land and planting forests. The IPCC report it cites says all of its 1.5 degree paths with little or no overshoot use carbon dioxide removal. It lists engineered methods next to forests. The resolution neither includes nor rules out those methods.",
+    "tech": "The resolution refers to \"proven low-tech solutions that increase soil carbon storage, such as land preservation and afforestation\". Another goal is about finding other sources of emissions and pollution. It is not about taking gas out of the air. The IPCC report looks at paths that keep warming to 1.5°C with limited or no overshoot. It says all of them \"project the use of carbon dioxide removal (CDR)\". It says this is on the order of 100 to 1000 GtCO2 over the 21st century. It says \"Existing and potential CDR measures include afforestation and reforestation\". It then lists engineered methods. These are bioenergy with carbon capture and storage (BECCS), direct air carbon capture and storage, enhanced weathering and ocean alkalinization. The resolution has no rule on what counts toward \"net\". So the text leaves open the role of engineered removal.",
+    "use": "Some people favor engineered removal and some oppose it. Each side can say the resolution fits its view.",
+    "s": [
+     {
+      "l": "IPCC, Global Warming of 1.5 °C, Summary for Policymakers (2018)",
+      "u": "https://www.ipcc.ch/sr15/chapter/spm/"
+     }
+    ],
+    "am": []
+   },
+   {
+    "id": "G21",
+    "kind": "notice",
+    "sev": "minor",
+    "conf": "low",
+    "fam": "evidence",
+    "pat": "Source figure restated more broadly",
+    "det": "word",
+    "a": {
+     "q": "more than $500,000,000,000 in lost annual economic output in the United States by the year 2100"
+    },
+    "title": "The Green New Deal ties $500 billion in yearly losses to 2 degrees of warming. Its source cites high emissions.",
+    "plain": "The resolution lists effects of warming at or above 2 degrees Celsius. One is more than $500 billion in lost yearly economic output by 2100. It cites the Fourth National Climate Assessment. That report says losses in some sectors could reach hundreds of billions of dollars a year by the end of the century. That is if warming goes on without big cuts in emissions. The plain review says losses this big come from high emissions, not from 2 degrees. The assessment pages read did not show the $500 billion figure.",
+    "tech": "The resolution blames some effects on \"global warming at or above 2 degrees Celsius beyond preindustrialized levels\". One effect is \"more than $500,000,000,000 in lost annual economic output in the United States by the year 2100\". The Volume II summary of the Fourth National Climate Assessment mentions \"the continued warming that is projected to occur\". That is warming \"without significant reductions in global greenhouse gas emissions\". It says losses in some sectors \"could reach hundreds of billions of dollars per year by the end of this century.\" TechCrunch reported on the assessment. It quotes the assessment on \"scenarios with high emissions and limited or no adaptation\". There, \"annual losses in some sectors are estimated\" to grow to \"hundreds of billions of dollars by the end of the century\". TechCrunch sums up the total as \"nearly half a trillion dollars annually by 2090\". Chapter 29 gives sector figures, such as \"$155 billion in lost wages per year by 2090\". It gives no total across sectors on the page read. So the assessment links large losses to high emissions near the end of the century, not to a 2 degree line. The $500 billion number and its scenario were not found in the primary text. This point has not been checked against a source.",
+    "use": "Critics can say the resolution pairs a high-emissions figure with a 2 degree line. Supporters can quote the assessment's words on losses of hundreds of billions of dollars a year.",
+    "s": [
+     {
+      "l": "Fourth National Climate Assessment, Volume II, Summary Findings",
+      "u": "https://nca2018.globalchange.gov/chapter/1/"
+     },
+     {
+      "l": "Fourth National Climate Assessment, Volume II, Chapter 29: Reducing Risks Through Emissions Mitigation",
+      "u": "https://nca2018.globalchange.gov/chapter/29/"
+     },
+     {
+      "l": "TechCrunch on the Fourth National Climate Assessment, Volume II (2018)",
+      "u": "https://techcrunch.com/?p=1750102"
+     }
+    ],
+    "am": []
+   },
+   {
+    "id": "G22",
+    "kind": "notice",
+    "sev": "minor",
+    "conf": "high",
+    "fam": "evidence",
+    "pat": "Time-bound figure",
+    "det": "word",
+    "a": {
+     "q": "the top 1 percent of earners accruing 91 percent of gains in the first few years of economic recovery after the Great Recession"
+    },
+    "title": "The Green New Deal says top earners got 91 percent of recovery gains. Its source later reports 52 percent.",
+    "plain": "The resolution says the top 1 percent of earners got 91 percent of income gains. That was in the first few years after the Great Recession. That matches economist Emmanuel Saez's estimate for 2009 to 2012. His later update covered 2009 to 2015. It found the top 1 percent got 52 percent of the gains over the first six years. The figure is right for the years it names. But the share fell as the recovery went on.",
+    "tech": "The resolution's clause on income inequality cites the top 1 percent. Saez updated his numbers with 2015 estimates. He wrote: \"Hence, the top 1% captured 91% of the income gains in the first three years of the recovery.\" He also wrote: \"Hence, the top 1% captured 52% of the income gains in the first six years of the recovery.\" The resolution says \"the first few years\". That fits the three-year figure. The plain review calls the figure later revised. The source shows instead that the longer period gives a lower share. The opening part of the resolution has no legal effect, as another finding in this review explains.",
+    "use": "Both sides can cite the same source. The three-year figure backs the resolution, and the six-year figure shows the share fell.",
+    "s": [
+     {
+      "l": "Emmanuel Saez, Striking it Richer: The Evolution of Top Incomes in the United States (updated with 2015 estimates)",
+      "u": "https://eml.berkeley.edu/~saez/saez-UStopincomes-2015.pdf"
+     }
+    ],
+    "am": []
+   },
+   {
+    "id": "G23",
+    "kind": "notice",
+    "sev": "minor",
+    "conf": "high",
+    "fam": "evidence",
+    "pat": "Time-bound figure",
+    "det": "word",
+    "a": {
+     "q": "life expectancy declining"
+    },
+    "title": "The Green New Deal says U.S. life expectancy is falling. That fit 2017 data, but 2018 data showed a rise.",
+    "plain": "The resolution lists falling life expectancy among current crises. It was introduced in February 2019. The latest final data then showed life expectancy falling to 78.6 years in 2017. The CDC later reported that it rose to 78.7 years in 2018. The statement was right when written, but the facts have changed.",
+    "tech": "The resolution's list of crises says \"life expectancy declining\". CDC Data Brief 328 says \"Life expectancy for the U.S. population declined to 78.6 years in 2017\". CDC Data Brief 355 says life expectancy \"in 2018 was 78.7 years, an increase of 0.1 year from 2017.\" The resolution states a condition from one date as if it were current. Later versions would need current figures. The opening part of the resolution has no legal effect, as another finding in this review explains.",
+    "use": "Anyone quoting the resolution today should give the year of the data it reflects.",
+    "s": [
+     {
+      "l": "CDC National Center for Health Statistics, Data Brief No. 328, Mortality in the United States, 2017",
+      "u": "https://www.cdc.gov/nchs/products/databriefs/db328.htm"
+     },
+     {
+      "l": "CDC National Center for Health Statistics, Data Brief No. 355, Mortality in the United States, 2018",
+      "u": "https://www.cdc.gov/nchs/products/databriefs/db355.htm"
+     }
+    ],
+    "am": []
+   },
+   {
+    "id": "G24",
+    "kind": "notice",
+    "sev": "minor",
+    "conf": "medium",
+    "fam": "evidence",
+    "pat": "Unsourced figure",
+    "det": "word",
+    "a": {
+     "q": "having emitted 20 percent of global greenhouse gas emissions through 2014"
+    },
+    "title": "The Green New Deal says the U.S. emitted 20 percent of global greenhouse gases through 2014. It names no source.",
+    "plain": "The resolution says the United States has emitted 20 percent of global greenhouse gas emissions through 2014. It does not say where the number comes from or what year the count starts. It does not say if the count covers only carbon dioxide or all gases and land use. Estimates of past responsibility differ with those choices. One widely reported study put the U.S. share of warming at about 20 percent from 1750 to 2005. It counted several gases and land use.",
+    "tech": "The resolution says \"having emitted 20 percent of global greenhouse gas emissions through 2014\". It gives no source, start year, list of gases or treatment of land use. Carbon Brief reported on a 2014 study. It says \"The United States is responsible for a whopping 20 per cent of the warming\". The study \"examined each country's greenhouse gas emissions between 1750 and 2005\". It counted \"carbon dioxide from fossil fuel burning and land use change\". It also counted \"methane, nitrous oxide and sulphate aerosol emissions.\" That figure is a share of warming over a different period. It is not a share of emissions through 2014. So the resolution's exact measure could not be matched. The opening part of the resolution has no legal effect, as another finding in this review explains.",
+    "use": "Critics and supporters can each cite estimates that use different measures. The text gives no basis to choose among them.",
+    "s": [
+     {
+      "l": "Carbon Brief, UK tops list of world's biggest greenhouse gas emitters (2014)",
+      "u": "https://www.carbonbrief.org/uk-tops-list-of-worlds-biggest-greenhouse-gas-emitters"
+     }
+    ],
+    "am": []
+   },
+   {
+    "id": "G25",
+    "kind": "notice",
+    "sev": "minor",
+    "conf": "medium",
+    "fam": "evidence",
+    "pat": "Unsourced figure",
+    "det": "word",
+    "a": {
+     "q": "the third-worst level of socioeconomic mobility in the developed world before the Great Recession"
+    },
+    "title": "The Green New Deal ranks the U.S. third-worst in mobility in the developed world. It names no study or countries.",
+    "plain": "The resolution says the United States had the third-worst socioeconomic mobility in the developed world. That was before the Great Recession. It names no source. Fact-checkers traced a similar claim to a 2010 OECD study. It ranked the United States 10th of 12 developed countries, which fits \"third-worst\". They also note that the exact rank depends on which countries are included.",
+    "tech": "PolitiFact (2013) looked at a similar claim. It says the research \"did find the U.S. to be 10th among the 12 examined countries\". It says \"those 12 were all developed countries\". It also says \"America's exact ranking in those studies depends on which countries are surveyed.\" The study measured how much of a father's earnings edge passes to his son. That edge is \"at least 40 percent of the economic advantage that high-earning fathers have over low-earning fathers\". The plain review says the ranking also depends on the measure used. The source read speaks only to the choice of countries. The opening part of the resolution has no legal effect, as another finding in this review explains.",
+    "use": "The ranking can be cited with its source and sample. Without them, a critic can point to other samples with a different rank.",
+    "s": [
+     {
+      "l": "PolitiFact, Rep. Tim Ryan says United States ranks behind other countries in social mobility (2013)",
+      "u": "https://www.politifact.com/factchecks/2013/jun/26/tim-ryan/rep-tim-ryan-says-united-states-ranks-behind-other"
+     }
+    ],
+    "am": []
+   },
+   {
+    "id": "G26",
+    "kind": "notice",
+    "sev": "minor",
+    "conf": "high",
+    "fam": "interaction",
+    "pat": "Undefined limit on an existing power",
+    "det": "word",
+    "a": {
+     "q": "eminent domain is not abused"
+    },
+    "title": "The Green New Deal says eminent domain must not be \"abused\" but does not define the word.",
+    "plain": "The resolution says a Green New Deal will require that eminent domain is not abused. Eminent domain is the power to take private land for public use. The resolution does not say what counts as abuse. It also calls for new power grid and rail projects over ten years. Federal law already lets some power line owners take land. These owners hold a federal permit. They may do so if they cannot reach a deal with the landowner. A binding version would have to say how the two fit together.",
+    "tech": "The resolution calls for \"ensuring that public lands, waters, and oceans are protected and that eminent domain is not abused\". It does not define \"abused\". It names no standard and no decision-maker. The Federal Power Act covers certain permits. It says \"the permit holder may acquire the right-of-way by the exercise of the right of eminent domain\". That applies when the holder cannot buy the land by contract or agree on pay. The Natural Gas Act gives a similar power to holders of pipeline certificates. It says \"it may acquire the same by the exercise of the right of eminent domain\". That happens \"in the district court of the United States\". The resolution calls for \"energy-efficient, distributed, and \\\"smart\\\" power grids\" and for \"high-speed rail\". It does not say if using these powers for Green New Deal projects would be allowed or would be abuse. It is a statement of opinion, so it changes neither law.",
+    "use": "Landowners and project opponents could read \"not abused\" as a limit on taking land for new lines. Developers could read it as fitting today's rules.",
+    "s": [
+     {
+      "l": "16 U.S.C. 824p, Siting of interstate electric transmission facilities",
+      "u": "https://www.law.cornell.edu/uscode/text/16/824p"
+     },
+     {
+      "l": "15 U.S.C. 717f, Natural Gas Act certificates",
+      "u": "https://www.law.cornell.edu/uscode/text/15/717f"
+     }
+    ],
+    "am": []
+   },
+   {
+    "id": "G27",
+    "kind": "notice",
+    "sev": "minor",
+    "conf": "medium",
+    "fam": "design",
+    "pat": "Unstated input to a stated goal",
+    "det": "word",
+    "a": {
+     "q": "to stop the transfer of jobs and pollution overseas"
+    },
+    "title": "The Green New Deal never mentions the minerals its clean power goals need, though other clauses affect their source.",
+    "plain": "The resolution calls for 100 percent clean power and zero-emission vehicle systems. It never mentions mining or minerals. The International Energy Agency says a typical electric car needs six times the mineral inputs of a conventional car. Mining at home could clash with the clauses on public lands and indigenous consent. Imports could clash with the goal of stopping the move of jobs and pollution overseas. The text does not say how to weigh these.",
+    "tech": "One goal is \"meeting 100 percent of the power demand in the United States\". It would use \"clean, renewable, and zero-emission energy sources\". Another goal is \"zero-emission vehicle infrastructure and manufacturing\". One limit is \"to stop the transfer of jobs and pollution overseas\". Another is protection of \"public lands, waters, and oceans\". A third is the consent of indigenous peoples. The words \"mining\" and \"mineral\" do not appear. The International Energy Agency (2021) says \"A typical electric car requires six times the mineral inputs of a conventional car\". It says \"an onshore wind plant requires nine times more mineral resources\" than \"a similarly sized gas-fired power plant\". It says energy-sector mineral needs \"could increase by as much as six times by 2040\" in climate-driven cases. Mining at home or imports might clash with those limits. That depends on project facts the text does not reach. The clash is stated here only as a possibility.",
+    "use": "Opponents can point to the missing supply plan. Supporters can argue the trade and land clauses set conditions on sourcing and do not forbid it.",
+    "s": [
+     {
+      "l": "International Energy Agency, Clean energy demand for critical minerals set to soar as the world pursues net zero goals (2021)",
+      "u": "https://www.iea.org/news/clean-energy-demand-for-critical-minerals-set-to-soar-as-the-world-pursues-net-zero-goals"
+     }
+    ],
+    "am": []
+   },
+   {
+    "id": "G28",
+    "kind": "notice",
+    "sev": "minor",
+    "conf": "high",
+    "fam": "actors",
+    "pat": "Advisers who are also beneficiaries",
+    "det": "word",
+    "a": {
+     "q": "labor unions, worker cooperatives, civil society groups, academia, and businesses"
+    },
+    "title": "The Green New Deal names partners who may gain. It has no rules on conflicts of interest, audits or bidding.",
+    "plain": "The resolution says a Green New Deal must be built with groups such as unions, civil society groups and businesses. It also names worker co-ops, which are businesses owned by their workers. Several would also gain from other parts, such as the union-job goal and the capital and grants. The resolution has no rule that separates advising from getting paid. It has no rule on audits, inspectors general, competitive bidding or fraud. It is non-binding and spends nothing, so these gaps have no effect now. A law to carry it out would need to address them.",
+    "tech": "The resolution says a Green New Deal \"must be developed through transparent and inclusive consultation\". The partners include \"labor unions\" and \"worker cooperatives\", which means businesses owned by their workers. It also calls for \"adequate capital\". The money could come from \"community grants, public banks, and other public financing\". Other goals mention \"high-quality union jobs\". The only process value it states is \"transparent and inclusive\". No text covers conflicts of interest, audits, competitive awards or getting back misspent money. This review notes that no funds or duties exist to misuse. A binding version would have these gaps.",
+    "use": "Critics can cite the overlap between partners and people who get money. Drafters of binding bills can treat the list as the set of parties that need conflict rules.",
+    "s": [],
+    "am": []
+   },
+   {
+    "id": "G29",
+    "kind": "tradeoff",
+    "sev": "minor",
+    "conf": "high",
+    "fam": "symbolic",
+    "pat": "Bundled commitments",
+    "det": "structure",
+    "a": null,
+    "where": "Resolved clause, paragraphs (4)(C), (4)(H) to (4)(K), (4)(N) and (4)(O)",
+    "title": "The Green New Deal combines climate goals with promises on jobs, health care, housing, education and trade.",
+    "plain": "Beside its climate goals, the resolution includes a job guarantee, high-quality health care and housing for all, and education that includes college. It also covers stronger labor rights, trade rules and freedom from monopolies. Each is a large policy area on its own. Because they share one text, a vote for or against it does not show a view on any one item. The climate parts cannot be weighed alone.",
+    "tech": "The goals outside climate include \"high-quality education\". It lists \"a job with a family-sustaining wage\" and \"retirement security\". It lists the right \"to organize, unionize, and collectively bargain\". It sets labor and wage standards \"across all employers, industries, and sectors\". It lists \"trade rules\" and \"border adjustments\". It lists freedom \"from unfair competition\". It lists \"high-quality health care\", \"affordable\" housing and \"economic security\". The resolution ties these to climate goals through \"systemic injustices\". The mix is a choice to build a wide group of backers around one plan. So it is labeled a trade-off. Another finding in this review covers the job guarantee alone.",
+    "use": "Supporters can present the whole agenda as one program. Opponents can cite any single item as a reason to oppose the whole.",
+    "s": [],
+    "am": []
+   },
+   {
+    "id": "G30",
+    "kind": "notice",
+    "sev": "minor",
+    "conf": "high",
+    "fam": "interaction",
+    "pat": "Silent on existing state law",
+    "det": "word",
+    "a": {
+     "q": "creates high-quality union jobs that pay prevailing wages"
+    },
+    "title": "The Green New Deal calls for union jobs but does not say how that fits non-union contractors or right-to-work states.",
+    "plain": "The resolution says the mobilization should create high-quality union jobs that pay prevailing wages. It does not say if non-union contractors could do the work. Federal labor law lets states ban deals that make union membership a condition of a job. Right-to-work laws do this. The resolution does not say how its union-jobs goal would work in those states.",
+    "tech": "The resolution calls for \"high-quality union jobs that pay prevailing wages\". It also wants \"wage and benefit parity\". The National Labor Relations Act says \"Nothing in this subchapter shall be construed as authorizing\" some deals. These are deals \"requiring membership in a labor organization as a condition of employment\". That holds in a State where state law bans them. The resolution does not say what \"union jobs\" means. It could mean a union contract or union membership for each worker. It says nothing about non-union contractors. A binding bill could pursue the right \"to organize\" by amending federal law.",
+    "use": "Unions can read the goal as favoring union contractors. Non-union contractors and right-to-work states can read it as fitting open bidding.",
+    "s": [
+     {
+      "l": "29 U.S.C. 164, National Labor Relations Act section 14",
+      "u": "https://www.law.cornell.edu/uscode/text/29/164"
+     }
+    ],
+    "am": []
    }
   ],
   "bigger": {
@@ -1921,7 +2873,7 @@
     {
      "part": "Infrastructure, manufacturing, farming and transportation",
      "reach": "named",
-     "note": "In each of these areas, the Green New Deal resolution limits its emissions goal. It asks only for what technology makes possible."
+     "note": "Some goals apply only as far as technology allows. These are the goals for infrastructure, industry, farming and transportation. The goal for upgrading buildings has no such limit."
     },
     {
      "part": "Public investment and financing",
@@ -1946,6 +2898,72 @@
       {
        "l": "Sen. Wyden release on the 2023 reintroduction",
        "u": "https://www.wyden.senate.gov/news/press-releases/wyden-merkley-colleagues-reintroduce-green-new-deal-resolution"
+      }
+     ]
+    },
+    {
+     "part": "Permits and environmental review",
+     "reach": "untouched",
+     "note": "The resolution has no rule on permits or environmental review. It only says eminent domain should not be abused. Eminent domain is the power to take private land for public use."
+    },
+    {
+     "part": "Mineral supply for clean energy",
+     "reach": "untouched",
+     "note": "The text does not mention mining. It does not mention minerals either."
+    },
+    {
+     "part": "International climate agreements",
+     "reach": "partly",
+     "note": "The resolution promotes sharing ideas and leading with other countries. It does not name the Paris Agreement."
+    },
+    {
+     "part": "Trade rules and border fees",
+     "reach": "named",
+     "note": "The resolution calls for trade rules and border adjustments. It does not say how they would work."
+    },
+    {
+     "part": "Indigenous consultation and consent",
+     "reach": "named",
+     "note": "The resolution asks for consent. Federal practice now asks only for consultation."
+    },
+    {
+     "part": "Grid reliability and interconnection",
+     "reach": "partly",
+     "note": "The resolution calls for building or upgrading grids and for affordable access to electricity. It does not mention keeping power steady during the shift. It does not mention delays in linking new projects to the grid."
+    },
+    {
+     "part": "Natural gas as a transition fuel",
+     "reach": "untouched",
+     "note": "The resolution does not mention natural gas. One other finding in this review covers nuclear power and carbon capture."
+    },
+    {
+     "part": "Fossil-fuel revenue of states, tribes and localities",
+     "reach": "untouched",
+     "note": "The resolution has no rule on the loss of fossil-fuel taxes or royalties. It does put investment first in communities that may struggle with the shift."
+    },
+    {
+     "part": "Workforce supply",
+     "reach": "partly",
+     "note": "The resolution calls for resources, training and education. It does not say if enough trained workers exist for a ten-year timeline."
+    },
+    {
+     "part": "Clean energy supply chains",
+     "reach": "partly",
+     "note": "The resolution wants more clean energy equipment made at home. It does not mention solar panels and batteries from abroad."
+    },
+    {
+     "part": "Relocation of communities that cannot be protected in place",
+     "reach": "untouched",
+     "note": "The resolution speaks of resiliency and climate risk. It does not mention moving communities."
+    },
+    {
+     "part": "Emissions of other countries",
+     "reach": "partly",
+     "note": "The resolution's targets are global, and it aims to help other countries achieve a Green New Deal. The text does not explain how U.S. action connects to the global figures. EPA data show the United States produced about 15 percent of global emissions in 2014.",
+     "s": [
+      {
+       "l": "U.S. EPA, Global Greenhouse Gas Emissions Data (archived January 2021)",
+       "u": "https://19january2021snapshot.epa.gov/ghgemissions/global-greenhouse-gas-emissions-data_.html"
       }
      ]
     }

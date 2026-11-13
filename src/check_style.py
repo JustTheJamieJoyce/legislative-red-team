@@ -52,7 +52,10 @@ def grade(t):
     s=[x for x in re.split(r'[.!?]+\s',t) if x.strip()];w=re.findall(r"[A-Za-z][A-Za-z'\-]*",t)
     if not s or not w:return 0
     return 0.39*len(w)/len(s)+11.8*sum(syl(x) for x in w)/len(w)-15.59
-def sents(t): return [x for x in re.split(r'(?<=[.!?])\s+',t.strip()) if x]
+ABBR=re.compile(r"\b(U\.S\.C|U\.S|H\.R|H\. Res|S\. Res|v|Inc|Co|Corp|Jr|Sr|No|Nos|Fed|R|Evid|Civ|Crim|P|Pub|L|Stat|Rep|Sen|Mr|Ms|Dr|St|Cir|Cl|App|Supp|F|Ct|ed|e\.g|i\.e|cf|al)\.(?=\s)")
+def sents(t):
+    s=ABBR.sub(lambda m:m.group(0)[:-1]+'\u2024',t.strip())
+    return [x.replace('\u2024','.') for x in re.split(r'(?<=[.!?])\s+|(?<=[.!?]["\u201d])\s+(?=[A-Z])',s) if x]
 def kind(path):
     p=path.split('.')
     if p[-1] in('label','role','part','issue','function','job','holder','who') or (len(p)>2 and p[-2]=='ladder' and False): return 'label'
@@ -87,7 +90,7 @@ def check(level,F,base):
             w=s.split()
             if len(w)>L[level]['sentence'] and k!='title': iss.append(f'{level} {path}: sentence of {len(w)} words (max {L[level]["sentence"]}): {s[:50]}')
             if len(w)<4 and k!='label': iss.append(f'{level} {path}: fragment "{s}"')
-            elif not VERB.search(s): iss.append(f'{level} {path}: no verb in "{s[:50]}"')
+            elif not VERB.search(s) and not re.search(r'\bv\.? .*\(\d{4}\)|U\.S\.C\.|\d+ U\.S\. \d+',s): iss.append(f'{level} {path}: no verb in "{s[:50]}"')
         if SUBJ_START.match(t) and k in('prose','head'): iss.append(f'{level} {path}: starts without a subject ("{t[:30]}")')
         if level=='plain' and k!='label':
             g=grade(t);GR.append(g)

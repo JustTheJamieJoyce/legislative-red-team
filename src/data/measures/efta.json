@@ -427,6 +427,130 @@
      "E11",
      "E13"
     ]
+   },
+   {
+    "ty": "Language",
+    "q": "Is the list of five permitted withholdings in section 2(c)(1) the only lawful basis for holding back a record, or do privileges and other laws still apply?",
+    "a": "The Act does not say. One federal court read the five grounds as the complete list when it held that the Act overrides grand jury secrecy for the Maxwell and Epstein materials. The Justice Department later withheld documents as privileged, citing the rule that privileges survive unless Congress clearly says otherwise, and a second court found it had likely violated the Act.",
+    "f": [
+     "E18"
+    ],
+    "s": [
+     {
+      "l": "United States v. Maxwell, S.D.N.Y. opinion of December 9, 2025",
+      "u": "https://nysd.uscourts.gov/sites/default/files/2025-12/PAE%20Maxwell%20Opinion%202025.12.09%20%28As%20Docketed%29.pdf"
+     },
+     {
+      "l": "Justice Department Section 3 report to Congress, February 14, 2026",
+      "u": "https://static.foxnews.com/foxnews.com/content/uploads/2026/02/efta-final-letter.pdf"
+     },
+     {
+      "l": "USA Today via The Spokesman-Review, July 2, 2026",
+      "u": "https://www.spokesman.com/stories/2026/jul/02/doj-defends-decision-to-withhold-millions-of-epste/"
+     }
+    ]
+   },
+   {
+    "ty": "Language",
+    "q": "Whose privacy does the phrase \"similar files\" in section 2(c)(1)(A) protect: victims only, or anyone named in a record?",
+    "a": "The phrase is copied from the Freedom of Information Act, where the Supreme Court reads it broadly to cover records about any identifiable person. Whether it is tied to victims in this Act has not been decided.",
+    "f": [
+     "E19"
+    ],
+    "s": [
+     {
+      "l": "Department of State v. Washington Post Co., 456 U.S. 595 (1982)",
+      "u": "https://supreme.justia.com/cases/federal/us/456/595/"
+     },
+     {
+      "l": "5 U.S.C. 552(b)(6)",
+      "u": "https://www.law.cornell.edu/uscode/text/5/552"
+     }
+    ]
+   },
+   {
+    "ty": "Language",
+    "q": "Does \"ongoing prosecution\" in section 2(c)(1)(C) include appeals, habeas petitions or related civil cases?",
+    "a": "The text does not say. Section 2(c)(1)(C) protects material that \"would jeopardize an active federal investigation or ongoing prosecution\" and defines neither term. A reading that counts appeals, post-conviction proceedings such as Ghislaine Maxwell's, or civil matters would widen the exception; a reading limited to pending criminal trials would narrow it.",
+    "f": [
+     "E23"
+    ],
+    "s": [
+     {
+      "l": "Public Law 119-38",
+      "u": "https://www.congress.gov/119/plaws/publ38/PLAW-119publ38.htm"
+     }
+    ]
+   },
+   {
+    "ty": "Language",
+    "q": "Whom do \"government officials\" in sections 2(a)(4) and 3(3) and \"custodial matters\" in section 2(a)(1) cover?",
+    "a": "The text does not say. \"Government officials\" could be read to include foreign officials and former officials, or only current United States officials; section 2(b)(1) separately mentions a \"foreign dignitary\", which suggests the drafters treated foreign figures as a distinct group. \"Custodial matters\" most naturally refers to Epstein's detention, but the Act does not define it.",
+    "f": [],
+    "s": [
+     {
+      "l": "Public Law 119-38",
+      "u": "https://www.congress.gov/119/plaws/publ38/PLAW-119publ38.htm"
+     }
+    ]
+   },
+   {
+    "ty": "Constitutional",
+    "q": "Could the executive branch withhold records under the Act by claiming executive privilege?",
+    "a": "The Act does not address it. Executive privilege rests on the Constitution, so a statute cannot simply abolish it. The Supreme Court has held that \"the privilege is a qualified one\". In upholding a statute that took control of presidential records, it held that \"the claims of Presidential privilege clearly must yield to the important congressional purposes\" of that law (Nixon v. Administrator of General Services, 433 U.S. at 446 and 454). No source was found in which the privilege has been claimed under this Act.",
+    "f": [
+     "E26"
+    ],
+    "s": [
+     {
+      "l": "Nixon v. Administrator of General Services, 433 U.S. 425 (1977)",
+      "u": "https://supreme.justia.com/cases/federal/us/433/425/"
+     }
+    ]
+   },
+   {
+    "ty": "Affected people",
+    "q": "Does the Crime Victims' Rights Act apply when the Justice Department publishes records under this Act?",
+    "a": "The text does not say. The Crime Victims' Rights Act directs Justice Department employees \"engaged in the detection, investigation, or prosecution of crime\" to \"make their best efforts\" to accord victims rights that include \"respect for the victim's dignity and privacy\". Whether that duty applies to a statutory publication mandate, rather than a criminal case, has not been decided.",
+    "f": [
+     "E24"
+    ],
+    "s": [
+     {
+      "l": "18 U.S.C. 3771",
+      "u": "https://www.law.cornell.edu/uscode/text/18/3771"
+     }
+    ]
+   },
+   {
+    "ty": "History",
+    "q": "Why does section 2(c)(4) reach classification decisions made after July 1, 2025?",
+    "a": "The text does not say. On July 7, 2025, the Justice Department and FBI released a memo concluding that \"no further disclosure would be appropriate or warranted\" (OPB). The plain review suggests the date was chosen to capture classification decisions around that memo; no source was found that confirms the drafters' reason.",
+    "f": [],
+    "s": [
+     {
+      "l": "OPB (NPR report), July 7, 2025",
+      "u": "https://www.opb.org/article/2025/07/07/doj-releases-memo-on-sex-offender-jeffrey-epstein-files/"
+     }
+    ]
+   },
+   {
+    "ty": "Language",
+    "q": "Must records the Department already made public be released again, and how are duplicates handled?",
+    "a": "The text does not say. Section 2(a) reaches \"all\" covered records in the Department's possession, which by its terms includes records released before. On February 27, 2025, the Department published a first set of Epstein files that it said \"largely contains documents that have been previously leaked\" (Court TV). The Act gives no rule on re-release, duplicates or versions.",
+    "f": [
+     "E30"
+    ],
+    "s": [
+     {
+      "l": "Court TV, February 28, 2025",
+      "u": "https://www.courttv.com/news/justice-department-releases-jeffrey-epstein-flight-logs-contact-book/"
+     },
+     {
+      "l": "Public Law 119-38",
+      "u": "https://www.congress.gov/119/plaws/publ38/PLAW-119publ38.htm"
+     }
+    ]
    }
   ],
   "findings": [
@@ -1306,6 +1430,371 @@
      }
     ],
     "am": []
+   },
+   {
+    "id": "E18",
+    "kind": "risk",
+    "sev": "critical",
+    "conf": "high",
+    "fam": "interaction",
+    "pat": "Exception list not stated to be exclusive",
+    "det": "structure",
+    "a": {
+     "q": "the segregable portions of records that"
+    },
+    "title": "The Epstein Files Transparency Act lists five grounds for withholding records but never says whether that list is the only basis for withholding.",
+    "plain": "The law names five reasons the Attorney General may hold back Epstein records. It does not say those are the only reasons, and it does not say it overrides other legal protections. A federal judge read the list as complete when ordering grand jury records released, while the Justice Department later withheld documents on legal privileges that are not on the list.",
+    "tech": "Section 2(c)(1) permits withholding of five categories, and section 2(b)(1) bars three motives, but the Act has no \"only\" and no \"notwithstanding any other provision of law\" clause. Two readings followed, and the first was given by the federal court in Manhattan in the case United States v. Maxwell, which was decided on December 9, 2025. The court reasoned that \"the Act does not exempt grand jury materials from disclosure,\" \"in contrast to its exceptions permitting the withholding or redaction of five other categories of materials,\" and it ruled as follows. \"The Court thus holds that, in passing the Act, Congress overrode Rule 6(e),\" \"in the very limited context of the Maxwell and Epstein grand jury materials,\" is how the court put its holding. The Department's Section 3 report of February 14, 2026 took the opposite approach for common-law privileges. It said privileged material that could not be segregated was withheld, and it cited Rule 501 of the Federal Rules of Evidence. The Department argued that a privilege \"should not be held to have been abrogated or limited unless Congress has at least used clear statutory language,\" which is a rule that privileges survive unless Congress says otherwise. CP24, reporting CNN, described the withheld material as \"documents showing deliberative process, work product and attorney-client communications that would be privileged,\" as CP24 reported. USA Today reported that the Attorney General later said \"the DOJ withheld documents for some reasons that were not explicitly allowed,\" and gave an example, \"such as to shield internal department deliberations tied to Epstein,\" according to USA Today. USA Today reported that Judge Emmet Sullivan, in a suit brought by journalist Katie Phang, concluded on June 25, 2026 \"that Blanche had likely violated the transparency law\". The ruling concerned material withheld or redacted, not a failure to protect victims. Phang alleged that the Department redacted the names of senders and recipients in Epstein emails and of potential co-defendants in a draft indictment, and withheld FBI interview notes. The judge based his conclusion on the Department's failure to respond to those claims on the merits, and ordered it to release more material or explain why it would not. The collision is sharpest for section 2(a)(7), which by its terms covers internal communications \"concerning decisions to charge, not charge, investigate, or decline to investigate\", the material the deliberative-process privilege is meant to protect.",
+    "use": "An official can withhold whole categories of responsive records, including the internal charging deliberations the Act lists in section 2(a)(7), by citing a privilege outside section 2(c), and the dispute goes to whichever court a requester can reach.",
+    "s": [
+     {
+      "l": "United States v. Maxwell, S.D.N.Y. opinion of December 9, 2025",
+      "u": "https://nysd.uscourts.gov/sites/default/files/2025-12/PAE%20Maxwell%20Opinion%202025.12.09%20%28As%20Docketed%29.pdf"
+     },
+     {
+      "l": "Justice Department Section 3 report to Congress, February 14, 2026",
+      "u": "https://static.foxnews.com/foxnews.com/content/uploads/2026/02/efta-final-letter.pdf"
+     },
+     {
+      "l": "CP24 (CNN report), February 15, 2026",
+      "u": "https://www.cp24.com/news/world/2026/02/15/justice-department-lists-hundreds-of-prominent-people-named-in-epstein-files-in-letter-to-congress/"
+     },
+     {
+      "l": "USA Today via The Spokesman-Review, July 2, 2026",
+      "u": "https://www.spokesman.com/stories/2026/jul/02/doj-defends-decision-to-withhold-millions-of-epste/"
+     }
+    ],
+    "am": []
+   },
+   {
+    "id": "E19",
+    "kind": "risk",
+    "sev": "significant",
+    "conf": "medium",
+    "fam": "exceptions",
+    "pat": "Borrowed statutory phrase imports its case law",
+    "det": "word",
+    "a": {
+     "q": "victims' personal and medical files and similar files the disclosure of which would constitute a clearly unwarranted invasion of personal privacy"
+    },
+    "title": "The Epstein Files Transparency Act's privacy ground copies the Freedom of Information Act phrase \"similar files\", which the Supreme Court reads broadly to cover anyone's personal information.",
+    "plain": "The privacy reason for holding back Epstein records uses words taken from the federal Freedom of Information Act. The Supreme Court has said those words cover almost any government record about an identifiable person, and that they protect people from embarrassment. If courts read the Act the same way, the privacy ground could reach people who are not victims, even though the Act separately bans withholding to spare anyone embarrassment.",
+    "tech": "Section 2(c)(1)(A) tracks 5 U.S.C. 552(b)(6), which exempts \"personnel and medical files and similar files the disclosure of which would constitute\" \"a clearly unwarranted invasion of personal privacy.\" In Department of State v. Washington Post Co., decided in 1982 and reported at 456 U.S. 595, the Court held that \"similar files\" \"was to have a broad, rather than a narrow, meaning\" (at 600). It said the phrase reaches \"detailed Government records on an individual which can be identified as applying to that individual\" (at 602). It described the exemption's purpose as \"to protect individuals from the injury and embarrassment that can result from the unnecessary disclosure of personal information\" (at 599). Whether \"similar files\" in the Act is tied to \"victims'\" is not settled by the grammar. If it is not, the Exemption 6 reading lets a third party's privacy support withholding. That sits against section 2(b)(1), which bars withholding on the basis of \"embarrassment, reputational harm, or political sensitivity\": the same interest can be presented as privacy under (c)(1)(A). No court has yet construed this clause of the Act, so the reading is uncertain.",
+    "use": "A redaction of a named associate's information can be justified as protecting personal privacy under section 2(c)(1)(A) rather than avoiding reputational harm, which section 2(b)(1) forbids.",
+    "s": [
+     {
+      "l": "5 U.S.C. 552(b)(6)",
+      "u": "https://www.law.cornell.edu/uscode/text/5/552"
+     },
+     {
+      "l": "Department of State v. Washington Post Co., 456 U.S. 595 (1982)",
+      "u": "https://supreme.justia.com/cases/federal/us/456/595/"
+     }
+    ],
+    "am": []
+   },
+   {
+    "id": "E20",
+    "kind": "risk",
+    "sev": "significant",
+    "conf": "medium",
+    "fam": "interaction",
+    "pat": "Provision with no object",
+    "det": "word",
+    "a": {
+     "q": "To the extent that any covered information would otherwise be redacted or withheld as classified information under this section"
+    },
+    "title": "The Epstein Files Transparency Act directs declassification of \"covered information\" without defining that phrase, while its release duty reaches only unclassified records.",
+    "plain": "The law orders release of unclassified records only. It then tells the Attorney General to declassify \"covered information\" that would otherwise be withheld as classified, but never says what covered information is. Read literally, classified records were never inside the release duty, so the declassification rule may have nothing to act on.",
+    "tech": "Section 2(a) reaches \"all unclassified records\". Section 2(c)(3) applies to \"covered information\" that \"would otherwise be redacted or withheld as classified information under this section\", and 2(c)(4) to classification of \"covered information\" after July 1, 2025. \"Covered information\" is not defined anywhere in the Act. The Senate companion bill, Senate bill 2557, used the phrase only in a heading and in its operative text referred to \"any information that would otherwise be required to be made publicly available under subsection (a)\", which also points back to the unclassified-only mandate. If \"covered information\" means what section 2(a) requires, a classified record is outside 2(a) and is never \"withheld as classified information under this section\", so 2(c)(3) and 2(c)(1)(E) would apply only to records classified after they fell within the mandate. The broader reading, that covered information means any record in the nine categories, is the one existing finding E3 assumes. In practice the Department reported that it \"did not redact or withhold any material on that basis\" (Straight Arrow News summary of the Section 3 report), which is consistent with either reading.",
+    "use": "An official can treat records classified before the Act as simply outside its scope, with no declassification review, no unclassified summary and nothing to report under section 2(c).",
+    "s": [
+     {
+      "l": "S. 2557, Senate companion bill as introduced",
+      "u": "https://www.govinfo.gov/content/pkg/BILLS-119s2557is/xhtml/BILLS-119s2557is.html"
+     },
+     {
+      "l": "Straight Arrow News on the Section 3 report",
+      "u": "https://san.com/cc/bondi-tells-congress-she-released-all-epstein-files-explains-redactions/"
+     }
+    ],
+    "am": []
+   },
+   {
+    "id": "E21",
+    "kind": "risk",
+    "sev": "minor",
+    "conf": "medium",
+    "fam": "timing",
+    "pat": "One-time duty with no continuing obligation",
+    "det": "word",
+    "a": {
+     "q": "make publicly available in a searchable and downloadable format"
+    },
+    "title": "The Epstein Files Transparency Act does not say when the Justice Department's possession of records is measured or whether records it obtains later must be released.",
+    "plain": "The law requires release of the Epstein records the Justice Department holds, within 30 days. It does not say whether records the Department finds or receives afterward must also be released. Once the Department declared the release complete, it told Congress no more files would be published.",
+    "tech": "Section 2(a) imposes a single duty, due \"Not later than 30 days after the date of enactment\", on records \"in the possession of\" the Department, with no date on which possession is fixed and no continuing or supplemental release clause. Section 3 runs from \"completion of the release\". After the Department's February 14, 2026 report, UPI reported a statement. The Department said it \"has released all the Jeffrey Epstein files it plans to.\" Records that reach the Department later, for example by transfer from another agency outside the reach described in E2, have no clear path into the release.",
+    "use": "Declaring the release complete closes the Act's duty, and material that arrives afterward can be held under ordinary rules rather than the Act.",
+    "s": [
+     {
+      "l": "UPI via Yahoo News, February 15, 2026",
+      "u": "https://www.yahoo.com/news/articles/no-more-epstein-files-released-231848652.html"
+     }
+    ],
+    "am": []
+   },
+   {
+    "id": "E22",
+    "kind": "tradeoff",
+    "sev": "significant",
+    "conf": "high",
+    "fam": "information",
+    "pat": "Disclosure list without context",
+    "det": "word",
+    "a": {
+     "q": "named or referenced in the released materials"
+    },
+    "title": "The Epstein Files Transparency Act requires the Attorney General to list every official named in the Epstein files without stating the context of each mention.",
+    "plain": "The report to Congress must name every government official and politically exposed person who appears in the released files. The law does not ask why each person appears. The Justice Department's list of roughly 300 names mixed people who wrote to Epstein with people mentioned only in news clippings.",
+    "tech": "Section 3(3) asks only whether a person is \"named or referenced\". The Department's report of February 14, 2026 stated that \"Names appear in the files released under the Act in a wide variety of contexts\" and that some people are mentioned only in part of a document, including press reporting. CP24, reporting CNN, noted that some names were \"merely featured in news articles and newsletters\" and quoted Representative Ro Khanna. He said that the Department was \"purposefully muddying the waters on who was a predator and who was mentioned in an email,\" in his words. The breadth is a design choice: it makes the list hard to shorten, which serves the Act's disclosure purpose, at the cost of placing people with no connection to the conduct beside people who had extensive contact.",
+    "use": "The compiler can satisfy section 3(3) with an undifferentiated list, which can be read either as overstating or as obscuring who had real contact with Epstein.",
+    "s": [
+     {
+      "l": "Justice Department Section 3 report to Congress, February 14, 2026",
+      "u": "https://static.foxnews.com/foxnews.com/content/uploads/2026/02/efta-final-letter.pdf"
+     },
+     {
+      "l": "CP24 (CNN report), February 15, 2026",
+      "u": "https://www.cp24.com/news/world/2026/02/15/justice-department-lists-hundreds-of-prominent-people-named-in-epstein-files-in-letter-to-congress/"
+     }
+    ],
+    "am": []
+   },
+   {
+    "id": "E23",
+    "kind": "risk",
+    "sev": "significant",
+    "conf": "high",
+    "fam": "exceptions",
+    "pat": "Protected class missing from exception list",
+    "det": "absence",
+    "a": null,
+    "where": "Section 2(c)(1)",
+    "title": "The Epstein Files Transparency Act gives no ground for withholding the identities of witnesses or confidential informants who are not victims.",
+    "plain": "The law lets the Attorney General hold back victims' personal information, but it names no protection for witnesses or informants who are not victims. A person who gave information to investigators could appear in the released files. If the Justice Department withholds that information anyway, it has to rely on a reason the law does not list.",
+    "tech": "Section 2(c)(1) permits withholding of five categories: victims' personally identifiable information and similar files (A), child sexual abuse material (B), material that \"would jeopardize an active federal investigation or ongoing prosecution\" (C), images of death, abuse or injury (D), and properly classified information (E). None of them names witnesses, cooperators or confidential sources. Ground (A) is tied to \"victims\", and ground (C) protects only an \"active\" investigation or \"ongoing\" prosecution, so a closed case's informant files fall outside both unless the \"similar files\" phrase in (A) is read to reach non-victims. Interview notes are squarely in scope: section 2(a)(9) lists \"witness interviews\" and section 2(a)(4) reaches individuals \"named or referenced in connection with\" investigatory proceedings. Because the Act does not say whether the five grounds are exclusive, an official who withholds informant identities is relying on authority outside section 2(c).",
+    "use": "An official can either release witness and informant identities from closed files or withhold them on a basis the Act does not list, and either choice can be challenged.",
+    "s": [
+     {
+      "l": "Public Law 119-38",
+      "u": "https://www.congress.gov/119/plaws/publ38/PLAW-119publ38.htm"
+     }
+    ],
+    "am": []
+   },
+   {
+    "id": "E24",
+    "kind": "risk",
+    "sev": "significant",
+    "conf": "high",
+    "fam": "obligation",
+    "pat": "No notice or consultation of affected people",
+    "det": "absence",
+    "a": null,
+    "where": "Section 2",
+    "title": "The Epstein Files Transparency Act does not require the Justice Department to notify or consult victims before publishing records that concern them.",
+    "plain": "The law sets a 30-day release and makes protecting victims' information optional. It does not require anyone to tell victims what is about to be released or to ask them to check for their names. A separate federal law gives crime victims a right to privacy and directs Justice Department staff to make their best efforts to honor it, but the Act does not mention that law.",
+    "tech": "Sections 2 and 3 contain no notice, consultation or review step for victims, and no reference to the Crime Victims' Rights Act. That Act gives a crime victim \"The right to be treated with fairness and with respect for the victim's dignity and privacy\" (18 U.S.C. 3771(a)(8)). It also provides that \"Officers and employees of the Department of Justice and other departments and agencies of the United States\" \"engaged in the detection, investigation, or prosecution of crime shall make their best efforts\". Their aim must be \"to see that crime victims are notified of, and accorded, the rights described in subsection (a)\" (3771(c)(1)). A \"crime victim\" is \"a person directly and proximately harmed as a result of the commission of a Federal offense\" (3771(e)(2)(A)). Whether that duty reaches a statutory publication mandate, as opposed to a criminal case, is not settled by either statute. The release Act's silence leaves the question to the Department.",
+    "use": "The Department can publish without first contacting survivors, and a survivor's only statutory hook is a general best-efforts duty in another law whose application here is uncertain.",
+    "s": [
+     {
+      "l": "18 U.S.C. 3771",
+      "u": "https://www.law.cornell.edu/uscode/text/18/3771"
+     },
+     {
+      "l": "Public Law 119-38",
+      "u": "https://www.congress.gov/119/plaws/publ38/PLAW-119publ38.htm"
+     }
+    ],
+    "am": []
+   },
+   {
+    "id": "E25",
+    "kind": "risk",
+    "sev": "minor",
+    "conf": "medium",
+    "fam": "definitions",
+    "pat": "Undefined term with a broader standard definition",
+    "det": "word",
+    "a": {
+     "q": "personally identifiable information of victims"
+    },
+    "title": "The Epstein Files Transparency Act does not define \"personally identifiable information\", leaving open whether details that identify a victim only indirectly may be withheld.",
+    "plain": "The law lets victims' personally identifiable information be withheld but never says what that phrase covers. A name is plainly covered. Details that identify someone only when combined, such as a school, a date and a hometown, may or may not be. The federal government's standard definition does include such combinations, but the Act does not adopt it.",
+    "tech": "Section 2(c)(1)(A) uses \"personally identifiable information of victims\" without a definition or cross-reference. OMB Circular A-130 (2016), as quoted in the NIST glossary, defines the term as \"Information that can be used to distinguish or trace an individual's identity, either alone\" or when combined with other information linked to that individual. If that definition is read in, indirect identifiers are covered. If the phrase is read narrowly, as names and direct identifiers only, contextual details that let a reader identify a victim fall outside ground (A) unless they qualify as \"similar files\".",
+    "use": "A reviewer working to the 30-day deadline can redact names and leave contextual details, and still claim to have applied ground (A).",
+    "s": [
+     {
+      "l": "NIST glossary, personally identifiable information (citing OMB Circular A-130)",
+      "u": "https://csrc.nist.gov/glossary/term/personally_identifiable_information"
+     },
+     {
+      "l": "Public Law 119-38",
+      "u": "https://www.congress.gov/119/plaws/publ38/PLAW-119publ38.htm"
+     }
+    ],
+    "am": []
+   },
+   {
+    "id": "E26",
+    "kind": "notice",
+    "sev": "minor",
+    "conf": "medium",
+    "fam": "interaction",
+    "pat": "Unaddressed overlap with a general disclosure statute",
+    "det": "external",
+    "a": null,
+    "where": "Section 2(c)",
+    "title": "The Epstein Files Transparency Act does not say how it relates to the Privacy Act, which bars agencies from disclosing certain records about individuals without consent.",
+    "plain": "A 1974 federal law, the Privacy Act, limits what agencies can disclose about U.S. citizens and permanent residents from their record systems. The Epstein law does not say it overrides that limit. The Justice Department could argue that some records still need the person's consent, or a court could treat the newer, more specific law as controlling.",
+    "tech": "5 U.S.C. 552a(b) provides: \"No agency shall disclose any record which is contained in a system of records by any means of communication to any person,\". It continues: \"or to another agency, except pursuant to a written request by, or with the prior written consent of,\" \"the individual to whom the record pertains, unless disclosure of the record would be\" within a listed exception. One exception is disclosure \"required under section 552 of this title\" (552a(b)(2)). That is the Freedom of Information Act, and the release Act is not section 552. The Privacy Act protects only an \"individual\", defined as \"a citizen of the United States or an alien lawfully admitted for permanent residence\". It also protects only records in a \"system of records\", \"a group of any records under the control of any agency from which information is retrieved by the name of the individual\". The release Act has no \"notwithstanding any other provision of law\" clause. No source was found in which a court or the Department has addressed the Privacy Act under this Act, so its effect here is an open question.",
+    "use": "An official can cite the Privacy Act as a further reason to withhold name-retrieved records about U.S. persons, and a requester can answer that the later, specific Act controls.",
+    "s": [
+     {
+      "l": "5 U.S.C. 552a",
+      "u": "https://www.law.cornell.edu/uscode/text/5/552a"
+     },
+     {
+      "l": "Public Law 119-38",
+      "u": "https://www.congress.gov/119/plaws/publ38/PLAW-119publ38.htm"
+     }
+    ],
+    "am": []
+   },
+   {
+    "id": "E27",
+    "kind": "notice",
+    "sev": "minor",
+    "conf": "high",
+    "fam": "exceptions",
+    "pat": "Permitted ground overlaps a prohibited motive",
+    "det": "word",
+    "a": {
+     "q": "in the interest of national defense or foreign policy"
+    },
+    "title": "The Epstein Files Transparency Act bars withholding to spare a foreign dignitary embarrassment but permits withholding of records properly classified on foreign policy grounds.",
+    "plain": "The law forbids holding back records to protect a foreign dignitary from embarrassment. It also allows records about foreign relations to be withheld if they are properly classified. The classification order itself forbids classifying to prevent embarrassment, so the two rules line up on paper, but the same official decides which reason applies.",
+    "tech": "Section 2(b)(1) forbids withholding \"on the basis of embarrassment, reputational harm, or political sensitivity, including to any government official, public figure, or foreign dignitary.\" Section 2(c)(1)(E) permits withholding information kept secret \"in the interest of national defense or foreign policy\" and \"in fact properly classified\". Executive Order 13526 allows classification of \"foreign government information\" (section 1.4(b)) and \"foreign relations or foreign activities of the United States, including confidential sources\" (section 1.4(d)). It also provides: \"In no case shall information be classified, continue to be maintained as classified, or fail to be declassified in order to:\" \"(2) prevent embarrassment to a person, organization, or agency\" (section 1.7(a)). So a record about a foreign dignitary can be withheld only if its classification rests on a genuine foreign relations ground, but the Act gives no one outside the executive branch a role in checking that.",
+    "use": "A record that would embarrass a foreign official can be withheld if it is also classified on foreign relations grounds, and the classification decision is made inside the executive branch.",
+    "s": [
+     {
+      "l": "Executive Order 13526",
+      "u": "https://www.archives.gov/isoo/policy-documents/cnsi-eo.html"
+     },
+     {
+      "l": "Public Law 119-38",
+      "u": "https://www.congress.gov/119/plaws/publ38/PLAW-119publ38.htm"
+     }
+    ],
+    "am": []
+   },
+   {
+    "id": "E28",
+    "kind": "notice",
+    "sev": "minor",
+    "conf": "high",
+    "fam": "obligation",
+    "pat": "No preservation duty in the measure itself",
+    "det": "word",
+    "a": {
+     "q": "concerning the destruction, deletion, alteration, misplacement, or concealment of documents"
+    },
+    "title": "The Epstein Files Transparency Act asks for records about past destruction of Epstein files but adds no duty to preserve records before they are released.",
+    "plain": "The law requires release of records about any destruction or concealment of Epstein files. It does not itself forbid destroying, moving or altering records before the release. General federal records law and a criminal statute already cover unlawful destruction of government records.",
+    "tech": "Section 2(a)(8) reaches records \"concerning the destruction, deletion, alteration, misplacement, or concealment of documents\" related to Epstein, but neither section 2 nor section 3 contains a preservation or litigation-hold requirement. Existing law supplies one. 44 U.S.C. 3106(a) provides that \"The head of each Federal agency shall notify the Archivist of any actual, impending, or threatened unlawful removal,\" and requires the agency head to seek recovery of records through the Attorney General. 18 U.S.C. 2071(a) punishes \"Whoever willfully and unlawfully conceals, removes, mutilates, obliterates, or destroys\" a record in a public office, with a fine, up to three years in prison, or both. Both depend on the conduct being unlawful under records schedules and on the Department enforcing them against itself.",
+    "use": "Records can be transferred or disposed of under ordinary schedules between enactment and release without breaching the Act, which sets no preservation rule of its own.",
+    "s": [
+     {
+      "l": "44 U.S.C. 3106",
+      "u": "https://www.law.cornell.edu/uscode/text/44/3106"
+     },
+     {
+      "l": "18 U.S.C. 2071",
+      "u": "https://www.law.cornell.edu/uscode/text/18/2071"
+     },
+     {
+      "l": "Public Law 119-38",
+      "u": "https://www.congress.gov/119/plaws/publ38/PLAW-119publ38.htm"
+     }
+    ],
+    "am": []
+   },
+   {
+    "id": "E29",
+    "kind": "notice",
+    "sev": "minor",
+    "conf": "high",
+    "fam": "money",
+    "pat": "Unfunded mandate with no extension procedure",
+    "det": "absence",
+    "a": null,
+    "where": "Section 2(a)",
+    "title": "The Epstein Files Transparency Act provides no funding for the review and no procedure for extending its 30-day deadline.",
+    "plain": "The law gives the Justice Department 30 days to review and publish a very large collection of records. It provides no money for the work and no way to ask for more time. The Department pays from its existing budget, and when the deadline passes, the law says nothing about what comes next.",
+    "tech": "Sections 2 and 3 contain no authorization or appropriation and no extension or waiver process. Section 2(a) fixes the deadline at \"Not later than 30 days after the date of enactment of this Act\". Without a formal extension, a release that is not finished in 30 days continues on whatever schedule the Department sets, and section 3's report waits for \"completion of the release\".",
+    "use": "The Department can treat the deadline as a target and release in stages, since the Act neither funds faster review nor sets a process for later deadlines.",
+    "s": [
+     {
+      "l": "Public Law 119-38",
+      "u": "https://www.congress.gov/119/plaws/publ38/PLAW-119publ38.htm"
+     }
+    ],
+    "am": []
+   },
+   {
+    "id": "E30",
+    "kind": "notice",
+    "sev": "minor",
+    "conf": "high",
+    "fam": "information",
+    "pat": "Format requirement without a standard",
+    "det": "absence",
+    "a": null,
+    "where": "Section 2(a)",
+    "title": "The Epstein Files Transparency Act requires a \"searchable and downloadable format\" but sets no technical standard, index or numbering rule for the released records.",
+    "plain": "The law says the records must be searchable and downloadable. It does not say how: there is no requirement for an index, a single website, consistent document numbers or removal of duplicates. Those choices decide how easily the public can find what was released.",
+    "tech": "Section 2(a) requires the Attorney General to \"make publicly available in a searchable and downloadable format\" the covered records. The Act defines neither term, names no file standard (for example, text-searchable files), and requires no index, document control numbers, deduplication or single location. Section 3(1) asks only for \"All categories of records released and withheld\", not an item-level list.",
+    "use": "The Department can meet the format requirement with any searchable file set, and the public's ability to locate a record depends on design choices the Act leaves open.",
+    "s": [
+     {
+      "l": "Public Law 119-38",
+      "u": "https://www.congress.gov/119/plaws/publ38/PLAW-119publ38.htm"
+     }
+    ],
+    "am": []
+   },
+   {
+    "id": "E31",
+    "kind": "tradeoff",
+    "sev": "minor",
+    "conf": "high",
+    "fam": "information",
+    "pat": "No notice or response for named third parties",
+    "det": "word",
+    "a": {
+     "q": "named or referenced in connection with Epstein's criminal activities"
+    },
+    "title": "The Epstein Files Transparency Act gives people named in the Epstein files no notice before release and no way to respond.",
+    "plain": "The law reaches records about anyone named or mentioned in connection with Epstein's crimes, settlements or investigations, including unproven claims. It gives those people no warning and no chance to respond. That keeps the release fast and complete, and it also means a passing mention is published with the government's records.",
+    "tech": "Section 2(a)(4) reaches \"Individuals, including government officials, named or referenced in connection with Epstein's criminal activities, civil settlements, immunity or plea agreements, or investigatory proceedings\", and section 2(a)(5) reaches entities with \"known or alleged ties\". Section 3(3) requires a list of officials and politically exposed persons \"named or referenced\". Neither section provides notice, a response, or a label separating allegation from finding. Section 2(b)(1) bars withholding for \"reputational harm\", which rules out withholding on that basis alone. The omission is a design choice consistent with the Act's disclosure purpose.",
+    "use": "Records containing untested allegations about a named person are released without that person being told or heard, and the person cannot use reputational harm as a ground to hold them back.",
+    "s": [
+     {
+      "l": "Public Law 119-38",
+      "u": "https://www.congress.gov/119/plaws/publ38/PLAW-119publ38.htm"
+     }
+    ],
+    "am": []
    }
   ],
   "bigger": {
@@ -1333,9 +1822,9 @@
      "note": "Section 2(c)(1)(A) of the Epstein Files Transparency Act permits, but does not require, the Attorney General to redact victims' identifying information."
     },
     {
-     "part": "Court-sealed records and grand jury material",
+     "part": "Court-sealed records",
      "reach": "untouched",
-     "note": "The Epstein Files Transparency Act does not address sealing orders or grand jury secrecy rules, and the Justice Department sought court permission separately.",
+     "note": "The Act does not address sealing orders; the Department sought court permission separately.",
      "s": [
       {
        "l": "DOJ letter, S.D.N.Y.",
@@ -1357,6 +1846,39 @@
      "part": "Records held by the Epstein estate, financial institutions and other private parties",
      "reach": "untouched",
      "note": "The Epstein Files Transparency Act covers only government records, so these private records are outside it."
+    },
+    {
+     "part": "Grand jury material in the Maxwell and Epstein cases",
+     "reach": "reached",
+     "note": "On December 9, 2025 the federal court in Manhattan held that, \"in passing the Act, Congress overrode Rule 6(e)\" for the Maxwell and Epstein grand jury materials, so those materials are subject to release under the Act's own withholding rules.",
+     "s": [
+      {
+       "l": "United States v. Maxwell, S.D.N.Y. opinion of December 9, 2025",
+       "u": "https://nysd.uscourts.gov/sites/default/files/2025-12/PAE%20Maxwell%20Opinion%202025.12.09%20%28As%20Docketed%29.pdf"
+      }
+     ]
+    },
+    {
+     "part": "Records the Justice Department obtains after it declares the release complete",
+     "reach": "untouched",
+     "note": "The Act sets one 30-day duty and no continuing obligation; the Department told Congress in February 2026 that it had released all the files it planned to.",
+     "s": [
+      {
+       "l": "UPI via Yahoo News, February 15, 2026",
+       "u": "https://www.yahoo.com/news/articles/no-more-epstein-files-released-231848652.html"
+      }
+     ]
+    },
+    {
+     "part": "Records already public before the Act (the Department's February 2025 release and civil case unsealings)",
+     "reach": "partly",
+     "note": "Still within section 2(a) if the Department holds them, but the Act says nothing about re-release, duplicates or matching versions. The Department's February 27, 2025 release \"largely contains documents that have been previously leaked\".",
+     "s": [
+      {
+       "l": "Court TV, February 28, 2025",
+       "u": "https://www.courttv.com/news/justice-department-releases-jeffrey-epstein-flight-logs-contact-book/"
+      }
+     ]
     }
    ],
    "others": [
@@ -1730,7 +2252,7 @@
    },
    {
     "ty": "Affected people",
-    "q": "Who is affected if the Epstein files law works just as written, including the people it is meant to protect?",
+    "q": "Who is affected if the Epstein files law works just as written? That includes the people it is meant to protect.",
     "a": "The survivors are the ones affected. The Epstein files law demands a fast release of the records. But it makes hiding survivors' details optional. So mistakes in a rushed review can expose them. Survivors and their lawyers said names showed up in released files. They asked the Justice Department's inspector general, the official who checks the Department's own work, to step in.",
     "f": [
      "E1",
@@ -1805,6 +2327,130 @@
      "E11",
      "E13"
     ]
+   },
+   {
+    "ty": "Language",
+    "q": "Are the five allowed reasons the only way to hold back an Epstein record? Or do other legal protections still apply?",
+    "a": "The law does not say. One federal court read the five reasons as the full list. It held that the law overrides grand jury secrecy for the Maxwell and Epstein records. The Justice Department later held back documents as privileged, citing the rule that privileges survive unless Congress clearly says otherwise. A second court found it had likely broken the law.",
+    "f": [
+     "E18"
+    ],
+    "s": [
+     {
+      "l": "United States v. Maxwell, S.D.N.Y. opinion of December 9, 2025",
+      "u": "https://nysd.uscourts.gov/sites/default/files/2025-12/PAE%20Maxwell%20Opinion%202025.12.09%20%28As%20Docketed%29.pdf"
+     },
+     {
+      "l": "Justice Department Section 3 report to Congress, February 14, 2026",
+      "u": "https://static.foxnews.com/foxnews.com/content/uploads/2026/02/efta-final-letter.pdf"
+     },
+     {
+      "l": "USA Today via The Spokesman-Review, July 2, 2026",
+      "u": "https://www.spokesman.com/stories/2026/jul/02/doj-defends-decision-to-withhold-millions-of-epste/"
+     }
+    ]
+   },
+   {
+    "ty": "Language",
+    "q": "Does \"similar files\" protect only victims in the Epstein files law? Or does it protect anyone named in a record?",
+    "a": "The phrase is copied from the Freedom of Information Act. There the Supreme Court reads it broadly, to cover records about any person who can be identified. No court has decided whether the Epstein files law ties it to victims.",
+    "f": [
+     "E19"
+    ],
+    "s": [
+     {
+      "l": "Department of State v. Washington Post Co., 456 U.S. 595 (1982)",
+      "u": "https://supreme.justia.com/cases/federal/us/456/595/"
+     },
+     {
+      "l": "5 U.S.C. 552(b)(6)",
+      "u": "https://www.law.cornell.edu/uscode/text/5/552"
+     }
+    ]
+   },
+   {
+    "ty": "Language",
+    "q": "Does \"ongoing prosecution\" in the Epstein files law count an appeal or civil case?",
+    "a": "The law does not say. It lets the government hold back material that \"would jeopardize an active federal investigation or ongoing prosecution\". It defines neither term. A habeas petition asks a court to review a prison term. Counting appeals, court steps after a conviction such as Ghislaine Maxwell's, or civil cases would widen this reason. Counting only pending criminal trials would narrow it.",
+    "f": [
+     "E23"
+    ],
+    "s": [
+     {
+      "l": "Public Law 119-38",
+      "u": "https://www.congress.gov/119/plaws/publ38/PLAW-119publ38.htm"
+     }
+    ]
+   },
+   {
+    "ty": "Language",
+    "q": "Who is a \"government official\" in the Epstein files law? What are \"custodial matters\"?",
+    "a": "The law does not say. \"Government officials\" could include foreign and former officials. It could also mean only current United States officials. The law names a \"foreign dignitary\" on its own, which suggests the writers saw foreign figures as a separate group. \"Custodial matters\" most likely means Epstein's time in detention. The law does not define it.",
+    "f": [],
+    "s": [
+     {
+      "l": "Public Law 119-38",
+      "u": "https://www.congress.gov/119/plaws/publ38/PLAW-119publ38.htm"
+     }
+    ]
+   },
+   {
+    "ty": "Constitutional",
+    "q": "Could the president's branch hold back Epstein records by claiming a right to keep facts private?",
+    "a": "The law does not address it. Executive privilege is the president's claim to keep some information private. It comes from the Constitution, so a law cannot simply end it. The Supreme Court has said \"the privilege is a qualified one\". It upheld a law that took control of presidential records. It said \"the claims of Presidential privilege clearly must yield to the important congressional purposes\" of that law. The case is Nixon v. Administrator of General Services, 433 U.S. at 446 and 454. No source was found in which the privilege has been claimed under the Epstein files law.",
+    "f": [
+     "E26"
+    ],
+    "s": [
+     {
+      "l": "Nixon v. Administrator of General Services, 433 U.S. 425 (1977)",
+      "u": "https://supreme.justia.com/cases/federal/us/433/425/"
+     }
+    ]
+   },
+   {
+    "ty": "Affected people",
+    "q": "Does the Crime Victims' Rights Act apply when the Justice Department posts Epstein records?",
+    "a": "The law does not say. The Crime Victims' Rights Act covers Justice Department employees \"engaged in the detection, investigation, or prosecution of crime\". They must \"make their best efforts\" to give victims certain rights. Those rights include \"respect for the victim's dignity and privacy\". No one has decided whether that duty applies when a law orders records published. A criminal case is a different setting.",
+    "f": [
+     "E24"
+    ],
+    "s": [
+     {
+      "l": "18 U.S.C. 3771",
+      "u": "https://www.law.cornell.edu/uscode/text/18/3771"
+     }
+    ]
+   },
+   {
+    "ty": "History",
+    "q": "Why does the Epstein files law cover decisions to mark records secret that were made after July 1, 2025?",
+    "a": "The law does not say. On July 7, 2025, the Justice Department and FBI released a memo. It concluded that \"no further disclosure would be appropriate or warranted\" (OPB). This review suggests the date was picked to catch secrecy decisions made around that memo. No source was found that confirms why the writers chose it.",
+    "f": [],
+    "s": [
+     {
+      "l": "OPB (NPR report), July 7, 2025",
+      "u": "https://www.opb.org/article/2025/07/07/doj-releases-memo-on-sex-offender-jeffrey-epstein-files/"
+     }
+    ]
+   },
+   {
+    "ty": "Language",
+    "q": "Must the Justice Department release Epstein records again if it already made them public? How does the law treat duplicates?",
+    "a": "The law does not say. It reaches \"all\" covered records the Department holds, which by its terms includes records released before. On February 27, 2025, the Department published a first set of Epstein files. It said the set \"largely contains documents that have been previously leaked\" (Court TV). The law gives no rule on releasing again, duplicates or versions.",
+    "f": [
+     "E30"
+    ],
+    "s": [
+     {
+      "l": "Court TV, February 28, 2025",
+      "u": "https://www.courttv.com/news/justice-department-releases-jeffrey-epstein-flight-logs-contact-book/"
+     },
+     {
+      "l": "Public Law 119-38",
+      "u": "https://www.congress.gov/119/plaws/publ38/PLAW-119publ38.htm"
+     }
+    ]
    }
   ],
   "findings": [
@@ -1851,7 +2497,7 @@
      },
      {
       "id": "E1b",
-      "label": "A separate rule that requires protecting victims",
+      "label": "A separate rule to protect victims",
       "instr": "Section 2(c) is amended (1) in paragraph (1), by striking subparagraph (A) and redesignating subparagraphs (B) through (E) as subparagraphs (A) through (D); and (2) by inserting before paragraph (1) a new paragraph requiring redaction of victim information.",
       "ops": [
        {
@@ -1882,7 +2528,7 @@
        ]
       },
       {
-       "h": "Lawyers for victims counted nearly 100 survivors whose details in the Epstein files got out.",
+       "h": "Lawyers for victims counted nearly 100 survivors. Their details in the Epstein files got out.",
        "d": "Lawyers for victims told the court that nearly 100 survivors were affected. The Justice Department did not give a number.",
        "s": [
         {
@@ -1893,7 +2539,7 @@
       },
       {
        "h": "The Deputy Attorney General spoke about the Epstein records. He said about 3 million of roughly 6 million pages were coming out.",
-       "d": "The Deputy Attorney General, the second-highest Justice Department official, spoke about the Epstein records. He said about 3 million of roughly 6 million pages were being released. Nearly 3 million were held back. Checking that many pages in 30 days is when an optional rule to hide victims' details fails to protect them.",
+       "d": "The Deputy Attorney General is the second-highest official at the Justice Department. He spoke about the Epstein records. He said about 3 million of roughly 6 million pages were being released. Nearly 3 million were held back. That is too many pages to check in 30 days. This is when a rule that only allows hiding victims' details fails to protect them.",
        "s": [
         {
          "l": "ABC News, February 2, 2026",
@@ -1990,7 +2636,7 @@
     "am": [
      {
       "id": "E2a",
-      "label": "Cover every federal agency",
+      "label": "Make all agencies release their files",
       "instr": "Section 2(a) is amended by striking \"in the possession of the Department of Justice, including the Federal Bureau of Investigation and United States Attorneys' Offices,\" and inserting \"in the possession, custody, or control of any Federal agency (as defined in section 551 of title 5, United States Code), including the Department of Justice, the Department of the Treasury, the Department of State, the Department of Homeland Security, each element of the intelligence community, and the National Archives and Records Administration,\".",
       "ops": [
        {
@@ -2452,7 +3098,7 @@
       },
       {
        "h": "From 1978 to 1999, Congress let outside prosecutors look into top officials who work under the President. These prosecutors were not part of the Justice Department.",
-       "d": "The Ethics in Government Act of 1978 created these outside prosecutors, called independent counsels. Conflicts of interest can arise when the President's officials investigate their own side, and that is why the law made them. Congress let that part of the law end in 1999 after debate over its reach and cost.",
+       "d": "The Ethics in Government Act of 1978 created these outside prosecutors. They were called independent counsels. The law made them because a conflict can arise when the President's own officials look into their own side. Congress allowed that part of the law to end in 1999. There had been debate over how far it reached and what it cost.",
        "s": [
         {
          "l": "Congressional Research Service, Special Counsel Investigations (R44857)",
@@ -2476,7 +3122,7 @@
     "am": [
      {
       "id": "E17a",
-      "label": "Outside decision-maker for records about the Justice Department or the President",
+      "label": "An outside person decides on records about the Justice Department or the President",
       "instr": "Section 2 of the Epstein Files Transparency Act (Public Law 119-38) is amended by adding at the end the following: \"(d) Independent Determination.--Any determination under subsection (c) to withhold or redact a record that refers to the President, the Vice President, the Attorney General, or the conduct of an officer or employee of the Department of Justice shall be made by the Inspector General of the Department of Justice, who shall provide any written justification that this section requires.\".",
       "ops": [
        {
@@ -2557,36 +3203,401 @@
      }
     ],
     "am": []
+   },
+   {
+    "id": "E18",
+    "kind": "risk",
+    "sev": "critical",
+    "conf": "high",
+    "fam": "interaction",
+    "pat": "Exception list not stated to be exclusive",
+    "det": "structure",
+    "a": {
+     "q": "the segregable portions of records that"
+    },
+    "title": "The Epstein files law lists five reasons for holding back records. It never says whether those are the only reasons.",
+    "plain": "The law names five reasons the Attorney General may hold back Epstein records. It does not say these are the only reasons. It also does not say it overrides other legal protections. One federal judge read the list as complete when ordering grand jury records released. The Justice Department later held back documents for legal privileges that are not on the list.",
+    "tech": "The law lets the Attorney General hold back five kinds of records. It bans holding back records for three reasons. It has no word like \"only.\" It has no line saying it wins over every other law. The law has been read in two ways. In December 2025 a federal court in Manhattan looked at grand jury records. It said the law \"does not exempt grand jury materials from disclosure,\" unlike five other kinds of records. So the court held that Congress overrode the grand jury secrecy rule for the Maxwell and Epstein records. In its February 14, 2026 report, the Justice Department took the opposite view for privileges. These include privileges for legal advice and internal talks. It cited Rule 501 and argued a privilege survives unless Congress clearly ends it. News reports said the held back papers included internal deliberations and lawyer talks. USA Today reported that the Attorney General later said some documents were held back for reasons \"not explicitly allowed\". USA Today reported on a June 2026 ruling by Judge Emmet Sullivan in a suit by journalist Katie Phang. The judge found the Attorney General had likely broken the law. The ruling was about holding back too much, not about failing to protect victims. Phang said the Department blacked out names in Epstein emails and in a draft charging document. She also said it held back FBI interview notes. The judge relied on the Department not answering those claims. He ordered it to release more or explain why not. The clash is sharpest for records of internal talks about whether to charge or investigate. The privilege for internal debate is meant to protect that material.",
+    "use": "An official can hold back whole groups of records by citing a privilege that is not on the list. A person who asks for them must then go to court to settle it.",
+    "s": [
+     {
+      "l": "United States v. Maxwell, S.D.N.Y. opinion of December 9, 2025",
+      "u": "https://nysd.uscourts.gov/sites/default/files/2025-12/PAE%20Maxwell%20Opinion%202025.12.09%20%28As%20Docketed%29.pdf"
+     },
+     {
+      "l": "Justice Department Section 3 report to Congress, February 14, 2026",
+      "u": "https://static.foxnews.com/foxnews.com/content/uploads/2026/02/efta-final-letter.pdf"
+     },
+     {
+      "l": "CP24 (CNN report), February 15, 2026",
+      "u": "https://www.cp24.com/news/world/2026/02/15/justice-department-lists-hundreds-of-prominent-people-named-in-epstein-files-in-letter-to-congress/"
+     },
+     {
+      "l": "USA Today via The Spokesman-Review, July 2, 2026",
+      "u": "https://www.spokesman.com/stories/2026/jul/02/doj-defends-decision-to-withhold-millions-of-epste/"
+     }
+    ],
+    "am": []
+   },
+   {
+    "id": "E19",
+    "kind": "risk",
+    "sev": "significant",
+    "conf": "medium",
+    "fam": "exceptions",
+    "pat": "Borrowed statutory phrase imports its case law",
+    "det": "word",
+    "a": {
+     "q": "victims' personal and medical files and similar files the disclosure of which would constitute a clearly unwarranted invasion of personal privacy"
+    },
+    "title": "The Epstein files law copies the phrase \"similar files\" from another law. The Supreme Court reads that phrase broadly.",
+    "plain": "The privacy reason for hiding Epstein record details uses words from the Freedom of Information Act. The Supreme Court has said those words cover almost any government record about a person who can be identified. It also said the words protect people from embarrassment. If courts read the Epstein law the same way, the privacy reason could cover people who are not victims. Yet the law also bans hiding records to spare anyone embarrassment.",
+    "tech": "The privacy reason in the Epstein files law follows a rule in the Freedom of Information Act. That rule covers \"personnel and medical files and similar files\". It applies when sharing would be \"a clearly unwarranted invasion of personal privacy\". In a 1982 case, the Supreme Court said \"similar files\" has \"a broad, rather than a narrow, meaning\". The Court said the phrase reaches \"detailed Government records on an individual\". It also said the rule protects people from \"the injury and embarrassment\" that can come from sharing personal information. The Epstein law does not say whether \"similar files\" is tied to victims only. If it is not, a third person's privacy could support hiding a record. That clashes with the ban on hiding records for \"embarrassment, reputational harm, or political sensitivity\". The same interest can be called privacy. No court has yet read this part of the law. So the reading is not certain.",
+    "use": "The details of a named associate could be hidden as a matter of privacy. The law bans hiding them to avoid reputational harm, but the two reasons can look alike.",
+    "s": [
+     {
+      "l": "5 U.S.C. 552(b)(6)",
+      "u": "https://www.law.cornell.edu/uscode/text/5/552"
+     },
+     {
+      "l": "Department of State v. Washington Post Co., 456 U.S. 595 (1982)",
+      "u": "https://supreme.justia.com/cases/federal/us/456/595/"
+     }
+    ],
+    "am": []
+   },
+   {
+    "id": "E20",
+    "kind": "risk",
+    "sev": "significant",
+    "conf": "medium",
+    "fam": "interaction",
+    "pat": "Provision with no object",
+    "det": "word",
+    "a": {
+     "q": "To the extent that any covered information would otherwise be redacted or withheld as classified information under this section"
+    },
+    "title": "The Epstein files law says to end secrecy on \"covered information.\" It does not say what that is.",
+    "plain": "The law orders release only of records that are not marked secret. It then tells the Attorney General to lift secrecy from \"covered information\" that would otherwise be held back. It never says what covered information is. Read literally, secret records were never part of the release duty, so the lifting rule may have nothing to act on.",
+    "tech": "The release duty covers \"all unclassified records\", which means records not marked secret. A later rule covers \"covered information\" that would otherwise be hidden because it is marked secret. Another rule covers marking such information secret after July 1, 2025. The law never defines \"covered information.\" A Senate bill, number 2557, used the phrase only in a heading. Its main text spoke of information that would otherwise have to be made public. That also points back to records not marked secret. Suppose \"covered information\" means what the release duty requires. Then a secret record is outside that duty. It is never held back as secret under the law. So the lifting rule would reach only records marked secret after they fell within the duty. A wider reading is that covered information means any record in the nine listed groups. Another finding in this review assumes that wider reading. In practice the Justice Department reported that it did not hide or hold back any material on that basis. That fits either reading.",
+    "use": "An official can treat records marked secret before the law as outside it. Then there is no review to lift the markings, no summary and nothing to report.",
+    "s": [
+     {
+      "l": "S. 2557, Senate companion bill as introduced",
+      "u": "https://www.govinfo.gov/content/pkg/BILLS-119s2557is/xhtml/BILLS-119s2557is.html"
+     },
+     {
+      "l": "Straight Arrow News on the Section 3 report",
+      "u": "https://san.com/cc/bondi-tells-congress-she-released-all-epstein-files-explains-redactions/"
+     }
+    ],
+    "am": []
+   },
+   {
+    "id": "E21",
+    "kind": "risk",
+    "sev": "minor",
+    "conf": "medium",
+    "fam": "timing",
+    "pat": "One-time duty with no continuing obligation",
+    "det": "word",
+    "a": {
+     "q": "make publicly available in a searchable and downloadable format"
+    },
+    "title": "The Epstein files law never says when to count the files the Justice Department holds, or if later ones count.",
+    "plain": "The law requires release of the Epstein records the Justice Department holds, within 30 days. It does not say whether records the Department finds or gets later must also be released. Once the Department declared the release complete, it said no more files would be published.",
+    "tech": "The law sets one duty. It is due within 30 days of the date the law took effect. It covers records \"in the possession of\" the Justice Department. The law gives no date for fixing what the Department holds. It has no rule for later or added releases. The report to Congress is due after the release is complete. After its February 14, 2026 report, UPI reported a Department statement. The Department said it \"has released all the Jeffrey Epstein files it plans to\". A record that reaches the Department later has no clear path into the release. One example is a record moved from another agency, which the law does not reach.",
+    "use": "Once the Department declares the release complete, the law's duty ends. Records that arrive afterward can be kept under ordinary rules instead of this law.",
+    "s": [
+     {
+      "l": "UPI via Yahoo News, February 15, 2026",
+      "u": "https://www.yahoo.com/news/articles/no-more-epstein-files-released-231848652.html"
+     }
+    ],
+    "am": []
+   },
+   {
+    "id": "E22",
+    "kind": "tradeoff",
+    "sev": "significant",
+    "conf": "high",
+    "fam": "information",
+    "pat": "Disclosure list without context",
+    "det": "word",
+    "a": {
+     "q": "named or referenced in the released materials"
+    },
+    "title": "The Epstein files law has the Attorney General list officials in the files. It does not ask why each appears.",
+    "plain": "The report to Congress must name every official and politically exposed person in the released files. The law does not ask why each one appears. The Justice Department list has about 300 names. It mixes people who wrote to Epstein with people named only in news clippings.",
+    "tech": "The law asks only whether a person is \"named or referenced\". The Justice Department said in its February 14, 2026 report that names appear in the files in a wide variety of contexts. Some people are mentioned in only part of a document, including press reports. CP24, reporting CNN, said some names were \"merely featured in news articles and newsletters\". CP24 also quoted Representative Ro Khanna. He said the Department was \"purposefully muddying the waters on who was a predator and who was mentioned in an email\". The broad wording makes the list hard to shorten. That serves the law's goal of disclosure. The cost is that people with no tie to the conduct sit beside people who had a lot of contact.",
+    "use": "The compiler can meet the rule with one list that treats everyone alike. Readers can take such a list as overstating or hiding who really had contact with Epstein.",
+    "s": [
+     {
+      "l": "Justice Department Section 3 report to Congress, February 14, 2026",
+      "u": "https://static.foxnews.com/foxnews.com/content/uploads/2026/02/efta-final-letter.pdf"
+     },
+     {
+      "l": "CP24 (CNN report), February 15, 2026",
+      "u": "https://www.cp24.com/news/world/2026/02/15/justice-department-lists-hundreds-of-prominent-people-named-in-epstein-files-in-letter-to-congress/"
+     }
+    ],
+    "am": []
+   },
+   {
+    "id": "E23",
+    "kind": "risk",
+    "sev": "significant",
+    "conf": "high",
+    "fam": "exceptions",
+    "pat": "Protected class missing from exception list",
+    "det": "absence",
+    "a": null,
+    "where": "Section 2(c)(1)",
+    "title": "The Epstein files law lists no reason to hide the names of witnesses or informants. These people are not victims.",
+    "plain": "The law lets the Attorney General hide victims' personal information. The Attorney General is the country's top law enforcement official. The law gives no such shield to witnesses or informants who are not victims. A person who spoke to investigators could be named in the released files. Hiding that name would need a reason the law does not list.",
+    "tech": "The law lists five reasons to hold back records. One is victims' personal information and similar files. One is child sexual abuse material. One is material that \"would jeopardize an active federal investigation or ongoing prosecution\". One is images of death, abuse or injury. One is information that is properly marked secret. None names witnesses, cooperators or confidential sources. The victim reason is tied to \"victims\". The investigation reason covers only an \"active\" investigation or an \"ongoing\" prosecution. So informant files from a closed case fall outside both. The one way in is if \"similar files\" is read to reach people who are not victims. Interview notes are clearly covered. The law lists \"witness interviews\". It also reaches people \"named or referenced in connection with\" investigations. The law does not say if the five reasons are the only ones. An official who hides informant names relies on a power outside the list.",
+    "use": "An official can release witness and informant names from closed files, or hide them for a reason the law does not list. Either choice can be challenged.",
+    "s": [
+     {
+      "l": "Public Law 119-38",
+      "u": "https://www.congress.gov/119/plaws/publ38/PLAW-119publ38.htm"
+     }
+    ],
+    "am": []
+   },
+   {
+    "id": "E24",
+    "kind": "risk",
+    "sev": "significant",
+    "conf": "high",
+    "fam": "obligation",
+    "pat": "No notice or consultation of affected people",
+    "det": "absence",
+    "a": null,
+    "where": "Section 2",
+    "title": "The Epstein files law does not make anyone tell victims before records about them go public.",
+    "plain": "The law sets a 30-day release and makes protecting victims' information optional. It does not make anyone tell victims what will be released or ask them to check for their names. A separate federal law gives crime victims a right to privacy. It tells Justice Department staff to make their best efforts to honor it. The Epstein law does not mention that law.",
+    "tech": "The law has no step to notify, consult or review with victims. It does not mention the Crime Victims' Rights Act. That Act gives crime victims \"The right to be treated with fairness and with respect for the victim's dignity and privacy\". It also covers Justice Department staff and staff of other agencies. Those \"engaged in the detection, investigation, or prosecution of crime shall make their best efforts\". The aim is to see that victims are told of their rights. A \"crime victim\" is \"a person directly and proximately harmed as a result of the commission of a Federal offense\". Neither law settles whether that duty reaches a law that orders records published, as opposed to a criminal case. The Epstein law's silence leaves the question to the Department.",
+    "use": "The Department can publish without first contacting survivors. A survivor can point only to another law's general duty to make best efforts. It is unclear if that duty applies here.",
+    "s": [
+     {
+      "l": "18 U.S.C. 3771",
+      "u": "https://www.law.cornell.edu/uscode/text/18/3771"
+     },
+     {
+      "l": "Public Law 119-38",
+      "u": "https://www.congress.gov/119/plaws/publ38/PLAW-119publ38.htm"
+     }
+    ],
+    "am": []
+   },
+   {
+    "id": "E25",
+    "kind": "risk",
+    "sev": "minor",
+    "conf": "medium",
+    "fam": "definitions",
+    "pat": "Undefined term with a broader standard definition",
+    "det": "word",
+    "a": {
+     "q": "personally identifiable information of victims"
+    },
+    "title": "The Epstein files law does not say what \"personally identifiable information\" is. Victim details may or may not be hidden.",
+    "plain": "The law lets victims' personally identifiable information be hidden but never says what that phrase means. A name is clearly covered. Some details identify a person only when put together, such as a school, a date and a hometown. These may or may not be covered. The federal government's standard definition does include such combinations. The law does not adopt it.",
+    "tech": "The law uses \"personally identifiable information of victims\" with no definition. A federal circular, OMB Circular A-130 (2016), defines the term. The NIST glossary quotes it. It says the term means information that can tell who a person is, alone or with other linked information. If the law uses that definition, indirect details are covered. If not, names and direct details may be all it covers. Then details that point to a victim from context are not covered, unless they count as \"similar files\".",
+    "use": "A reviewer facing the 30-day deadline can hide names but leave other identifying details. The reviewer can still say the victim reason was applied.",
+    "s": [
+     {
+      "l": "NIST glossary, personally identifiable information (citing OMB Circular A-130)",
+      "u": "https://csrc.nist.gov/glossary/term/personally_identifiable_information"
+     },
+     {
+      "l": "Public Law 119-38",
+      "u": "https://www.congress.gov/119/plaws/publ38/PLAW-119publ38.htm"
+     }
+    ],
+    "am": []
+   },
+   {
+    "id": "E26",
+    "kind": "notice",
+    "sev": "minor",
+    "conf": "medium",
+    "fam": "interaction",
+    "pat": "Unaddressed overlap with a general disclosure statute",
+    "det": "external",
+    "a": null,
+    "where": "Section 2(c)",
+    "title": "The Epstein files law does not say how it fits with the Privacy Act. That law limits sharing personal records.",
+    "plain": "A 1974 federal law, the Privacy Act, limits what agencies can disclose about U.S. citizens and permanent residents from their record systems. The Epstein law does not say it overrides that limit. The Justice Department could argue that some records still need the person's consent. A court could instead treat the newer, more specific law as controlling.",
+    "tech": "The Privacy Act says an agency may not disclose a record in its \"system of records\" to anyone. The exception is a written request from the person the record is about, or that person's written consent. Some other exceptions apply. One covers disclosure that the Freedom of Information Act requires. The Epstein law is not part of that Freedom of Information Act. The Privacy Act protects only an \"individual\". That means \"a citizen of the United States or an alien lawfully admitted for permanent residence\". A \"system of records\" is a group of records that an agency can look up by a person's name. The Epstein law has no clause saying it applies despite all other laws. Laws use such clauses to override other laws. No source was found in which a court or the Department has addressed the Privacy Act under the Epstein law. So its effect here is an open question.",
+    "use": "An official can cite the Privacy Act as another reason to hold back records about U.S. persons kept by name. A requester can say the later, more specific law controls.",
+    "s": [
+     {
+      "l": "5 U.S.C. 552a",
+      "u": "https://www.law.cornell.edu/uscode/text/5/552a"
+     },
+     {
+      "l": "Public Law 119-38",
+      "u": "https://www.congress.gov/119/plaws/publ38/PLAW-119publ38.htm"
+     }
+    ],
+    "am": []
+   },
+   {
+    "id": "E27",
+    "kind": "notice",
+    "sev": "minor",
+    "conf": "high",
+    "fam": "exceptions",
+    "pat": "Permitted ground overlaps a prohibited motive",
+    "det": "word",
+    "a": {
+     "q": "in the interest of national defense or foreign policy"
+    },
+    "title": "The Epstein law bars hiding records that embarrass a foreign dignitary. Records kept secret for foreign policy may stay hidden.",
+    "plain": "The law forbids hiding records to spare a foreign dignitary from embarrassment. It lets the government hide records on foreign relations if they are properly marked secret. The order on marking secrets also bans doing so to prevent embarrassment. So the two rules fit together. The same official still picks which reason applies.",
+    "tech": "The law bars hiding records because of \"embarrassment\" to anyone, including a foreign dignitary. The law lets the government hide records kept secret for \"national defense or foreign policy\". They must also be \"properly classified\", meaning properly marked secret. Executive Order 13526 lets the government mark records about foreign governments as secret. The same order bars secrecy meant to \"prevent embarrassment\". So a record can be held back only if there is a real reason for the secret mark. No one outside the executive branch can check that.",
+    "use": "A record that would embarrass a foreign official can be held back if it is also marked secret for foreign relations. The executive branch makes that call.",
+    "s": [
+     {
+      "l": "Executive Order 13526",
+      "u": "https://www.archives.gov/isoo/policy-documents/cnsi-eo.html"
+     },
+     {
+      "l": "Public Law 119-38",
+      "u": "https://www.congress.gov/119/plaws/publ38/PLAW-119publ38.htm"
+     }
+    ],
+    "am": []
+   },
+   {
+    "id": "E28",
+    "kind": "notice",
+    "sev": "minor",
+    "conf": "high",
+    "fam": "obligation",
+    "pat": "No preservation duty in the measure itself",
+    "det": "word",
+    "a": {
+     "q": "concerning the destruction, deletion, alteration, misplacement, or concealment of documents"
+    },
+    "title": "The law asks for records on destroyed Epstein files. It does not require keeping records before they are released.",
+    "plain": "The law requires release of records about any destruction or hiding of Epstein files. It does not forbid destroying, moving or changing records before the release. Other federal laws already cover unlawful destruction of government records. One is a records law. One is a crime law.",
+    "tech": "The law reaches records about the destruction or hiding of Epstein documents. It has no rule to keep records or to hold them for a court case. Existing law supplies one. A federal records law says agency heads must \"notify the Archivist of any actual, impending, or threatened unlawful removal\". It also tells the agency head to ask the Attorney General to get the records back. A criminal law punishes anyone who \"willfully and unlawfully conceals, removes, mutilates, obliterates, or destroys\" a record in a public office. The penalty is a fine, up to three years in prison, or both. Both laws apply only if the act breaks agency rules on keeping records. And the Department would have to enforce both laws against itself.",
+    "use": "Records can be moved or thrown out under ordinary schedules after the law takes effect and before release. That would not break this law, which sets no rule of its own to keep them.",
+    "s": [
+     {
+      "l": "44 U.S.C. 3106",
+      "u": "https://www.law.cornell.edu/uscode/text/44/3106"
+     },
+     {
+      "l": "18 U.S.C. 2071",
+      "u": "https://www.law.cornell.edu/uscode/text/18/2071"
+     },
+     {
+      "l": "Public Law 119-38",
+      "u": "https://www.congress.gov/119/plaws/publ38/PLAW-119publ38.htm"
+     }
+    ],
+    "am": []
+   },
+   {
+    "id": "E29",
+    "kind": "notice",
+    "sev": "minor",
+    "conf": "high",
+    "fam": "money",
+    "pat": "Unfunded mandate with no extension procedure",
+    "det": "absence",
+    "a": null,
+    "where": "Section 2(a)",
+    "title": "The Epstein files law gives no money for the review and no way to extend its 30-day deadline.",
+    "plain": "The law gives the Justice Department 30 days to review and publish a very large collection of records. It provides no money for the work and no way to ask for more time. The Department pays from its existing budget. When the deadline passes, the law says nothing about what comes next.",
+    "tech": "The law has no grant of money, no spending authority and no process to extend or waive the deadline. It sets the deadline at 30 days after the law takes effect. Without a formal extension, a release not finished in 30 days continues on whatever schedule the Department sets. The report to Congress is due only after the \"completion of the release\".",
+    "use": "The Department can treat the deadline as a target and release records in stages. The law neither pays for faster review nor sets a process for later deadlines.",
+    "s": [
+     {
+      "l": "Public Law 119-38",
+      "u": "https://www.congress.gov/119/plaws/publ38/PLAW-119publ38.htm"
+     }
+    ],
+    "am": []
+   },
+   {
+    "id": "E30",
+    "kind": "notice",
+    "sev": "minor",
+    "conf": "high",
+    "fam": "information",
+    "pat": "Format requirement without a standard",
+    "det": "absence",
+    "a": null,
+    "where": "Section 2(a)",
+    "title": "The Epstein files law says records must be searchable and downloadable. It sets no file standard, index or numbering rule.",
+    "plain": "The law says the records must be searchable and downloadable. It does not say how. It does not require an index, a single website, consistent document numbers or removal of duplicates. These choices decide how easily the public can find what was released.",
+    "tech": "The law requires the Attorney General to put the covered records online in a \"searchable and downloadable format\". It defines neither term. It names no file standard, such as files whose text can be searched. It requires no index, document control numbers, removal of duplicates or single location. Another part of the law asks only for all categories of records released and held back. It does not ask for a list of each item.",
+    "use": "The Department can meet the format rule with any searchable set of files. How easily the public can find a record depends on choices the law leaves open.",
+    "s": [
+     {
+      "l": "Public Law 119-38",
+      "u": "https://www.congress.gov/119/plaws/publ38/PLAW-119publ38.htm"
+     }
+    ],
+    "am": []
+   },
+   {
+    "id": "E31",
+    "kind": "tradeoff",
+    "sev": "minor",
+    "conf": "high",
+    "fam": "information",
+    "pat": "No notice or response for named third parties",
+    "det": "word",
+    "a": {
+     "q": "named or referenced in connection with Epstein's criminal activities"
+    },
+    "title": "The Epstein files law does not warn people named in the files or let them respond before release.",
+    "plain": "The law covers records about anyone named or mentioned in connection with Epstein's crimes, settlements or investigations. That includes unproven claims. The law gives those people no warning and no chance to respond. This keeps the release fast and complete. It also means a passing mention is published with the government's records.",
+    "tech": "The law reaches individuals \"named or referenced in connection with Epstein's criminal activities\". That includes government officials. It also reaches people tied to his civil settlements, immunity or plea agreements, or \"investigatory proceedings\". It reaches groups with \"known or alleged ties\". It also reaches officials \"named or referenced\" in the list for Congress. None of these parts gives notice or a chance to respond. None adds a label that separates a claim from a finding. The law also bars hiding records for \"reputational harm\". That rules out hiding a record on that basis alone. The missing notice fits the law's goal of disclosure.",
+    "use": "Records with untested claims about a named person are released without that person being told or heard. The person cannot use harm to reputation as a reason to hold them back.",
+    "s": [
+     {
+      "l": "Public Law 119-38",
+      "u": "https://www.congress.gov/119/plaws/publ38/PLAW-119publ38.htm"
+     }
+    ],
+    "am": []
    }
   ],
   "bigger": {
-   "issue": "Government openness and accountability in the Jeffrey Epstein case",
+   "issue": "How open the government has been about the Jeffrey Epstein case",
    "lead": "Say the Epstein files law worked just as written. It would only deliver the Justice Department's records that are not marked secret. The public's questions about the Epstein case go further than that.",
    "map": [
     {
-     "part": "Justice Department investigation and prosecution files on Epstein",
+     "part": "Files the Justice Department made when it looked into and charged Epstein",
      "reach": "reached",
      "note": "The Epstein files law covers these files. They are the main thing it orders released."
     },
     {
-     "part": "Financial, tax, immigration, spy agency and archive records held by other agencies",
+     "part": "Money, tax, immigration, spy and archive records that other agencies hold",
      "reach": "untouched",
      "note": "The Epstein files law reaches only records the Justice Department holds. So it does not cover these records."
     },
     {
-     "part": "Epstein records marked secret",
+     "part": "Epstein records that are marked secret",
      "reach": "partly",
      "note": "The Epstein files law tells the Attorney General to lift secret markings \"to the maximum extent possible\". That means as far as can be done. If not, the Attorney General must put out summaries."
     },
     {
-     "part": "Protecting survivors during the release",
+     "part": "Keeping survivors safe as files come out",
      "reach": "partly",
      "note": "The Epstein files law lets the Attorney General hide victims' names and details. But it does not make the Attorney General do it."
     },
     {
-     "part": "Records sealed by courts and grand jury material",
+     "part": "Records sealed by a court",
      "reach": "untouched",
-     "note": "The Epstein files law says nothing about court orders that seal records or the secrecy rules for grand juries. The Justice Department asked courts for permission on its own.",
+     "note": "The Epstein files law does not deal with sealing orders. The Justice Department asked courts for permission on its own.",
      "s": [
       {
        "l": "DOJ letter, S.D.N.Y.",
@@ -2608,6 +3619,39 @@
      "part": "Records held by Epstein's estate, banks and other private parties",
      "reach": "untouched",
      "note": "The Epstein files law covers only government records, so private records like these are left out."
+    },
+    {
+     "part": "Grand jury records in the Maxwell and Epstein cases",
+     "reach": "reached",
+     "note": "On December 9, 2025 the federal court in Manhattan held that \"in passing the Act, Congress overrode Rule 6(e)\" for these records. Rule 6(e) is the grand jury secrecy rule. So the records fall under the law's own rules for holding records back.",
+     "s": [
+      {
+       "l": "United States v. Maxwell, S.D.N.Y. opinion of December 9, 2025",
+       "u": "https://nysd.uscourts.gov/sites/default/files/2025-12/PAE%20Maxwell%20Opinion%202025.12.09%20%28As%20Docketed%29.pdf"
+      }
+     ]
+    },
+    {
+     "part": "Records the Justice Department gets after it says the release is done",
+     "reach": "untouched",
+     "note": "The law sets one 30-day duty and no ongoing duty. In February 2026 the Department told Congress it had released all the files it planned to.",
+     "s": [
+      {
+       "l": "UPI via Yahoo News, February 15, 2026",
+       "u": "https://www.yahoo.com/news/articles/no-more-epstein-files-released-231848652.html"
+      }
+     ]
+    },
+    {
+     "part": "Records that were public before the law (a Justice Department release in February 2025, and records courts made public in lawsuits)",
+     "reach": "partly",
+     "note": "These records are still covered if the Department holds them. The law does not say if they must be released again. It does not say how to handle duplicates or matching versions. The Department's February 27, 2025 release \"largely contains documents that have been previously leaked\".",
+     "s": [
+      {
+       "l": "Court TV, February 28, 2025",
+       "u": "https://www.courttv.com/news/justice-department-releases-jeffrey-epstein-flight-logs-contact-book/"
+      }
+     ]
     }
    ],
    "others": [
@@ -2643,7 +3687,7 @@
    },
    {
     "id": "trans",
-    "role": "Journalists and advocates for open government",
+    "role": "Reporters and groups that push for open government",
     "g": "Subject",
     "want": "Journalists and open-government groups want as many Epstein records out as possible. They want the names of powerful people left showing. They want a reason given for all that is held back.",
     "s": [
@@ -2674,7 +3718,7 @@
    },
    {
     "id": "pros",
-    "role": "Prosecutors with open cases",
+    "role": "Prosecutors who have open cases",
     "g": "Subject",
     "want": "Prosecutors with open cases do not want any Epstein records to come out that could harm a case still going on.",
     "s": []
@@ -2743,7 +3787,7 @@
    },
    {
     "id": "olc",
-    "role": "A legislative drafter",
+    "role": "A person who writes bills",
     "g": "Law",
     "want": "A person who writes bills wants every key word in the Epstein files law defined. That person also wants every pointer checked and every link to other laws spelled out.",
     "s": []
@@ -2770,10 +3814,10 @@
     ]
    },
    {
-    "who": "Pam Bondi, Attorney General until April 2026",
+    "who": "Pam Bondi, who was Attorney General until April 2026",
     "level": "person",
     "claim": "Pam Bondi was Attorney General when the first Epstein files came out. She had been a lawyer for President Trump.",
-    "detail": "Pam Bondi joined President Trump's legal team during his first impeachment trial in 2020. News reports say she told the President in May 2025 that his name was in the Epstein files. The reports also say she and her deputy said nothing in the files called for further investigation or prosecution. The President removed her as Attorney General in April 2026.",
+    "detail": "Pam Bondi joined President Trump's legal team in 2020, during his first impeachment trial. News reports say she told the President in May 2025 that his name was in the Epstein files. The reports also say she and her deputy said nothing in the files called for more investigation or charges. The President removed her as Attorney General in April 2026.",
     "s": [
      {
       "l": "Fortune, November 22, 2024",

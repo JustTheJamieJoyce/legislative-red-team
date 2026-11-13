@@ -41,283 +41,283 @@
     "id": "b7",
     "indent": 1,
     "kind": "heading",
-    "text": "Sec. 3119. Searches to accord with the Fourth Amendment"
+    "text": "\"Sec. 3119. Searches to accord with the Fourth Amendment"
    },
    {
     "id": "b8",
     "indent": 2,
     "kind": "text",
-    "text": "(a) Warrant Requirement.--"
+    "text": "\"(a) Warrant Requirement.--"
    },
    {
     "id": "b9",
     "indent": 3,
     "kind": "text",
-    "text": "(1) In general.--Except as provided in subsection (b), no search may be conducted without a warrant issued by a neutral and detached magistrate upon probable cause, supported by oath or affirmation, and particularly describing the place to be searched and the persons or things to be seized."
+    "text": "\"(1) In general.--Except as provided in subsection (b), no search may be conducted without a warrant issued by a neutral and detached magistrate upon probable cause, supported by oath or affirmation, and particularly describing the place to be searched and the persons or things to be seized."
    },
    {
     "id": "b10",
     "indent": 3,
     "kind": "text",
-    "text": "(2) Third-party data.--"
+    "text": "\"(2) Third-party data.--"
    },
    {
     "id": "b11",
     "indent": 4,
     "kind": "text",
-    "text": "(A) Presumption of privacy.--The government shall not access any data, metadata, or personal information held by a third party, including financial services providers, telecommunication service providers, internet service providers, cloud storage companies, or data brokers, without a valid warrant, regardless of whether the third party consents or cooperates."
+    "text": "\"(A) Presumption of privacy.--The government shall not access any data, metadata, or personal information held by a third party, including financial services providers, telecommunication service providers, internet service providers, cloud storage companies, or data brokers, without a valid warrant, regardless of whether the third party consents or cooperates."
    },
    {
     "id": "b12",
     "indent": 4,
     "kind": "text",
-    "text": "(B) Exception invalidated.--No contractual agreement between a user and a third party may be interpreted as waiving the government's warrant requirement for access to the data of that user, unless such waiver is knowing, voluntary, and explicit."
+    "text": "\"(B) Exception invalidated.--No contractual agreement between a user and a third party may be interpreted as waiving the government's warrant requirement for access to the data of that user, unless such waiver is knowing, voluntary, and explicit."
    },
    {
     "id": "b13",
     "indent": 2,
     "kind": "text",
-    "text": "(b) Exceptions.--The following may be conducted without a warrant:"
+    "text": "\"(b) Exceptions.--The following may be conducted without a warrant:"
    },
    {
     "id": "b14",
     "indent": 3,
     "kind": "text",
-    "text": "(1) Plain-view searches."
+    "text": "\"(1) Plain-view searches."
    },
    {
     "id": "b15",
     "indent": 3,
     "kind": "text",
-    "text": "(2) The verification of government-issued primary photo identification documents during a stop of a motor vehicle, travel, or other interactions with law enforcement, including the verification of--"
+    "text": "\"(2) The verification of government-issued primary photo identification documents during a stop of a motor vehicle, travel, or other interactions with law enforcement, including the verification of--"
    },
    {
     "id": "b16",
     "indent": 4,
     "kind": "text",
-    "text": "(A) a State identification card;"
+    "text": "\"(A) a State identification card;"
    },
    {
     "id": "b17",
     "indent": 4,
     "kind": "text",
-    "text": "(B) a driver's license;"
+    "text": "\"(B) a driver's license;"
    },
    {
     "id": "b18",
     "indent": 4,
     "kind": "text",
-    "text": "(C) a passport;"
+    "text": "\"(C) a passport;"
    },
    {
     "id": "b19",
     "indent": 4,
     "kind": "text",
-    "text": "(D) a passport card;"
+    "text": "\"(D) a passport card;"
    },
    {
     "id": "b20",
     "indent": 4,
     "kind": "text",
-    "text": "(E) a military identification; or"
+    "text": "\"(E) a military identification; or"
    },
    {
     "id": "b21",
     "indent": 4,
     "kind": "text",
-    "text": "(F) a permanent resident card."
+    "text": "\"(F) a permanent resident card."
    },
    {
     "id": "b22",
     "indent": 3,
     "kind": "text",
-    "text": "(3) The collection or analysis of information that is lawfully published or voluntarily made available by a person or entity to a public audience, and which requires no circumvention of privacy settings, encryption, or other access controls."
+    "text": "\"(3) The collection or analysis of information that is lawfully published or voluntarily made available by a person or entity to a public audience, and which requires no circumvention of privacy settings, encryption, or other access controls."
    },
    {
     "id": "b23",
     "indent": 3,
     "kind": "text",
-    "text": "(4) The use of lawful investigative techniques to collect data from publicly available sources such as new outlets, official government publications, public records, or user-posted content that is clearly accessible to the general public without special access or tools."
+    "text": "\"(4) The use of lawful investigative techniques to collect data from publicly available sources such as new outlets, official government publications, public records, or user-posted content that is clearly accessible to the general public without special access or tools."
    },
    {
     "id": "b24",
     "indent": 3,
     "kind": "text",
-    "text": "(5) Searches conducted with consent."
+    "text": "\"(5) Searches conducted with consent."
    },
    {
     "id": "b25",
     "indent": 3,
     "kind": "text",
-    "text": "(6) Searched conducted under exigent circumstances."
+    "text": "\"(6) Searched conducted under exigent circumstances."
    },
    {
     "id": "b26",
     "indent": 2,
     "kind": "text",
-    "text": "(c) Limitations.--The exceptions described in subsection (b) shall not be construed to permit the warrantless collection, retention, querying, or analysis of data exposed to public view or accessible to a third party if the person associated with the collected identifiers did not express informed and voluntary consent to such collection with respect to data gathered by entering a public place, operating a motor vehicle on a public roadway, or patronizing a private establishment open to the public, including--"
+    "text": "\"(c) Limitations.--The exceptions described in subsection (b) shall not be construed to permit the warrantless collection, retention, querying, or analysis of data exposed to public view or accessible to a third party if the person associated with the collected identifiers did not express informed and voluntary consent to such collection with respect to data gathered by entering a public place, operating a motor vehicle on a public roadway, or patronizing a private establishment open to the public, including--"
    },
    {
     "id": "b27",
     "indent": 3,
     "kind": "text",
-    "text": "(1) biometric data, including facial images, faceprints, gait, voice recognition, or other unique physical identifiers, obtained through facial recognition systems or comparable surveillance technologies; or"
+    "text": "\"(1) biometric data, including facial images, faceprints, gait, voice recognition, or other unique physical identifiers, obtained through facial recognition systems or comparable surveillance technologies; or"
    },
    {
     "id": "b28",
     "indent": 3,
     "kind": "text",
-    "text": "(2) license plate images, vehicle metadata, or vehicle movement patterns obtained through automated license plate readers or similar systems."
+    "text": "\"(2) license plate images, vehicle metadata, or vehicle movement patterns obtained through automated license plate readers or similar systems."
    },
    {
     "id": "b29",
     "indent": 2,
     "kind": "text",
-    "text": "(d) Definitons.--In this section:"
+    "text": "\"(d) Definitons.--In this section:"
    },
    {
     "id": "b30",
     "indent": 3,
     "kind": "text",
-    "text": "(1) Search.--The term \"search\" means any government-initiated act that intrudes upon an individual's reasonable expectation of privacy, including the following:"
+    "text": "\"(1) Search.--The term 'search' means any government-initiated act that intrudes upon an individual's reasonable expectation of privacy, including the following:"
    },
    {
     "id": "b31",
     "indent": 4,
     "kind": "text",
-    "text": "(A) Investigatory acts.--Any investigatory act purposefully directed at a specific person or entity, or the property of a specific person or entity, with the intent of obtaining information not otherwise available to the public."
+    "text": "\"(A) Investigatory acts.--Any investigatory act purposefully directed at a specific person or entity, or the property of a specific person or entity, with the intent of obtaining information not otherwise available to the public."
    },
    {
     "id": "b32",
     "indent": 4,
     "kind": "text",
-    "text": "(B) Government surveillance and monitoring.--Any non-consensual surveillance, monitoring, or inquiry conducted by a government entity or its agents, whether through human, digital, or automated means, that collects information on a specific individual or entity, including information on that individual or entity's--"
+    "text": "\"(B) Government surveillance and monitoring.--Any non-consensual surveillance, monitoring, or inquiry conducted by a government entity or its agents, whether through human, digital, or automated means, that collects information on a specific individual or entity, including information on that individual or entity's--"
    },
    {
     "id": "b33",
     "indent": 5,
     "kind": "text",
-    "text": "(i) communications;"
+    "text": "\"(i) communications;"
    },
    {
     "id": "b34",
     "indent": 5,
     "kind": "text",
-    "text": "(ii) associations;"
+    "text": "\"(ii) associations;"
    },
    {
     "id": "b35",
     "indent": 5,
     "kind": "text",
-    "text": "(iii) employment;"
+    "text": "\"(iii) employment;"
    },
    {
     "id": "b36",
     "indent": 5,
     "kind": "text",
-    "text": "(iv) social media usage;"
+    "text": "\"(iv) social media usage;"
    },
    {
     "id": "b37",
     "indent": 5,
     "kind": "text",
-    "text": "(v) internet usage;"
+    "text": "\"(v) internet usage;"
    },
    {
     "id": "b38",
     "indent": 5,
     "kind": "text",
-    "text": "(vi) financial transactions; or"
+    "text": "\"(vi) financial transactions; or"
    },
    {
     "id": "b39",
     "indent": 5,
     "kind": "text",
-    "text": "(vii) travel."
+    "text": "\"(vii) travel."
    },
    {
     "id": "b40",
     "indent": 4,
     "kind": "text",
-    "text": "(C) Collection of personal data.--The acquisition and analysis of any data, metadata, or information pertaining to a person's digital or physical life, including--"
+    "text": "\"(C) Collection of personal data.--The acquisition and analysis of any data, metadata, or information pertaining to a person's digital or physical life, including--"
    },
    {
     "id": "b41",
     "indent": 5,
     "kind": "text",
-    "text": "(i) geolocation;"
+    "text": "\"(i) geolocation;"
    },
    {
     "id": "b42",
     "indent": 5,
     "kind": "text",
-    "text": "(ii) communication records;"
+    "text": "\"(ii) communication records;"
    },
    {
     "id": "b43",
     "indent": 5,
     "kind": "text",
-    "text": "(iii) personal device activity;"
+    "text": "\"(iii) personal device activity;"
    },
    {
     "id": "b44",
     "indent": 5,
     "kind": "text",
-    "text": "(iv) assets;"
+    "text": "\"(iv) assets;"
    },
    {
     "id": "b45",
     "indent": 5,
     "kind": "text",
-    "text": "(v) liabilities;"
+    "text": "\"(v) liabilities;"
    },
    {
     "id": "b46",
     "indent": 5,
     "kind": "text",
-    "text": "(vi) biometric identifiers;"
+    "text": "\"(vi) biometric identifiers;"
    },
    {
     "id": "b47",
     "indent": 5,
     "kind": "text",
-    "text": "(vii) behavioral signals data; or"
+    "text": "\"(vii) behavioral signals data; or"
    },
    {
     "id": "b48",
     "indent": 5,
     "kind": "text",
-    "text": "(viii) financial transactions."
+    "text": "\"(viii) financial transactions."
    },
    {
     "id": "b49",
     "indent": 3,
     "kind": "text",
-    "text": "(2) Plain-view searches defined.--In this section, the term \"plain-view searches\" means the observation or seizure of evidence by a law enforcement officer who is lawfully present at a location, where the incriminating nature of the evidence is immediately apparent, and where such observation is incidental to the officer's lawful presence and does not involve the use of enhanced surveillance technology or systematic monitoring."
+    "text": "\"(2) Plain-view searches defined.--In this section, the term 'plain-view searches' means the observation or seizure of evidence by a law enforcement officer who is lawfully present at a location, where the incriminating nature of the evidence is immediately apparent, and where such observation is incidental to the officer's lawful presence and does not involve the use of enhanced surveillance technology or systematic monitoring."
    },
    {
     "id": "b50",
     "indent": 2,
     "kind": "text",
-    "text": "(e) Rule of Construction.--Nothing in this section shall be construed to--"
+    "text": "\"(e) Rule of Construction.--Nothing in this section shall be construed to--"
    },
    {
     "id": "b51",
     "indent": 3,
     "kind": "text",
-    "text": "(1) modify, supersede, or limit any existing constitutional protection, or to authorize surveillance that would otherwise be unlawful;"
+    "text": "\"(1) modify, supersede, or limit any existing constitutional protection, or to authorize surveillance that would otherwise be unlawful;"
    },
    {
     "id": "b52",
     "indent": 3,
     "kind": "text",
-    "text": "(2) eliminate or restrict constitutionally recognized exceptions permitting brief investigatory detentions or protective frisks based on reasonable suspicion; or"
+    "text": "\"(2) eliminate or restrict constitutionally recognized exceptions permitting brief investigatory detentions or protective frisks based on reasonable suspicion; or"
    },
    {
     "id": "b53",
     "indent": 3,
     "kind": "text",
-    "text": "(3) eliminate or restrict the authority of law enforcement officers to conduct brief investigatory detentions, protective frisks, arrests, or searches incident to ordinary criminal law enforcement encounters.\"."
+    "text": "\"(3) eliminate or restrict the authority of law enforcement officers to conduct brief investigatory detentions, protective frisks, arrests, or searches incident to ordinary criminal law enforcement encounters.\"."
    },
    {
     "id": "b54",
@@ -347,31 +347,31 @@
     "id": "b58",
     "indent": 1,
     "kind": "heading",
-    "text": "SEC. 1979A. DEPRIVATION OF FOURTH AMENDMENT RIGHTS."
+    "text": "\"SEC. 1979A. DEPRIVATION OF FOURTH AMENDMENT RIGHTS."
    },
    {
     "id": "b59",
     "indent": 2,
     "kind": "text",
-    "text": "(a) In General.--Every person, including a Federal employee, who, under color of any statute, ordinance, regulation, custom, or usage, of the United States, subjects, or causes to be subjected, any citizen of the United States or any person within the jurisdiction thereof to the deprivation of any rights, privileges, or immunities secured by the Fourth Amendment, shall be liable to the party injured in an action at law, suit in equity, or other proper proceeding for redress."
+    "text": "\"(a) In General.--Every person, including a Federal employee, who, under color of any statute, ordinance, regulation, custom, or usage, of the United States, subjects, or causes to be subjected, any citizen of the United States or any person within the jurisdiction thereof to the deprivation of any rights, privileges, or immunities secured by the Fourth Amendment, shall be liable to the party injured in an action at law, suit in equity, or other proper proceeding for redress."
    },
    {
     "id": "b60",
     "indent": 2,
     "kind": "text",
-    "text": "(b) Attorney's Fees.--In any action, suit, or proceeding to enforce this Act, the court, in its discretion, may allow the prevailing party, other than the United States, a reasonable attorney's fee as part of the costs."
+    "text": "\"(b) Attorney's Fees.--In any action, suit, or proceeding to enforce this Act, the court, in its discretion, may allow the prevailing party, other than the United States, a reasonable attorney's fee as part of the costs."
    },
    {
     "id": "b61",
     "indent": 2,
     "kind": "text",
-    "text": "(c) Federal Employee Defined.--In this section, the term \"Federal employee\" means an individual other than the President or the Vice President, who occupies a position in any agency or instrumentality of the executive branch (including any independent agency)."
+    "text": "\"(c) Federal Employee Defined.--In this section, the term 'Federal employee' means an individual other than the President or the Vice President, who occupies a position in any agency or instrumentality of the executive branch (including any independent agency)."
    },
    {
     "id": "b62",
     "indent": 2,
     "kind": "text",
-    "text": "(d) Rule of Construction.--Nothing in this section shall be construed to authorize a Federal employee to bring a suit against their Federal employer or the Federal Government for conduct that is within the scope of the employment relationship.\"."
+    "text": "\"(d) Rule of Construction.--Nothing in this section shall be construed to authorize a Federal employee to bring a suit against their Federal employer or the Federal Government for conduct that is within the scope of the employment relationship.\"."
    },
    {
     "id": "b63",
@@ -653,6 +653,185 @@
      "S16",
      "S20"
     ]
+   },
+   {
+    "ty": "Enforcement",
+    "q": "Could a person sue the United States under the Federal Tort Claims Act and sue the officer under new section 1979A as well?",
+    "a": "The Westfall Act normally makes a suit against the United States the only remedy for a federal employee's wrongful acts. It does not apply to an action \"brought for a violation of a statute of the United States under which such action against an individual is otherwise authorized\" (28 U.S.C. 2679(b)(2)(B)), so a 1979A suit against the officer could proceed. A Federal Tort Claims Act judgment \"shall constitute a complete bar to any action by the claimant, by reason of the same subject matter, against the employee of the government whose act or omission gave rise to the claim\" (28 U.S.C. 2676). The bill does not address that bar, so a person who brings both claims and loses the tort claim may lose the 1979A claim as well.",
+    "f": [
+     "S25",
+     "S11"
+    ],
+    "s": [
+     {
+      "l": "28 U.S.C. 2679",
+      "u": "https://www.law.cornell.edu/uscode/text/28/2679"
+     },
+     {
+      "l": "28 U.S.C. 2676",
+      "u": "https://www.law.cornell.edu/uscode/text/28/2676"
+     }
+    ]
+   },
+   {
+    "ty": "Enforcement",
+    "q": "How long would a person have to file a suit under new section 1979A?",
+    "a": "The bill sets no deadline, but federal law supplies one. For civil actions under Acts of Congress enacted after December 1, 1990, \"Except as otherwise provided by law\", an action \"may not be commenced later than 4 years after the cause of action accrues\" (28 U.S.C. 1658(a)).",
+    "f": [
+     "S11"
+    ],
+    "s": [
+     {
+      "l": "28 U.S.C. 1658",
+      "u": "https://www.law.cornell.edu/uscode/text/28/1658"
+     }
+    ]
+   },
+   {
+    "ty": "Language",
+    "q": "Would interviewing a witness about a suspect, or asking a business for its records about that suspect, count as a \"search\" that needs a warrant?",
+    "a": "The answer is possibly, on the broad reading of the definition. The definition in section 3119(d)(1)(A) lists \"Any investigatory act purposefully directed at a specific person or entity, or the property of a specific person or entity, with the intent of obtaining information not otherwise available to the public\". No exception in subsection (b) covers interviews or routine records requests, except the undefined consent exception. If the listed items must also intrude on a reasonable expectation of privacy, as S2 discusses, most such steps would fall outside the definition. The text does not settle which reading applies.",
+    "f": [
+     "S2",
+     "S5",
+     "S15"
+    ]
+   },
+   {
+    "ty": "Interaction",
+    "q": "Could section 3119 change what courts treat as a Fourth Amendment violation, so that conduct it forbids becomes suable under new section 1979A?",
+    "a": "The text does not say. Section 3119(e)(1) says the section shall not be construed to \"modify, supersede, or limit any existing constitutional protection\", and section 1979A reaches only rights \"secured by the Fourth Amendment\". A party could cite (e)(1) to argue that section 3119 leaves the constitutional standard where it was, which would keep statute-only violations outside the lawsuit described in S10. The clause does not by its words forbid a court from considering the statute when deciding what expectations of privacy are reasonable, so the effect is unsettled.",
+    "f": [
+     "S10",
+     "S2"
+    ],
+    "s": []
+   },
+   {
+    "ty": "Enforcement",
+    "q": "Who would pay a judgment against a federal officer under new section 1979A?",
+    "a": "The bill does not say. It names no indemnification rule, so payment would depend on existing agency policy. For Justice Department employees, a regulation provides that the Department \"may indemnify the defendant Department of Justice employee for any verdict, judgment, or other monetary award\" if the conduct was within the scope of employment. The regulation adds that indemnification \"is in the interest of the United States, as determined by the Attorney General or his designee\" (28 CFR 50.15(c)(1)). Indemnification is therefore discretionary, and the bill does not change that.",
+    "f": [
+     "S25",
+     "S11"
+    ],
+    "s": [
+     {
+      "l": "28 CFR 50.15",
+      "u": "https://www.law.cornell.edu/cfr/text/28/50.15"
+     }
+    ]
+   },
+   {
+    "ty": "Enforcement",
+    "q": "Could a person use new section 1979A to get a court order stopping an agency's warrantless program, rather than damages?",
+    "a": "The text allows \"an action at law, suit in equity, or other proper proceeding for redress\", but it does not say whether an officer may be sued in an official capacity, and an agency is likely not a \"person\" (S25). Existing law also provides that an action seeking relief other than money damages against an agency or an officer in an official capacity \"shall not be dismissed nor relief therein be denied on the ground that it is against the United States\" (5 U.S.C. 702). Whether 1979A adds anything to that route is not settled by the text.",
+    "f": [
+     "S25"
+    ],
+    "s": [
+     {
+      "l": "5 U.S.C. 702",
+      "u": "https://www.law.cornell.edu/uscode/text/5/702"
+     }
+    ]
+   },
+   {
+    "ty": "Enforcement",
+    "q": "What kinds of damages could a plaintiff recover under new section 1979A, and would a claim survive the death of a party?",
+    "a": "The text does not say. Under the parallel civil rights statute, a jury may award punitive damages \"when the defendant's conduct is shown to be motivated by evil motive or intent\" or \"when it involves reckless or callous indifference to the federally protected rights of others\" (Smith v. Wade, 1983). Survival of claims is governed by state law under 42 U.S.C. 1988, which \"provides the principal reference point in determining survival of civil rights actions\" (Robertson v. Wegmann, 1978). Whether courts would borrow these rules for 1979A, which copies section 1983's wording, is not established.",
+    "f": [
+     "S11"
+    ],
+    "s": [
+     {
+      "l": "Smith v. Wade (1983)",
+      "u": "https://www.law.cornell.edu/supremecourt/text/461/30"
+     },
+     {
+      "l": "Robertson v. Wegmann (1978)",
+      "u": "https://supreme.justia.com/cases/federal/us/436/584/"
+     }
+    ]
+   },
+   {
+    "ty": "Timing",
+    "q": "Would new section 1979A let people sue over searches that happened before the bill became law?",
+    "a": "The text does not say. Without an express command, a court asks whether applying a statute would \"increase a party's liability for past conduct\", and if so, \"our traditional presumption teaches that it does not govern absent clear congressional intent favoring such a result\" (Landgraf v. USI Film Products, 1994). A new damages action against officers would likely be treated that way, so claims would probably be limited to conduct after enactment. The bill also does not say how pending cases brought under the court-created Bivens remedy would be affected.",
+    "f": [
+     "S18",
+     "S11"
+    ],
+    "s": [
+     {
+      "l": "Landgraf v. USI Film Products (1994)",
+      "u": "https://supreme.justia.com/cases/federal/us/511/244/"
+     }
+    ]
+   },
+   {
+    "ty": "Language",
+    "q": "Who may issue a warrant under section 3119, and under what procedure?",
+    "a": "The text requires \"a neutral and detached magistrate\" and does not say which courts or officers qualify, for example State judges, the Foreign Intelligence Surveillance Court or immigration judges, or which procedural rules apply. The phrase comes from Fourth Amendment case law, under which an issuing officer \"must be neutral and detached, and he must be capable of determining whether probable cause exists\". The Court also found \"no commandment\" that \"all warrant authority must reside exclusively in a lawyer or judge\" (Shadwick v. City of Tampa, 1972). Which tribunals Congress meant to authorize is not stated.",
+    "f": [
+     "S27"
+    ],
+    "s": [
+     {
+      "l": "Shadwick v. City of Tampa (1972)",
+      "u": "https://supreme.justia.com/cases/federal/us/407/345/"
+     }
+    ]
+   },
+   {
+    "ty": "Language",
+    "q": "Could an officer posing as a friend or follower view a person's non-public social media posts without a warrant?",
+    "a": "The text does not say. The public-information exceptions in (b)(3) and (b)(4) cover information made available \"to a public audience\" or \"clearly accessible to the general public\", which friends-only posts are not. The consent exception in (b)(5) does not say whether consent obtained by deception counts (S5). Under current Fourth Amendment law, the Court has said it has never held that the Amendment protects \"a wrongdoer's misplaced belief that a person to whom he voluntarily confides his wrongdoing will not reveal it\" (Hoffa v. United States, 1966). Whether section 3119 changes that result for undercover online access is left open.",
+    "f": [
+     "S5",
+     "S6",
+     "S26"
+    ],
+    "s": [
+     {
+      "l": "Hoffa v. United States (1966)",
+      "u": "https://supreme.justia.com/cases/federal/us/385/293/"
+     }
+    ]
+   },
+   {
+    "ty": "Language",
+    "q": "Does the government \"access\" data when a company or person sends it unprompted, such as a tip?",
+    "a": "The text does not define \"access\". Section 3119(a)(2)(A) bars access \"regardless of whether the third party consents or cooperates\", which could be read to cover unsolicited disclosures or only government-initiated requests. Under current law the Fourth Amendment is wholly inapplicable \"to a search or seizure, even an unreasonable one, effected by a private individual not acting as an agent of the Government\" (United States v. Jacobsen, 1984). The bill does not say whether section 3119 departs from that rule. Mandatory reports are discussed in S15.",
+    "f": [
+     "S15",
+     "S20"
+    ],
+    "s": [
+     {
+      "l": "United States v. Jacobsen (1984)",
+      "u": "https://supreme.justia.com/cases/federal/us/466/109/"
+     }
+    ]
+   },
+   {
+    "ty": "Interaction",
+    "q": "Does section 3119 displace State laws that give more protection against government searches, or leave room for them?",
+    "a": "The text does not say. Section 3119 contains no preemption clause and no clause saving State law. Whether a State law adding further limits on searches would be affected would be decided under ordinary preemption principles, which the text does not address.",
+    "f": [
+     "S1"
+    ],
+    "s": []
+   },
+   {
+    "ty": "System and supply chain",
+    "q": "Is a company protected if it refuses a government request for data that comes without a warrant?",
+    "a": "The text does not say. Section 3119 places its rule on the government and gives a data holder no stated right to refuse, no protection against penalties for refusing, and no duty to refuse. A company's position would depend on the authority the government cited for the request and on whether that authority survives section 3119 (S17).",
+    "f": [
+     "S20",
+     "S17"
+    ],
+    "s": []
    }
   ],
   "findings": [
@@ -1578,6 +1757,279 @@
       }
      ]
     }
+   },
+   {
+    "id": "S23",
+    "kind": "risk",
+    "sev": "significant",
+    "conf": "medium",
+    "fam": "exceptions",
+    "pat": "Closed exception list omits settled exceptions",
+    "det": "structure",
+    "a": {
+     "q": "Except as provided in subsection (b), no search may be conducted without a warrant"
+    },
+    "title": "The Surveillance Accountability Act lists six warrant exceptions as the only ones, leaving out border, vehicle and inventory searches that courts allow today.",
+    "plain": "The bill says no search may happen without a warrant except in six listed situations. Searches at the border, searches of cars and searches of property taken into police custody are not on the list. A court could read the list as complete, which would mean those searches need a warrant, or it could stretch another clause to save them.",
+    "tech": "New section 3119(a)(1) makes subsection (b) the only source of exceptions (\"Except as provided in subsection (b), no search may be conducted without a warrant\"). Subsection (b) lists plain view, identification verification, two public-information exceptions, consent and exigent circumstances. The Supreme Court reads a statutory list of exceptions as closed: \"When Congress provides exceptions in a statute, it does not follow that courts have authority to create others. The proper inference, and the one we adopt here, is that Congress considered the issue of exceptions and, in the end, limited the statute to the ones set forth.\" United States v. Johnson, 529 U.S. 53 (2000). Border searches are a settled category that requires no warrant. Searches at the border \"are reasonable simply by virtue of the fact that they occur at the border\" and the government's interest \"is at its zenith at the international border.\" United States v. Flores-Montano, 541 U.S. 149 (2004) (quoting United States v. Ramsey). The definition of search in 3119(d)(1)(B) expressly includes surveillance or inquiry that collects information on a person's \"travel\". Subsection (e)(1) preserves constitutional protections, not government search powers, and (e)(2) and (e)(3) preserve only detentions, frisks, arrests and \"searches incident to ordinary criminal law enforcement encounters\". A border inspection is not obviously a criminal law enforcement encounter. The text does not say whether removing these exceptions is intended. The likely litigation choice is between the Johnson inference, which would require warrants for these searches, and a broad reading of (e)(3), which is the separate risk described in S9.",
+    "use": "A traveler whose phone was searched at a port of entry argues that section 3119 required a warrant because no listed exception applies. The government responds that (e)(3) or an implied exception preserves the border search authority, leaving the answer to the courts.",
+    "s": [
+     {
+      "l": "United States v. Johnson (2000)",
+      "u": "https://www.law.cornell.edu/supct/html/98-1696.ZO.html"
+     },
+     {
+      "l": "United States v. Flores-Montano (2004)",
+      "u": "https://supreme.justia.com/cases/federal/us/541/149/"
+     }
+    ],
+    "am": []
+   },
+   {
+    "id": "S24",
+    "kind": "risk",
+    "sev": "significant",
+    "conf": "medium",
+    "fam": "interaction",
+    "pat": "Absolute bar collides with emergency disclosure law",
+    "det": "word",
+    "a": {
+     "q": "without a valid warrant, regardless of whether the third party consents or cooperates"
+    },
+    "title": "The Surveillance Accountability Act's third-party data rule has no stated emergency exception, which conflicts with current law letting providers disclose records in life-threatening emergencies.",
+    "plain": "Today a phone or internet company may give police records right away if it believes someone faces death or serious injury, such as a kidnapping. The bill says the government may not get data held by a company without a warrant even if the company cooperates. The bill's emergency exception is attached to a different paragraph, so it is unclear whether these emergency disclosures would still be allowed.",
+    "tech": "Section 3119(a)(2)(A) bars government access to data held by a third party \"without a valid warrant, regardless of whether the third party consents or cooperates.\" Unlike (a)(1), paragraph (a)(2) does not begin \"Except as provided in subsection (b)\". The exigent circumstances exception in (b)(6) speaks of \"Searched conducted under exigent circumstances\", which ties it to searches rather than to the access rule in (a)(2). Current law lets a provider disclose \"to a governmental entity, if the provider, in good faith, believes that an emergency involving danger of death or serious physical injury to any person requires disclosure without delay\" of communications (18 U.S.C. 2702(b)(8)). It also lets a provider disclose other information relating to the emergency (18 U.S.C. 2702(c)(4)). Those are voluntary disclosures by the provider, which is exactly the cooperation that (a)(2)(A) says does not substitute for a warrant. The bill has no override clause or conforming amendment (see S17), so a court would have to reconcile the two. S5 notes the same structural gap for the consent exception; this finding concerns its effect on emergency access.",
+    "use": "A provider declines an emergency request, citing section 3119(a)(2)(A), until a warrant is obtained. Alternatively, an agency relies on 2702 and argues the specific emergency statute survives the general rule, which narrows (a)(2)(A) by implication.",
+    "s": [
+     {
+      "l": "18 U.S.C. 2702",
+      "u": "https://www.law.cornell.edu/uscode/text/18/2702"
+     }
+    ],
+    "am": []
+   },
+   {
+    "id": "S25",
+    "kind": "tradeoff",
+    "sev": "significant",
+    "conf": "high",
+    "fam": "enforcement",
+    "pat": "Liability limited to individuals",
+    "det": "word",
+    "a": {
+     "q": "Every person, including a Federal employee, who, under color of any statute, ordinance, regulation, custom, or usage, of the United States"
+    },
+    "title": "The Surveillance Accountability Act lets people sue individual federal officials but, under settled reading rules, not the United States or its agencies.",
+    "plain": "The new right to sue applies to \"every person\" who violates Fourth Amendment rights under federal authority. Courts read \"person\" in a law to leave out the government unless the law clearly says otherwise, and this bill does not. So a lawsuit would name the individual officer, not the agency or the United States, even when the officer was following an agency policy.",
+    "tech": "Section 1979A(a) imposes liability on \"Every person, including a Federal employee\". It does not define \"person\" to include the United States or an agency and contains no waiver of sovereign immunity. The Supreme Court applies a \"longstanding interpretive presumption that 'person' does not include the sovereign\", which \"may be disregarded only upon some affirmative showing of statutory intent to the contrary.\" Return Mail Inc. v. United States Postal Service, 587 US ___ (2019). Separately, \"Absent a waiver, sovereign immunity shields the Federal Government and its agencies from suit.\" FDIC v. Meyer, 510 U.S. 471 (1994). The result is that damages run only against individual officers, who can be expected to raise qualified immunity (S11), and there is no counterpart to entity liability for an agency policy or custom. Section 1979A(d), which says the section does not authorize a federal employee to sue \"their Federal employer or the Federal Government\", is consistent with this reading. Limiting liability to individuals is a design choice with arguments on both sides, such as fiscal exposure for the Treasury against the deterrent value of entity liability; the text does not say which was intended.",
+    "use": "An agency that adopted a warrantless data program is dismissed from a suit as not a \"person\", leaving the plaintiff to pursue the officers who carried out the program.",
+    "s": [
+     {
+      "l": "Return Mail, Inc. v. United States Postal Service (2019)",
+      "u": "https://supreme.justia.com/cases/federal/us/587/17-1594/"
+     },
+     {
+      "l": "FDIC v. Meyer (1994)",
+      "u": "https://supreme.justia.com/cases/federal/us/510/471/"
+     }
+    ],
+    "am": []
+   },
+   {
+    "id": "S26",
+    "kind": "risk",
+    "sev": "minor",
+    "conf": "medium",
+    "fam": "exceptions",
+    "pat": "Stricter exception made redundant by a looser one",
+    "det": "word",
+    "a": {
+     "q": "that is clearly accessible to the general public without special access or tools"
+    },
+    "title": "In the Surveillance Accountability Act, the limit on special tools in one public-information exception is not repeated in the neighboring exception covering the same information.",
+    "plain": "The bill has two exceptions for public information. One covers public sources only when they can be reached \"without special access or tools\". The other allows the \"collection or analysis\" of publicly available information with no limit on tools. Because either exception is enough on its own, the limit on tools may have little effect.",
+    "tech": "Section 3119(b)(4) allows collection from publicly available sources accessible \"without special access or tools\". Section 3119(b)(3) allows \"The collection or analysis of information that is lawfully published or voluntarily made available by a person or entity to a public audience, and which requires no circumvention of privacy settings, encryption, or other access controls\". Paragraph (b)(3) restricts only circumvention, not tools. Each paragraph of subsection (b) is an independent exception, so information within (b)(3) can be collected and analyzed with automated aggregation or monitoring software even though (b)(4) would not allow it. A court could instead read the more specific (b)(4) to control, which is why confidence is medium. Subsection (c) narrows the exceptions only for data gathered in public places, on public roads or in businesses open to the public (S8), not for online posts. S6 addresses who must have made the information public. This finding addresses how it may be gathered.",
+    "use": "An agency runs commercial social media monitoring software across public posts about a named person and relies on (b)(3), arguing that the tools limit in (b)(4) does not apply.",
+    "s": [],
+    "am": []
+   },
+   {
+    "id": "S27",
+    "kind": "risk",
+    "sev": "minor",
+    "conf": "medium",
+    "fam": "definitions",
+    "pat": "Borrowed constitutional term carries flexible meaning",
+    "det": "word",
+    "a": {
+     "q": "upon probable cause"
+    },
+    "title": "The Surveillance Accountability Act requires warrants \"upon probable cause\" without saying probable cause of what, so the looser standard courts use for inspection warrants could apply.",
+    "plain": "The bill copies the Constitution's words and requires a warrant \"upon probable cause\". It does not say probable cause to believe a crime was committed. The Supreme Court has read the same words to allow inspection warrants based on general program standards rather than suspicion about a particular place, so the strength of the new warrant rule could vary with the kind of search.",
+    "tech": "Section 3119(a)(1) requires \"a warrant issued by a neutral and detached magistrate upon probable cause, supported by oath or affirmation\", tracking the Warrant Clause, and does not tie probable cause to a crime. Construing the same constitutional words for administrative inspections, the Court held that probable cause \"to issue a warrant to inspect must exist if reasonable legislative or administrative standards for conducting an area inspection are satisfied with respect to a particular dwelling\". These are standards that \"will not necessarily depend upon specific knowledge of the condition of the particular dwelling.\" Camara v. Municipal Court, 387 U.S. 523, 538 (1967). Because the definition of search in 3119(d)(1) can reach regulatory and civil inquiries (see S15 and the Language question on interviews), a court could carry Camara's flexible standard into 3119 for those inquiries. A court could instead require criminal probable cause, which most regulatory programs cannot meet. The text does not choose.",
+    "use": "An agency seeks a section 3119 warrant for a records inspection program on the strength of its program criteria, citing Camara; a regulated company argues that 3119 requires probable cause of a violation by that company.",
+    "s": [
+     {
+      "l": "Camara v. Municipal Court (1967)",
+      "u": "https://supreme.justia.com/cases/federal/us/387/523/"
+     }
+    ],
+    "am": []
+   },
+   {
+    "id": "S28",
+    "kind": "risk",
+    "sev": "minor",
+    "conf": "medium",
+    "fam": "exceptions",
+    "pat": "Open-ended setting for an exception",
+    "det": "word",
+    "a": {
+     "q": "or other interactions with law enforcement"
+    },
+    "title": "The Surveillance Accountability Act's exception for checking identification applies during any interaction with law enforcement and does not say what checking an ID may involve.",
+    "plain": "Police may check a government photo ID without a warrant during a traffic stop, travel, \"or other interactions with law enforcement\". The bill does not say which interactions count, whether the interaction must itself be lawful, or what \"verification\" includes. Today a check at a traffic stop typically includes running the driver for outstanding warrants, so verification could be read to include database searches.",
+    "tech": "Section 3119(b)(2) exempts \"The verification of government-issued primary photo identification documents during a stop of a motor vehicle, travel, or other interactions with law enforcement\". \"Other interactions\" is not limited to stops supported by reasonable suspicion, and \"verification\" is undefined. In traffic stops, the Court has described the officer's mission as including \"ordinary inquiries incident to [the traffic] stop\", which typically involve \"checking the driver's license,\" \"determining whether there are outstanding warrants against the driver,\" and inspecting registration and insurance. Rodriguez v. United States, 575 U.S. 348 (2015). A court could read \"verification\" in light of that practice to cover checks of the identified person against warrant, immigration or other databases. Section 3119(e)(1) bars reading the section to \"authorize surveillance that would otherwise be unlawful\", but such checks are lawful today, so (e)(1) does not limit them. Whether such a database query is itself a search under 3119(d)(1)(C) (\"acquisition and analysis\" of data) is left to the interplay of the definition and this exception.",
+    "use": "An officer in a consensual street encounter asks for ID and runs it through several databases, relying on (b)(2) for the whole sequence.",
+    "s": [
+     {
+      "l": "Rodriguez v. United States (2015)",
+      "u": "https://supreme.justia.com/cases/federal/us/575/348/"
+     }
+    ],
+    "am": []
+   },
+   {
+    "id": "S29",
+    "kind": "notice",
+    "sev": "minor",
+    "conf": "high",
+    "fam": "definitions",
+    "pat": "Undefined technical terms",
+    "det": "word",
+    "a": {
+     "q": "behavioral signals data"
+    },
+    "title": "The Surveillance Accountability Act uses several technical terms, such as \"behavioral signals data\" and \"enhanced surveillance technology\", that it does not define.",
+    "plain": "The bill's definition of search lists items like \"personal device activity\" and \"behavioral signals data\", and its warrant rule names \"data brokers\" and \"metadata\". None of these is defined. Courts would give them their ordinary meaning, which for newer technical terms may be unsettled.",
+    "tech": "Subsection (d) defines only \"search\" and \"plain-view searches\". Undefined terms that set the reach of the section include \"metadata\" and \"data brokers\" in (a)(2)(A); \"agents\" in (d)(1)(B); \"personal device activity\" and \"behavioral signals data\" in (d)(1)(C). The undefined term \"enhanced surveillance technology or systematic monitoring\" in (d)(2) decides when an observation stops being a plain-view search. \"The government\" and \"a government entity\" are addressed in S1. Chapter 205 of title 18 has no general definitions section that would supply meanings. Undefined terms of this kind are common in statutes, so the effect depends on how courts read each term in a contested case.",
+    "use": "A party argues that app-usage telemetry or location inferences are not \"behavioral signals data\" or \"personal device activity\" and so fall outside the listed categories.",
+    "s": [],
+    "am": []
+   },
+   {
+    "id": "S30",
+    "kind": "notice",
+    "sev": "minor",
+    "conf": "medium",
+    "fam": "actors",
+    "pat": "Coverage of private partners left to case law",
+    "det": "absence",
+    "a": null,
+    "where": "New section 1979A(a)",
+    "title": "The Surveillance Accountability Act does not say whether contractors, data brokers or task force partners working with federal agencies can be sued under the new right of action.",
+    "plain": "The right to sue reaches anyone who acts \"under color of\" federal law. Under the main civil rights statute, private parties who act jointly with officials can count. The bill does not say whether contractors, companies that supply data, or state and local officers on federal task forces are covered, so courts would decide case by case.",
+    "tech": "Section 1979A(a) imposes liability on \"Every person, including a Federal employee, who, under color of any statute, ordinance, regulation, custom, or usage, of the United States\" deprives a person of Fourth Amendment rights. It names no category of private actor. Under the parallel state-actor statute, \"Private persons, jointly engaged with state official in the challenged action are acting \"under color\" of law\" for purposes of section 1983. Dennis v. Sparks, 449 U.S. 24 (1980). A court could apply the same joint-action test to 1979A, which would reach some contractors and data suppliers and not others. Whether state or local officers serving on a federal task force act under color of federal law, state law, or both is not addressed in the text, and the answer was not established from a primary source in this review.",
+    "use": "A plaintiff sues the contractor that ran a warrantless data pull for an agency; the contractor argues it acted independently and not jointly with federal officials.",
+    "s": [
+     {
+      "l": "Dennis v. Sparks (1980)",
+      "u": "https://supreme.justia.com/cases/federal/us/449/24/"
+     }
+    ],
+    "am": []
+   },
+   {
+    "id": "S31",
+    "kind": "notice",
+    "sev": "minor",
+    "conf": "medium",
+    "fam": "actors",
+    "pat": "Narrow defined term beside a broad operative term",
+    "det": "word",
+    "a": {
+     "q": "other than the President or the Vice President"
+    },
+    "title": "The Surveillance Accountability Act defines \"Federal employee\" to leave out the President, the Vice President and staff of the legislative and judicial branches.",
+    "plain": "The bill defines \"Federal employee\" as executive branch staff other than the President and Vice President. That leaves out, for example, police who work for Congress or the courts. Because the right to sue applies to \"every person\", these officials may still be covered, but a court could read the express exclusion of the President and Vice President as a sign they were meant to be outside the law.",
+    "tech": "Section 1979A(c) defines \"Federal employee\" as an individual \"other than the President or the Vice President, who occupies a position in any agency or instrumentality of the executive branch (including any independent agency).\" The operative text in (a) reaches \"Every person, including a Federal employee\", so the definition shapes the illustrative phrase and the employee-suit rule in (d) rather than limiting who can be sued. Legislative and judicial branch officers are outside the definition but remain persons who may act under color of federal law. For the President, the exclusion adds little in damages cases: the Court has held that a President \"is entitled to absolute immunity from damages liability\" for official acts. Nixon v. Fitzgerald, 457 U.S. 731 (1982). The Vice President was not the subject of that holding, and a court could read the express exclusion as an indication that Congress did not intend 1979A to reach either office.",
+    "use": "A Vice President's office sued under 1979A argues that the definition's exclusion shows Congress meant to exempt the office from the section.",
+    "s": [
+     {
+      "l": "Nixon v. Fitzgerald (1982)",
+      "u": "https://supreme.justia.com/cases/federal/us/457/731/"
+     }
+    ],
+    "am": []
+   },
+   {
+    "id": "S32",
+    "kind": "risk",
+    "sev": "minor",
+    "conf": "medium",
+    "fam": "enforcement",
+    "pat": "Ambiguous carve-out for employee suits",
+    "det": "word",
+    "a": {
+     "q": "for conduct that is within the scope of the employment relationship"
+    },
+    "title": "The Surveillance Accountability Act's rule on suits by federal employees does not say whether it covers suits against supervisors over workplace monitoring.",
+    "plain": "The bill says it does not let a federal employee sue \"their Federal employer or the Federal Government\" for conduct within the employment relationship. It does not say whether \"employer\" includes an individual supervisor, or whose conduct must be within that relationship. Read broadly, the rule could limit suits over monitoring of federal workers' devices or personal accounts.",
+    "tech": "Section 1979A(d) provides that nothing in the section authorizes \"a Federal employee to bring a suit against their Federal employer or the Federal Government for conduct that is within the scope of the employment relationship.\" Suits against agencies and the United States are already unavailable under the reading in S25, so the clause adds most if \"Federal employer\" is read to include supervising officials sued as individuals. The phrase \"within the scope of the employment relationship\" is also undefined and could describe the employee's own conduct, the supervisor's conduct, or the monitoring program. The text does not define the clause's reach over insider-threat programs, device searches or monitoring of personal accounts, which a court would have to decide.",
+    "use": "A supervisor sued over a search of an employee's personal phone argues that, as the employee's \"Federal employer\", the supervisor is covered by subsection (d).",
+    "s": [],
+    "am": []
+   },
+   {
+    "id": "S33",
+    "kind": "notice",
+    "sev": "minor",
+    "conf": "medium",
+    "fam": "enforcement",
+    "pat": "Two-way fee shifting copied from section 1988",
+    "det": "word",
+    "a": {
+     "q": "may allow the prevailing party, other than the United States"
+    },
+    "title": "The Surveillance Accountability Act lets a winning defendant officer, not only a winning plaintiff, ask for attorney's fees.",
+    "plain": "The fee rule applies to \"the prevailing party, other than the United States\", so an officer who wins could ask the person who sued to pay the officer's lawyers. Under the civil rights statute with the same wording, courts award fees to winning defendants only when the suit was frivolous, but the bill does not say so.",
+    "tech": "Section 1979A(b) allows fees to \"the prevailing party, other than the United States\", wording that tracks 42 U.S.C. 1988(b). Under that statute, a prevailing defendant receives fees only \"upon a finding that the plaintiff's action was frivolous, unreasonable, or without foundation.\" Fox v. Vice, 563 U.S. 826 (2011) (syllabus). A court would likely apply the same standard to parallel text, but 1979A does not state it, so the standard depends on the court's choice to borrow it. The fee rule's reference to \"this Act\" is addressed in S12.",
+    "use": "An officer who wins on qualified immunity moves for fees, arguing the claim was without foundation.",
+    "s": [
+     {
+      "l": "Fox v. Vice (2011)",
+      "u": "https://www.law.cornell.edu/supremecourt/text/10-114"
+     }
+    ],
+    "am": []
+   },
+   {
+    "id": "S34",
+    "kind": "defect",
+    "sev": "minor",
+    "conf": "low",
+    "fam": "mechanics",
+    "pat": "General provision placed inside an amending section",
+    "det": "structure",
+    "aud": "pro",
+    "a": {
+     "q": "(b) Severability."
+    },
+    "title": "The Surveillance Accountability Act places its severability clause inside section 3 rather than in a separate section of the bill.",
+    "plain": "The clause saying the rest of the law survives if part is struck down applies to the whole Act, but it appears as subsection (b) of section 3, the section on lawsuits. That placement may confuse readers about its reach.",
+    "tech": "The severability clause appears as section 3(b), after the closing quotation marks of inserted section 1979A, and refers to \"this Act\" as a whole. Because it follows the closing quotation marks in the official text, it is not part of the inserted Revised Statutes text. The House Legislative Counsel's Manual on Drafting Style, section 328, states that \"a severability clause is unnecessary unless it provides in detail which related provisions are to fall\", and no rule on where such a clause is placed was found in it. This point has not been verified against a primary source.",
+    "use": "A reader of section 3 alone could take the severability clause to apply only to the right of action, although its words reach the whole Act.",
+    "s": [
+     {
+      "l": "H.R. 8470 as introduced (GovInfo)",
+      "u": "https://www.govinfo.gov/content/pkg/BILLS-119hr8470ih/html/BILLS-119hr8470ih.htm"
+     },
+     {
+      "l": "House Legislative Counsel, Manual on Drafting Style (1995)",
+      "u": "https://agora-parl.org/sites/default/files/agora-documents/US%20House%20of%20Representatives%20-%20Manual%20on%20drafting%20style%20-%2011.1995%20-%20EN%20-%20IP.pdf"
+     }
+    ],
+    "am": []
    }
   ],
   "bigger": {
@@ -1645,6 +2097,22 @@
      "part": "Transparency and oversight of government searches",
      "reach": "untouched",
      "note": "The bill requires no reporting, no audit and no notice to people who were searched."
+    },
+    {
+     "part": "Searches and data collection outside the United States",
+     "reach": "untouched",
+     "note": "The bill does not say it applies abroad. \"Absent clearly expressed congressional intent to the contrary, federal laws will be construed to have only domestic application\" (RJR Nabisco Inc. v. European Community, 2016), so section 3119 would presumptively not reach searches conducted in other countries. This presumption applies to every federal statute that is silent on the point.",
+     "s": [
+      {
+       "l": "RJR Nabisco, Inc. v. European Community (2016)",
+       "u": "https://supreme.justia.com/cases/federal/us/579/15-138/"
+      }
+     ]
+    },
+    {
+     "part": "Court and agency capacity for more warrant applications",
+     "reach": "untouched",
+     "note": "The bill would require warrants for categories of access that today use subpoenas, orders or no process. It provides no funding, implementation guidance, transition period or study of the added workload for courts and agencies."
     }
    ],
    "others": [
@@ -2094,6 +2562,185 @@
      "S16",
      "S20"
     ]
+   },
+   {
+    "ty": "Enforcement",
+    "q": "Could a person sue the United States under the Federal Tort Claims Act as well as the officer?",
+    "a": "The Westfall Act is a federal law about suits against federal workers. It normally makes a suit against the United States the only remedy for a federal employee's wrongful acts. But it does not apply when another federal law already allows a suit against the individual. So a suit against the officer under the new bill could go forward. Yet a Federal Tort Claims Act judgment is a \"complete bar\" to a later suit against the employee on the same subject. The bill does not address that bar. So a person who brings both claims and loses the tort claim may lose the new claim too.",
+    "f": [
+     "S25",
+     "S11"
+    ],
+    "s": [
+     {
+      "l": "28 U.S.C. 2679",
+      "u": "https://www.law.cornell.edu/uscode/text/28/2679"
+     },
+     {
+      "l": "28 U.S.C. 2676",
+      "u": "https://www.law.cornell.edu/uscode/text/28/2676"
+     }
+    ]
+   },
+   {
+    "ty": "Enforcement",
+    "q": "How long would a person have to file a suit under the bill's new right to sue federal officers?",
+    "a": "The bill sets no deadline, but another federal law does. It applies to lawsuits under Acts of Congress passed after December 1, 1990. An action \"may not be commenced later than 4 years\" after the claim first arises. The law adds \"Except as otherwise provided by law\". That means other laws can set a different limit.",
+    "f": [
+     "S11"
+    ],
+    "s": [
+     {
+      "l": "28 U.S.C. 1658",
+      "u": "https://www.law.cornell.edu/uscode/text/28/1658"
+     }
+    ]
+   },
+   {
+    "ty": "Language",
+    "q": "Would a warrant be needed to question a witness or ask a business for a suspect's records?",
+    "a": "It is possible, if the bill's definition of a search is read broadly. The definition lists \"Any investigatory act purposefully directed at a specific person or entity\". It also covers acts aimed at their property. The act must aim to get information not otherwise available to the public. The bill's list of exceptions has nothing for interviews or routine records requests. The one exception that might fit is the undefined exception for consent. If the listed acts must also intrude on a reasonable expectation of privacy, most such steps would fall outside the definition. Another finding in this review explains that point. The text does not say which reading applies.",
+    "f": [
+     "S2",
+     "S5",
+     "S15"
+    ]
+   },
+   {
+    "ty": "Interaction",
+    "q": "Would the new warrant rule change what courts treat as a Fourth Amendment violation, and so allow lawsuits over it?",
+    "a": "The text does not say. The warrant rule says it shall not be read to \"modify, supersede, or limit any existing constitutional protection\". The new right to sue reaches only rights \"secured by the Fourth Amendment\". A party could cite the first phrase to argue the constitutional standard stays where it was. Then breaking only the new law would not support the lawsuit described in another finding in this review. The words do not stop a court from using the new law to decide which privacy expectations are reasonable. So the effect is unsettled.",
+    "f": [
+     "S10",
+     "S2"
+    ],
+    "s": []
+   },
+   {
+    "ty": "Enforcement",
+    "q": "Who would pay a judgment against a federal officer under the new right to sue?",
+    "a": "The bill does not say. It has no rule on paying for an officer, so payment would depend on current agency policy. A regulation covers Justice Department employees. It says the Department \"may indemnify the defendant Department of Justice employee for any verdict, judgment, or other monetary award\". To \"indemnify\" means to pay the cost for someone. This applies if the conduct was within the scope of employment. It adds that paying \"is in the interest of the United States, as determined by the Attorney General or his designee\". Paying is therefore a choice, and the bill does not change that.",
+    "f": [
+     "S25",
+     "S11"
+    ],
+    "s": [
+     {
+      "l": "28 CFR 50.15",
+      "u": "https://www.law.cornell.edu/cfr/text/28/50.15"
+     }
+    ]
+   },
+   {
+    "ty": "Enforcement",
+    "q": "Could the new right to sue be used to stop a warrantless agency program, not just to win money?",
+    "a": "The text allows \"an action at law, suit in equity, or other proper proceeding for redress\". It does not say whether an officer may be sued in an official role, and an agency is likely not a \"person\". Another finding in this review explains that point. Current law covers suits that seek something other than money from an agency or an official. Such a suit cannot be dismissed just because it is against the United States. Whether the new right adds anything to that path is not settled by the text.",
+    "f": [
+     "S25"
+    ],
+    "s": [
+     {
+      "l": "5 U.S.C. 702",
+      "u": "https://www.law.cornell.edu/uscode/text/5/702"
+     }
+    ]
+   },
+   {
+    "ty": "Enforcement",
+    "q": "What damages could a person win under the new right to sue, and would a claim survive a party's death?",
+    "a": "The text does not say. Under the older civil rights law, a jury may award punitive damages. Such damages are meant to punish the wrongdoer. A jury may do so \"when the defendant's conduct is shown to be motivated by evil motive or intent\". It may also do so \"when it involves reckless or callous indifference to the federally protected rights of others\". The case is Smith v. Wade (1983). State law decides whether claims survive a death. The Court said that law \"provides the principal reference point in determining survival of civil rights actions\". The case is Robertson v. Wegmann (1978). Courts have not yet said whether they would borrow these rules, since the bill copies the older law's wording.",
+    "f": [
+     "S11"
+    ],
+    "s": [
+     {
+      "l": "Smith v. Wade (1983)",
+      "u": "https://www.law.cornell.edu/supremecourt/text/461/30"
+     },
+     {
+      "l": "Robertson v. Wegmann (1978)",
+      "u": "https://supreme.justia.com/cases/federal/us/436/584/"
+     }
+    ]
+   },
+   {
+    "ty": "Timing",
+    "q": "Would the new right to sue let people sue over searches that happened before the bill became law?",
+    "a": "The text does not say. When a law is silent, a court asks whether applying it would \"increase a party's liability for past conduct\". If so, \"our traditional presumption teaches that it does not govern absent clear congressional intent favoring such a result\". The case is Landgraf v. USI Film Products (1994). A new damages claim against officers would likely be treated that way. So claims would probably cover only conduct after the bill became law. The bill also does not say how pending cases under the court-created Bivens remedy would be affected.",
+    "f": [
+     "S18",
+     "S11"
+    ],
+    "s": [
+     {
+      "l": "Landgraf v. USI Film Products (1994)",
+      "u": "https://supreme.justia.com/cases/federal/us/511/244/"
+     }
+    ]
+   },
+   {
+    "ty": "Language",
+    "q": "Who may issue a warrant under the new warrant rule, and what steps must they follow?",
+    "a": "The text requires \"a neutral and detached magistrate\". It does not say which courts or officers qualify. Examples it leaves open are State judges, the Foreign Intelligence Surveillance Court and immigration judges. It also does not say which procedure rules apply. The phrase comes from Fourth Amendment cases. There, the officer \"must be neutral and detached, and he must be capable of determining whether probable cause exists\". The Court found \"no commandment\" that \"all warrant authority must reside exclusively in a lawyer or judge\". The case is Shadwick v. City of Tampa (1972). The text does not say which courts Congress meant to allow.",
+    "f": [
+     "S27"
+    ],
+    "s": [
+     {
+      "l": "Shadwick v. City of Tampa (1972)",
+      "u": "https://supreme.justia.com/cases/federal/us/407/345/"
+     }
+    ]
+   },
+   {
+    "ty": "Language",
+    "q": "Could an officer pose as a friend or follower to read private social posts without a warrant?",
+    "a": "The text does not say. The exceptions for public information cover posts made available \"to a public audience\" or \"clearly accessible to the general public\". Friends-only posts are not that. The exception for consent does not say whether consent won by deception counts. Another finding in this review covers that point. The Court has said it never held that the Fourth Amendment protects \"a wrongdoer's misplaced belief\". The belief is that a person told of the wrongdoing will not reveal it. The bill leaves open whether it changes that result for undercover online access.",
+    "f": [
+     "S5",
+     "S6",
+     "S26"
+    ],
+    "s": [
+     {
+      "l": "Hoffa v. United States (1966)",
+      "u": "https://supreme.justia.com/cases/federal/us/385/293/"
+     }
+    ]
+   },
+   {
+    "ty": "Language",
+    "q": "Does the government \"access\" data when a company or person sends it on their own, such as a tip?",
+    "a": "The text does not define \"access\". The bill bars access \"regardless of whether the third party consents or cooperates\". That could cover tips that nobody asked for, or only requests that the government starts. The Fourth Amendment does not apply to a search \"effected by a private individual not acting as an agent of the Government\". This is current law, and it holds even for an unreasonable search. The case is United States v. Jacobsen (1984). The bill does not say whether it departs from that rule. Another finding in this review discusses mandatory reports.",
+    "f": [
+     "S15",
+     "S20"
+    ],
+    "s": [
+     {
+      "l": "United States v. Jacobsen (1984)",
+      "u": "https://supreme.justia.com/cases/federal/us/466/109/"
+     }
+    ]
+   },
+   {
+    "ty": "Interaction",
+    "q": "Does the new warrant rule override State laws that protect people more from government searches, or leave room for them?",
+    "a": "The text does not say. The new rule has no part that overrides State law and no part that protects it. Ordinary rules on when federal law overrides State law would decide whether a State law with more limits on searches is affected. The text does not address those rules.",
+    "f": [
+     "S1"
+    ],
+    "s": []
+   },
+   {
+    "ty": "System and supply chain",
+    "q": "Is a company protected if it says no to a government data request that has no warrant?",
+    "a": "The text does not say. The new rule puts its duty on the government. It gives a data holder no stated right to refuse. It gives no protection from penalties for refusing, and it does not require a company to refuse. A company's position would depend on the power the government cited for the request. It would also depend on whether that power survives the new rule. Another finding in this review covers that point.",
+    "f": [
+     "S20",
+     "S17"
+    ],
+    "s": []
    }
   ],
   "findings": [
@@ -2854,6 +3501,251 @@
       }
      ]
     }
+   },
+   {
+    "id": "S23",
+    "kind": "risk",
+    "sev": "significant",
+    "conf": "medium",
+    "fam": "exceptions",
+    "pat": "Closed exception list omits settled exceptions",
+    "det": "structure",
+    "a": {
+     "q": "Except as provided in subsection (b), no search may be conducted without a warrant"
+    },
+    "title": "The bill lists only six warrant exceptions. It leaves out border, vehicle and inventory searches that courts allow today.",
+    "plain": "The bill says no search may happen without a warrant except in six listed situations. Searches at the border, searches of cars and searches of property taken into police custody are not on the list. A court could read the list as complete, which would mean those searches need a warrant. Or a court could stretch another part of the bill to save them.",
+    "tech": "The bill says \"no search may be conducted without a warrant\" except for the six listed exceptions. That makes the list the only source of exceptions. The six are plain view, identification checks, two public information exceptions, consent and emergencies. The Supreme Court reads a list like this as closed, in United States v Johnson (2000). The Court said Congress \"considered the issue of exceptions\" and limited the law to the ones it listed. Border searches are a settled kind that needs no warrant. The Court explained this in United States v Flores-Montano (2004), quoting United States v Ramsey. It said such searches \"are reasonable simply by virtue of the fact that they occur at the border\". It also said the government's interest \"is at its zenith at the international border\", meaning its strongest point. The bill's definition of a search covers surveillance or questions that collect information on a person's \"travel\". The bill keeps constitutional protections, not government search powers. It keeps only stops, pat-downs, arrests and \"searches incident to ordinary criminal law enforcement encounters\". A border inspection is not clearly one of those encounters. The text does not say whether removing these exceptions is intended. A court would likely have to choose between two readings. One follows Johnson and would require warrants for these searches. The other reads the clause on ordinary law enforcement encounters broadly, which another finding in this review calls a separate risk.",
+    "use": "A traveler whose phone was searched at a port of entry could argue the bill required a warrant. The traveler would note that no listed exception applies. The government could say the bill or an unwritten exception keeps its border search power. The courts would decide.",
+    "s": [
+     {
+      "l": "United States v. Johnson (2000)",
+      "u": "https://www.law.cornell.edu/supct/html/98-1696.ZO.html"
+     },
+     {
+      "l": "United States v. Flores-Montano (2004)",
+      "u": "https://supreme.justia.com/cases/federal/us/541/149/"
+     }
+    ],
+    "am": []
+   },
+   {
+    "id": "S24",
+    "kind": "risk",
+    "sev": "significant",
+    "conf": "medium",
+    "fam": "interaction",
+    "pat": "Absolute bar collides with emergency disclosure law",
+    "det": "word",
+    "a": {
+     "q": "without a valid warrant, regardless of whether the third party consents or cooperates"
+    },
+    "title": "The bill has no emergency exception for company data. Today, companies may share records when a life is in danger.",
+    "plain": "Today a phone or internet company may give police records at once in some emergencies. One example is a kidnapping, when someone faces death or serious injury. The bill says the government may not get a company's data without a warrant, even if the company cooperates. The bill's emergency exception is attached to a different part. So it is unclear whether this kind of sharing would still be allowed.",
+    "tech": "The bill bars the government from getting data held by a third party, such as a company, without a valid warrant. It says this applies \"regardless of whether the third party consents or cooperates\". The bill's main warrant rule begins by pointing to its list of exceptions. This rule about third parties does not. The emergency exception covers \"Searched conducted under exigent circumstances\", meaning urgent emergencies. That ties it to searches and not to the third party rule. Today a provider may share records if it believes \"in good faith\" that someone faces \"danger of death or serious physical injury\". The law covers communications and also other information about the emergency. These are voluntary disclosures by the provider. That is the cooperation the bill says does not replace a warrant. The bill has no clause that overrides older law. It also changes no older law to match, as another finding in this review notes. So a court would have to reconcile the two. A separate finding notes the same gap for the consent exception. This finding is about its effect on emergency access.",
+    "use": "A phone company could refuse an emergency request until police get a warrant. An agency could argue the older emergency law still applies.",
+    "s": [
+     {
+      "l": "18 U.S.C. 2702",
+      "u": "https://www.law.cornell.edu/uscode/text/18/2702"
+     }
+    ],
+    "am": []
+   },
+   {
+    "id": "S25",
+    "kind": "tradeoff",
+    "sev": "significant",
+    "conf": "high",
+    "fam": "enforcement",
+    "pat": "Liability limited to individuals",
+    "det": "word",
+    "a": {
+     "q": "Every person, including a Federal employee, who, under color of any statute, ordinance, regulation, custom, or usage, of the United States"
+    },
+    "title": "The bill lets people sue federal officials. Settled rules would bar suits against the United States or its agencies.",
+    "plain": "The new right to sue covers \"every person\" who violates Fourth Amendment rights. The person must be acting under federal authority. Courts read \"person\" in a law to leave out the government unless the law clearly says otherwise, and this bill does not. So a lawsuit would name the individual officer. It would not name the agency or the United States, even if the officer followed an agency policy.",
+    "tech": "The bill makes \"Every person, including a Federal employee\" liable. It does not say \"person\" includes the United States or an agency. It also does not give up sovereign immunity, which is the government's protection from being sued. The Supreme Court applies a \"longstanding interpretive presumption that 'person' does not include the sovereign\". The Court says the presumption \"may be disregarded only upon some affirmative showing\" that Congress meant otherwise. The case is Return Mail Inc v United States Postal Service (2019). The Court also said, \"Absent a waiver, sovereign immunity shields the Federal Government and its agencies from suit\". The case is FDIC v Meyer (1994). So damages would run only against individual officers. They can be expected to raise a defense called qualified immunity, which protects officials from some lawsuits. Another finding in this review explains it. There would be no matching liability for an agency policy or custom. The bill also says the new right does not let a federal employee sue \"their Federal employer or the Federal Government\". That fits this reading. Limiting liability to individuals is a design choice with arguments on both sides. One side points to the cost to the Treasury. The other points to the deterrent value of holding the agency itself liable. The text does not say which was intended.",
+    "use": "An agency that adopted a data program without warrants could be dismissed from a suit because it is not a \"person\". The plaintiff would be left to pursue the officers who carried out the program.",
+    "s": [
+     {
+      "l": "Return Mail, Inc. v. United States Postal Service (2019)",
+      "u": "https://supreme.justia.com/cases/federal/us/587/17-1594/"
+     },
+     {
+      "l": "FDIC v. Meyer (1994)",
+      "u": "https://supreme.justia.com/cases/federal/us/510/471/"
+     }
+    ],
+    "am": []
+   },
+   {
+    "id": "S26",
+    "kind": "risk",
+    "sev": "minor",
+    "conf": "medium",
+    "fam": "exceptions",
+    "pat": "Stricter exception made redundant by a looser one",
+    "det": "word",
+    "a": {
+     "q": "that is clearly accessible to the general public without special access or tools"
+    },
+    "title": "One exception covers public data only without special tools. Another exception for that data has no such limit.",
+    "plain": "The bill has two exceptions for public information. One covers public sources only when they can be reached \"without special access or tools\". The other allows the \"collection or analysis\" of publicly available information and puts no limit on tools. Either one is enough, so the limit on tools may do little.",
+    "tech": "One exception allows collection from public sources reached \"without special access or tools\". Another allows \"collection or analysis of information that is lawfully published or voluntarily made available\" to the public. That second exception limits only \"circumvention of privacy settings, encryption, or other access controls\", which means getting around them. It does not limit the tools used. Each exception in the bill's list stands on its own. So information that fits the second one could be collected and analyzed with automated software that gathers or monitors posts. The first exception would not allow that, but the second would. A court could instead read the more specific first exception to control, which is why confidence is medium. A later part of the bill narrows the exceptions for data gathered in certain places. Those places are public places, public roads and businesses open to the public. It does not narrow them for online posts. Another finding in this review covers who must have made the information public. This finding covers how it may be gathered.",
+    "use": "An agency could run social media monitoring software on public posts about a named person. It could rely on the second exception, which has no limit on tools.",
+    "s": [],
+    "am": []
+   },
+   {
+    "id": "S27",
+    "kind": "risk",
+    "sev": "minor",
+    "conf": "medium",
+    "fam": "definitions",
+    "pat": "Borrowed constitutional term carries flexible meaning",
+    "det": "word",
+    "a": {
+     "q": "upon probable cause"
+    },
+    "title": "The bill asks for a warrant \"upon probable cause\" without saying of what. Courts could use the looser inspection standard.",
+    "plain": "The bill copies the Constitution's words and requires a warrant \"upon probable cause\". It does not say the cause must be a belief that a crime happened. The Supreme Court has read the same words to allow inspection warrants. Those warrants can rest on general program standards, not suspicion about one place. So the new warrant rule could be weaker or stronger depending on the kind of search.",
+    "tech": "The bill requires \"a warrant issued by a neutral and detached magistrate upon probable cause, supported by oath or affirmation\". Those words track the Constitution's warrant text. They do not tie probable cause to a crime. The Court read the same words for building inspections. The Court held \"probable cause\" to inspect exists if \"reasonable legislative or administrative standards for conducting an area inspection are satisfied\". This holds for a particular dwelling. Those standards \"will not necessarily depend upon specific knowledge of the condition of the particular dwelling.\" The case is Camara v. Municipal Court (1967). The bill's definition of a search can reach rule-enforcement and civil inquiries. Another finding and a language question in this review cover those inquiries. So a court could use the same flexible standard for them. Or a court could require proof of a crime, which most rule-enforcement programs cannot meet. The text does not choose.",
+    "use": "An agency asks for a warrant to inspect records and cites Camara. A company argues the bill needs probable cause that the company broke a rule.",
+    "s": [
+     {
+      "l": "Camara v. Municipal Court (1967)",
+      "u": "https://supreme.justia.com/cases/federal/us/387/523/"
+     }
+    ],
+    "am": []
+   },
+   {
+    "id": "S28",
+    "kind": "risk",
+    "sev": "minor",
+    "conf": "medium",
+    "fam": "exceptions",
+    "pat": "Open-ended setting for an exception",
+    "det": "word",
+    "a": {
+     "q": "or other interactions with law enforcement"
+    },
+    "title": "Police may check an ID without a warrant in any contact. The bill does not say what checking includes.",
+    "plain": "Police may check a government photo ID without a warrant. This applies in a traffic stop, in travel, or in \"other interactions with law enforcement\". The bill does not say which contacts count. It does not say whether the contact must itself be lawful. It does not say what \"verification\" includes. Today a check at a traffic stop often includes looking up the driver for unpaid warrants. So \"verification\" could be read to include database searches.",
+    "tech": "The bill exempts \"The verification of government-issued primary photo identification documents\". This applies during a vehicle stop, travel, or \"other interactions with law enforcement\". The words \"other interactions\" are not limited to stops backed by reasonable suspicion. \"Verification\" is not defined. In traffic stops, the Court has said the officer's task includes \"ordinary inquiries incident to [the traffic] stop\". These often include \"checking the driver's license,\" \"determining whether there are outstanding warrants against the driver,\" and checking registration and insurance. The case is Rodriguez v. United States (2015). A court could read \"verification\" that way. Then it would cover checks of the person against warrant, immigration or other databases. The bill bars reading it to \"authorize surveillance that would otherwise be unlawful\". But such checks are lawful today. So that bar does not limit them. A database check might itself be a search. The bill leaves that open. Its definition of a search covers the \"acquisition and analysis\" of data. How that fits this exception is not settled.",
+    "use": "An officer in a casual street encounter asks for ID and runs it through several databases. The officer relies on this one exception for the whole sequence.",
+    "s": [
+     {
+      "l": "Rodriguez v. United States (2015)",
+      "u": "https://supreme.justia.com/cases/federal/us/575/348/"
+     }
+    ],
+    "am": []
+   },
+   {
+    "id": "S29",
+    "kind": "notice",
+    "sev": "minor",
+    "conf": "high",
+    "fam": "definitions",
+    "pat": "Undefined technical terms",
+    "det": "word",
+    "a": {
+     "q": "behavioral signals data"
+    },
+    "title": "The bill uses terms such as \"behavioral signals data\". It never says what they mean.",
+    "plain": "The bill's definition of a search lists items like \"personal device activity\" and \"behavioral signals data\". Its warrant rule names \"data brokers\" and \"metadata\". None of these terms is defined. Courts would give them their ordinary meaning. For newer technical terms, that meaning may be unsettled.",
+    "tech": "The bill defines only \"search\" and \"plain-view searches\". Other terms set how far the warrant rule reaches, and none is defined. They are \"metadata\" and \"data brokers\" in the rule on third parties. They are \"agents\" in the definition of a search. They are \"personal device activity\" and \"behavioral signals data\" in the list of things searched. They are \"enhanced surveillance technology or systematic monitoring\" in the plain-view definition, which decides when watching stops being a plain-view search. Another finding in this review covers \"the government\" and \"a government entity\". The part of the criminal code that holds the bill has no general definitions section to supply meanings. Undefined terms like these are common in federal laws. So the effect depends on how courts read each term in a real dispute.",
+    "use": "A party says app-use data is not \"behavioral signals data\". It says the same about \"personal device activity\". It also says location guesses fall outside the listed types.",
+    "s": [],
+    "am": []
+   },
+   {
+    "id": "S30",
+    "kind": "notice",
+    "sev": "minor",
+    "conf": "medium",
+    "fam": "actors",
+    "pat": "Coverage of private partners left to case law",
+    "det": "absence",
+    "a": null,
+    "where": "New section 1979A(a)",
+    "title": "The bill does not say if contractors, data brokers or task force partners of federal agencies can be sued.",
+    "plain": "The right to sue reaches anyone who acts \"under color of\" federal law, which means with the backing of government power. Under the main civil rights law, private parties who act jointly with officials can count. The bill does not say whether contractors, companies that supply data, or state and local officers on federal task forces are covered. So courts would decide case by case.",
+    "tech": "The bill makes \"Every person, including a Federal employee\" liable if they deprive someone of Fourth Amendment rights. It covers acts \"under color of any statute, ordinance, regulation, custom, or usage, of the United States\", meaning with government backing. It names no kind of private actor. The matching state law says \"Private persons, jointly engaged with state official in the challenged action are acting \"under color\" of law\". The case is Dennis v. Sparks (1980). A court could apply the same joint-action test here. That would reach some contractors and data suppliers and not others. The text does not say which law applies to state or local officers on a federal task force. It could be federal law, state law, or both. This review did not establish the answer from a primary source.",
+    "use": "A plaintiff sues the contractor that ran a warrantless data pull for an agency. The contractor argues it acted on its own and not jointly with federal officials.",
+    "s": [
+     {
+      "l": "Dennis v. Sparks (1980)",
+      "u": "https://supreme.justia.com/cases/federal/us/449/24/"
+     }
+    ],
+    "am": []
+   },
+   {
+    "id": "S31",
+    "kind": "notice",
+    "sev": "minor",
+    "conf": "medium",
+    "fam": "actors",
+    "pat": "Narrow defined term beside a broad operative term",
+    "det": "word",
+    "a": {
+     "q": "other than the President or the Vice President"
+    },
+    "title": "The bill leaves the President and Vice President out of \"Federal employee\". It also leaves out legislative and judicial staff.",
+    "plain": "The bill defines \"Federal employee\" as executive branch staff other than the President and Vice President. That leaves out, for example, police who work for Congress or the courts. The right to sue applies to \"every person\", so these officials may still be covered. But the bill says outright that the President and Vice President are excluded. A court could read that as a sign they were meant to be outside the law.",
+    "tech": "The bill defines \"Federal employee\" as an individual \"other than the President or the Vice President\". That person \"occupies a position in any agency or instrumentality of the executive branch (including any independent agency).\" The main text reaches \"Every person, including a Federal employee\". So the definition shapes the example phrase and the rule on suits by employees. It does not limit who can be sued. Officers of Congress and the courts are outside the definition. They can still act under color of federal law, which means with federal government backing. For the President, the exclusion adds little in damages cases. The Court has held that a President \"is entitled to absolute immunity from damages liability\" for official acts. The case is Nixon v. Fitzgerald (1982). That holding did not cover the Vice President. A court could read the express exclusion to mean Congress did not want the new right to sue to reach either office.",
+    "use": "A Vice President's office is sued under the new right to sue. It argues that the definition's exclusion shows Congress meant to exempt the office.",
+    "s": [
+     {
+      "l": "Nixon v. Fitzgerald (1982)",
+      "u": "https://supreme.justia.com/cases/federal/us/457/731/"
+     }
+    ],
+    "am": []
+   },
+   {
+    "id": "S32",
+    "kind": "risk",
+    "sev": "minor",
+    "conf": "medium",
+    "fam": "enforcement",
+    "pat": "Ambiguous carve-out for employee suits",
+    "det": "word",
+    "a": {
+     "q": "for conduct that is within the scope of the employment relationship"
+    },
+    "title": "The bill limits suits by federal workers. It does not say if the limit covers suits against supervisors over monitoring.",
+    "plain": "The bill does not let a federal employee sue \"their Federal employer or the Federal Government\". This covers conduct within the job. It does not say whether \"employer\" includes a supervisor. It does not say whose conduct must be within that job. Read broadly, the rule could limit suits over monitoring of federal workers' devices or personal accounts.",
+    "tech": "The bill says nothing in it authorizes \"a Federal employee to bring a suit against their Federal employer or the Federal Government\". This is for conduct \"that is within the scope of the employment relationship.\" Suits against agencies and the United States are already barred. Another finding in this review says why. So this rule adds the most if \"Federal employer\" includes supervisors sued as people. The phrase \"within the scope of the employment relationship\" is also undefined. It could mean the worker's conduct, the supervisor's conduct, or the monitoring program. The text does not say how far the rule reaches. Examples are insider-threat programs, device searches and monitoring of personal accounts. A court would have to decide.",
+    "use": "A supervisor is sued over a search of an employee's phone. The supervisor says the rule covers a \"Federal employer\" like the supervisor.",
+    "s": [],
+    "am": []
+   },
+   {
+    "id": "S33",
+    "kind": "notice",
+    "sev": "minor",
+    "conf": "medium",
+    "fam": "enforcement",
+    "pat": "Two-way fee shifting copied from section 1988",
+    "det": "word",
+    "a": {
+     "q": "may allow the prevailing party, other than the United States"
+    },
+    "title": "The bill lets a winning officer who was sued, not only a winning plaintiff, ask for attorney's fees.",
+    "plain": "The fee rule applies to \"the prevailing party, other than the United States\". So an officer who wins could ask the person who sued to pay the officer's lawyers. Under the civil rights law with the same wording, courts give fees to winning defendants only when the suit was frivolous. The bill does not say that.",
+    "tech": "The bill allows fees to \"the prevailing party, other than the United States\". That wording tracks the federal civil rights law on attorney's fees. Under that law, a winning defendant gets fees only \"upon a finding that the plaintiff's action was frivolous, unreasonable, or without foundation.\" The case is Fox v. Vice (2011). A court would likely apply the same standard to matching text. But the bill does not state it, so the standard depends on the court choosing to borrow it. Another finding in this review covers the fee rule's reference to \"this Act\".",
+    "use": "An officer wins because of qualified immunity, a shield for officials against some suits. The officer asks for fees and says the claim had no basis.",
+    "s": [
+     {
+      "l": "Fox v. Vice (2011)",
+      "u": "https://www.law.cornell.edu/supremecourt/text/10-114"
+     }
+    ],
+    "am": []
    }
   ],
   "bigger": {
@@ -2921,6 +3813,22 @@
      "part": "Public reporting and oversight of government searches",
      "reach": "untouched",
      "note": "The bill requires no reports, no audits and no notice to people who were searched."
+    },
+    {
+     "part": "Searches and data collection outside the United States",
+     "reach": "untouched",
+     "note": "The bill does not say it applies abroad. One court ruling says federal laws \"will be construed to have only domestic application\" unless Congress clearly says otherwise. The ruling is RJR Nabisco Inc v European Community (2016). So the new warrant rule would presumably not reach searches done in other countries. This presumption applies to every federal law that is silent on the point.",
+     "s": [
+      {
+       "l": "RJR Nabisco, Inc. v. European Community (2016)",
+       "u": "https://supreme.justia.com/cases/federal/us/579/15-138/"
+      }
+     ]
+    },
+    {
+     "part": "Court and agency capacity for more warrant applications",
+     "reach": "untouched",
+     "note": "The bill would require warrants for kinds of access that now use subpoenas, orders or no process. It gives no money, guidance, transition time or study of the added work for courts and agencies."
     }
    ],
    "others": [
