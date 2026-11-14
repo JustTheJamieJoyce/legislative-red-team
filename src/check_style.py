@@ -71,7 +71,7 @@ def check(level,F,base):
     for path,t in F.items():
         if not isinstance(t,str) or not t.strip(): iss.append(f'{level} {path}: empty');continue
         k=kind(path);tl=t.lower()
-        if '—' in t or '–' in t: iss.append(f'{level} {path}: dash')
+        if chr(0x2014) in t or chr(0x2013) in t: iss.append(f'{level} {path}: dash')
         if level=='plain' and ';' in t: iss.append(f'{level} {path}: semicolon')
         for i in L['idioms']:
             if i in tl: iss.append(f'{level} {path}: figure of speech "{i}"')

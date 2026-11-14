@@ -24,10 +24,19 @@ Every line is available in plain language, written for a seventh-grade reading l
 
 Each analysis combines two reviews of the same text:
 
-1. **The method.** The tool's step-by-step review, which works from a library of known weaknesses in legislation - to be used as an eval later for an agent process
+1. **The method.** The tool's step-by-step review, which works from a library of known weaknesses in legislation.
 2. **A plain review.** A separate, plain request to the same model, with no library: "What loopholes, red flags, conflicts of interest, missing context, or gaps exist in this legislation, if any:" followed by the text.
 
-Every point from the plain review was checked against the measure's text and against primary sources such as statutes and court rulings. A point was added unless the text or a primary source showed it was wrong. A point that could not be checked against a primary source is shown at low confidence and says so. Again, this is a demo. An agent process with evals will be developed later
+Every point from the plain review was checked against the measure's text and against primary sources such as statutes and court rulings. A point was added unless the text or a primary source showed it was wrong. A point that could not be checked against a primary source is shown at low confidence and says so.
+
+## What comes next
+
+The examples on this site were made with the step-by-step method described above. The next version is being built as an agent and measured against a test set before it replaces that method.
+
+1. **Why.** A plain request to the same model found points on some measures that the step-by-step method missed, and the method sometimes forced a known pattern onto wording where it did not matter.
+2. **The agent.** A reviewer that decides for itself what to read, what to research and what to check again. The pattern library becomes a reference it can consult, not a checklist it must apply.
+3. **The test set.** Each test starts from a documented loophole in a real law, rewritten into a new bill on a different subject so that the test measures reasoning and not memory. Each test has a twin with the loophole closed, and flagging the closed gap counts against the tool. Credit requires the mechanism, not a matching keyword. Some tests are held back to confirm that a gain is real.
+4. **Status.** In progress. The test set and the scoring are built. No results are reported yet.
 
 ## What works on this site, and what does not
 
