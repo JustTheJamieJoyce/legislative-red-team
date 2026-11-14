@@ -5872,6 +5872,22 @@
    "check": "Read procedural rules for who receives information, the right to sue, or chances to block action. Ask whether a particular group gains an advantage."
   },
   {
+   "id": "cross-reference-rot",
+   "name": "Cross-reference that rots after enactment",
+   "family": "interaction",
+   "detect": "word",
+   "origin": "research",
+   "headings": [],
+   "plain": "A law can borrow a definition or a list by citing a numbered part of another law. The borrowing is right on the day it is enacted. A later law can then renumber the cited part, so the citation points at different words, or at nothing. Neither law has to change what it says, and no one amends the borrowing law, so its own text gives no sign that its reach has moved.",
+   "cues": [],
+   "fix": "Set the borrowed words out in the text itself where the list is short and settled. Where a citation is used, name the subject of the cited part as well as its number, so a reader can still find the content after a renumbering. Freeze the reference to the law as in effect on the date of enactment only where a fixed meaning is intended, because freezing it also stops later corrections from reaching it.",
+   "cand": true,
+   "src": "Protecting Americans' Data from Foreign Adversaries Act of 2024, Public Law 118-50",
+   "url": "https://www.govinfo.gov/content/pkg/PLAW-118publ50/html/PLAW-118publ50.htm",
+   "verified": true,
+   "check": "List every place the text borrows a definition, a list or a standard by citing a numbered part of another law. Open each cited part today and confirm it still holds what the borrowing text assumes. Then ask what the borrowing text would mean if that part were renumbered, and whether anything in the text would show it had happened."
+  },
+  {
    "id": "coi-self-review",
    "name": "The party judges its own compliance",
    "family": "conflict",

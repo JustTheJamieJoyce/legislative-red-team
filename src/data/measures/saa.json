@@ -849,12 +849,20 @@
     },
     "title": "The warrant requirement in section 3119 of the Surveillance Accountability Act applies to \"the government\", a term the bill does not define.",
     "plain": "Section 3119 provides that \"the government\" may not access personal data without a warrant, and the bill never states which governments are covered. The open term could reach every agency at every level of government. It could also be read to mean federal law enforcement only, which would leave state and local agencies outside the requirement.",
-    "tech": "Section 3119 uses \"the government\", \"government-initiated\" and \"a government entity or its agents\" without definition. Chapter 205 of title 18 governs federal criminal procedure, and new section 1979A reaches only action under color of federal law, both of which point toward a federal-only reading. One sponsor's press release says local agencies are covered. If States are covered, a statutory rule broader than the Fourth Amendment as courts read it would need a constitutional basis for binding them, which invites challenge.",
+    "tech": "Section 3119 uses \"the government\", \"government-initiated\" and \"a government entity or its agents\" without definition. Chapter 205 of title 18 governs federal criminal procedure, and new section 1979A reaches only action under color of federal law, both of which point toward a federal-only reading. One sponsor's press release says local agencies are covered. If States are covered, a statutory rule broader than the Fourth Amendment as courts read it would need a constitutional basis for binding them, which invites challenge. A federal-only reading would not leave state and local surveillance unregulated. The Fourth Amendment binds those agencies directly and 42 U.S.C. 1983 supplies the remedy. Section 2711(4) of title 18 already defines \"governmental entity\" as \"a department or agency of the United States or any State or political subdivision thereof\", four sections from where this bill inserts section 3119. What a federal-only reading loses is the bill's additions to that floor, which have no counterpart in federal law for state and local agencies.",
     "use": "A state or local agency could argue that section 3119 does not apply to it. A federal agency could then obtain the same data from a state or local partner agency.",
     "s": [
      {
       "l": "Rep. Boebert release: \"federal and local government agencies\"",
       "u": "https://boebert.house.gov/media/press-releases/representatives-massie-boebert-introduce-surveillance-accountability-act"
+     },
+     {
+      "l": "18 U.S.C. 2711, definitions for the Stored Communications Act",
+      "u": "https://www.govinfo.gov/content/pkg/USCODE-2023-title18/html/USCODE-2023-title18-partI-chap121-sec2711.htm"
+     },
+     {
+      "l": "42 U.S.C. 1983",
+      "u": "https://www.govinfo.gov/content/pkg/USCODE-2023-title42/html/USCODE-2023-title42-chap21-subchapI-sec1983.htm"
      }
     ],
     "am": [
@@ -869,7 +877,7 @@
         "w": "(3) Government.--The term \"government\" includes any department, agency, or instrumentality of the United States, including any element of the intelligence community and any component of the Armed Forces; any State or political subdivision of a State; and any officer, employee, contractor, or agent of any of those entities."
        }
       ],
-      "cost": "This option uses \"includes\", which the House and Senate drafting manuals reserve for a definition that is not exhaustive, so \"government\" stays open while the definition expressly names intelligence elements, Armed Forces components, States and their political subdivisions, and contractors, covering the three documented gaps. Naming States outright raises the federalism question, which the narrower option avoids."
+      "cost": "This option uses \"includes\", which the House and Senate drafting manuals reserve for a definition that is not exhaustive, so \"government\" stays open while the definition expressly names intelligence elements, Armed Forces components, States and their political subdivisions, and contractors, covering the three documented gaps. Naming States outright raises the federalism question, which the narrower option avoids. Congress has settled words for this: 18 U.S.C. 2711(4) defines \"governmental entity\" as \"a department or agency of the United States or any State or political subdivision thereof\"."
      },
      {
       "id": "S1a",
@@ -1529,7 +1537,7 @@
         "w": "SEC. __. RELATIONSHIP TO OTHER LAW.\nSection 3119 of title 18, United States Code, shall apply to any search of, or access to data pertaining to, a United States person or a person located in the United States that is conducted under chapter 121 of such title, section 2709 of such title, or title VII of the Foreign Intelligence Surveillance Act of 1978 (50 U.S.C. 1881 et seq.), and each such provision is superseded to the extent it authorizes such a search or access without a warrant described in section 3119(a)(1) of such title."
        }
       ],
-      "cost": "This option cites each affected law by name, as the Senate drafting manual advises, in place of a general override. Any authority not named survives, so the list has to be complete, and financial reporting law and administrative subpoenas are left out of this version and would continue. It would restructure intelligence collection that touches Americans and would send the bill to additional committees."
+      "cost": "This option cites each affected law by name, as the Senate drafting manual advises, in place of a general override. Any authority not named survives, so the list has to be complete, and financial reporting law and administrative subpoenas are left out of this version and would continue. It would restructure intelligence collection that touches Americans and would send the bill to additional committees. Naming each law by its numbered subdivision also carries the risk that a later law renumbers the cited subdivision, which would sever the reference without amending this Act."
      }
     ],
     "inq": {
@@ -1708,7 +1716,7 @@
     "where": "Outside the text",
     "title": "The Surveillance Accountability Act restricts government acquisition of data from data brokers and does not regulate the brokers' collection or sale of that data.",
     "plain": "Section 3119(a)(2)(A) bars the government from accessing brokered data without a warrant. It does not stop companies from collecting that data or selling it. The data would continue to exist, and any gap in the government-side restriction would leave it within reach.",
-    "tech": "Disclosed practice shows the significance of this design. A Defense Intelligence Agency memo disclosed in 2021 described purchases of commercial location data, and a declassified 2022 report described intelligence community purchases of commercially available information at scale. Supply-side designs already exist elsewhere. Montana in 2025 barred its own agencies from buying such data, and the House in 2024 passed a bill aimed at government purchases from brokers. None of these ends the collection itself.",
+    "tech": "Disclosed practice shows the significance of this design. A Defense Intelligence Agency memo disclosed in 2021 described purchases of commercial location data, and a declassified 2022 report described intelligence community purchases of commercially available information at scale. Supply-side designs already exist elsewhere. Montana in 2025 barred its own agencies from buying such data, and the House in 2024 passed a bill aimed at government purchases from brokers. None of these ends the collection itself. One federal statute now reaches the sale itself. The Protecting Americans' Data from Foreign Adversaries Act of 2024, codified at 15 U.S.C. 9901, makes it unlawful for a data broker to sell personally identifiable sensitive data of a United States individual to a foreign adversary country or an entity controlled by one. It reaches four countries, defines a data broker as an entity selling data it did not collect directly from the individuals, and is enforced by the Federal Trade Commission with no private right of action. So the gap is narrower than untouched and wider than closed.",
     "use": "Any agency or partner outside the reach of section 3119 could still purchase the data.",
     "s": [
      {
@@ -1722,6 +1730,14 @@
      {
       "l": "Montana closes the data broker loophole",
       "u": "https://www.eff.org/deeplinks/2025/05/montana-becomes-first-state-close-law-enforcement-data-broker-loophole"
+     },
+     {
+      "l": "Protecting Americans' Data from Foreign Adversaries Act of 2024, Public Law 118-50",
+      "u": "https://www.govinfo.gov/content/pkg/PLAW-118publ50/html/PLAW-118publ50.htm"
+     },
+     {
+      "l": "Data Security Program final rule, 90 Fed. Reg. 1636",
+      "u": "https://www.govinfo.gov/content/pkg/FR-2025-01-08/html/2024-31486.htm"
      }
     ],
     "am": [
@@ -2048,12 +2064,20 @@
     },
     {
      "part": "Collection and sale of personal data by private companies",
-     "reach": "untouched",
-     "note": "The bill places no duty on collectors or sellers. The data remains available to other buyers, including foreign ones.",
+     "reach": "partly",
+     "note": "The bill places no duty on collectors or sellers. One narrow duty exists outside the bill. The Protecting Americans' Data from Foreign Adversaries Act of 2024 makes it unlawful for a data broker to sell sensitive personal data of a United States individual to a foreign adversary country. It reaches four countries, covers brokers and not companies that collect from their own users, and is enforced only by the Federal Trade Commission. Sale to any other buyer, foreign or domestic, remains open.",
      "s": [
       {
        "l": "CDT issue brief",
        "u": "https://cdt.org/insights/cdt-issue-brief-the-data-broker-loophole/"
+      },
+      {
+       "l": "Protecting Americans' Data from Foreign Adversaries Act of 2024, Public Law 118-50",
+       "u": "https://www.govinfo.gov/content/pkg/PLAW-118publ50/html/PLAW-118publ50.htm"
+      },
+      {
+       "l": "Data Security Program final rule, 90 Fed. Reg. 1636",
+       "u": "https://www.govinfo.gov/content/pkg/FR-2025-01-08/html/2024-31486.htm"
       }
      ]
     },
@@ -2076,7 +2100,17 @@
     {
      "part": "State and local surveillance",
      "reach": "partly",
-     "note": "Coverage of state and local surveillance depends on the undefined term \"the government\"."
+     "note": "Coverage of state and local surveillance depends on the undefined term \"the government\". A federal-only reading would not leave these agencies unregulated. The Fourth Amendment binds them directly and the existing civil rights statute supplies the remedy. The Wiretap Act, the Stored Communications Act, the pen register statute and the Driver's Privacy Protection Act each name States and their political subdivisions in their own text. What turns on the undefined term is whether the bill's three additions to that floor reach them. Those are the warrant rule for data held by third parties, the limit on facial recognition and plate readers, and any constraint on purchases from data brokers. No federal statute supplies those three today.",
+     "s": [
+      {
+       "l": "18 U.S.C. 2711, definitions for the Stored Communications Act",
+       "u": "https://www.govinfo.gov/content/pkg/USCODE-2023-title18/html/USCODE-2023-title18-partI-chap121-sec2711.htm"
+      },
+      {
+       "l": "42 U.S.C. 1983",
+       "u": "https://www.govinfo.gov/content/pkg/USCODE-2023-title42/html/USCODE-2023-title42-chap21-subchapI-sec1983.htm"
+      }
+     ]
     },
     {
      "part": "Government-run sensors: facial recognition and license plate readers",
@@ -2758,12 +2792,20 @@
     },
     "title": "The bill never says which governments must get a warrant. State and local police might not be covered.",
     "plain": "The bill says \"the government\" may not get your data without a warrant, which is permission from a judge. It never says which governments it means. The words could reach every agency at every level. They could also be read to mean only federal law enforcement agencies.",
-    "tech": "The bill uses \"the government\" and \"a government entity\" without defining them. An entity is a group or body. The warrant rule would go into federal criminal law. The right to sue covers only people acting under federal law. Both point toward federal agencies only. But one sponsor's press release says local agencies are covered. If the bill covers states, it would go further than the Constitution as courts read it. It would then need a power in the Constitution to bind them. That would likely be challenged in court.",
+    "tech": "The bill uses \"the government\" and \"a government entity\" without defining them. An entity is a group or body. The warrant rule would go into federal criminal law. The right to sue covers only people acting under federal law. Both point toward federal agencies only. But one sponsor's press release says local agencies are covered. If the bill covers states, it would go further than the Constitution as courts read it. It would then need a power in the Constitution to bind them. That would likely be challenged in court. Even so, state and local police are not left unwatched. The Constitution's search rule binds them, and an older civil rights law lets people sue. Federal laws on wiretaps, stored messages and phone records name states by name. What a federal-only reading loses is the new rules this bill adds on top.",
     "use": "A state or local agency could argue the bill's warrant rule does not apply to it. A federal agency could then get the same data from that state or local partner.",
     "s": [
      {
       "l": "Rep. Boebert release: \"federal and local government agencies\"",
       "u": "https://boebert.house.gov/media/press-releases/representatives-massie-boebert-introduce-surveillance-accountability-act"
+     },
+     {
+      "l": "18 U.S.C. 2711, definitions for the Stored Communications Act",
+      "u": "https://www.govinfo.gov/content/pkg/USCODE-2023-title18/html/USCODE-2023-title18-partI-chap121-sec2711.htm"
+     },
+     {
+      "l": "42 U.S.C. 1983",
+      "u": "https://www.govinfo.gov/content/pkg/USCODE-2023-title42/html/USCODE-2023-title42-chap21-subchapI-sec1983.htm"
      }
     ],
     "am": [
@@ -2778,7 +2820,7 @@
         "w": "(3) Government.--The term \"government\" includes any department, agency, or instrumentality of the United States, including any element of the intelligence community and any component of the Armed Forces; any State or political subdivision of a State; and any officer, employee, contractor, or agent of any of those entities."
        }
       ],
-      "cost": "This change would define \"government\" with an open list. The list would name federal agencies, spy agencies, the military, states, local governments and contractors. Because the list stays open, other groups could still count. Naming states raises the question of how far Congress can bind state governments. The narrower option avoids that question."
+      "cost": "This change would define \"government\" with an open list. The list would name federal agencies, spy agencies, the military, states, local governments and contractors. Because the list stays open, other groups could still count. Naming states raises the question of how far Congress can bind state governments. The narrower option avoids that question. Congress already has settled words for this idea. They appear in the older law on stored messages."
      },
      {
       "id": "S1a",
@@ -3273,7 +3315,7 @@
         "w": "SEC. __. RELATIONSHIP TO OTHER LAW.\nSection 3119 of title 18, United States Code, shall apply to any search of, or access to data pertaining to, a United States person or a person located in the United States that is conducted under chapter 121 of such title, section 2709 of such title, or title VII of the Foreign Intelligence Surveillance Act of 1978 (50 U.S.C. 1881 et seq.), and each such provision is superseded to the extent it authorizes such a search or access without a warrant described in section 3119(a)(1) of such title."
        }
       ],
-      "cost": "This change would name three laws and say the warrant rule overrides them. They are the Stored Communications Act, the FBI demand letter law and a foreign intelligence law. Any law not named would survive, so the list must be complete. This version leaves out bank reporting law and subpoenas issued without a court. Those would go on. The change would reshape how spy agencies collect data that affects Americans. It would also send the bill to more committees in Congress."
+      "cost": "This change would name three laws and say the warrant rule overrides them. They are the Stored Communications Act, the FBI demand letter law and a foreign intelligence law. Any law not named would survive, so the list must be complete. This version leaves out bank reporting law and subpoenas issued without a court. Those would go on. The change would reshape how spy agencies collect data that affects Americans. It would also send the bill to more committees in Congress. Naming each law by number carries its own risk. A later law can renumber the part that is cited. The reference would then point at the wrong words."
      }
     ],
     "inq": {
@@ -3452,7 +3494,7 @@
     "where": "Outside the text",
     "title": "The bill limits government access to data from companies that sell personal data. It does not stop the sales.",
     "plain": "The bill tells the government not to get data from data brokers without a warrant. Data brokers are companies that sell personal data. A warrant is permission from a judge. The bill does not stop those companies from collecting or selling the data. The data would still exist. So any weak spot in the rule for government would leave the data open to it.",
-    "tech": "Past cases show why this matters. A Defense Intelligence Agency memo, made public in 2021, described buying location data from companies. A 2022 report, once secret and now public, described spy agencies buying data from companies on a large scale. In 2025 Montana barred its own agencies from buying such data. In 2024 the House passed a bill aimed at government purchases from brokers. Neither ends the collection itself.",
+    "tech": "Past cases show why this matters. A Defense Intelligence Agency memo, made public in 2021, described buying location data from companies. A 2022 report, once secret and now public, described spy agencies buying data from companies on a large scale. In 2025 Montana barred its own agencies from buying such data. In 2024 the House passed a bill aimed at government purchases from brokers. Neither ends the collection itself. One federal law does reach the sale itself. A 2024 law bars data brokers from selling sensitive personal data to four named countries. Those are China, Russia, Iran and North Korea. It covers only brokers, and only those four buyers. So the gap is smaller than it looks and still real.",
     "use": "Any agency or partner the bill does not reach could still buy the data from data brokers.",
     "s": [
      {
@@ -3466,6 +3508,14 @@
      {
       "l": "Montana closes the data broker loophole",
       "u": "https://www.eff.org/deeplinks/2025/05/montana-becomes-first-state-close-law-enforcement-data-broker-loophole"
+     },
+     {
+      "l": "Protecting Americans' Data from Foreign Adversaries Act of 2024, Public Law 118-50",
+      "u": "https://www.govinfo.gov/content/pkg/PLAW-118publ50/html/PLAW-118publ50.htm"
+     },
+     {
+      "l": "Data Security Program final rule, 90 Fed. Reg. 1636",
+      "u": "https://www.govinfo.gov/content/pkg/FR-2025-01-08/html/2024-31486.htm"
      }
     ],
     "am": [
@@ -3764,12 +3814,20 @@
     },
     {
      "part": "Collection and sale of personal data by private companies",
-     "reach": "untouched",
-     "note": "The bill does not require anything of companies that collect or sell personal data. The data stays open to other buyers, including foreign ones.",
+     "reach": "partly",
+     "note": "The bill does not require anything of companies that collect or sell personal data. One narrow rule already exists outside the bill. A 2024 law bars data brokers from selling sensitive personal data to four named countries. Those are China, Russia, Iran and North Korea. It does not cover companies that collect data from their own users. Sale to any other buyer stays open.",
      "s": [
       {
        "l": "CDT issue brief",
        "u": "https://cdt.org/insights/cdt-issue-brief-the-data-broker-loophole/"
+      },
+      {
+       "l": "Protecting Americans' Data from Foreign Adversaries Act of 2024, Public Law 118-50",
+       "u": "https://www.govinfo.gov/content/pkg/PLAW-118publ50/html/PLAW-118publ50.htm"
+      },
+      {
+       "l": "Data Security Program final rule, 90 Fed. Reg. 1636",
+       "u": "https://www.govinfo.gov/content/pkg/FR-2025-01-08/html/2024-31486.htm"
       }
      ]
     },
@@ -3792,7 +3850,17 @@
     {
      "part": "State and local surveillance",
      "reach": "partly",
-     "note": "The bill does not define the words \"the government\". So it is unclear if the bill covers state and local agencies."
+     "note": "The bill does not define the words \"the government\". So it is unclear if the bill covers state and local agencies. Those agencies are not left unwatched if the bill misses them. The Constitution's search rule binds them, and an older civil rights law lets people sue. Other federal laws on wiretaps, stored messages, phone records and driver records name states by name. Three new rules in this bill are what the missing definition decides. One is the warrant rule for data held by companies. One is the limit on face scans and plate readers. One is a limit on buying data from brokers. No federal law gives those three today.",
+     "s": [
+      {
+       "l": "18 U.S.C. 2711, definitions for the Stored Communications Act",
+       "u": "https://www.govinfo.gov/content/pkg/USCODE-2023-title18/html/USCODE-2023-title18-partI-chap121-sec2711.htm"
+      },
+      {
+       "l": "42 U.S.C. 1983",
+       "u": "https://www.govinfo.gov/content/pkg/USCODE-2023-title42/html/USCODE-2023-title42-chap21-subchapI-sec1983.htm"
+      }
+     ]
     },
     {
      "part": "Government-run face scanning and license plate readers",
